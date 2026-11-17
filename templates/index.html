@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <meta name="description" content="專為河堤國小一年級學童量身打造的學習評量與新挑戰測驗卷練習樂園，包含康軒版國語注音、雙語英文、數學與 99 乘法表！">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v={{ v | default('20261106') }}">
 </head>
+
 <body class="vault-locked">
 
   <!-- 可愛漂浮小背景飾品 -->
@@ -796,7 +798,8 @@
 
       <div class="vault-input-group">
         <span class="input-icon">🔑</span>
-        <input type="password" id="vault-passkey-input" class="vault-input" placeholder="請輸入金庫解鎖密鑰 (Passkey)..." autocomplete="current-password" />
+        <input type="password" id="vault-passkey-input" class="vault-input" placeholder="請輸入金庫解鎖密鑰 (Passkey)..."
+          autocomplete="current-password" />
         <button type="button" id="vault-toggle-visibility" class="btn-toggle-eye" title="顯示/隱藏密碼">👁️</button>
       </div>
 
@@ -836,7 +839,8 @@
         </div>
       </div>
 
-      <div class="vault-hint-box" style="margin-top:10px; border-color: rgba(245,158,11,0.3); background: rgba(245,158,11,0.06);">
+      <div class="vault-hint-box"
+        style="margin-top:10px; border-color: rgba(245,158,11,0.3); background: rgba(245,158,11,0.06);">
         <div class="hint-title" style="color: #fbbf24;">⚖️ 法律免責與非營利聲明</div>
         <div class="hint-body" style="font-size: 0.74rem; line-height: 1.45;">
           • 本系統題庫源自<strong>公開教育課綱與個人學習研究</strong>，僅供個人與家庭免費教育輔助使用。<br>
@@ -851,22 +855,32 @@
     <div class="line-apply-modal-card">
       <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
         <div style="display:flex; align-items:center; gap:8px;">
-          <span style="background:#06c755; color:#fff; border:none; font-weight:700; padding:3px 10px; border-radius:999px; font-size:0.78rem;">LINE OFFICIAL BOT</span>
+          <span
+            style="background:#06c755; color:#fff; border:none; font-weight:700; padding:3px 10px; border-radius:999px; font-size:0.78rem;">LINE
+            OFFICIAL BOT</span>
           <span style="font-size:0.78rem; color:#94a3b8; font-family:monospace;">ID: @781imbvv</span>
         </div>
-        <button type="button" id="btn-close-line-modal" style="background:none; border:none; color:#94a3b8; font-size:1.3rem; cursor:pointer;">&times;</button>
+        <button type="button" id="btn-close-line-modal"
+          style="background:none; border:none; color:#94a3b8; font-size:1.3rem; cursor:pointer;">&times;</button>
       </div>
       <h2 style="font-size:1.3rem; font-weight:700; color:#f8fafc; margin-bottom:6px;">📲 小小魔法學習樂園 · 訪客密鑰申請</h2>
       <p style="font-size:0.84rem; color:#94a3b8; line-height:1.5;">
         本平台為 Louis Wu 專屬互動學習系統。請透過 LINE 官方帳號提交訪客通行申請：
       </p>
 
-      <div style="display:flex; align-items:center; gap:16px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:14px; padding:12px; margin:14px 0;">
-        <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%40781imbvv" alt="LINE Bot QR Code" style="width:78px; height:78px; border-radius:10px; background:#fff; padding:4px;" />
+      <div
+        style="display:flex; align-items:center; gap:16px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:14px; padding:12px; margin:14px 0;">
+        <img
+          src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%40781imbvv"
+          alt="LINE Bot QR Code" style="width:78px; height:78px; border-radius:10px; background:#fff; padding:4px;" />
         <div style="flex:1;">
-          <div style="font-size:0.85rem; font-weight:700; color:#f8fafc; margin-bottom:4px;">官方帳號 ID：<code style="color:#06c755; background:rgba(6,199,85,0.15); padding:2px 6px; border-radius:6px;">@781imbvv</code></div>
+          <div style="font-size:0.85rem; font-weight:700; color:#f8fafc; margin-bottom:4px;">官方帳號 ID：<code
+              style="color:#06c755; background:rgba(6,199,85,0.15); padding:2px 6px; border-radius:6px;">@781imbvv</code>
+          </div>
           <div style="font-size:0.76rem; color:#94a3b8; line-height:1.4;">手機掃描 QR Code 或搜尋「小小魔法學習樂園」加入好友</div>
-          <button type="button" id="btn-copy-line-id" style="margin-top:6px; background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); color:#38bdf8; font-size:0.75rem; padding:3px 8px; border-radius:6px; cursor:pointer;">📋 複製 LINE ID</button>
+          <button type="button" id="btn-copy-line-id"
+            style="margin-top:6px; background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); color:#38bdf8; font-size:0.75rem; padding:3px 8px; border-radius:6px; cursor:pointer;">📋
+            複製 LINE ID</button>
         </div>
       </div>
 
@@ -900,7 +914,8 @@
 
       <div style="text-align:center; margin-top:10px;">
         <span style="font-size:0.75rem; color:#64748b;">
-          備用聯絡信箱：<a href="mailto:louiswu1568@gmail.com?subject=[申請訪客密鑰]%20小小魔法學習樂園" style="color:#38bdf8; text-decoration:underline;">louiswu1568@gmail.com</a>
+          備用聯絡信箱：<a href="mailto:louiswu1568@gmail.com?subject=[申請訪客密鑰]%20小小魔法學習樂園"
+            style="color:#38bdf8; text-decoration:underline;">louiswu1568@gmail.com</a>
         </span>
       </div>
 
@@ -914,4 +929,5 @@
   <script src="{{ url_for('static', filename='js/progress.js') }}?v={{ v | default('20261106') }}"></script>
   <script src="{{ url_for('static', filename='js/game.js') }}?v={{ v | default('20261106') }}"></script>
 </body>
+
 </html>
