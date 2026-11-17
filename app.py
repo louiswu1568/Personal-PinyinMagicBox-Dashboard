@@ -11,6 +11,11 @@ import json
 import time
 import random
 import hashlib
+import hmac
+import secrets
+import base64
+import urllib.request
+import urllib.error
 import threading
 import webbrowser
 from typing import Dict, Any, List, Optional
@@ -865,16 +870,74 @@ def generate_online_weekly_report_html():
 DEFAULT_VAULT_SHA256 = "bdbb3eb181b1c97639b88949cfc07a7bcbf9137a8a9ec81b7431c77fd0350363"
 
 
+def _get_token_hmac_secret() -> bytes:
+    """取得動態隨機 Token 簽章密鑰"""
+    return os.environ.get("TOKEN_HMAC_SECRET", DEFAULT_VAULT_SHA256).strip().encode("utf-8")
+
+
+def generate_dynamic_vault_token(ttl_seconds: int = 7 * 24 * 3600) -> str:
+    """產生具時效性之動態隨機金庫通行 Token (格式: PMB-<exp>-<nonce>-<sig12>)"""
+    exp = int(time.time()) + ttl_seconds
+    nonce = secrets.token_hex(4)
+    payload = f"{exp}.{nonce}"
+    sig = hmac.new(_get_token_hmac_secret(), payload.encode("utf-8"), hashlib.sha256).hexdigest()[:12]
+    return f"PMB-{exp}-{nonce}-{sig}"
+
+
+def verify_dynamic_vault_token(token: str) -> bool:
+    """驗證 LINE Webhook 核發之動態隨機 Token 是否有效且未過期"""
+    if not token or not token.startswith("PMB-"):
+        return False
+    parts = token.split("-")
+    if len(parts) != 4:
+        return False
+    _, exp_str, nonce, sig = parts
+    try:
+        exp = int(exp_str)
+    except ValueError:
+        return False
+    if int(time.time()) > exp:
+        return False
+    payload = f"{exp}.{nonce}"
+    expected_sig = hmac.new(_get_token_hmac_secret(), payload.encode("utf-8"), hashlib.sha256).hexdigest()[:12]
+    return hmac.compare_digest(expected_sig, sig)
+
+
+def _reply_line_message(reply_token: str, text_message: str) -> bool:
+    """呼叫 LINE Messaging API Reply Endpoint 回覆訊息 (完全免費不計入推播額度)"""
+    access_token = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN", "").strip()
+    if not access_token or not reply_token:
+        return False
+    url = "https://api.line.me/v2/bot/message/reply"
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {access_token}",
+    }
+    body = json.dumps({
+        "replyToken": reply_token,
+        "messages": [{"type": "text", "text": text_message}],
+    }).encode("utf-8")
+    req = urllib.request.Request(url, data=body, headers=headers, method="POST")
+    try:
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            return 200 <= resp.status < 300
+    except Exception:
+        return False
+
+
 @app.route("/api/auth/verify", methods=["POST"])
 def verify_vault_passkey():
     """
     安全金庫通行密鑰驗證端點 (與 FinanceFree-XQ-Pub 一致)
-    支援環境變數 REPORT_SECURITY_KEY 覆寫，預設採用 SHA-256 雜湊比對。
+    支援環境變數 REPORT_SECURITY_KEY 覆寫、SHA-256 雜湊比對，以及 LINE 動態隨機 Token。
     """
     payload = request.get_json(silent=True) or {}
     passkey = str(payload.get("passkey") or "").strip()
     if not passkey:
         return jsonify({"status": "error", "authenticated": False, "message": "請輸入金庫通行密鑰"}), 401
+
+    if verify_dynamic_vault_token(passkey):
+        return jsonify({"status": "success", "authenticated": True, "mode": "dynamic_token"})
 
     custom_key = os.environ.get("REPORT_SECURITY_KEY", "").strip()
     expected_sha256 = (
@@ -885,8 +948,67 @@ def verify_vault_passkey():
     actual_sha256 = hashlib.sha256(passkey.encode("utf-8")).hexdigest().lower()
 
     if actual_sha256 == expected_sha256:
-        return jsonify({"status": "success", "authenticated": True})
+        return jsonify({"status": "success", "authenticated": True, "mode": "master_key"})
     return jsonify({"status": "error", "authenticated": False, "message": "通行密鑰錯誤"}), 403
+
+
+@app.route("/api/line/webhook", methods=["POST"])
+def line_webhook():
+    """
+    LINE Messaging API Webhook 接收端點 (方案 B：免費 Reply API 動態隨機核發密鑰)
+    """
+    raw_body = request.get_data()
+    channel_secret = os.environ.get("LINE_CHANNEL_SECRET", "").strip()
+    if channel_secret:
+        signature = request.headers.get("X-Line-Signature", "")
+        computed = base64.b64encode(
+            hmac.new(channel_secret.encode("utf-8"), raw_body, hashlib.sha256).digest()
+        ).decode("utf-8")
+        if not hmac.compare_digest(computed, signature):
+            return jsonify({"status": "error", "message": "Invalid LINE signature"}), 403
+
+    data = request.get_json(silent=True) or {}
+    events = data.get("events", [])
+    base_url = os.environ.get("PUBLIC_DASHBOARD_URL", "https://personal-pinyin-magic-box-dashboard.vercel.app").rstrip("/")
+
+    for event in events:
+        reply_token = event.get("replyToken", "")
+        event_type = event.get("type", "")
+        if not reply_token:
+            continue
+
+        if event_type == "follow":
+            welcome_msg = (
+                "歡迎加入【小小魔法學習樂園 🪄 注音魔法盒】官方帳號！🎀\n\n"
+                "請直接輸入傳送：\n「申請訪客密鑰」\n系統將免費為您即時產生一組專屬隨機通行密鑰與 1-Click 解鎖連結！\n\n"
+                "⚖️【法律免責與非商業聲明】\n"
+                "本平台題庫源自公開教育課綱與個人學習研究，永久免費使用，嚴禁任何第三方商業重製或轉售牟利，違者依法追究。"
+            )
+            _reply_line_message(reply_token, welcome_msg)
+        elif event_type == "message":
+            msg = event.get("message", {})
+            if msg.get("type") == "text":
+                text = str(msg.get("text") or "").strip()
+                if any(kw in text.lower() for kw in ("申請", "密鑰", "解鎖", "key", "token", "密碼")):
+                    dyn_token = generate_dynamic_vault_token()
+                    unlock_url = f"{base_url}/?auth={dyn_token}"
+                    reply_msg = (
+                        "🔐【小小魔法學習樂園 · 專屬隨機通行憑證】\n\n"
+                        f"🔑 專屬隨機密鑰：\n{dyn_token}\n\n"
+                        f"⚡ 1-Click 一鍵免打字解鎖連結：\n{unlock_url}\n\n"
+                        "⏰ 有效期限：7 天內有效\n"
+                        "⚖️ 聲明：本系統為個人免費教育資源，嚴禁轉售或商業利用。"
+                    )
+                    _reply_line_message(reply_token, reply_msg)
+                else:
+                    guide_msg = (
+                        "您好！若要申請【小小魔法學習樂園】通行密鑰，請直接輸入傳送：\n"
+                        "👉「申請訪客密鑰」\n"
+                        "系統將立即為您產生專屬隨機解鎖連結！"
+                    )
+                    _reply_line_message(reply_token, guide_msg)
+
+    return jsonify({"status": "ok"}), 200
 
 
 @app.route("/api/health", methods=["GET"])
