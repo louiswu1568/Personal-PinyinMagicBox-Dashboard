@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>小小魔法學習樂園 🎀 河堤國小 × 康軒版（注音・英文・數學・99乘法表）</title>
+  <meta name="description" content="專為河堤國小一年級學童量身打造的學習評量與新挑戰測驗卷練習樂園，包含康軒版國語注音、雙語英文、數學與 99 乘法表！">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v={{ v | default('20261106') }}">
+</head>
+<body>
+
+  <!-- 可愛漂浮小背景飾品 -->
+  <div class="floating-bg-decorations" aria-hidden="true">
+    <span class="decor-item decor-1">🌸</span>
+    <span class="decor-item decor-2">⭐</span>
+    <span class="decor-item decor-3">🎀</span>
+    <span class="decor-item decor-4">🍭</span>
+    <span class="decor-item decor-5">✨</span>
+    <span class="decor-item decor-6">🍓</span>
+    <span class="decor-item decor-7">🦄</span>
+    <span class="decor-item decor-8">💖</span>
+  </div>
+
+  <div class="app-container">
+    <!-- 頂端粉嫩童趣導航列 -->
+    <header class="header-bar">
+      <div class="logo-area">
+        <span class="logo-icon" id="main-logo-icon">🪄</span>
+        <div>
+          <h1 class="logo-title" id="main-logo-title">小小魔法學習樂園</h1>
+          <span class="logo-sub" id="main-logo-sub">💖 河堤國小 × 康軒版（一上・一下 學習評量／新挑戰測驗卷）期中期末練習</span>
+        </div>
+      </div>
+
+      <!-- 得分、每日30分鐘計時與 v3.0 學習功能入口 -->
+      <div class="stats-bar">
+        <div class="daily-timer-pill" id="daily-timer-box" title="每日建議學習 30 分鐘（僅溫馨提醒，不強制結束）">
+          <div class="timer-top-line">
+            <span>⏰ 今日學習</span>
+            <strong id="daily-timer-text">00:00</strong>
+            <span class="timer-target-label">/ 30:00</span>
+          </div>
+          <div class="timer-mini-track">
+            <div class="timer-mini-fill" id="daily-timer-fill" style="width: 0%;"></div>
+          </div>
+        </div>
+
+        <div class="stat-item stat-stars" title="累積魔法星星">
+          <span class="stat-icon">⭐</span>
+          <span id="score-stars">0</span>
+        </div>
+        <div class="stat-item stat-streak" title="連續答對次數">
+          <span class="stat-icon">🔥</span>
+          <span id="score-streak">0</span>
+        </div>
+
+        <button type="button" class="v3-header-btn" id="btn-open-wrong-book" title="開啟錯題本與間隔複習">
+          <span>📕 錯題本 (<span id="header-wrong-count">0</span>)</span>
+        </button>
+        <button type="button" class="v3-header-btn" id="btn-open-rewards" title="寵物、貼紙與故事關卡">
+          <span>👑 <span id="header-stage-name">新手魔法師</span></span>
+        </button>
+        <button type="button" class="v3-header-btn" id="btn-open-settings" title="設定、進度匯出與家長週報">
+          <span>⚙️ 設定</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ★ 每日 30 分鐘溫馨提醒橫幅 (只提示、絕不強制結束) ★ -->
+    <div class="timer-30m-toast" id="timer-30m-toast" style="display: none;" role="status">
+      <div class="toast-content">
+        <span class="toast-emoji">💖</span>
+        <span id="timer-30m-msg">今天已經認真學習滿 30 分鐘囉，真棒！眼睛可以休息一下，想繼續玩也可以隨時繼續喔～</span>
+      </div>
+      <button type="button" class="v3-pill-btn" id="btn-dismiss-30m-toast">我知道了 👍</button>
+    </div>
+
+    <!-- ★ 頂層四大主學科頁籤導航 (Subject Navigation Tabs) ★ -->
+    <nav class="subject-nav-card" aria-label="四大主學科切換">
+      <div class="subject-nav-tabs">
+        <button type="button" class="subject-tab-btn active" data-subject="bopomofo" id="tab-subject-bopomofo">
+          <span class="subject-icon">🪄</span>
+          <div class="subject-tab-text">
+            <span class="subject-name">國語注音</span>
+            <span class="subject-desc">生活詞彙 3000 題</span>
+          </div>
+        </button>
+        <button type="button" class="subject-tab-btn" data-subject="english" id="tab-subject-english">
+          <span class="subject-icon">🔤</span>
+          <div class="subject-tab-text">
+            <span class="subject-name">英文樂園</span>
+            <span class="subject-desc">ABC・自然發音・視覺詞</span>
+          </div>
+        </button>
+        <button type="button" class="subject-tab-btn" data-subject="math" id="tab-subject-math">
+          <span class="subject-icon">🔢</span>
+          <div class="subject-tab-text">
+            <span class="subject-name">數學城堡</span>
+            <span class="subject-desc">數數・加減・時鐘・超市</span>
+          </div>
+        </button>
+        <button type="button" class="subject-tab-btn" data-subject="multiplication" id="tab-subject-multiplication">
+          <span class="subject-icon">✖️</span>
+          <div class="subject-tab-text">
+            <span class="subject-name">99乘法表</span>
+            <span class="subject-desc">跳數・圖像乘法・趣味口訣</span>
+          </div>
+        </button>
+      </div>
+    </nav>
+
+    <!-- ★ v3.0 學習核心：每回合 30 題進度條 & 今日魔法複習入口 ★ -->
+    <section class="v3-round-bar" id="v3-round-bar" aria-label="本回合進度與今日複習">
+      <div class="round-progress-info">
+        <span class="round-mode-tag" id="round-mode-badge">🎯 30題特訓回合</span>
+        <span class="round-counter-text">
+          進度：第 <strong id="round-step-num">1</strong> / <strong id="round-total-num">30</strong> 題
+          （答對 <strong id="round-correct-num">0</strong> 題）
+        </span>
+        <div class="round-progress-track">
+          <div class="round-progress-fill" id="round-progress-fill" style="width: 3.3%;"></div>
+        </div>
+      </div>
+      <div class="round-quick-actions">
+        <button type="button" class="v3-pill-btn v3-review-btn" id="btn-start-daily-review" title="優先練習今日到期與易錯題">
+          <span>✨ 今日魔法複習 (<span id="due-review-count">0</span>)</span>
+        </button>
+        <button type="button" class="v3-pill-btn v3-restart-btn" id="btn-restart-round" title="重新抽取新一輪 30 題">
+          <span>🔄 新一輪 30 題</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         【學科 1：國語注音】
+         ========================================================================= -->
+    <section class="subject-section active" id="section-bopomofo">
+      <!-- 遊戲大廳選擇導航 (6 大主題互動模式) -->
+      <nav class="game-nav-card" aria-label="遊戲選單">
+        <div class="game-nav-title">
+          <span>🎮 小朋友想玩哪一個呢？點選切換：</span>
+        </div>
+        <div class="game-nav-buttons">
+          <button type="button" class="game-nav-btn active" data-game="classic" id="nav-btn-classic">
+            <span class="btn-emoji">🪄</span>
+            <span class="btn-text">魔法拼音盒</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-game="bubble" id="nav-btn-bubble">
+            <span class="btn-emoji">🫧</span>
+            <span class="btn-text">泡泡消消樂</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-game="monster" id="nav-btn-monster">
+            <span class="btn-emoji">👾</span>
+            <span class="btn-text">聲調小怪獸</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-game="racer" id="nav-btn-racer">
+            <span class="btn-emoji">🏎️</span>
+            <span class="btn-text">極速小賽車</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-game="memory" id="nav-btn-memory">
+            <span class="btn-emoji">🃏</span>
+            <span class="btn-text">記憶翻翻牌</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-game="mole" id="nav-btn-mole">
+            <span class="btn-emoji">🔨</span>
+            <span class="btn-text">地鼠敲注音</span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- VIEW 1：經典直式注音魔法盒 (Classic Magic Box) -->
+      <div class="game-view active" id="view-classic" aria-label="經典直式拼音盒">
+        <div class="sub-filter-row">
+          <div class="mode-selector" aria-label="練習模式切換">
+            <button type="button" class="mode-btn active" data-mode="all" id="btn-mode-all">🌸 全部生活詞 (3000)</button>
+            <button type="button" class="mode-btn" data-mode="2-pin" id="btn-mode-2pin">🌼 二拼特訓</button>
+            <button type="button" class="mode-btn" data-mode="3-pin" id="btn-mode-3pin">🌷 三拼大挑戰</button>
+          </div>
+        </div>
+
+        <div class="stage-card">
+          <div class="question-row">
+            <section class="target-character-box" aria-label="目前題目">
+              <div class="question-emoji" id="target-emoji">🍉</div>
+              <div class="character-display" id="target-char">西</div>
+              <div class="word-example" id="target-word">西瓜</div>
+              <button type="button" class="audio-btn" id="btn-speak-char" title="朗讀發音">
+                <span>🔊 聽讀音</span>
+              </button>
+            </section>
+
+            <section class="bopomofo-vertical-container" aria-label="直式注音作答區">
+              <div class="vertical-phonetic-column">
+                <div class="drop-slot slot-initial" id="slot-initial" data-type="initial" title="點選或拖曳「聲母」到這裡">
+                  <span class="slot-label">聲母</span>
+                  <span class="slot-content" id="content-initial"></span>
+                  <span class="slot-remove-hint" id="hint-rm-initial"></span>
+                </div>
+                <div class="drop-slot slot-medial" id="slot-medial" data-type="medial" title="點選或拖曳「介母(ㄧ/ㄨ/ㄩ)」到這裡">
+                  <span class="slot-label">介母</span>
+                  <span class="slot-content" id="content-medial"></span>
+                  <span class="slot-remove-hint" id="hint-rm-medial"></span>
+                </div>
+                <div class="drop-slot slot-final" id="slot-final" data-type="final" title="點選或拖曳「韻母」到這裡">
+                  <span class="slot-label">韻母</span>
+                  <span class="slot-content" id="content-final"></span>
+                  <span class="slot-remove-hint" id="hint-rm-final"></span>
+                </div>
+              </div>
+
+              <div class="vertical-tone-column">
+                <div class="drop-slot slot-tone" id="slot-tone" data-type="tone" title="點選或拖曳「聲調」到這裡">
+                  <span class="slot-label">聲調</span>
+                  <span class="slot-content" id="content-tone"></span>
+                  <span class="slot-remove-hint" id="hint-rm-tone"></span>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div class="feedback-banner neutral" id="feedback-banner">
+            <span>💡 點選或拖曳下方注音方塊，拼出上面國字的正確注音喔！</span>
+          </div>
+
+          <div class="action-controls">
+            <button type="button" class="btn-large btn-clear" id="btn-clear" title="清空目前的拼音">
+              <span>🔄 清空重拼</span>
+            </button>
+            <button type="button" class="btn-large btn-submit" id="btn-submit" title="確認送出答案">
+              <span>🚀 送出檢查</span>
+            </button>
+            <button type="button" class="btn-large btn-next" id="btn-next" title="換下一題練習">
+              <span>⏭️ 下一題</span>
+            </button>
+          </div>
+        </div>
+
+        <section class="bopomofo-bank-card" aria-label="注音符號挑選盤">
+          <div class="bank-tabs">
+            <button type="button" class="tab-btn active tab-initial" data-tab="initial" id="tab-initial">
+              <span>🔵 聲母 (21)</span>
+            </button>
+            <button type="button" class="tab-btn tab-medial" data-tab="medial" id="tab-medial">
+              <span>🟢 介母 (3)</span>
+            </button>
+            <button type="button" class="tab-btn tab-final" data-tab="final" id="tab-final">
+              <span>🟠 韻母 (13)</span>
+            </button>
+            <button type="button" class="tab-btn tab-tone" data-tab="tone" id="tab-tone">
+              <span>🟣 聲調 (5)</span>
+            </button>
+          </div>
+
+          <div class="tiles-grid" id="tiles-container"></div>
+          <div class="tile-tip">
+            💡 小秘訣：點擊方塊會自動跳進格子；也可以用滑鼠直接拖曳進去喔！
+          </div>
+        </section>
+      </div>
+
+      <!-- VIEW 2：🫧 泡泡消消樂 (Bubble Pop) -->
+      <div class="game-view" id="view-bubble" aria-label="泡泡消消樂">
+        <div class="minigame-card bubble-game-card">
+          <div class="minigame-header">
+            <div class="minigame-title">
+              <span class="game-tag">遊戲 1</span>
+              <h2>🫧 魔法泡泡消消樂</h2>
+            </div>
+            <div class="minigame-score">
+              <span>過關星數：</span>
+              <span class="badge" id="bubble-round-count">0</span>
+            </div>
+          </div>
+
+          <div class="bubble-prompt-row">
+            <div class="bubble-target-box">
+              <span class="bubble-target-emoji" id="bubble-target-emoji">跑</span>
+              <span class="bubble-target-char" id="bubble-target-char">跑</span>
+              <span class="bubble-target-word" id="bubble-target-word">跑步</span>
+              <button type="button" class="audio-btn-sm" id="btn-bubble-speak">🔊 讀音</button>
+            </div>
+            <div class="bubble-guide-text">
+              <p>請依照<strong>「聲母 ➔ 介母 ➔ 韻母 ➔ 聲調」</strong>的順序，戳破對應的彩色泡泡！</p>
+              <div class="bubble-progress" id="bubble-progress"></div>
+            </div>
+          </div>
+
+          <div class="bubble-pond" id="bubble-pond"></div>
+
+          <div class="minigame-footer">
+            <span class="minigame-hint" id="bubble-hint-msg">💡 找到下一個發音符號，點一下戳破它！</span>
+            <button type="button" class="btn-pill" id="btn-bubble-next">⏭️ 換新題目</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIEW 3：👾 聲調小怪獸 (Tone Monster) -->
+      <div class="game-view" id="view-monster" aria-label="聲調小怪獸">
+        <div class="minigame-card monster-game-card">
+          <div class="minigame-header">
+            <div class="minigame-title">
+              <span class="game-tag">遊戲 2</span>
+              <h2>👾 聲調小怪獸肚子餓了</h2>
+            </div>
+            <div class="minigame-score">
+              <span>飽足度：</span>
+              <span class="badge" id="monster-fed-count">0 / 5</span>
+            </div>
+          </div>
+
+          <div class="monster-stage">
+            <div class="monster-character-wrap">
+              <div class="monster-creature" id="monster-avatar">🦖</div>
+              <div class="monster-dialog" id="monster-dialog">
+                「咕嚕咕嚕～我想吃 <strong>三聲 (ˇ)</strong> 的食物！」
+              </div>
+            </div>
+
+            <div class="food-plate-area">
+              <span class="plate-title">🍽️ 盤子裡有好多好吃的食物，請選出聲調正確的餵給小怪獸：</span>
+              <div class="food-cards-grid" id="monster-food-grid"></div>
+            </div>
+          </div>
+
+          <div class="minigame-footer">
+            <span class="minigame-hint" id="monster-hint-msg">💡 唸唸看每一個詞彙，聽聽看是第幾聲？</span>
+            <button type="button" class="btn-pill" id="btn-monster-next">換一隻怪獸 ➔</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIEW 4：🏎️ 注音極速小賽車 (Speed Racer) -->
+      <div class="game-view" id="view-racer" aria-label="注音極速小賽車">
+        <div class="minigame-card racer-game-card">
+          <div class="minigame-header">
+            <div class="minigame-title">
+              <span class="game-tag">遊戲 3</span>
+              <h2>🏎️ 注音極速小賽車</h2>
+            </div>
+            <div class="minigame-score">
+              <span>得分里程：</span>
+              <span class="badge" id="racer-score-badge">0 分</span>
+            </div>
+          </div>
+
+          <div class="racer-target-board">
+            <span class="board-badge">前方路標</span>
+            <div class="racer-formula" id="racer-formula">ㄍ + ㄨ + ㄚ = ？</div>
+            <span class="racer-tip">🚗 請選出與這個拼音相符的國字車道！</span>
+          </div>
+
+          <div class="racer-highway">
+            <div class="racer-lanes" id="racer-lanes"></div>
+            <div class="racer-car-dock">
+              <span class="car-sprite" id="racer-car-sprite">🏎️💨</span>
+            </div>
+          </div>
+
+          <div class="minigame-footer">
+            <span class="minigame-hint" id="racer-hint-msg">💡 點選正確的車道按鈕，賽車就會瞬間噴射加速！</span>
+            <button type="button" class="btn-pill" id="btn-racer-next">換下一題 ➔</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIEW 5：🃏 記憶翻翻牌 (Memory Match) -->
+      <div class="game-view" id="view-memory" aria-label="記憶翻翻牌">
+        <div class="minigame-card memory-game-card">
+          <div class="minigame-header">
+            <div class="minigame-title">
+              <span class="game-tag">遊戲 4</span>
+              <h2>🃏 記憶翻翻牌連連看</h2>
+            </div>
+            <div class="minigame-score">
+              <span>配對進度：</span>
+              <span class="badge" id="memory-matched-count">0 / 4 組</span>
+            </div>
+          </div>
+
+          <div class="memory-intro">
+            <span>💡 翻出一張「圖案國字」與一張「注音拼音」，完全相符就能成功消除！</span>
+          </div>
+
+          <div class="memory-grid" id="memory-cards-grid"></div>
+
+          <div class="minigame-footer">
+            <span class="minigame-hint" id="memory-hint-msg">💡 集中注意力，記住每張牌藏在哪裡喔！</span>
+            <button type="button" class="btn-pill" id="btn-memory-restart">🔄 洗牌重玩</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIEW 6：🔨 地鼠敲敲樂 (Whack-a-Mole) -->
+      <div class="game-view" id="view-mole" aria-label="地鼠敲注音">
+        <div class="minigame-card mole-game-card">
+          <div class="minigame-header">
+            <div class="minigame-title">
+              <span class="game-tag">遊戲 5</span>
+              <h2>🔨 注音小錘子敲敲樂</h2>
+            </div>
+            <div class="minigame-score">
+              <span>擊中地鼠：</span>
+              <span class="badge" id="mole-score-badge">0 隻</span>
+            </div>
+          </div>
+
+          <div class="mole-mission-bar">
+            <div class="mole-target-info">
+              <span>🎯 任務目標：請找到帶有</span>
+              <span class="mole-target-symbol" id="mole-target-symbol">ㄆ</span>
+              <span>的地鼠敲下去！</span>
+            </div>
+            <button type="button" class="audio-btn-sm" id="btn-mole-speak">🔊 再聽一次讀音</button>
+          </div>
+
+          <div class="mole-holes-grid" id="mole-holes-container"></div>
+
+          <div class="minigame-footer">
+            <span class="minigame-hint" id="mole-hint-msg">💡 仔細聽讀音或看上方符號，敲對地鼠會獲得星星獎勵！</span>
+            <button type="button" class="btn-pill" id="btn-mole-next">下一隻地鼠 ➔</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         【學科 2：🔤 英文樂園】
+         ========================================================================= -->
+    <section class="subject-section" id="section-english">
+      <nav class="game-nav-card" aria-label="英文單元選單">
+        <div class="game-nav-title">
+          <span>🔤 選擇英文學習單元：</span>
+        </div>
+        <div class="game-nav-buttons">
+          <button type="button" class="game-nav-btn active" data-eng-mode="alphabet" id="btn-eng-alphabet">
+            <span class="btn-emoji">🅰️</span>
+            <span class="btn-text">字母 ABC</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-eng-mode="phonics" id="btn-eng-phonics">
+            <span class="btn-emoji">🐱</span>
+            <span class="btn-text">自然拼讀 CVC</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-eng-mode="sight" id="btn-eng-sight">
+            <span class="btn-emoji">⭐</span>
+            <span class="btn-text">視覺詞 Sight Words</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-eng-mode="thematic" id="btn-eng-thematic">
+            <span class="btn-emoji">🍓</span>
+            <span class="btn-text">生活主題詞彙</span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- 英文主練習卡片 -->
+      <div class="stage-card english-stage-card">
+        <div class="english-question-box">
+          <div class="english-badge-tag" id="eng-unit-badge">字母配對</div>
+          <div class="english-center-display">
+            <span class="english-big-emoji" id="eng-display-emoji">🍎</span>
+            <span class="english-big-text" id="eng-display-text">A</span>
+            <span class="english-sub-phonics" id="eng-sub-phonics">/æ/ Apple</span>
+            <button type="button" class="audio-btn" id="btn-eng-speak" title="聽發音">
+              <span>🔊 Listen (聽發音)</span>
+            </button>
+          </div>
+          <div class="english-prompt-text" id="eng-prompt-text">
+            請找出對應的小寫字母：
+          </div>
+        </div>
+
+        <!-- 4 個選項按鈕 -->
+        <div class="english-options-grid" id="eng-options-grid"></div>
+
+        <div class="feedback-banner neutral" id="eng-feedback-banner">
+          <span>💡 聽聽看發音，選出正確的答案喔！</span>
+        </div>
+
+        <div class="action-controls">
+          <button type="button" class="btn-large btn-next" id="btn-eng-next">
+            <span>✨ 下一題 Next ➔</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         【學科 3：🔢 數學城堡】
+         ========================================================================= -->
+    <section class="subject-section" id="section-math">
+      <nav class="game-nav-card" aria-label="數學單元選單">
+        <div class="game-nav-title">
+          <span>🔢 選擇數學挑戰單元：</span>
+        </div>
+        <div class="game-nav-buttons">
+          <button type="button" class="game-nav-btn active" data-math-mode="counting" id="btn-math-counting">
+            <span class="btn-emoji">🍓</span>
+            <span class="btn-text">數數看</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-math-mode="compare" id="btn-math-compare">
+            <span class="btn-emoji">⚖️</span>
+            <span class="btn-text">比大小</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-math-mode="bonds" id="btn-math-bonds">
+            <span class="btn-emoji">🍰</span>
+            <span class="btn-text">分與合 (合十)</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-math-mode="add_sub" id="btn-math-addsub">
+            <span class="btn-emoji">➕</span>
+            <span class="btn-text">20以內加減法</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-math-mode="clock" id="btn-math-clock">
+            <span class="btn-emoji">⏰</span>
+            <span class="btn-text">看時鐘時間</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-math-mode="money" id="btn-math-money">
+            <span class="btn-emoji">💰</span>
+            <span class="btn-text">超市小玩家</span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- 數學主練習卡片 -->
+      <div class="stage-card math-stage-card">
+        <div class="math-question-box">
+          <div class="math-badge-tag" id="math-unit-badge">數數看</div>
+          <div class="math-center-display" id="math-center-display">
+            <div class="math-objects-board" id="math-objects-board">🍓🍓🍓</div>
+            <div class="math-formula-large" id="math-formula-large">數數看一共有幾個？</div>
+          </div>
+          <div class="math-prompt-text" id="math-prompt-text">
+            請選出正確的數量：
+          </div>
+        </div>
+
+        <!-- 4 個數字選項卡 -->
+        <div class="math-options-grid" id="math-options-grid"></div>
+
+        <div class="feedback-banner neutral" id="math-feedback-banner">
+          <span>💡 動動小腦袋，仔細算算看喔！</span>
+        </div>
+
+        <div class="action-controls">
+          <button type="button" class="btn-large btn-next" id="btn-math-next">
+            <span>✨ 下一題 Next ➔</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         【學科 4：✖️ 99乘法表】
+         ========================================================================= -->
+    <section class="subject-section" id="section-multiplication">
+      <!-- 乘法單元選單 (與頂層頁籤一致的按鈕體驗) -->
+      <nav class="game-nav-card" aria-label="乘法單元選單">
+        <div class="game-nav-title">
+          <span>✖️ 選擇 99 乘法趣味挑戰單元：</span>
+        </div>
+        <div class="game-nav-buttons">
+          <button type="button" class="game-nav-btn active" data-mult-mode="skip2_5_10" id="btn-mult-skip">
+            <span class="btn-emoji">🐰</span>
+            <span class="btn-text">2, 5, 10 跳數</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-mult-mode="tables_3_4" id="btn-mult-t34">
+            <span class="btn-emoji">🛺</span>
+            <span class="btn-text">3 與 4 生活乘法</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-mult-mode="tables_6_9" id="btn-mult-t69">
+            <span class="btn-emoji">🐞</span>
+            <span class="btn-text">6~9 進階挑戰</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-mult-mode="visual_array" id="btn-mult-array">
+            <span class="btn-emoji">🍓</span>
+            <span class="btn-text">圖形排列點點看</span>
+          </button>
+          <button type="button" class="game-nav-btn" data-mult-mode="explore_table" id="btn-mult-table">
+            <span class="btn-emoji">📖</span>
+            <span class="btn-text">互動乘法表探索</span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- 乘法主練習卡片 -->
+      <div class="stage-card multiplication-stage-card">
+        <!-- 乘法答題區 (skip2_5_10, tables_3_4, tables_6_9, visual_array, speed_quiz) -->
+        <div class="mult-quiz-area" id="mult-quiz-area">
+          <div class="mult-question-box">
+            <div class="mult-badge-tag" id="mult-unit-badge">🐰 2、5、10 跳數</div>
+            <div class="mult-center-display" id="mult-center-display">
+              <div class="mult-objects-board" id="mult-objects-board">🐰 🐰 🐰</div>
+              <div class="mult-formula-large" id="mult-formula-large">2 × 3 = ？</div>
+              <div class="mult-chant-hint" id="mult-chant-hint">💡 乘法口訣：二三得六</div>
+            </div>
+            <div class="mult-prompt-text" id="mult-prompt-text">
+              小兔子有 2 隻長耳朵，3 隻小兔子一共有幾隻耳朵？
+            </div>
+          </div>
+
+          <!-- 4 個數字選項卡 -->
+          <div class="mult-options-grid" id="mult-options-grid"></div>
+
+          <div class="feedback-banner neutral" id="mult-feedback-banner">
+            <span>💡 動動小腦袋，用跳數或乘法算算看喔！</span>
+          </div>
+
+          <div class="action-controls">
+            <button type="button" class="btn-large btn-next" id="btn-mult-next">
+              <span>✨ 下一題 Next ➔</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 互動九九乘法表探索專用區 (點擊 1~9，展現整行算式與語音朗誦) -->
+        <div class="mult-table-area" id="mult-table-area" style="display: none;">
+          <div class="mult-table-header">
+            <h3>📖 互動九九乘法表・探索與聽讀</h3>
+            <p>點選下面的數字，聽聽看朗讀口訣，也可以自己大聲念一次喔！</p>
+          </div>
+          <div class="mult-digit-selector" id="mult-digit-selector">
+            <!-- 1 到 9 數字切換按鈕由 JS 動態生成 -->
+          </div>
+          <div class="mult-table-cards-grid" id="mult-table-cards-grid">
+            <!-- 動態填入該數字的所有乘法算式與口訣卡片 -->
+          </div>
+          <div class="mult-table-footer">
+            <button type="button" class="btn-large btn-submit" id="btn-mult-recite-all">
+              <span>🔊 播放整行口訣朗讀</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- 答對過關獎勵彈窗 (Positive Feedback Celebration Modal) -->
+  <div class="celebration-modal" id="celebration-modal" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <div class="stars-row">
+        <span class="star-pop">⭐</span>
+        <span class="star-pop">🌟</span>
+        <span class="star-pop">⭐</span>
+      </div>
+      <h2 class="modal-title" id="modal-title">太棒了！完全答對！</h2>
+      <div class="modal-body">
+        <p id="modal-desc-text">你拼出了正確的生活讀音：</p>
+        <div class="spell-detail" id="modal-spell-detail">ㄅ + ㄚ = ㄅㄚ</div>
+      </div>
+      <button type="button" class="btn-large btn-submit" id="btn-modal-next">
+        <span>✨ 挑戰下一題！</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ★ v3.0：30 題回合結算彈窗 (Round 30 Summary Modal) ★ -->
+  <div class="celebration-modal" id="round-summary-modal" role="dialog" aria-modal="true">
+    <div class="modal-card v3-modal-wide">
+      <div class="stars-row">
+        <span class="star-pop">🏆</span>
+        <span class="star-pop">🌟</span>
+        <span class="star-pop">🎉</span>
+      </div>
+      <h2 class="modal-title" id="summary-title">恭喜完成 30 題挑戰！</h2>
+      <div class="modal-body">
+        <p class="v3-summary-score" id="summary-score-line">本回合答對 28 / 30 題（正確率 93%）</p>
+        <div class="v3-summary-reward-box" id="summary-reward-box">
+          ⭐ 獲得回合完成獎勵 +5 顆魔法星！
+        </div>
+        <div class="v3-summary-wrong-section" id="summary-wrong-section">
+          <h4>📕 本回合需要加強的小筆記：</h4>
+          <div class="v3-wrong-items-scroll" id="summary-wrong-list"></div>
+        </div>
+      </div>
+      <div class="action-controls">
+        <button type="button" class="btn-large btn-clear" id="btn-summary-retry-wrong">
+          <span>📕 再練本回錯題</span>
+        </button>
+        <button type="button" class="btn-large btn-submit" id="btn-summary-next-round">
+          <span>🚀 挑戰新一輪 30 題！</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ★ v3.0：錯題本與 Leitner 間隔複習彈窗 (Wrong Book & Spaced Repetition Modal) ★ -->
+  <div class="celebration-modal" id="wrong-book-modal" role="dialog" aria-modal="true">
+    <div class="modal-card v3-modal-wide">
+      <div class="v3-modal-header">
+        <h2 class="modal-title">📕 魔法錯題本與間隔複習盒</h2>
+        <button type="button" class="v3-close-btn" id="btn-close-wrong-book">✕</button>
+      </div>
+      <p class="v3-modal-sub">使用 Leitner 四格記憶盒（1天 ➔ 3天 ➔ 7天 ➔ 14天），答對自動升級，答錯優先複習！</p>
+      <div class="v3-filter-tabs" id="wrong-book-filters">
+        <button type="button" class="v3-tab-pill active" data-wb-subject="all">全部科目</button>
+        <button type="button" class="v3-tab-pill" data-wb-subject="bopomofo">🪄 國語注音</button>
+        <button type="button" class="v3-tab-pill" data-wb-subject="english">🔤 英文樂園</button>
+        <button type="button" class="v3-tab-pill" data-wb-subject="math">🔢 數學城堡</button>
+        <button type="button" class="v3-tab-pill" data-wb-subject="multiplication">✖️ 99乘法表</button>
+      </div>
+      <div class="v3-wrong-items-scroll" id="wrong-book-list"></div>
+      <div class="action-controls">
+        <button type="button" class="btn-large btn-submit" id="btn-wb-start-practice">
+          <span>🎯 立即開始錯題與到期特訓</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ★ v3.0：階段式獎勵收藏館 (Staged Rewards: Pets, Stickers, Story) ★ -->
+  <div class="celebration-modal" id="rewards-modal" role="dialog" aria-modal="true">
+    <div class="modal-card v3-modal-wide">
+      <div class="v3-modal-header">
+        <h2 class="modal-title">👑 魔法獎勵與故事收藏館</h2>
+        <button type="button" class="v3-close-btn" id="btn-close-rewards">✕</button>
+      </div>
+      <div class="v3-stage-banner" id="rewards-stage-banner">
+        <div class="v3-stage-text">
+          <strong id="rewards-stage-title">🌱 第 1 階段：新手魔法師</strong>
+          <span id="rewards-stage-stars">目前累積 0 顆星</span>
+        </div>
+        <div class="round-progress-track">
+          <div class="round-progress-fill" id="rewards-stage-fill" style="width: 10%;"></div>
+        </div>
+      </div>
+
+      <div class="v3-filter-tabs" id="rewards-tabs">
+        <button type="button" class="v3-tab-pill active" data-rw-tab="pets" id="tab-rw-pets">🦄 收藏寵物</button>
+        <button type="button" class="v3-tab-pill" data-rw-tab="stickers" id="tab-rw-stickers">🌸 魔法貼紙冊</button>
+        <button type="button" class="v3-tab-pill" data-rw-tab="stories" id="tab-rw-stories">📖 故事關卡</button>
+      </div>
+
+      <div class="v3-reward-panel" id="rewards-panel-pets"></div>
+      <div class="v3-reward-panel" id="rewards-panel-stickers" style="display: none;"></div>
+      <div class="v3-reward-panel" id="rewards-panel-stories" style="display: none;"></div>
+    </div>
+  </div>
+
+  <!-- ★ v3.0：設定與家長週報進度匯出／匯入彈窗 (Settings & Parent Report Export Modal) ★ -->
+  <div class="celebration-modal" id="settings-modal" role="dialog" aria-modal="true">
+    <div class="modal-card v3-modal-wide">
+      <div class="v3-modal-header">
+        <h2 class="modal-title">⚙️ 學習設定與家長週報工具</h2>
+        <button type="button" class="v3-close-btn" id="btn-close-settings">✕</button>
+      </div>
+      <div class="v3-settings-form">
+        <div class="v3-form-row">
+          <label for="input-nickname">👧 小朋友暱稱：</label>
+          <input type="text" id="input-nickname" class="v3-input" value="小公主" maxlength="16">
+        </div>
+        <div class="v3-form-row">
+          <label><input type="checkbox" id="chk-sound-enabled" checked> 🔊 開啟語音與音效回饋</label>
+        </div>
+        <div class="v3-form-row">
+          <label><input type="checkbox" id="chk-anim-enabled" checked> ✨ 開啟背景漂浮裝飾動畫</label>
+        </div>
+        <div class="v3-form-actions">
+          <button type="button" class="btn-pill" id="btn-save-settings">💾 儲存設定</button>
+        </div>
+        <hr class="v3-divider">
+        <div class="v3-parent-box">
+          <h4>📊 家長週報與進度備份（單機與 Vercel 雲端通用）</h4>
+          <p>學習進度保存在瀏覽器中。可點選「📊 線上開啟家長週報」直接檢視完整週報，或匯出 JSON 備份！</p>
+          <div class="action-controls">
+            <button type="button" class="btn-large btn-submit" id="btn-preview-weekly-report">
+              <span>📊 線上開啟家長週報</span>
+            </button>
+            <button type="button" class="btn-large btn-next" id="btn-export-progress">
+              <span>📥 匯出本週進度 JSON</span>
+            </button>
+            <button type="button" class="btn-large btn-clear" id="btn-import-progress-trigger">
+              <span>📤 匯入進度 JSON</span>
+            </button>
+            <input type="file" id="input-import-progress" accept=".json" style="display: none;">
+          </div>
+          <p id="settings-status-msg" class="v3-status-msg"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 引入 v3.0 學習核心資料層與遊戲主邏輯 -->
+  <script src="{{ url_for('static', filename='js/progress.js') }}?v={{ v | default('20261106') }}"></script>
+  <script src="{{ url_for('static', filename='js/game.js') }}?v={{ v | default('20261106') }}"></script>
+</body>
+</html>

@@ -1,0 +1,8136 @@
+[
+  {
+    "id": 1,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 A 】對應的小寫字母：",
+    "target": "a",
+    "display": "A",
+    "sample_word": "Apple",
+    "meaning": "蘋果",
+    "emoji": "🍎",
+    "sound": "/æ/",
+    "options": [
+      {
+        "val": "y",
+        "en": "y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      },
+      {
+        "val": "a",
+        "en": "a",
+        "zh": "🍎 Apple (蘋果)"
+      },
+      {
+        "val": "f",
+        "en": "f",
+        "zh": "🐟 Fish (小魚)"
+      },
+      {
+        "val": "x",
+        "en": "x",
+        "zh": "🦊 Fox (狐狸(字尾x))"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 a 】對應的大寫字母：",
+    "target": "A",
+    "display": "a",
+    "sample_word": "Apple",
+    "meaning": "蘋果",
+    "emoji": "🍎",
+    "sound": "/æ/",
+    "options": [
+      {
+        "val": "U",
+        "en": "U",
+        "zh": "☂️ Umbrella (雨傘)"
+      },
+      {
+        "val": "A",
+        "en": "A",
+        "zh": "🍎 Apple (蘋果)"
+      },
+      {
+        "val": "R",
+        "en": "R",
+        "zh": "🐰 Rabbit (兔子)"
+      },
+      {
+        "val": "Y",
+        "en": "Y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 B 】對應的小寫字母：",
+    "target": "b",
+    "display": "B",
+    "sample_word": "Bear",
+    "meaning": "小熊",
+    "emoji": "🧸",
+    "sound": "/b/",
+    "options": [
+      {
+        "val": "a",
+        "en": "a",
+        "zh": "🍎 Apple (蘋果)"
+      },
+      {
+        "val": "b",
+        "en": "b",
+        "zh": "🧸 Bear (小熊)"
+      },
+      {
+        "val": "z",
+        "en": "z",
+        "zh": "🦓 Zebra (斑馬)"
+      },
+      {
+        "val": "d",
+        "en": "d",
+        "zh": "🐶 Dog (小狗)"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 b 】對應的大寫字母：",
+    "target": "B",
+    "display": "b",
+    "sample_word": "Bear",
+    "meaning": "小熊",
+    "emoji": "🧸",
+    "sound": "/b/",
+    "options": [
+      {
+        "val": "W",
+        "en": "W",
+        "zh": "⌚ Watch (手錶)"
+      },
+      {
+        "val": "B",
+        "en": "B",
+        "zh": "🧸 Bear (小熊)"
+      },
+      {
+        "val": "U",
+        "en": "U",
+        "zh": "☂️ Umbrella (雨傘)"
+      },
+      {
+        "val": "L",
+        "en": "L",
+        "zh": "🦁 Lion (獅子)"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：A ➔ 【 ？ 】 ➔ C，中間缺了哪個字母？",
+    "target": "B",
+    "display": "A • ? • C",
+    "sample_word": "Bear",
+    "meaning": "小熊",
+    "emoji": "🧸",
+    "sound": "/b/",
+    "options": [
+      {
+        "val": "B",
+        "en": "B",
+        "zh": "🧸 Bear (小熊)"
+      },
+      {
+        "val": "U",
+        "en": "U",
+        "zh": "☂️ Umbrella (雨傘)"
+      },
+      {
+        "val": "W",
+        "en": "W",
+        "zh": "⌚ Watch (手錶)"
+      },
+      {
+        "val": "L",
+        "en": "L",
+        "zh": "🦁 Lion (獅子)"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 C 】對應的小寫字母：",
+    "target": "c",
+    "display": "C",
+    "sample_word": "Cat",
+    "meaning": "小貓",
+    "emoji": "🐱",
+    "sound": "/k/",
+    "options": [
+      {
+        "val": "k",
+        "en": "k",
+        "zh": "🪁 Kite (風箏)"
+      },
+      {
+        "val": "c",
+        "en": "c",
+        "zh": "🐱 Cat (小貓)"
+      },
+      {
+        "val": "y",
+        "en": "y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      },
+      {
+        "val": "m",
+        "en": "m",
+        "zh": "🐒 Monkey (猴子)"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 c 】對應的大寫字母：",
+    "target": "C",
+    "display": "c",
+    "sample_word": "Cat",
+    "meaning": "小貓",
+    "emoji": "🐱",
+    "sound": "/k/",
+    "options": [
+      {
+        "val": "S",
+        "en": "S",
+        "zh": "☀️ Sun (太陽)"
+      },
+      {
+        "val": "H",
+        "en": "H",
+        "zh": "👒 Hat (帽子)"
+      },
+      {
+        "val": "C",
+        "en": "C",
+        "zh": "🐱 Cat (小貓)"
+      },
+      {
+        "val": "V",
+        "en": "V",
+        "zh": "🚐 Van (廂型車)"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：B ➔ 【 ？ 】 ➔ D，中間缺了哪個字母？",
+    "target": "C",
+    "display": "B • ? • D",
+    "sample_word": "Cat",
+    "meaning": "小貓",
+    "emoji": "🐱",
+    "sound": "/k/",
+    "options": [
+      {
+        "val": "V",
+        "en": "V",
+        "zh": "🚐 Van (廂型車)"
+      },
+      {
+        "val": "C",
+        "en": "C",
+        "zh": "🐱 Cat (小貓)"
+      },
+      {
+        "val": "H",
+        "en": "H",
+        "zh": "👒 Hat (帽子)"
+      },
+      {
+        "val": "S",
+        "en": "S",
+        "zh": "☀️ Sun (太陽)"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 D 】對應的小寫字母：",
+    "target": "d",
+    "display": "D",
+    "sample_word": "Dog",
+    "meaning": "小狗",
+    "emoji": "🐶",
+    "sound": "/d/",
+    "options": [
+      {
+        "val": "d",
+        "en": "d",
+        "zh": "🐶 Dog (小狗)"
+      },
+      {
+        "val": "t",
+        "en": "t",
+        "zh": "🐯 Tiger (老虎)"
+      },
+      {
+        "val": "j",
+        "en": "j",
+        "zh": "🧃 Juice (果汁)"
+      },
+      {
+        "val": "z",
+        "en": "z",
+        "zh": "🦓 Zebra (斑馬)"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 d 】對應的大寫字母：",
+    "target": "D",
+    "display": "d",
+    "sample_word": "Dog",
+    "meaning": "小狗",
+    "emoji": "🐶",
+    "sound": "/d/",
+    "options": [
+      {
+        "val": "E",
+        "en": "E",
+        "zh": "🐘 Elephant (大象)"
+      },
+      {
+        "val": "D",
+        "en": "D",
+        "zh": "🐶 Dog (小狗)"
+      },
+      {
+        "val": "Q",
+        "en": "Q",
+        "zh": "👑 Queen (皇后)"
+      },
+      {
+        "val": "U",
+        "en": "U",
+        "zh": "☂️ Umbrella (雨傘)"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：C ➔ 【 ？ 】 ➔ E，中間缺了哪個字母？",
+    "target": "D",
+    "display": "C • ? • E",
+    "sample_word": "Dog",
+    "meaning": "小狗",
+    "emoji": "🐶",
+    "sound": "/d/",
+    "options": [
+      {
+        "val": "U",
+        "en": "U",
+        "zh": "☂️ Umbrella (雨傘)"
+      },
+      {
+        "val": "Q",
+        "en": "Q",
+        "zh": "👑 Queen (皇后)"
+      },
+      {
+        "val": "E",
+        "en": "E",
+        "zh": "🐘 Elephant (大象)"
+      },
+      {
+        "val": "D",
+        "en": "D",
+        "zh": "🐶 Dog (小狗)"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 E 】對應的小寫字母：",
+    "target": "e",
+    "display": "E",
+    "sample_word": "Elephant",
+    "meaning": "大象",
+    "emoji": "🐘",
+    "sound": "/e/",
+    "options": [
+      {
+        "val": "a",
+        "en": "a",
+        "zh": "🍎 Apple (蘋果)"
+      },
+      {
+        "val": "z",
+        "en": "z",
+        "zh": "🦓 Zebra (斑馬)"
+      },
+      {
+        "val": "e",
+        "en": "e",
+        "zh": "🐘 Elephant (大象)"
+      },
+      {
+        "val": "k",
+        "en": "k",
+        "zh": "🪁 Kite (風箏)"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 e 】對應的大寫字母：",
+    "target": "E",
+    "display": "e",
+    "sample_word": "Elephant",
+    "meaning": "大象",
+    "emoji": "🐘",
+    "sound": "/e/",
+    "options": [
+      {
+        "val": "E",
+        "en": "E",
+        "zh": "🐘 Elephant (大象)"
+      },
+      {
+        "val": "W",
+        "en": "W",
+        "zh": "⌚ Watch (手錶)"
+      },
+      {
+        "val": "I",
+        "en": "I",
+        "zh": "🐞 Insect (昆蟲)"
+      },
+      {
+        "val": "F",
+        "en": "F",
+        "zh": "🐟 Fish (小魚)"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：D ➔ 【 ？ 】 ➔ F，中間缺了哪個字母？",
+    "target": "E",
+    "display": "D • ? • F",
+    "sample_word": "Elephant",
+    "meaning": "大象",
+    "emoji": "🐘",
+    "sound": "/e/",
+    "options": [
+      {
+        "val": "F",
+        "en": "F",
+        "zh": "🐟 Fish (小魚)"
+      },
+      {
+        "val": "I",
+        "en": "I",
+        "zh": "🐞 Insect (昆蟲)"
+      },
+      {
+        "val": "W",
+        "en": "W",
+        "zh": "⌚ Watch (手錶)"
+      },
+      {
+        "val": "E",
+        "en": "E",
+        "zh": "🐘 Elephant (大象)"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 F 】對應的小寫字母：",
+    "target": "f",
+    "display": "F",
+    "sample_word": "Fish",
+    "meaning": "小魚",
+    "emoji": "🐟",
+    "sound": "/f/",
+    "options": [
+      {
+        "val": "f",
+        "en": "f",
+        "zh": "🐟 Fish (小魚)"
+      },
+      {
+        "val": "x",
+        "en": "x",
+        "zh": "🦊 Fox (狐狸(字尾x))"
+      },
+      {
+        "val": "n",
+        "en": "n",
+        "zh": "👃 Nose (鼻子)"
+      },
+      {
+        "val": "h",
+        "en": "h",
+        "zh": "👒 Hat (帽子)"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 f 】對應的大寫字母：",
+    "target": "F",
+    "display": "f",
+    "sample_word": "Fish",
+    "meaning": "小魚",
+    "emoji": "🐟",
+    "sound": "/f/",
+    "options": [
+      {
+        "val": "V",
+        "en": "V",
+        "zh": "🚐 Van (廂型車)"
+      },
+      {
+        "val": "F",
+        "en": "F",
+        "zh": "🐟 Fish (小魚)"
+      },
+      {
+        "val": "E",
+        "en": "E",
+        "zh": "🐘 Elephant (大象)"
+      },
+      {
+        "val": "Y",
+        "en": "Y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：E ➔ 【 ？ 】 ➔ G，中間缺了哪個字母？",
+    "target": "F",
+    "display": "E • ? • G",
+    "sample_word": "Fish",
+    "meaning": "小魚",
+    "emoji": "🐟",
+    "sound": "/f/",
+    "options": [
+      {
+        "val": "V",
+        "en": "V",
+        "zh": "🚐 Van (廂型車)"
+      },
+      {
+        "val": "E",
+        "en": "E",
+        "zh": "🐘 Elephant (大象)"
+      },
+      {
+        "val": "Y",
+        "en": "Y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      },
+      {
+        "val": "F",
+        "en": "F",
+        "zh": "🐟 Fish (小魚)"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 G 】對應的小寫字母：",
+    "target": "g",
+    "display": "G",
+    "sample_word": "Girl",
+    "meaning": "女孩",
+    "emoji": "👧",
+    "sound": "/ɡ/",
+    "options": [
+      {
+        "val": "g",
+        "en": "g",
+        "zh": "👧 Girl (女孩)"
+      },
+      {
+        "val": "x",
+        "en": "x",
+        "zh": "🦊 Fox (狐狸(字尾x))"
+      },
+      {
+        "val": "f",
+        "en": "f",
+        "zh": "🐟 Fish (小魚)"
+      },
+      {
+        "val": "j",
+        "en": "j",
+        "zh": "🧃 Juice (果汁)"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 g 】對應的大寫字母：",
+    "target": "G",
+    "display": "g",
+    "sample_word": "Girl",
+    "meaning": "女孩",
+    "emoji": "👧",
+    "sound": "/ɡ/",
+    "options": [
+      {
+        "val": "K",
+        "en": "K",
+        "zh": "🪁 Kite (風箏)"
+      },
+      {
+        "val": "O",
+        "en": "O",
+        "zh": "🍊 Orange (柳橙)"
+      },
+      {
+        "val": "G",
+        "en": "G",
+        "zh": "👧 Girl (女孩)"
+      },
+      {
+        "val": "V",
+        "en": "V",
+        "zh": "🚐 Van (廂型車)"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：F ➔ 【 ？ 】 ➔ H，中間缺了哪個字母？",
+    "target": "G",
+    "display": "F • ? • H",
+    "sample_word": "Girl",
+    "meaning": "女孩",
+    "emoji": "👧",
+    "sound": "/ɡ/",
+    "options": [
+      {
+        "val": "V",
+        "en": "V",
+        "zh": "🚐 Van (廂型車)"
+      },
+      {
+        "val": "O",
+        "en": "O",
+        "zh": "🍊 Orange (柳橙)"
+      },
+      {
+        "val": "G",
+        "en": "G",
+        "zh": "👧 Girl (女孩)"
+      },
+      {
+        "val": "K",
+        "en": "K",
+        "zh": "🪁 Kite (風箏)"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 H 】對應的小寫字母：",
+    "target": "h",
+    "display": "H",
+    "sample_word": "Hat",
+    "meaning": "帽子",
+    "emoji": "👒",
+    "sound": "/h/",
+    "options": [
+      {
+        "val": "j",
+        "en": "j",
+        "zh": "🧃 Juice (果汁)"
+      },
+      {
+        "val": "z",
+        "en": "z",
+        "zh": "🦓 Zebra (斑馬)"
+      },
+      {
+        "val": "h",
+        "en": "h",
+        "zh": "👒 Hat (帽子)"
+      },
+      {
+        "val": "p",
+        "en": "p",
+        "zh": "🐷 Pig (粉紅豬)"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 h 】對應的大寫字母：",
+    "target": "H",
+    "display": "h",
+    "sample_word": "Hat",
+    "meaning": "帽子",
+    "emoji": "👒",
+    "sound": "/h/",
+    "options": [
+      {
+        "val": "N",
+        "en": "N",
+        "zh": "👃 Nose (鼻子)"
+      },
+      {
+        "val": "G",
+        "en": "G",
+        "zh": "👧 Girl (女孩)"
+      },
+      {
+        "val": "H",
+        "en": "H",
+        "zh": "👒 Hat (帽子)"
+      },
+      {
+        "val": "K",
+        "en": "K",
+        "zh": "🪁 Kite (風箏)"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：G ➔ 【 ？ 】 ➔ I，中間缺了哪個字母？",
+    "target": "H",
+    "display": "G • ? • I",
+    "sample_word": "Hat",
+    "meaning": "帽子",
+    "emoji": "👒",
+    "sound": "/h/",
+    "options": [
+      {
+        "val": "G",
+        "en": "G",
+        "zh": "👧 Girl (女孩)"
+      },
+      {
+        "val": "N",
+        "en": "N",
+        "zh": "👃 Nose (鼻子)"
+      },
+      {
+        "val": "K",
+        "en": "K",
+        "zh": "🪁 Kite (風箏)"
+      },
+      {
+        "val": "H",
+        "en": "H",
+        "zh": "👒 Hat (帽子)"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 I 】對應的小寫字母：",
+    "target": "i",
+    "display": "I",
+    "sample_word": "Insect",
+    "meaning": "昆蟲",
+    "emoji": "🐞",
+    "sound": "/ɪ/",
+    "options": [
+      {
+        "val": "i",
+        "en": "i",
+        "zh": "🐞 Insect (昆蟲)"
+      },
+      {
+        "val": "h",
+        "en": "h",
+        "zh": "👒 Hat (帽子)"
+      },
+      {
+        "val": "e",
+        "en": "e",
+        "zh": "🐘 Elephant (大象)"
+      },
+      {
+        "val": "z",
+        "en": "z",
+        "zh": "🦓 Zebra (斑馬)"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 i 】對應的大寫字母：",
+    "target": "I",
+    "display": "i",
+    "sample_word": "Insect",
+    "meaning": "昆蟲",
+    "emoji": "🐞",
+    "sound": "/ɪ/",
+    "options": [
+      {
+        "val": "F",
+        "en": "F",
+        "zh": "🐟 Fish (小魚)"
+      },
+      {
+        "val": "V",
+        "en": "V",
+        "zh": "🚐 Van (廂型車)"
+      },
+      {
+        "val": "I",
+        "en": "I",
+        "zh": "🐞 Insect (昆蟲)"
+      },
+      {
+        "val": "D",
+        "en": "D",
+        "zh": "🐶 Dog (小狗)"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：H ➔ 【 ？ 】 ➔ J，中間缺了哪個字母？",
+    "target": "I",
+    "display": "H • ? • J",
+    "sample_word": "Insect",
+    "meaning": "昆蟲",
+    "emoji": "🐞",
+    "sound": "/ɪ/",
+    "options": [
+      {
+        "val": "I",
+        "en": "I",
+        "zh": "🐞 Insect (昆蟲)"
+      },
+      {
+        "val": "V",
+        "en": "V",
+        "zh": "🚐 Van (廂型車)"
+      },
+      {
+        "val": "F",
+        "en": "F",
+        "zh": "🐟 Fish (小魚)"
+      },
+      {
+        "val": "D",
+        "en": "D",
+        "zh": "🐶 Dog (小狗)"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 J 】對應的小寫字母：",
+    "target": "j",
+    "display": "J",
+    "sample_word": "Juice",
+    "meaning": "果汁",
+    "emoji": "🧃",
+    "sound": "/dʒ/",
+    "options": [
+      {
+        "val": "j",
+        "en": "j",
+        "zh": "🧃 Juice (果汁)"
+      },
+      {
+        "val": "m",
+        "en": "m",
+        "zh": "🐒 Monkey (猴子)"
+      },
+      {
+        "val": "w",
+        "en": "w",
+        "zh": "⌚ Watch (手錶)"
+      },
+      {
+        "val": "x",
+        "en": "x",
+        "zh": "🦊 Fox (狐狸(字尾x))"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 j 】對應的大寫字母：",
+    "target": "J",
+    "display": "j",
+    "sample_word": "Juice",
+    "meaning": "果汁",
+    "emoji": "🧃",
+    "sound": "/dʒ/",
+    "options": [
+      {
+        "val": "M",
+        "en": "M",
+        "zh": "🐒 Monkey (猴子)"
+      },
+      {
+        "val": "J",
+        "en": "J",
+        "zh": "🧃 Juice (果汁)"
+      },
+      {
+        "val": "W",
+        "en": "W",
+        "zh": "⌚ Watch (手錶)"
+      },
+      {
+        "val": "S",
+        "en": "S",
+        "zh": "☀️ Sun (太陽)"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：I ➔ 【 ？ 】 ➔ K，中間缺了哪個字母？",
+    "target": "J",
+    "display": "I • ? • K",
+    "sample_word": "Juice",
+    "meaning": "果汁",
+    "emoji": "🧃",
+    "sound": "/dʒ/",
+    "options": [
+      {
+        "val": "S",
+        "en": "S",
+        "zh": "☀️ Sun (太陽)"
+      },
+      {
+        "val": "M",
+        "en": "M",
+        "zh": "🐒 Monkey (猴子)"
+      },
+      {
+        "val": "J",
+        "en": "J",
+        "zh": "🧃 Juice (果汁)"
+      },
+      {
+        "val": "W",
+        "en": "W",
+        "zh": "⌚ Watch (手錶)"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 K 】對應的小寫字母：",
+    "target": "k",
+    "display": "K",
+    "sample_word": "Kite",
+    "meaning": "風箏",
+    "emoji": "🪁",
+    "sound": "/k/",
+    "options": [
+      {
+        "val": "k",
+        "en": "k",
+        "zh": "🪁 Kite (風箏)"
+      },
+      {
+        "val": "c",
+        "en": "c",
+        "zh": "🐱 Cat (小貓)"
+      },
+      {
+        "val": "l",
+        "en": "l",
+        "zh": "🦁 Lion (獅子)"
+      },
+      {
+        "val": "u",
+        "en": "u",
+        "zh": "☂️ Umbrella (雨傘)"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 k 】對應的大寫字母：",
+    "target": "K",
+    "display": "k",
+    "sample_word": "Kite",
+    "meaning": "風箏",
+    "emoji": "🪁",
+    "sound": "/k/",
+    "options": [
+      {
+        "val": "K",
+        "en": "K",
+        "zh": "🪁 Kite (風箏)"
+      },
+      {
+        "val": "V",
+        "en": "V",
+        "zh": "🚐 Van (廂型車)"
+      },
+      {
+        "val": "Y",
+        "en": "Y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      },
+      {
+        "val": "Z",
+        "en": "Z",
+        "zh": "🦓 Zebra (斑馬)"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：J ➔ 【 ？ 】 ➔ L，中間缺了哪個字母？",
+    "target": "K",
+    "display": "J • ? • L",
+    "sample_word": "Kite",
+    "meaning": "風箏",
+    "emoji": "🪁",
+    "sound": "/k/",
+    "options": [
+      {
+        "val": "Y",
+        "en": "Y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      },
+      {
+        "val": "K",
+        "en": "K",
+        "zh": "🪁 Kite (風箏)"
+      },
+      {
+        "val": "Z",
+        "en": "Z",
+        "zh": "🦓 Zebra (斑馬)"
+      },
+      {
+        "val": "V",
+        "en": "V",
+        "zh": "🚐 Van (廂型車)"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 L 】對應的小寫字母：",
+    "target": "l",
+    "display": "L",
+    "sample_word": "Lion",
+    "meaning": "獅子",
+    "emoji": "🦁",
+    "sound": "/l/",
+    "options": [
+      {
+        "val": "n",
+        "en": "n",
+        "zh": "👃 Nose (鼻子)"
+      },
+      {
+        "val": "l",
+        "en": "l",
+        "zh": "🦁 Lion (獅子)"
+      },
+      {
+        "val": "w",
+        "en": "w",
+        "zh": "⌚ Watch (手錶)"
+      },
+      {
+        "val": "s",
+        "en": "s",
+        "zh": "☀️ Sun (太陽)"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 l 】對應的大寫字母：",
+    "target": "L",
+    "display": "l",
+    "sample_word": "Lion",
+    "meaning": "獅子",
+    "emoji": "🦁",
+    "sound": "/l/",
+    "options": [
+      {
+        "val": "D",
+        "en": "D",
+        "zh": "🐶 Dog (小狗)"
+      },
+      {
+        "val": "Q",
+        "en": "Q",
+        "zh": "👑 Queen (皇后)"
+      },
+      {
+        "val": "I",
+        "en": "I",
+        "zh": "🐞 Insect (昆蟲)"
+      },
+      {
+        "val": "L",
+        "en": "L",
+        "zh": "🦁 Lion (獅子)"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：K ➔ 【 ？ 】 ➔ M，中間缺了哪個字母？",
+    "target": "L",
+    "display": "K • ? • M",
+    "sample_word": "Lion",
+    "meaning": "獅子",
+    "emoji": "🦁",
+    "sound": "/l/",
+    "options": [
+      {
+        "val": "Q",
+        "en": "Q",
+        "zh": "👑 Queen (皇后)"
+      },
+      {
+        "val": "I",
+        "en": "I",
+        "zh": "🐞 Insect (昆蟲)"
+      },
+      {
+        "val": "D",
+        "en": "D",
+        "zh": "🐶 Dog (小狗)"
+      },
+      {
+        "val": "L",
+        "en": "L",
+        "zh": "🦁 Lion (獅子)"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 M 】對應的小寫字母：",
+    "target": "m",
+    "display": "M",
+    "sample_word": "Monkey",
+    "meaning": "猴子",
+    "emoji": "🐒",
+    "sound": "/m/",
+    "options": [
+      {
+        "val": "f",
+        "en": "f",
+        "zh": "🐟 Fish (小魚)"
+      },
+      {
+        "val": "m",
+        "en": "m",
+        "zh": "🐒 Monkey (猴子)"
+      },
+      {
+        "val": "l",
+        "en": "l",
+        "zh": "🦁 Lion (獅子)"
+      },
+      {
+        "val": "s",
+        "en": "s",
+        "zh": "☀️ Sun (太陽)"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 m 】對應的大寫字母：",
+    "target": "M",
+    "display": "m",
+    "sample_word": "Monkey",
+    "meaning": "猴子",
+    "emoji": "🐒",
+    "sound": "/m/",
+    "options": [
+      {
+        "val": "X",
+        "en": "X",
+        "zh": "🦊 Fox (狐狸(字尾x))"
+      },
+      {
+        "val": "F",
+        "en": "F",
+        "zh": "🐟 Fish (小魚)"
+      },
+      {
+        "val": "M",
+        "en": "M",
+        "zh": "🐒 Monkey (猴子)"
+      },
+      {
+        "val": "A",
+        "en": "A",
+        "zh": "🍎 Apple (蘋果)"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：L ➔ 【 ？ 】 ➔ N，中間缺了哪個字母？",
+    "target": "M",
+    "display": "L • ? • N",
+    "sample_word": "Monkey",
+    "meaning": "猴子",
+    "emoji": "🐒",
+    "sound": "/m/",
+    "options": [
+      {
+        "val": "X",
+        "en": "X",
+        "zh": "🦊 Fox (狐狸(字尾x))"
+      },
+      {
+        "val": "F",
+        "en": "F",
+        "zh": "🐟 Fish (小魚)"
+      },
+      {
+        "val": "A",
+        "en": "A",
+        "zh": "🍎 Apple (蘋果)"
+      },
+      {
+        "val": "M",
+        "en": "M",
+        "zh": "🐒 Monkey (猴子)"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 N 】對應的小寫字母：",
+    "target": "n",
+    "display": "N",
+    "sample_word": "Nose",
+    "meaning": "鼻子",
+    "emoji": "👃",
+    "sound": "/n/",
+    "options": [
+      {
+        "val": "r",
+        "en": "r",
+        "zh": "🐰 Rabbit (兔子)"
+      },
+      {
+        "val": "g",
+        "en": "g",
+        "zh": "👧 Girl (女孩)"
+      },
+      {
+        "val": "n",
+        "en": "n",
+        "zh": "👃 Nose (鼻子)"
+      },
+      {
+        "val": "z",
+        "en": "z",
+        "zh": "🦓 Zebra (斑馬)"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 n 】對應的大寫字母：",
+    "target": "N",
+    "display": "n",
+    "sample_word": "Nose",
+    "meaning": "鼻子",
+    "emoji": "👃",
+    "sound": "/n/",
+    "options": [
+      {
+        "val": "J",
+        "en": "J",
+        "zh": "🧃 Juice (果汁)"
+      },
+      {
+        "val": "U",
+        "en": "U",
+        "zh": "☂️ Umbrella (雨傘)"
+      },
+      {
+        "val": "M",
+        "en": "M",
+        "zh": "🐒 Monkey (猴子)"
+      },
+      {
+        "val": "N",
+        "en": "N",
+        "zh": "👃 Nose (鼻子)"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：M ➔ 【 ？ 】 ➔ O，中間缺了哪個字母？",
+    "target": "N",
+    "display": "M • ? • O",
+    "sample_word": "Nose",
+    "meaning": "鼻子",
+    "emoji": "👃",
+    "sound": "/n/",
+    "options": [
+      {
+        "val": "M",
+        "en": "M",
+        "zh": "🐒 Monkey (猴子)"
+      },
+      {
+        "val": "U",
+        "en": "U",
+        "zh": "☂️ Umbrella (雨傘)"
+      },
+      {
+        "val": "N",
+        "en": "N",
+        "zh": "👃 Nose (鼻子)"
+      },
+      {
+        "val": "J",
+        "en": "J",
+        "zh": "🧃 Juice (果汁)"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 O 】對應的小寫字母：",
+    "target": "o",
+    "display": "O",
+    "sample_word": "Orange",
+    "meaning": "柳橙",
+    "emoji": "🍊",
+    "sound": "/ɒ/",
+    "options": [
+      {
+        "val": "x",
+        "en": "x",
+        "zh": "🦊 Fox (狐狸(字尾x))"
+      },
+      {
+        "val": "o",
+        "en": "o",
+        "zh": "🍊 Orange (柳橙)"
+      },
+      {
+        "val": "u",
+        "en": "u",
+        "zh": "☂️ Umbrella (雨傘)"
+      },
+      {
+        "val": "i",
+        "en": "i",
+        "zh": "🐞 Insect (昆蟲)"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 o 】對應的大寫字母：",
+    "target": "O",
+    "display": "o",
+    "sample_word": "Orange",
+    "meaning": "柳橙",
+    "emoji": "🍊",
+    "sound": "/ɒ/",
+    "options": [
+      {
+        "val": "M",
+        "en": "M",
+        "zh": "🐒 Monkey (猴子)"
+      },
+      {
+        "val": "U",
+        "en": "U",
+        "zh": "☂️ Umbrella (雨傘)"
+      },
+      {
+        "val": "X",
+        "en": "X",
+        "zh": "🦊 Fox (狐狸(字尾x))"
+      },
+      {
+        "val": "O",
+        "en": "O",
+        "zh": "🍊 Orange (柳橙)"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：N ➔ 【 ？ 】 ➔ P，中間缺了哪個字母？",
+    "target": "O",
+    "display": "N • ? • P",
+    "sample_word": "Orange",
+    "meaning": "柳橙",
+    "emoji": "🍊",
+    "sound": "/ɒ/",
+    "options": [
+      {
+        "val": "U",
+        "en": "U",
+        "zh": "☂️ Umbrella (雨傘)"
+      },
+      {
+        "val": "X",
+        "en": "X",
+        "zh": "🦊 Fox (狐狸(字尾x))"
+      },
+      {
+        "val": "O",
+        "en": "O",
+        "zh": "🍊 Orange (柳橙)"
+      },
+      {
+        "val": "M",
+        "en": "M",
+        "zh": "🐒 Monkey (猴子)"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 P 】對應的小寫字母：",
+    "target": "p",
+    "display": "P",
+    "sample_word": "Pig",
+    "meaning": "粉紅豬",
+    "emoji": "🐷",
+    "sound": "/p/",
+    "options": [
+      {
+        "val": "n",
+        "en": "n",
+        "zh": "👃 Nose (鼻子)"
+      },
+      {
+        "val": "r",
+        "en": "r",
+        "zh": "🐰 Rabbit (兔子)"
+      },
+      {
+        "val": "p",
+        "en": "p",
+        "zh": "🐷 Pig (粉紅豬)"
+      },
+      {
+        "val": "j",
+        "en": "j",
+        "zh": "🧃 Juice (果汁)"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 p 】對應的大寫字母：",
+    "target": "P",
+    "display": "p",
+    "sample_word": "Pig",
+    "meaning": "粉紅豬",
+    "emoji": "🐷",
+    "sound": "/p/",
+    "options": [
+      {
+        "val": "Y",
+        "en": "Y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      },
+      {
+        "val": "G",
+        "en": "G",
+        "zh": "👧 Girl (女孩)"
+      },
+      {
+        "val": "P",
+        "en": "P",
+        "zh": "🐷 Pig (粉紅豬)"
+      },
+      {
+        "val": "E",
+        "en": "E",
+        "zh": "🐘 Elephant (大象)"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：O ➔ 【 ？ 】 ➔ Q，中間缺了哪個字母？",
+    "target": "P",
+    "display": "O • ? • Q",
+    "sample_word": "Pig",
+    "meaning": "粉紅豬",
+    "emoji": "🐷",
+    "sound": "/p/",
+    "options": [
+      {
+        "val": "G",
+        "en": "G",
+        "zh": "👧 Girl (女孩)"
+      },
+      {
+        "val": "Y",
+        "en": "Y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      },
+      {
+        "val": "E",
+        "en": "E",
+        "zh": "🐘 Elephant (大象)"
+      },
+      {
+        "val": "P",
+        "en": "P",
+        "zh": "🐷 Pig (粉紅豬)"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 Q 】對應的小寫字母：",
+    "target": "q",
+    "display": "Q",
+    "sample_word": "Queen",
+    "meaning": "皇后",
+    "emoji": "👑",
+    "sound": "/kw/",
+    "options": [
+      {
+        "val": "n",
+        "en": "n",
+        "zh": "👃 Nose (鼻子)"
+      },
+      {
+        "val": "q",
+        "en": "q",
+        "zh": "👑 Queen (皇后)"
+      },
+      {
+        "val": "u",
+        "en": "u",
+        "zh": "☂️ Umbrella (雨傘)"
+      },
+      {
+        "val": "k",
+        "en": "k",
+        "zh": "🪁 Kite (風箏)"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 q 】對應的大寫字母：",
+    "target": "Q",
+    "display": "q",
+    "sample_word": "Queen",
+    "meaning": "皇后",
+    "emoji": "👑",
+    "sound": "/kw/",
+    "options": [
+      {
+        "val": "G",
+        "en": "G",
+        "zh": "👧 Girl (女孩)"
+      },
+      {
+        "val": "R",
+        "en": "R",
+        "zh": "🐰 Rabbit (兔子)"
+      },
+      {
+        "val": "Q",
+        "en": "Q",
+        "zh": "👑 Queen (皇后)"
+      },
+      {
+        "val": "Z",
+        "en": "Z",
+        "zh": "🦓 Zebra (斑馬)"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：P ➔ 【 ？ 】 ➔ R，中間缺了哪個字母？",
+    "target": "Q",
+    "display": "P • ? • R",
+    "sample_word": "Queen",
+    "meaning": "皇后",
+    "emoji": "👑",
+    "sound": "/kw/",
+    "options": [
+      {
+        "val": "Q",
+        "en": "Q",
+        "zh": "👑 Queen (皇后)"
+      },
+      {
+        "val": "R",
+        "en": "R",
+        "zh": "🐰 Rabbit (兔子)"
+      },
+      {
+        "val": "Z",
+        "en": "Z",
+        "zh": "🦓 Zebra (斑馬)"
+      },
+      {
+        "val": "G",
+        "en": "G",
+        "zh": "👧 Girl (女孩)"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 R 】對應的小寫字母：",
+    "target": "r",
+    "display": "R",
+    "sample_word": "Rabbit",
+    "meaning": "兔子",
+    "emoji": "🐰",
+    "sound": "/r/",
+    "options": [
+      {
+        "val": "a",
+        "en": "a",
+        "zh": "🍎 Apple (蘋果)"
+      },
+      {
+        "val": "r",
+        "en": "r",
+        "zh": "🐰 Rabbit (兔子)"
+      },
+      {
+        "val": "t",
+        "en": "t",
+        "zh": "🐯 Tiger (老虎)"
+      },
+      {
+        "val": "e",
+        "en": "e",
+        "zh": "🐘 Elephant (大象)"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 r 】對應的大寫字母：",
+    "target": "R",
+    "display": "r",
+    "sample_word": "Rabbit",
+    "meaning": "兔子",
+    "emoji": "🐰",
+    "sound": "/r/",
+    "options": [
+      {
+        "val": "K",
+        "en": "K",
+        "zh": "🪁 Kite (風箏)"
+      },
+      {
+        "val": "I",
+        "en": "I",
+        "zh": "🐞 Insect (昆蟲)"
+      },
+      {
+        "val": "M",
+        "en": "M",
+        "zh": "🐒 Monkey (猴子)"
+      },
+      {
+        "val": "R",
+        "en": "R",
+        "zh": "🐰 Rabbit (兔子)"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：Q ➔ 【 ？ 】 ➔ S，中間缺了哪個字母？",
+    "target": "R",
+    "display": "Q • ? • S",
+    "sample_word": "Rabbit",
+    "meaning": "兔子",
+    "emoji": "🐰",
+    "sound": "/r/",
+    "options": [
+      {
+        "val": "R",
+        "en": "R",
+        "zh": "🐰 Rabbit (兔子)"
+      },
+      {
+        "val": "I",
+        "en": "I",
+        "zh": "🐞 Insect (昆蟲)"
+      },
+      {
+        "val": "K",
+        "en": "K",
+        "zh": "🪁 Kite (風箏)"
+      },
+      {
+        "val": "M",
+        "en": "M",
+        "zh": "🐒 Monkey (猴子)"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 S 】對應的小寫字母：",
+    "target": "s",
+    "display": "S",
+    "sample_word": "Sun",
+    "meaning": "太陽",
+    "emoji": "☀️",
+    "sound": "/s/",
+    "options": [
+      {
+        "val": "s",
+        "en": "s",
+        "zh": "☀️ Sun (太陽)"
+      },
+      {
+        "val": "b",
+        "en": "b",
+        "zh": "🧸 Bear (小熊)"
+      },
+      {
+        "val": "z",
+        "en": "z",
+        "zh": "🦓 Zebra (斑馬)"
+      },
+      {
+        "val": "o",
+        "en": "o",
+        "zh": "🍊 Orange (柳橙)"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 s 】對應的大寫字母：",
+    "target": "S",
+    "display": "s",
+    "sample_word": "Sun",
+    "meaning": "太陽",
+    "emoji": "☀️",
+    "sound": "/s/",
+    "options": [
+      {
+        "val": "S",
+        "en": "S",
+        "zh": "☀️ Sun (太陽)"
+      },
+      {
+        "val": "N",
+        "en": "N",
+        "zh": "👃 Nose (鼻子)"
+      },
+      {
+        "val": "L",
+        "en": "L",
+        "zh": "🦁 Lion (獅子)"
+      },
+      {
+        "val": "A",
+        "en": "A",
+        "zh": "🍎 Apple (蘋果)"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：R ➔ 【 ？ 】 ➔ T，中間缺了哪個字母？",
+    "target": "S",
+    "display": "R • ? • T",
+    "sample_word": "Sun",
+    "meaning": "太陽",
+    "emoji": "☀️",
+    "sound": "/s/",
+    "options": [
+      {
+        "val": "N",
+        "en": "N",
+        "zh": "👃 Nose (鼻子)"
+      },
+      {
+        "val": "S",
+        "en": "S",
+        "zh": "☀️ Sun (太陽)"
+      },
+      {
+        "val": "L",
+        "en": "L",
+        "zh": "🦁 Lion (獅子)"
+      },
+      {
+        "val": "A",
+        "en": "A",
+        "zh": "🍎 Apple (蘋果)"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 T 】對應的小寫字母：",
+    "target": "t",
+    "display": "T",
+    "sample_word": "Tiger",
+    "meaning": "老虎",
+    "emoji": "🐯",
+    "sound": "/t/",
+    "options": [
+      {
+        "val": "h",
+        "en": "h",
+        "zh": "👒 Hat (帽子)"
+      },
+      {
+        "val": "t",
+        "en": "t",
+        "zh": "🐯 Tiger (老虎)"
+      },
+      {
+        "val": "u",
+        "en": "u",
+        "zh": "☂️ Umbrella (雨傘)"
+      },
+      {
+        "val": "y",
+        "en": "y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 t 】對應的大寫字母：",
+    "target": "T",
+    "display": "t",
+    "sample_word": "Tiger",
+    "meaning": "老虎",
+    "emoji": "🐯",
+    "sound": "/t/",
+    "options": [
+      {
+        "val": "T",
+        "en": "T",
+        "zh": "🐯 Tiger (老虎)"
+      },
+      {
+        "val": "Y",
+        "en": "Y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      },
+      {
+        "val": "B",
+        "en": "B",
+        "zh": "🧸 Bear (小熊)"
+      },
+      {
+        "val": "Q",
+        "en": "Q",
+        "zh": "👑 Queen (皇后)"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：S ➔ 【 ？ 】 ➔ U，中間缺了哪個字母？",
+    "target": "T",
+    "display": "S • ? • U",
+    "sample_word": "Tiger",
+    "meaning": "老虎",
+    "emoji": "🐯",
+    "sound": "/t/",
+    "options": [
+      {
+        "val": "B",
+        "en": "B",
+        "zh": "🧸 Bear (小熊)"
+      },
+      {
+        "val": "T",
+        "en": "T",
+        "zh": "🐯 Tiger (老虎)"
+      },
+      {
+        "val": "Y",
+        "en": "Y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      },
+      {
+        "val": "Q",
+        "en": "Q",
+        "zh": "👑 Queen (皇后)"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 U 】對應的小寫字母：",
+    "target": "u",
+    "display": "U",
+    "sample_word": "Umbrella",
+    "meaning": "雨傘",
+    "emoji": "☂️",
+    "sound": "/ʌ/",
+    "options": [
+      {
+        "val": "u",
+        "en": "u",
+        "zh": "☂️ Umbrella (雨傘)"
+      },
+      {
+        "val": "w",
+        "en": "w",
+        "zh": "⌚ Watch (手錶)"
+      },
+      {
+        "val": "l",
+        "en": "l",
+        "zh": "🦁 Lion (獅子)"
+      },
+      {
+        "val": "v",
+        "en": "v",
+        "zh": "🚐 Van (廂型車)"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 u 】對應的大寫字母：",
+    "target": "U",
+    "display": "u",
+    "sample_word": "Umbrella",
+    "meaning": "雨傘",
+    "emoji": "☂️",
+    "sound": "/ʌ/",
+    "options": [
+      {
+        "val": "Q",
+        "en": "Q",
+        "zh": "👑 Queen (皇后)"
+      },
+      {
+        "val": "O",
+        "en": "O",
+        "zh": "🍊 Orange (柳橙)"
+      },
+      {
+        "val": "F",
+        "en": "F",
+        "zh": "🐟 Fish (小魚)"
+      },
+      {
+        "val": "U",
+        "en": "U",
+        "zh": "☂️ Umbrella (雨傘)"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：T ➔ 【 ？ 】 ➔ V，中間缺了哪個字母？",
+    "target": "U",
+    "display": "T • ? • V",
+    "sample_word": "Umbrella",
+    "meaning": "雨傘",
+    "emoji": "☂️",
+    "sound": "/ʌ/",
+    "options": [
+      {
+        "val": "F",
+        "en": "F",
+        "zh": "🐟 Fish (小魚)"
+      },
+      {
+        "val": "Q",
+        "en": "Q",
+        "zh": "👑 Queen (皇后)"
+      },
+      {
+        "val": "O",
+        "en": "O",
+        "zh": "🍊 Orange (柳橙)"
+      },
+      {
+        "val": "U",
+        "en": "U",
+        "zh": "☂️ Umbrella (雨傘)"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 V 】對應的小寫字母：",
+    "target": "v",
+    "display": "V",
+    "sample_word": "Van",
+    "meaning": "廂型車",
+    "emoji": "🚐",
+    "sound": "/v/",
+    "options": [
+      {
+        "val": "y",
+        "en": "y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      },
+      {
+        "val": "h",
+        "en": "h",
+        "zh": "👒 Hat (帽子)"
+      },
+      {
+        "val": "v",
+        "en": "v",
+        "zh": "🚐 Van (廂型車)"
+      },
+      {
+        "val": "k",
+        "en": "k",
+        "zh": "🪁 Kite (風箏)"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 v 】對應的大寫字母：",
+    "target": "V",
+    "display": "v",
+    "sample_word": "Van",
+    "meaning": "廂型車",
+    "emoji": "🚐",
+    "sound": "/v/",
+    "options": [
+      {
+        "val": "J",
+        "en": "J",
+        "zh": "🧃 Juice (果汁)"
+      },
+      {
+        "val": "V",
+        "en": "V",
+        "zh": "🚐 Van (廂型車)"
+      },
+      {
+        "val": "K",
+        "en": "K",
+        "zh": "🪁 Kite (風箏)"
+      },
+      {
+        "val": "W",
+        "en": "W",
+        "zh": "⌚ Watch (手錶)"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：U ➔ 【 ？ 】 ➔ W，中間缺了哪個字母？",
+    "target": "V",
+    "display": "U • ? • W",
+    "sample_word": "Van",
+    "meaning": "廂型車",
+    "emoji": "🚐",
+    "sound": "/v/",
+    "options": [
+      {
+        "val": "K",
+        "en": "K",
+        "zh": "🪁 Kite (風箏)"
+      },
+      {
+        "val": "W",
+        "en": "W",
+        "zh": "⌚ Watch (手錶)"
+      },
+      {
+        "val": "V",
+        "en": "V",
+        "zh": "🚐 Van (廂型車)"
+      },
+      {
+        "val": "J",
+        "en": "J",
+        "zh": "🧃 Juice (果汁)"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 W 】對應的小寫字母：",
+    "target": "w",
+    "display": "W",
+    "sample_word": "Watch",
+    "meaning": "手錶",
+    "emoji": "⌚",
+    "sound": "/w/",
+    "options": [
+      {
+        "val": "j",
+        "en": "j",
+        "zh": "🧃 Juice (果汁)"
+      },
+      {
+        "val": "w",
+        "en": "w",
+        "zh": "⌚ Watch (手錶)"
+      },
+      {
+        "val": "a",
+        "en": "a",
+        "zh": "🍎 Apple (蘋果)"
+      },
+      {
+        "val": "x",
+        "en": "x",
+        "zh": "🦊 Fox (狐狸(字尾x))"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 w 】對應的大寫字母：",
+    "target": "W",
+    "display": "w",
+    "sample_word": "Watch",
+    "meaning": "手錶",
+    "emoji": "⌚",
+    "sound": "/w/",
+    "options": [
+      {
+        "val": "W",
+        "en": "W",
+        "zh": "⌚ Watch (手錶)"
+      },
+      {
+        "val": "P",
+        "en": "P",
+        "zh": "🐷 Pig (粉紅豬)"
+      },
+      {
+        "val": "Z",
+        "en": "Z",
+        "zh": "🦓 Zebra (斑馬)"
+      },
+      {
+        "val": "K",
+        "en": "K",
+        "zh": "🪁 Kite (風箏)"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：V ➔ 【 ？ 】 ➔ X，中間缺了哪個字母？",
+    "target": "W",
+    "display": "V • ? • X",
+    "sample_word": "Watch",
+    "meaning": "手錶",
+    "emoji": "⌚",
+    "sound": "/w/",
+    "options": [
+      {
+        "val": "P",
+        "en": "P",
+        "zh": "🐷 Pig (粉紅豬)"
+      },
+      {
+        "val": "W",
+        "en": "W",
+        "zh": "⌚ Watch (手錶)"
+      },
+      {
+        "val": "K",
+        "en": "K",
+        "zh": "🪁 Kite (風箏)"
+      },
+      {
+        "val": "Z",
+        "en": "Z",
+        "zh": "🦓 Zebra (斑馬)"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 X 】對應的小寫字母：",
+    "target": "x",
+    "display": "X",
+    "sample_word": "Fox",
+    "meaning": "狐狸(字尾x)",
+    "emoji": "🦊",
+    "sound": "/ks/",
+    "options": [
+      {
+        "val": "p",
+        "en": "p",
+        "zh": "🐷 Pig (粉紅豬)"
+      },
+      {
+        "val": "m",
+        "en": "m",
+        "zh": "🐒 Monkey (猴子)"
+      },
+      {
+        "val": "x",
+        "en": "x",
+        "zh": "🦊 Fox (狐狸(字尾x))"
+      },
+      {
+        "val": "h",
+        "en": "h",
+        "zh": "👒 Hat (帽子)"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 x 】對應的大寫字母：",
+    "target": "X",
+    "display": "x",
+    "sample_word": "Fox",
+    "meaning": "狐狸(字尾x)",
+    "emoji": "🦊",
+    "sound": "/ks/",
+    "options": [
+      {
+        "val": "Z",
+        "en": "Z",
+        "zh": "🦓 Zebra (斑馬)"
+      },
+      {
+        "val": "X",
+        "en": "X",
+        "zh": "🦊 Fox (狐狸(字尾x))"
+      },
+      {
+        "val": "I",
+        "en": "I",
+        "zh": "🐞 Insect (昆蟲)"
+      },
+      {
+        "val": "T",
+        "en": "T",
+        "zh": "🐯 Tiger (老虎)"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：W ➔ 【 ？ 】 ➔ Y，中間缺了哪個字母？",
+    "target": "X",
+    "display": "W • ? • Y",
+    "sample_word": "Fox",
+    "meaning": "狐狸(字尾x)",
+    "emoji": "🦊",
+    "sound": "/ks/",
+    "options": [
+      {
+        "val": "I",
+        "en": "I",
+        "zh": "🐞 Insect (昆蟲)"
+      },
+      {
+        "val": "X",
+        "en": "X",
+        "zh": "🦊 Fox (狐狸(字尾x))"
+      },
+      {
+        "val": "Z",
+        "en": "Z",
+        "zh": "🦓 Zebra (斑馬)"
+      },
+      {
+        "val": "T",
+        "en": "T",
+        "zh": "🐯 Tiger (老虎)"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 Y 】對應的小寫字母：",
+    "target": "y",
+    "display": "Y",
+    "sample_word": "Yo-yo",
+    "meaning": "溜溜球",
+    "emoji": "🪀",
+    "sound": "/j/",
+    "options": [
+      {
+        "val": "z",
+        "en": "z",
+        "zh": "🦓 Zebra (斑馬)"
+      },
+      {
+        "val": "y",
+        "en": "y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      },
+      {
+        "val": "e",
+        "en": "e",
+        "zh": "🐘 Elephant (大象)"
+      },
+      {
+        "val": "b",
+        "en": "b",
+        "zh": "🧸 Bear (小熊)"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 y 】對應的大寫字母：",
+    "target": "Y",
+    "display": "y",
+    "sample_word": "Yo-yo",
+    "meaning": "溜溜球",
+    "emoji": "🪀",
+    "sound": "/j/",
+    "options": [
+      {
+        "val": "L",
+        "en": "L",
+        "zh": "🦁 Lion (獅子)"
+      },
+      {
+        "val": "Y",
+        "en": "Y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      },
+      {
+        "val": "C",
+        "en": "C",
+        "zh": "🐱 Cat (小貓)"
+      },
+      {
+        "val": "S",
+        "en": "S",
+        "zh": "☀️ Sun (太陽)"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "category": "alphabet",
+    "exam_tag": "康軒新挑戰測驗卷・字母順序填空",
+    "type": "alphabet_order",
+    "prompt": "【新挑戰測驗卷】按照 ABC 字母順序：X ➔ 【 ？ 】 ➔ Z，中間缺了哪個字母？",
+    "target": "Y",
+    "display": "X • ? • Z",
+    "sample_word": "Yo-yo",
+    "meaning": "溜溜球",
+    "emoji": "🪀",
+    "sound": "/j/",
+    "options": [
+      {
+        "val": "Y",
+        "en": "Y",
+        "zh": "🪀 Yo-yo (溜溜球)"
+      },
+      {
+        "val": "L",
+        "en": "L",
+        "zh": "🦁 Lion (獅子)"
+      },
+      {
+        "val": "C",
+        "en": "C",
+        "zh": "🐱 Cat (小貓)"
+      },
+      {
+        "val": "S",
+        "en": "S",
+        "zh": "☀️ Sun (太陽)"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "upper_to_lower",
+    "prompt": "【字母評量】請找出大寫字母【 Z 】對應的小寫字母：",
+    "target": "z",
+    "display": "Z",
+    "sample_word": "Zebra",
+    "meaning": "斑馬",
+    "emoji": "🦓",
+    "sound": "/z/",
+    "options": [
+      {
+        "val": "u",
+        "en": "u",
+        "zh": "☂️ Umbrella (雨傘)"
+      },
+      {
+        "val": "f",
+        "en": "f",
+        "zh": "🐟 Fish (小魚)"
+      },
+      {
+        "val": "l",
+        "en": "l",
+        "zh": "🦁 Lion (獅子)"
+      },
+      {
+        "val": "z",
+        "en": "z",
+        "zh": "🦓 Zebra (斑馬)"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "category": "alphabet",
+    "exam_tag": "河堤國小×康軒期中評量・字母大小寫",
+    "type": "lower_to_upper",
+    "prompt": "【字母評量】請找出小寫字母【 z 】對應的大寫字母：",
+    "target": "Z",
+    "display": "z",
+    "sample_word": "Zebra",
+    "meaning": "斑馬",
+    "emoji": "🦓",
+    "sound": "/z/",
+    "options": [
+      {
+        "val": "C",
+        "en": "C",
+        "zh": "🐱 Cat (小貓)"
+      },
+      {
+        "val": "B",
+        "en": "B",
+        "zh": "🧸 Bear (小熊)"
+      },
+      {
+        "val": "R",
+        "en": "R",
+        "zh": "🐰 Rabbit (兔子)"
+      },
+      {
+        "val": "Z",
+        "en": "Z",
+        "zh": "🦓 Zebra (斑馬)"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "cat",
+    "letters": [
+      "c",
+      "a",
+      "t"
+    ],
+    "vowel": "a",
+    "group": "Short a /æ/",
+    "meaning": "小貓",
+    "emoji": "🐱",
+    "prompt": "【Phonics 拼讀】看到【🐱 小貓】，請選出正確的英文單字：",
+    "hint": "c + a + t = cat (小貓)",
+    "options": [
+      {
+        "val": "jam",
+        "en": "jam",
+        "zh": "🍓 草莓果醬"
+      },
+      {
+        "val": "cat",
+        "en": "cat",
+        "zh": "🐱 小貓"
+      },
+      {
+        "val": "dig",
+        "en": "dig",
+        "zh": "🪏 挖土"
+      },
+      {
+        "val": "bin",
+        "en": "bin",
+        "zh": "🗑️ 垃圾桶"
+      }
+    ],
+    "answer": "cat"
+  },
+  {
+    "id": 78,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "bat",
+    "letters": [
+      "b",
+      "a",
+      "t"
+    ],
+    "vowel": "a",
+    "group": "Short a /æ/",
+    "meaning": "球棒",
+    "emoji": "🏏",
+    "prompt": "【Phonics 拼讀】看到【🏏 球棒】，請選出正確的英文單字：",
+    "hint": "b + a + t = bat (球棒)",
+    "options": [
+      {
+        "val": "log",
+        "en": "log",
+        "zh": "🪵 圓木頭"
+      },
+      {
+        "val": "bin",
+        "en": "bin",
+        "zh": "🗑️ 垃圾桶"
+      },
+      {
+        "val": "hug",
+        "en": "hug",
+        "zh": "🤗 擁抱"
+      },
+      {
+        "val": "bat",
+        "en": "bat",
+        "zh": "🏏 球棒"
+      }
+    ],
+    "answer": "bat"
+  },
+  {
+    "id": 79,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "hat",
+    "letters": [
+      "h",
+      "a",
+      "t"
+    ],
+    "vowel": "a",
+    "group": "Short a /æ/",
+    "meaning": "帽子",
+    "emoji": "👒",
+    "prompt": "【Phonics 拼讀】看到【👒 帽子】，請選出正確的英文單字：",
+    "hint": "h + a + t = hat (帽子)",
+    "options": [
+      {
+        "val": "hat",
+        "en": "hat",
+        "zh": "👒 帽子"
+      },
+      {
+        "val": "jam",
+        "en": "jam",
+        "zh": "🍓 草莓果醬"
+      },
+      {
+        "val": "pet",
+        "en": "pet",
+        "zh": "🐶 寵物"
+      },
+      {
+        "val": "sit",
+        "en": "sit",
+        "zh": "🪑 坐下"
+      }
+    ],
+    "answer": "hat"
+  },
+  {
+    "id": 80,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "mat",
+    "letters": [
+      "m",
+      "a",
+      "t"
+    ],
+    "vowel": "a",
+    "group": "Short a /æ/",
+    "meaning": "地墊",
+    "emoji": "🚪",
+    "prompt": "【Phonics 拼讀】看到【🚪 地墊】，請選出正確的英文單字：",
+    "hint": "m + a + t = mat (地墊)",
+    "options": [
+      {
+        "val": "bin",
+        "en": "bin",
+        "zh": "🗑️ 垃圾桶"
+      },
+      {
+        "val": "mat",
+        "en": "mat",
+        "zh": "🚪 地墊"
+      },
+      {
+        "val": "sit",
+        "en": "sit",
+        "zh": "🪑 坐下"
+      },
+      {
+        "val": "sun",
+        "en": "sun",
+        "zh": "☀️ 太陽"
+      }
+    ],
+    "answer": "mat"
+  },
+  {
+    "id": 81,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "bag",
+    "letters": [
+      "b",
+      "a",
+      "g"
+    ],
+    "vowel": "a",
+    "group": "Short a /æ/",
+    "meaning": "書包",
+    "emoji": "🎒",
+    "prompt": "【Phonics 拼讀】看到【🎒 書包】，請選出正確的英文單字：",
+    "hint": "b + a + g = bag (書包)",
+    "options": [
+      {
+        "val": "bag",
+        "en": "bag",
+        "zh": "🎒 書包"
+      },
+      {
+        "val": "box",
+        "en": "box",
+        "zh": "📦 箱子/盒子"
+      },
+      {
+        "val": "bed",
+        "en": "bed",
+        "zh": "🛏️ 床鋪"
+      },
+      {
+        "val": "bug",
+        "en": "bug",
+        "zh": "🐞 小蟲子"
+      }
+    ],
+    "answer": "bag"
+  },
+  {
+    "id": 82,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "can",
+    "letters": [
+      "c",
+      "a",
+      "n"
+    ],
+    "vowel": "a",
+    "group": "Short a /æ/",
+    "meaning": "罐子",
+    "emoji": "🥫",
+    "prompt": "【Phonics 拼讀】看到【🥫 罐子】，請選出正確的英文單字：",
+    "hint": "c + a + n = can (罐子)",
+    "options": [
+      {
+        "val": "win",
+        "en": "win",
+        "zh": "🏆 贏得比賽"
+      },
+      {
+        "val": "pin",
+        "en": "pin",
+        "zh": "📌 大頭針"
+      },
+      {
+        "val": "dog",
+        "en": "dog",
+        "zh": "🐶 小狗"
+      },
+      {
+        "val": "can",
+        "en": "can",
+        "zh": "🥫 罐子"
+      }
+    ],
+    "answer": "can"
+  },
+  {
+    "id": 83,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "fan",
+    "letters": [
+      "f",
+      "a",
+      "n"
+    ],
+    "vowel": "a",
+    "group": "Short a /æ/",
+    "meaning": "電風扇",
+    "emoji": "🪭",
+    "prompt": "【Phonics 拼讀】看到【🪭 電風扇】，請選出正確的英文單字：",
+    "hint": "f + a + n = fan (電風扇)",
+    "options": [
+      {
+        "val": "hop",
+        "en": "hop",
+        "zh": "🦘 單腳跳"
+      },
+      {
+        "val": "fan",
+        "en": "fan",
+        "zh": "🪭 電風扇"
+      },
+      {
+        "val": "fox",
+        "en": "fox",
+        "zh": "🦊 狐狸"
+      },
+      {
+        "val": "hug",
+        "en": "hug",
+        "zh": "🤗 擁抱"
+      }
+    ],
+    "answer": "fan"
+  },
+  {
+    "id": 84,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "pan",
+    "letters": [
+      "p",
+      "a",
+      "n"
+    ],
+    "vowel": "a",
+    "group": "Short a /æ/",
+    "meaning": "平底鍋",
+    "emoji": "🍳",
+    "prompt": "【Phonics 拼讀】看到【🍳 平底鍋】，請選出正確的英文單字：",
+    "hint": "p + a + n = pan (平底鍋)",
+    "options": [
+      {
+        "val": "box",
+        "en": "box",
+        "zh": "📦 箱子/盒子"
+      },
+      {
+        "val": "lip",
+        "en": "lip",
+        "zh": "👄 嘴唇"
+      },
+      {
+        "val": "log",
+        "en": "log",
+        "zh": "🪵 圓木頭"
+      },
+      {
+        "val": "pan",
+        "en": "pan",
+        "zh": "🍳 平底鍋"
+      }
+    ],
+    "answer": "pan"
+  },
+  {
+    "id": 85,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "van",
+    "letters": [
+      "v",
+      "a",
+      "n"
+    ],
+    "vowel": "a",
+    "group": "Short a /æ/",
+    "meaning": "休旅車",
+    "emoji": "🚐",
+    "prompt": "【Phonics 拼讀】看到【🚐 休旅車】，請選出正確的英文單字：",
+    "hint": "v + a + n = van (休旅車)",
+    "options": [
+      {
+        "val": "bin",
+        "en": "bin",
+        "zh": "🗑️ 垃圾桶"
+      },
+      {
+        "val": "hen",
+        "en": "hen",
+        "zh": "🐔 母雞"
+      },
+      {
+        "val": "sun",
+        "en": "sun",
+        "zh": "☀️ 太陽"
+      },
+      {
+        "val": "van",
+        "en": "van",
+        "zh": "🚐 休旅車"
+      }
+    ],
+    "answer": "van"
+  },
+  {
+    "id": 86,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "map",
+    "letters": [
+      "m",
+      "a",
+      "p"
+    ],
+    "vowel": "a",
+    "group": "Short a /æ/",
+    "meaning": "地圖",
+    "emoji": "🗺️",
+    "prompt": "【Phonics 拼讀】看到【🗺️ 地圖】，請選出正確的英文單字：",
+    "hint": "m + a + p = map (地圖)",
+    "options": [
+      {
+        "val": "can",
+        "en": "can",
+        "zh": "🥫 罐子"
+      },
+      {
+        "val": "van",
+        "en": "van",
+        "zh": "🚐 休旅車"
+      },
+      {
+        "val": "sit",
+        "en": "sit",
+        "zh": "🪑 坐下"
+      },
+      {
+        "val": "map",
+        "en": "map",
+        "zh": "🗺️ 地圖"
+      }
+    ],
+    "answer": "map"
+  },
+  {
+    "id": 87,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "cap",
+    "letters": [
+      "c",
+      "a",
+      "p"
+    ],
+    "vowel": "a",
+    "group": "Short a /æ/",
+    "meaning": "棒球帽",
+    "emoji": "🧢",
+    "prompt": "【Phonics 拼讀】看到【🧢 棒球帽】，請選出正確的英文單字：",
+    "hint": "c + a + p = cap (棒球帽)",
+    "options": [
+      {
+        "val": "cap",
+        "en": "cap",
+        "zh": "🧢 棒球帽"
+      },
+      {
+        "val": "pan",
+        "en": "pan",
+        "zh": "🍳 平底鍋"
+      },
+      {
+        "val": "leg",
+        "en": "leg",
+        "zh": "🦵 腳腿"
+      },
+      {
+        "val": "pen",
+        "en": "pen",
+        "zh": "🖊️ 原子筆"
+      }
+    ],
+    "answer": "cap"
+  },
+  {
+    "id": 88,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "jam",
+    "letters": [
+      "j",
+      "a",
+      "m"
+    ],
+    "vowel": "a",
+    "group": "Short a /æ/",
+    "meaning": "草莓果醬",
+    "emoji": "🍓",
+    "prompt": "【Phonics 拼讀】看到【🍓 草莓果醬】，請選出正確的英文單字：",
+    "hint": "j + a + m = jam (草莓果醬)",
+    "options": [
+      {
+        "val": "pet",
+        "en": "pet",
+        "zh": "🐶 寵物"
+      },
+      {
+        "val": "pin",
+        "en": "pin",
+        "zh": "📌 大頭針"
+      },
+      {
+        "val": "jam",
+        "en": "jam",
+        "zh": "🍓 草莓果醬"
+      },
+      {
+        "val": "sun",
+        "en": "sun",
+        "zh": "☀️ 太陽"
+      }
+    ],
+    "answer": "jam"
+  },
+  {
+    "id": 89,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "bed",
+    "letters": [
+      "b",
+      "e",
+      "d"
+    ],
+    "vowel": "e",
+    "group": "Short e /e/",
+    "meaning": "床鋪",
+    "emoji": "🛏️",
+    "prompt": "【Phonics 拼讀】看到【🛏️ 床鋪】，請選出正確的英文單字：",
+    "hint": "b + e + d = bed (床鋪)",
+    "options": [
+      {
+        "val": "bed",
+        "en": "bed",
+        "zh": "🛏️ 床鋪"
+      },
+      {
+        "val": "mat",
+        "en": "mat",
+        "zh": "🚪 地墊"
+      },
+      {
+        "val": "dog",
+        "en": "dog",
+        "zh": "🐶 小狗"
+      },
+      {
+        "val": "win",
+        "en": "win",
+        "zh": "🏆 贏得比賽"
+      }
+    ],
+    "answer": "bed"
+  },
+  {
+    "id": 90,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "red",
+    "letters": [
+      "r",
+      "e",
+      "d"
+    ],
+    "vowel": "e",
+    "group": "Short e /e/",
+    "meaning": "紅色",
+    "emoji": "🔴",
+    "prompt": "【Phonics 拼讀】看到【🔴 紅色】，請選出正確的英文單字：",
+    "hint": "r + e + d = red (紅色)",
+    "options": [
+      {
+        "val": "nut",
+        "en": "nut",
+        "zh": "🥜 堅果"
+      },
+      {
+        "val": "win",
+        "en": "win",
+        "zh": "🏆 贏得比賽"
+      },
+      {
+        "val": "red",
+        "en": "red",
+        "zh": "🔴 紅色"
+      },
+      {
+        "val": "sun",
+        "en": "sun",
+        "zh": "☀️ 太陽"
+      }
+    ],
+    "answer": "red"
+  },
+  {
+    "id": 91,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "leg",
+    "letters": [
+      "l",
+      "e",
+      "g"
+    ],
+    "vowel": "e",
+    "group": "Short e /e/",
+    "meaning": "腳腿",
+    "emoji": "🦵",
+    "prompt": "【Phonics 拼讀】看到【🦵 腳腿】，請選出正確的英文單字：",
+    "hint": "l + e + g = leg (腳腿)",
+    "options": [
+      {
+        "val": "dig",
+        "en": "dig",
+        "zh": "🪏 挖土"
+      },
+      {
+        "val": "win",
+        "en": "win",
+        "zh": "🏆 贏得比賽"
+      },
+      {
+        "val": "leg",
+        "en": "leg",
+        "zh": "🦵 腳腿"
+      },
+      {
+        "val": "big",
+        "en": "big",
+        "zh": "🐘 大大的"
+      }
+    ],
+    "answer": "leg"
+  },
+  {
+    "id": 92,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "pen",
+    "letters": [
+      "p",
+      "e",
+      "n"
+    ],
+    "vowel": "e",
+    "group": "Short e /e/",
+    "meaning": "原子筆",
+    "emoji": "🖊️",
+    "prompt": "【Phonics 拼讀】看到【🖊️ 原子筆】，請選出正確的英文單字：",
+    "hint": "p + e + n = pen (原子筆)",
+    "options": [
+      {
+        "val": "mat",
+        "en": "mat",
+        "zh": "🚪 地墊"
+      },
+      {
+        "val": "pen",
+        "en": "pen",
+        "zh": "🖊️ 原子筆"
+      },
+      {
+        "val": "nut",
+        "en": "nut",
+        "zh": "🥜 堅果"
+      },
+      {
+        "val": "bat",
+        "en": "bat",
+        "zh": "🏏 球棒"
+      }
+    ],
+    "answer": "pen"
+  },
+  {
+    "id": 93,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "hen",
+    "letters": [
+      "h",
+      "e",
+      "n"
+    ],
+    "vowel": "e",
+    "group": "Short e /e/",
+    "meaning": "母雞",
+    "emoji": "🐔",
+    "prompt": "【Phonics 拼讀】看到【🐔 母雞】，請選出正確的英文單字：",
+    "hint": "h + e + n = hen (母雞)",
+    "options": [
+      {
+        "val": "hen",
+        "en": "hen",
+        "zh": "🐔 母雞"
+      },
+      {
+        "val": "bus",
+        "en": "bus",
+        "zh": "🚌 公車"
+      },
+      {
+        "val": "cup",
+        "en": "cup",
+        "zh": "🥛 杯子"
+      },
+      {
+        "val": "pot",
+        "en": "pot",
+        "zh": "🍲 湯鍋"
+      }
+    ],
+    "answer": "hen"
+  },
+  {
+    "id": 94,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "ten",
+    "letters": [
+      "t",
+      "e",
+      "n"
+    ],
+    "vowel": "e",
+    "group": "Short e /e/",
+    "meaning": "數字 10",
+    "emoji": "🔟",
+    "prompt": "【Phonics 拼讀】看到【🔟 數字 10】，請選出正確的英文單字：",
+    "hint": "t + e + n = ten (數字 10)",
+    "options": [
+      {
+        "val": "net",
+        "en": "net",
+        "zh": "🥅 網子"
+      },
+      {
+        "val": "sit",
+        "en": "sit",
+        "zh": "🪑 坐下"
+      },
+      {
+        "val": "pig",
+        "en": "pig",
+        "zh": "🐷 小豬"
+      },
+      {
+        "val": "ten",
+        "en": "ten",
+        "zh": "🔟 數字 10"
+      }
+    ],
+    "answer": "ten"
+  },
+  {
+    "id": 95,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "net",
+    "letters": [
+      "n",
+      "e",
+      "t"
+    ],
+    "vowel": "e",
+    "group": "Short e /e/",
+    "meaning": "網子",
+    "emoji": "🥅",
+    "prompt": "【Phonics 拼讀】看到【🥅 網子】，請選出正確的英文單字：",
+    "hint": "n + e + t = net (網子)",
+    "options": [
+      {
+        "val": "wet",
+        "en": "wet",
+        "zh": "💦 濕淋淋的"
+      },
+      {
+        "val": "net",
+        "en": "net",
+        "zh": "🥅 網子"
+      },
+      {
+        "val": "pen",
+        "en": "pen",
+        "zh": "🖊️ 原子筆"
+      },
+      {
+        "val": "bug",
+        "en": "bug",
+        "zh": "🐞 小蟲子"
+      }
+    ],
+    "answer": "net"
+  },
+  {
+    "id": 96,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "pet",
+    "letters": [
+      "p",
+      "e",
+      "t"
+    ],
+    "vowel": "e",
+    "group": "Short e /e/",
+    "meaning": "寵物",
+    "emoji": "🐶",
+    "prompt": "【Phonics 拼讀】看到【🐶 寵物】，請選出正確的英文單字：",
+    "hint": "p + e + t = pet (寵物)",
+    "options": [
+      {
+        "val": "map",
+        "en": "map",
+        "zh": "🗺️ 地圖"
+      },
+      {
+        "val": "pet",
+        "en": "pet",
+        "zh": "🐶 寵物"
+      },
+      {
+        "val": "top",
+        "en": "top",
+        "zh": "🪀 陀螺"
+      },
+      {
+        "val": "van",
+        "en": "van",
+        "zh": "🚐 休旅車"
+      }
+    ],
+    "answer": "pet"
+  },
+  {
+    "id": 97,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "wet",
+    "letters": [
+      "w",
+      "e",
+      "t"
+    ],
+    "vowel": "e",
+    "group": "Short e /e/",
+    "meaning": "濕淋淋的",
+    "emoji": "💦",
+    "prompt": "【Phonics 拼讀】看到【💦 濕淋淋的】，請選出正確的英文單字：",
+    "hint": "w + e + t = wet (濕淋淋的)",
+    "options": [
+      {
+        "val": "wet",
+        "en": "wet",
+        "zh": "💦 濕淋淋的"
+      },
+      {
+        "val": "pot",
+        "en": "pot",
+        "zh": "🍲 湯鍋"
+      },
+      {
+        "val": "cap",
+        "en": "cap",
+        "zh": "🧢 棒球帽"
+      },
+      {
+        "val": "fun",
+        "en": "fun",
+        "zh": "🎉 有趣好玩"
+      }
+    ],
+    "answer": "wet"
+  },
+  {
+    "id": 98,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "pig",
+    "letters": [
+      "p",
+      "i",
+      "g"
+    ],
+    "vowel": "i",
+    "group": "Short i /ɪ/",
+    "meaning": "小豬",
+    "emoji": "🐷",
+    "prompt": "【Phonics 拼讀】看到【🐷 小豬】，請選出正確的英文單字：",
+    "hint": "p + i + g = pig (小豬)",
+    "options": [
+      {
+        "val": "bed",
+        "en": "bed",
+        "zh": "🛏️ 床鋪"
+      },
+      {
+        "val": "pig",
+        "en": "pig",
+        "zh": "🐷 小豬"
+      },
+      {
+        "val": "can",
+        "en": "can",
+        "zh": "🥫 罐子"
+      },
+      {
+        "val": "top",
+        "en": "top",
+        "zh": "🪀 陀螺"
+      }
+    ],
+    "answer": "pig"
+  },
+  {
+    "id": 99,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "big",
+    "letters": [
+      "b",
+      "i",
+      "g"
+    ],
+    "vowel": "i",
+    "group": "Short i /ɪ/",
+    "meaning": "大大的",
+    "emoji": "🐘",
+    "prompt": "【Phonics 拼讀】看到【🐘 大大的】，請選出正確的英文單字：",
+    "hint": "b + i + g = big (大大的)",
+    "options": [
+      {
+        "val": "six",
+        "en": "six",
+        "zh": "6️⃣ 數字 6"
+      },
+      {
+        "val": "jam",
+        "en": "jam",
+        "zh": "🍓 草莓果醬"
+      },
+      {
+        "val": "big",
+        "en": "big",
+        "zh": "🐘 大大的"
+      },
+      {
+        "val": "cap",
+        "en": "cap",
+        "zh": "🧢 棒球帽"
+      }
+    ],
+    "answer": "big"
+  },
+  {
+    "id": 100,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "dig",
+    "letters": [
+      "d",
+      "i",
+      "g"
+    ],
+    "vowel": "i",
+    "group": "Short i /ɪ/",
+    "meaning": "挖土",
+    "emoji": "🪏",
+    "prompt": "【Phonics 拼讀】看到【🪏 挖土】，請選出正確的英文單字：",
+    "hint": "d + i + g = dig (挖土)",
+    "options": [
+      {
+        "val": "dig",
+        "en": "dig",
+        "zh": "🪏 挖土"
+      },
+      {
+        "val": "wet",
+        "en": "wet",
+        "zh": "💦 濕淋淋的"
+      },
+      {
+        "val": "pig",
+        "en": "pig",
+        "zh": "🐷 小豬"
+      },
+      {
+        "val": "nut",
+        "en": "nut",
+        "zh": "🥜 堅果"
+      }
+    ],
+    "answer": "dig"
+  },
+  {
+    "id": 101,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "bin",
+    "letters": [
+      "b",
+      "i",
+      "n"
+    ],
+    "vowel": "i",
+    "group": "Short i /ɪ/",
+    "meaning": "垃圾桶",
+    "emoji": "🗑️",
+    "prompt": "【Phonics 拼讀】看到【🗑️ 垃圾桶】，請選出正確的英文單字：",
+    "hint": "b + i + n = bin (垃圾桶)",
+    "options": [
+      {
+        "val": "bin",
+        "en": "bin",
+        "zh": "🗑️ 垃圾桶"
+      },
+      {
+        "val": "zip",
+        "en": "zip",
+        "zh": "🤐 拉鍊"
+      },
+      {
+        "val": "sun",
+        "en": "sun",
+        "zh": "☀️ 太陽"
+      },
+      {
+        "val": "pan",
+        "en": "pan",
+        "zh": "🍳 平底鍋"
+      }
+    ],
+    "answer": "bin"
+  },
+  {
+    "id": 102,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "pin",
+    "letters": [
+      "p",
+      "i",
+      "n"
+    ],
+    "vowel": "i",
+    "group": "Short i /ɪ/",
+    "meaning": "大頭針",
+    "emoji": "📌",
+    "prompt": "【Phonics 拼讀】看到【📌 大頭針】，請選出正確的英文單字：",
+    "hint": "p + i + n = pin (大頭針)",
+    "options": [
+      {
+        "val": "pin",
+        "en": "pin",
+        "zh": "📌 大頭針"
+      },
+      {
+        "val": "pot",
+        "en": "pot",
+        "zh": "🍲 湯鍋"
+      },
+      {
+        "val": "six",
+        "en": "six",
+        "zh": "6️⃣ 數字 6"
+      },
+      {
+        "val": "run",
+        "en": "run",
+        "zh": "🏃 跑步"
+      }
+    ],
+    "answer": "pin"
+  },
+  {
+    "id": 103,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "win",
+    "letters": [
+      "w",
+      "i",
+      "n"
+    ],
+    "vowel": "i",
+    "group": "Short i /ɪ/",
+    "meaning": "贏得比賽",
+    "emoji": "🏆",
+    "prompt": "【Phonics 拼讀】看到【🏆 贏得比賽】，請選出正確的英文單字：",
+    "hint": "w + i + n = win (贏得比賽)",
+    "options": [
+      {
+        "val": "hug",
+        "en": "hug",
+        "zh": "🤗 擁抱"
+      },
+      {
+        "val": "nut",
+        "en": "nut",
+        "zh": "🥜 堅果"
+      },
+      {
+        "val": "win",
+        "en": "win",
+        "zh": "🏆 贏得比賽"
+      },
+      {
+        "val": "pan",
+        "en": "pan",
+        "zh": "🍳 平底鍋"
+      }
+    ],
+    "answer": "win"
+  },
+  {
+    "id": 104,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "lip",
+    "letters": [
+      "l",
+      "i",
+      "p"
+    ],
+    "vowel": "i",
+    "group": "Short i /ɪ/",
+    "meaning": "嘴唇",
+    "emoji": "👄",
+    "prompt": "【Phonics 拼讀】看到【👄 嘴唇】，請選出正確的英文單字：",
+    "hint": "l + i + p = lip (嘴唇)",
+    "options": [
+      {
+        "val": "sit",
+        "en": "sit",
+        "zh": "🪑 坐下"
+      },
+      {
+        "val": "lip",
+        "en": "lip",
+        "zh": "👄 嘴唇"
+      },
+      {
+        "val": "bat",
+        "en": "bat",
+        "zh": "🏏 球棒"
+      },
+      {
+        "val": "sun",
+        "en": "sun",
+        "zh": "☀️ 太陽"
+      }
+    ],
+    "answer": "lip"
+  },
+  {
+    "id": 105,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "zip",
+    "letters": [
+      "z",
+      "i",
+      "p"
+    ],
+    "vowel": "i",
+    "group": "Short i /ɪ/",
+    "meaning": "拉鍊",
+    "emoji": "🤐",
+    "prompt": "【Phonics 拼讀】看到【🤐 拉鍊】，請選出正確的英文單字：",
+    "hint": "z + i + p = zip (拉鍊)",
+    "options": [
+      {
+        "val": "zip",
+        "en": "zip",
+        "zh": "🤐 拉鍊"
+      },
+      {
+        "val": "cut",
+        "en": "cut",
+        "zh": "✂️ 剪開"
+      },
+      {
+        "val": "cup",
+        "en": "cup",
+        "zh": "🥛 杯子"
+      },
+      {
+        "val": "map",
+        "en": "map",
+        "zh": "🗺️ 地圖"
+      }
+    ],
+    "answer": "zip"
+  },
+  {
+    "id": 106,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "sit",
+    "letters": [
+      "s",
+      "i",
+      "t"
+    ],
+    "vowel": "i",
+    "group": "Short i /ɪ/",
+    "meaning": "坐下",
+    "emoji": "🪑",
+    "prompt": "【Phonics 拼讀】看到【🪑 坐下】，請選出正確的英文單字：",
+    "hint": "s + i + t = sit (坐下)",
+    "options": [
+      {
+        "val": "fox",
+        "en": "fox",
+        "zh": "🦊 狐狸"
+      },
+      {
+        "val": "sit",
+        "en": "sit",
+        "zh": "🪑 坐下"
+      },
+      {
+        "val": "hot",
+        "en": "hot",
+        "zh": "♨️ 很熱的"
+      },
+      {
+        "val": "bug",
+        "en": "bug",
+        "zh": "🐞 小蟲子"
+      }
+    ],
+    "answer": "sit"
+  },
+  {
+    "id": 107,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "six",
+    "letters": [
+      "s",
+      "i",
+      "x"
+    ],
+    "vowel": "i",
+    "group": "Short i /ɪ/",
+    "meaning": "數字 6",
+    "emoji": "6️⃣",
+    "prompt": "【Phonics 拼讀】看到【6️⃣ 數字 6】，請選出正確的英文單字：",
+    "hint": "s + i + x = six (數字 6)",
+    "options": [
+      {
+        "val": "net",
+        "en": "net",
+        "zh": "🥅 網子"
+      },
+      {
+        "val": "six",
+        "en": "six",
+        "zh": "6️⃣ 數字 6"
+      },
+      {
+        "val": "log",
+        "en": "log",
+        "zh": "🪵 圓木頭"
+      },
+      {
+        "val": "bug",
+        "en": "bug",
+        "zh": "🐞 小蟲子"
+      }
+    ],
+    "answer": "six"
+  },
+  {
+    "id": 108,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "dog",
+    "letters": [
+      "d",
+      "o",
+      "g"
+    ],
+    "vowel": "o",
+    "group": "Short o /ɒ/",
+    "meaning": "小狗",
+    "emoji": "🐶",
+    "prompt": "【Phonics 拼讀】看到【🐶 小狗】，請選出正確的英文單字：",
+    "hint": "d + o + g = dog (小狗)",
+    "options": [
+      {
+        "val": "dog",
+        "en": "dog",
+        "zh": "🐶 小狗"
+      },
+      {
+        "val": "fox",
+        "en": "fox",
+        "zh": "🦊 狐狸"
+      },
+      {
+        "val": "net",
+        "en": "net",
+        "zh": "🥅 網子"
+      },
+      {
+        "val": "pot",
+        "en": "pot",
+        "zh": "🍲 湯鍋"
+      }
+    ],
+    "answer": "dog"
+  },
+  {
+    "id": 109,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "log",
+    "letters": [
+      "l",
+      "o",
+      "g"
+    ],
+    "vowel": "o",
+    "group": "Short o /ɒ/",
+    "meaning": "圓木頭",
+    "emoji": "🪵",
+    "prompt": "【Phonics 拼讀】看到【🪵 圓木頭】，請選出正確的英文單字：",
+    "hint": "l + o + g = log (圓木頭)",
+    "options": [
+      {
+        "val": "cap",
+        "en": "cap",
+        "zh": "🧢 棒球帽"
+      },
+      {
+        "val": "log",
+        "en": "log",
+        "zh": "🪵 圓木頭"
+      },
+      {
+        "val": "dog",
+        "en": "dog",
+        "zh": "🐶 小狗"
+      },
+      {
+        "val": "pan",
+        "en": "pan",
+        "zh": "🍳 平底鍋"
+      }
+    ],
+    "answer": "log"
+  },
+  {
+    "id": 110,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "hop",
+    "letters": [
+      "h",
+      "o",
+      "p"
+    ],
+    "vowel": "o",
+    "group": "Short o /ɒ/",
+    "meaning": "單腳跳",
+    "emoji": "🦘",
+    "prompt": "【Phonics 拼讀】看到【🦘 單腳跳】，請選出正確的英文單字：",
+    "hint": "h + o + p = hop (單腳跳)",
+    "options": [
+      {
+        "val": "cap",
+        "en": "cap",
+        "zh": "🧢 棒球帽"
+      },
+      {
+        "val": "hop",
+        "en": "hop",
+        "zh": "🦘 單腳跳"
+      },
+      {
+        "val": "hat",
+        "en": "hat",
+        "zh": "👒 帽子"
+      },
+      {
+        "val": "pig",
+        "en": "pig",
+        "zh": "🐷 小豬"
+      }
+    ],
+    "answer": "hop"
+  },
+  {
+    "id": 111,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "mop",
+    "letters": [
+      "m",
+      "o",
+      "p"
+    ],
+    "vowel": "o",
+    "group": "Short o /ɒ/",
+    "meaning": "拖把",
+    "emoji": "🧽",
+    "prompt": "【Phonics 拼讀】看到【🧽 拖把】，請選出正確的英文單字：",
+    "hint": "m + o + p = mop (拖把)",
+    "options": [
+      {
+        "val": "run",
+        "en": "run",
+        "zh": "🏃 跑步"
+      },
+      {
+        "val": "bin",
+        "en": "bin",
+        "zh": "🗑️ 垃圾桶"
+      },
+      {
+        "val": "six",
+        "en": "six",
+        "zh": "6️⃣ 數字 6"
+      },
+      {
+        "val": "mop",
+        "en": "mop",
+        "zh": "🧽 拖把"
+      }
+    ],
+    "answer": "mop"
+  },
+  {
+    "id": 112,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "top",
+    "letters": [
+      "t",
+      "o",
+      "p"
+    ],
+    "vowel": "o",
+    "group": "Short o /ɒ/",
+    "meaning": "陀螺",
+    "emoji": "🪀",
+    "prompt": "【Phonics 拼讀】看到【🪀 陀螺】，請選出正確的英文單字：",
+    "hint": "t + o + p = top (陀螺)",
+    "options": [
+      {
+        "val": "map",
+        "en": "map",
+        "zh": "🗺️ 地圖"
+      },
+      {
+        "val": "pan",
+        "en": "pan",
+        "zh": "🍳 平底鍋"
+      },
+      {
+        "val": "top",
+        "en": "top",
+        "zh": "🪀 陀螺"
+      },
+      {
+        "val": "hot",
+        "en": "hot",
+        "zh": "♨️ 很熱的"
+      }
+    ],
+    "answer": "top"
+  },
+  {
+    "id": 113,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "pot",
+    "letters": [
+      "p",
+      "o",
+      "t"
+    ],
+    "vowel": "o",
+    "group": "Short o /ɒ/",
+    "meaning": "湯鍋",
+    "emoji": "🍲",
+    "prompt": "【Phonics 拼讀】看到【🍲 湯鍋】，請選出正確的英文單字：",
+    "hint": "p + o + t = pot (湯鍋)",
+    "options": [
+      {
+        "val": "pot",
+        "en": "pot",
+        "zh": "🍲 湯鍋"
+      },
+      {
+        "val": "cap",
+        "en": "cap",
+        "zh": "🧢 棒球帽"
+      },
+      {
+        "val": "log",
+        "en": "log",
+        "zh": "🪵 圓木頭"
+      },
+      {
+        "val": "bat",
+        "en": "bat",
+        "zh": "🏏 球棒"
+      }
+    ],
+    "answer": "pot"
+  },
+  {
+    "id": 114,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "hot",
+    "letters": [
+      "h",
+      "o",
+      "t"
+    ],
+    "vowel": "o",
+    "group": "Short o /ɒ/",
+    "meaning": "很熱的",
+    "emoji": "♨️",
+    "prompt": "【Phonics 拼讀】看到【♨️ 很熱的】，請選出正確的英文單字：",
+    "hint": "h + o + t = hot (很熱的)",
+    "options": [
+      {
+        "val": "hot",
+        "en": "hot",
+        "zh": "♨️ 很熱的"
+      },
+      {
+        "val": "pig",
+        "en": "pig",
+        "zh": "🐷 小豬"
+      },
+      {
+        "val": "run",
+        "en": "run",
+        "zh": "🏃 跑步"
+      },
+      {
+        "val": "cat",
+        "en": "cat",
+        "zh": "🐱 小貓"
+      }
+    ],
+    "answer": "hot"
+  },
+  {
+    "id": 115,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "box",
+    "letters": [
+      "b",
+      "o",
+      "x"
+    ],
+    "vowel": "o",
+    "group": "Short o /ɒ/",
+    "meaning": "箱子/盒子",
+    "emoji": "📦",
+    "prompt": "【Phonics 拼讀】看到【📦 箱子/盒子】，請選出正確的英文單字：",
+    "hint": "b + o + x = box (箱子/盒子)",
+    "options": [
+      {
+        "val": "box",
+        "en": "box",
+        "zh": "📦 箱子/盒子"
+      },
+      {
+        "val": "run",
+        "en": "run",
+        "zh": "🏃 跑步"
+      },
+      {
+        "val": "hot",
+        "en": "hot",
+        "zh": "♨️ 很熱的"
+      },
+      {
+        "val": "bug",
+        "en": "bug",
+        "zh": "🐞 小蟲子"
+      }
+    ],
+    "answer": "box"
+  },
+  {
+    "id": 116,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "fox",
+    "letters": [
+      "f",
+      "o",
+      "x"
+    ],
+    "vowel": "o",
+    "group": "Short o /ɒ/",
+    "meaning": "狐狸",
+    "emoji": "🦊",
+    "prompt": "【Phonics 拼讀】看到【🦊 狐狸】，請選出正確的英文單字：",
+    "hint": "f + o + x = fox (狐狸)",
+    "options": [
+      {
+        "val": "cat",
+        "en": "cat",
+        "zh": "🐱 小貓"
+      },
+      {
+        "val": "fox",
+        "en": "fox",
+        "zh": "🦊 狐狸"
+      },
+      {
+        "val": "cut",
+        "en": "cut",
+        "zh": "✂️ 剪開"
+      },
+      {
+        "val": "pan",
+        "en": "pan",
+        "zh": "🍳 平底鍋"
+      }
+    ],
+    "answer": "fox"
+  },
+  {
+    "id": 117,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "sun",
+    "letters": [
+      "s",
+      "u",
+      "n"
+    ],
+    "vowel": "u",
+    "group": "Short u /ʌ/",
+    "meaning": "太陽",
+    "emoji": "☀️",
+    "prompt": "【Phonics 拼讀】看到【☀️ 太陽】，請選出正確的英文單字：",
+    "hint": "s + u + n = sun (太陽)",
+    "options": [
+      {
+        "val": "leg",
+        "en": "leg",
+        "zh": "🦵 腳腿"
+      },
+      {
+        "val": "sun",
+        "en": "sun",
+        "zh": "☀️ 太陽"
+      },
+      {
+        "val": "map",
+        "en": "map",
+        "zh": "🗺️ 地圖"
+      },
+      {
+        "val": "dog",
+        "en": "dog",
+        "zh": "🐶 小狗"
+      }
+    ],
+    "answer": "sun"
+  },
+  {
+    "id": 118,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "run",
+    "letters": [
+      "r",
+      "u",
+      "n"
+    ],
+    "vowel": "u",
+    "group": "Short u /ʌ/",
+    "meaning": "跑步",
+    "emoji": "🏃",
+    "prompt": "【Phonics 拼讀】看到【🏃 跑步】，請選出正確的英文單字：",
+    "hint": "r + u + n = run (跑步)",
+    "options": [
+      {
+        "val": "fox",
+        "en": "fox",
+        "zh": "🦊 狐狸"
+      },
+      {
+        "val": "hug",
+        "en": "hug",
+        "zh": "🤗 擁抱"
+      },
+      {
+        "val": "win",
+        "en": "win",
+        "zh": "🏆 贏得比賽"
+      },
+      {
+        "val": "run",
+        "en": "run",
+        "zh": "🏃 跑步"
+      }
+    ],
+    "answer": "run"
+  },
+  {
+    "id": 119,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "fun",
+    "letters": [
+      "f",
+      "u",
+      "n"
+    ],
+    "vowel": "u",
+    "group": "Short u /ʌ/",
+    "meaning": "有趣好玩",
+    "emoji": "🎉",
+    "prompt": "【Phonics 拼讀】看到【🎉 有趣好玩】，請選出正確的英文單字：",
+    "hint": "f + u + n = fun (有趣好玩)",
+    "options": [
+      {
+        "val": "bed",
+        "en": "bed",
+        "zh": "🛏️ 床鋪"
+      },
+      {
+        "val": "win",
+        "en": "win",
+        "zh": "🏆 贏得比賽"
+      },
+      {
+        "val": "fun",
+        "en": "fun",
+        "zh": "🎉 有趣好玩"
+      },
+      {
+        "val": "fan",
+        "en": "fan",
+        "zh": "🪭 電風扇"
+      }
+    ],
+    "answer": "fun"
+  },
+  {
+    "id": 120,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "bus",
+    "letters": [
+      "b",
+      "u",
+      "s"
+    ],
+    "vowel": "u",
+    "group": "Short u /ʌ/",
+    "meaning": "公車",
+    "emoji": "🚌",
+    "prompt": "【Phonics 拼讀】看到【🚌 公車】，請選出正確的英文單字：",
+    "hint": "b + u + s = bus (公車)",
+    "options": [
+      {
+        "val": "bus",
+        "en": "bus",
+        "zh": "🚌 公車"
+      },
+      {
+        "val": "van",
+        "en": "van",
+        "zh": "🚐 休旅車"
+      },
+      {
+        "val": "hop",
+        "en": "hop",
+        "zh": "🦘 單腳跳"
+      },
+      {
+        "val": "fan",
+        "en": "fan",
+        "zh": "🪭 電風扇"
+      }
+    ],
+    "answer": "bus"
+  },
+  {
+    "id": 121,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "cup",
+    "letters": [
+      "c",
+      "u",
+      "p"
+    ],
+    "vowel": "u",
+    "group": "Short u /ʌ/",
+    "meaning": "杯子",
+    "emoji": "🥛",
+    "prompt": "【Phonics 拼讀】看到【🥛 杯子】，請選出正確的英文單字：",
+    "hint": "c + u + p = cup (杯子)",
+    "options": [
+      {
+        "val": "dog",
+        "en": "dog",
+        "zh": "🐶 小狗"
+      },
+      {
+        "val": "cup",
+        "en": "cup",
+        "zh": "🥛 杯子"
+      },
+      {
+        "val": "cap",
+        "en": "cap",
+        "zh": "🧢 棒球帽"
+      },
+      {
+        "val": "map",
+        "en": "map",
+        "zh": "🗺️ 地圖"
+      }
+    ],
+    "answer": "cup"
+  },
+  {
+    "id": 122,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "bug",
+    "letters": [
+      "b",
+      "u",
+      "g"
+    ],
+    "vowel": "u",
+    "group": "Short u /ʌ/",
+    "meaning": "小蟲子",
+    "emoji": "🐞",
+    "prompt": "【Phonics 拼讀】看到【🐞 小蟲子】，請選出正確的英文單字：",
+    "hint": "b + u + g = bug (小蟲子)",
+    "options": [
+      {
+        "val": "net",
+        "en": "net",
+        "zh": "🥅 網子"
+      },
+      {
+        "val": "log",
+        "en": "log",
+        "zh": "🪵 圓木頭"
+      },
+      {
+        "val": "bed",
+        "en": "bed",
+        "zh": "🛏️ 床鋪"
+      },
+      {
+        "val": "bug",
+        "en": "bug",
+        "zh": "🐞 小蟲子"
+      }
+    ],
+    "answer": "bug"
+  },
+  {
+    "id": 123,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "hug",
+    "letters": [
+      "h",
+      "u",
+      "g"
+    ],
+    "vowel": "u",
+    "group": "Short u /ʌ/",
+    "meaning": "擁抱",
+    "emoji": "🤗",
+    "prompt": "【Phonics 拼讀】看到【🤗 擁抱】，請選出正確的英文單字：",
+    "hint": "h + u + g = hug (擁抱)",
+    "options": [
+      {
+        "val": "bin",
+        "en": "bin",
+        "zh": "🗑️ 垃圾桶"
+      },
+      {
+        "val": "hug",
+        "en": "hug",
+        "zh": "🤗 擁抱"
+      },
+      {
+        "val": "nut",
+        "en": "nut",
+        "zh": "🥜 堅果"
+      },
+      {
+        "val": "win",
+        "en": "win",
+        "zh": "🏆 贏得比賽"
+      }
+    ],
+    "answer": "hug"
+  },
+  {
+    "id": 124,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "nut",
+    "letters": [
+      "n",
+      "u",
+      "t"
+    ],
+    "vowel": "u",
+    "group": "Short u /ʌ/",
+    "meaning": "堅果",
+    "emoji": "🥜",
+    "prompt": "【Phonics 拼讀】看到【🥜 堅果】，請選出正確的英文單字：",
+    "hint": "n + u + t = nut (堅果)",
+    "options": [
+      {
+        "val": "cut",
+        "en": "cut",
+        "zh": "✂️ 剪開"
+      },
+      {
+        "val": "bed",
+        "en": "bed",
+        "zh": "🛏️ 床鋪"
+      },
+      {
+        "val": "nut",
+        "en": "nut",
+        "zh": "🥜 堅果"
+      },
+      {
+        "val": "red",
+        "en": "red",
+        "zh": "🔴 紅色"
+      }
+    ],
+    "answer": "nut"
+  },
+  {
+    "id": 125,
+    "category": "phonics",
+    "exam_tag": "河堤國小×康軒評量・Phonics 自然發音",
+    "type": "cvc_spelling",
+    "word": "cut",
+    "letters": [
+      "c",
+      "u",
+      "t"
+    ],
+    "vowel": "u",
+    "group": "Short u /ʌ/",
+    "meaning": "剪開",
+    "emoji": "✂️",
+    "prompt": "【Phonics 拼讀】看到【✂️ 剪開】，請選出正確的英文單字：",
+    "hint": "c + u + t = cut (剪開)",
+    "options": [
+      {
+        "val": "run",
+        "en": "run",
+        "zh": "🏃 跑步"
+      },
+      {
+        "val": "log",
+        "en": "log",
+        "zh": "🪵 圓木頭"
+      },
+      {
+        "val": "fun",
+        "en": "fun",
+        "zh": "🎉 有趣好玩"
+      },
+      {
+        "val": "cut",
+        "en": "cut",
+        "zh": "✂️ 剪開"
+      }
+    ],
+    "answer": "cut"
+  },
+  {
+    "id": 126,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "Good morning",
+    "meaning": "早安",
+    "emoji": "🌅",
+    "example": "Good morning, teacher! (老師早安)",
+    "prompt": "【英語評量】請問「Good morning」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "請起立",
+        "en": "Stand up",
+        "zh": "🧍 請起立"
+      },
+      {
+        "val": "早安",
+        "en": "Good morning",
+        "zh": "🌅 早安"
+      },
+      {
+        "val": "謝謝你",
+        "en": "Thank you",
+        "zh": "🙏 謝謝你"
+      },
+      {
+        "val": "小的",
+        "en": "small",
+        "zh": "🐭 小的"
+      }
+    ],
+    "answer": "早安"
+  },
+  {
+    "id": 127,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "Good afternoon",
+    "meaning": "午安",
+    "emoji": "☀️",
+    "example": "Good afternoon! (午安)",
+    "prompt": "【英語評量】請問「Good afternoon」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "可以/會",
+        "en": "can",
+        "zh": "💪 可以/會"
+      },
+      {
+        "val": "謝謝你",
+        "en": "Thank you",
+        "zh": "🙏 謝謝你"
+      },
+      {
+        "val": "仔細聽",
+        "en": "Listen",
+        "zh": "👂 仔細聽"
+      },
+      {
+        "val": "午安",
+        "en": "Good afternoon",
+        "zh": "☀️ 午安"
+      }
+    ],
+    "answer": "午安"
+  },
+  {
+    "id": 128,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "Goodbye",
+    "meaning": "再見",
+    "emoji": "👋",
+    "example": "Goodbye, my friend! (朋友再見)",
+    "prompt": "【英語評量】請問「Goodbye」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "不客氣",
+        "en": "You're welcome",
+        "zh": "😊 不客氣"
+      },
+      {
+        "val": "擁有/有",
+        "en": "have",
+        "zh": "🎒 擁有/有"
+      },
+      {
+        "val": "你幾歲？",
+        "en": "How old are you?",
+        "zh": "🎂 你幾歲？"
+      },
+      {
+        "val": "再見",
+        "en": "Goodbye",
+        "zh": "👋 再見"
+      }
+    ],
+    "answer": "再見"
+  },
+  {
+    "id": 129,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "Thank you",
+    "meaning": "謝謝你",
+    "emoji": "🙏",
+    "example": "Thank you very much! (非常謝謝你)",
+    "prompt": "【英語評量】請問「Thank you」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "你好嗎？",
+        "en": "How are you?",
+        "zh": "😊 你好嗎？"
+      },
+      {
+        "val": "請排隊",
+        "en": "Line up",
+        "zh": "🚶 請排隊"
+      },
+      {
+        "val": "不客氣",
+        "en": "You're welcome",
+        "zh": "😊 不客氣"
+      },
+      {
+        "val": "謝謝你",
+        "en": "Thank you",
+        "zh": "🙏 謝謝你"
+      }
+    ],
+    "answer": "謝謝你"
+  },
+  {
+    "id": 130,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "You're welcome",
+    "meaning": "不客氣",
+    "emoji": "😊",
+    "example": "You're welcome! (不客氣)",
+    "prompt": "【英語評量】請問「You're welcome」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "你幾歲？",
+        "en": "How old are you?",
+        "zh": "🎂 你幾歲？"
+      },
+      {
+        "val": "很棒的/好的",
+        "en": "good",
+        "zh": "👍 很棒的/好的"
+      },
+      {
+        "val": "不客氣",
+        "en": "You're welcome",
+        "zh": "😊 不客氣"
+      },
+      {
+        "val": "快樂開心的",
+        "en": "happy",
+        "zh": "😄 快樂開心的"
+      }
+    ],
+    "answer": "不客氣"
+  },
+  {
+    "id": 131,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "I'm sorry",
+    "meaning": "對不起",
+    "emoji": "🙇",
+    "example": "I'm sorry. That's OK. (對不起/沒關係)",
+    "prompt": "【英語評量】請問「I'm sorry」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "再見",
+        "en": "Goodbye",
+        "zh": "👋 再見"
+      },
+      {
+        "val": "你叫什麼名字？",
+        "en": "What's your name?",
+        "zh": "🏷️ 你叫什麼名字？"
+      },
+      {
+        "val": "不客氣",
+        "en": "You're welcome",
+        "zh": "😊 不客氣"
+      },
+      {
+        "val": "對不起",
+        "en": "I'm sorry",
+        "zh": "🙇 對不起"
+      }
+    ],
+    "answer": "對不起"
+  },
+  {
+    "id": 132,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "Stand up",
+    "meaning": "請起立",
+    "emoji": "🧍",
+    "example": "Stand up, please. (請起立)",
+    "prompt": "【英語評量】請問「Stand up」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "好朋友",
+        "en": "friend",
+        "zh": "👫 好朋友"
+      },
+      {
+        "val": "快樂開心的",
+        "en": "happy",
+        "zh": "😄 快樂開心的"
+      },
+      {
+        "val": "請舉手",
+        "en": "Raise your hand",
+        "zh": "🙋 請舉手"
+      },
+      {
+        "val": "請起立",
+        "en": "Stand up",
+        "zh": "🧍 請起立"
+      }
+    ],
+    "answer": "請起立"
+  },
+  {
+    "id": 133,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "Sit down",
+    "meaning": "請坐下",
+    "emoji": "🪑",
+    "example": "Sit down, please. (請坐下)",
+    "prompt": "【英語評量】請問「Sit down」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "矮的/短的",
+        "en": "short",
+        "zh": "✏️ 矮的/短的"
+      },
+      {
+        "val": "好朋友",
+        "en": "friend",
+        "zh": "👫 好朋友"
+      },
+      {
+        "val": "請起立",
+        "en": "Stand up",
+        "zh": "🧍 請起立"
+      },
+      {
+        "val": "請坐下",
+        "en": "Sit down",
+        "zh": "🪑 請坐下"
+      }
+    ],
+    "answer": "請坐下"
+  },
+  {
+    "id": 134,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "Open your book",
+    "meaning": "打開課本",
+    "emoji": "📖",
+    "example": "Open your book to page 5. (打開課本)",
+    "prompt": "【英語評量】請問「Open your book」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "很棒的/好的",
+        "en": "good",
+        "zh": "👍 很棒的/好的"
+      },
+      {
+        "val": "打開課本",
+        "en": "Open your book",
+        "zh": "📖 打開課本"
+      },
+      {
+        "val": "請起立",
+        "en": "Stand up",
+        "zh": "🧍 請起立"
+      },
+      {
+        "val": "大的",
+        "en": "big",
+        "zh": "🐘 大的"
+      }
+    ],
+    "answer": "打開課本"
+  },
+  {
+    "id": 135,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "Close your book",
+    "meaning": "合上課本",
+    "emoji": "📕",
+    "example": "Close your book, please. (請合上課本)",
+    "prompt": "【英語評量】請問「Close your book」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "合上課本",
+        "en": "Close your book",
+        "zh": "📕 合上課本"
+      },
+      {
+        "val": "大的",
+        "en": "big",
+        "zh": "🐘 大的"
+      },
+      {
+        "val": "快樂開心的",
+        "en": "happy",
+        "zh": "😄 快樂開心的"
+      },
+      {
+        "val": "午安",
+        "en": "Good afternoon",
+        "zh": "☀️ 午安"
+      }
+    ],
+    "answer": "合上課本"
+  },
+  {
+    "id": 136,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "Raise your hand",
+    "meaning": "請舉手",
+    "emoji": "🙋",
+    "example": "Raise your hand! (請舉手)",
+    "prompt": "【英語評量】請問「Raise your hand」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "擁有/有",
+        "en": "have",
+        "zh": "🎒 擁有/有"
+      },
+      {
+        "val": "請排隊",
+        "en": "Line up",
+        "zh": "🚶 請排隊"
+      },
+      {
+        "val": "請舉手",
+        "en": "Raise your hand",
+        "zh": "🙋 請舉手"
+      },
+      {
+        "val": "可以/會",
+        "en": "can",
+        "zh": "💪 可以/會"
+      }
+    ],
+    "answer": "請舉手"
+  },
+  {
+    "id": 137,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "Listen",
+    "meaning": "仔細聽",
+    "emoji": "👂",
+    "example": "Listen carefully! (仔細聽)",
+    "prompt": "【英語評量】請問「Listen」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "矮的/短的",
+        "en": "short",
+        "zh": "✏️ 矮的/短的"
+      },
+      {
+        "val": "看見",
+        "en": "see",
+        "zh": "👀 看見"
+      },
+      {
+        "val": "仔細聽",
+        "en": "Listen",
+        "zh": "👂 仔細聽"
+      },
+      {
+        "val": "難過的",
+        "en": "sad",
+        "zh": "😢 難過的"
+      }
+    ],
+    "answer": "仔細聽"
+  },
+  {
+    "id": 138,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "Look",
+    "meaning": "看這裡",
+    "emoji": "👀",
+    "example": "Look at the blackboard! (看黑板)",
+    "prompt": "【英語評量】請問「Look」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "看這裡",
+        "en": "Look",
+        "zh": "👀 看這裡"
+      },
+      {
+        "val": "看見",
+        "en": "see",
+        "zh": "👀 看見"
+      },
+      {
+        "val": "跳躍",
+        "en": "jump",
+        "zh": "🦘 跳躍"
+      },
+      {
+        "val": "對不起",
+        "en": "I'm sorry",
+        "zh": "🙇 對不起"
+      }
+    ],
+    "answer": "看這裡"
+  },
+  {
+    "id": 139,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "Be quiet",
+    "meaning": "請安靜",
+    "emoji": "🤫",
+    "example": "Be quiet, please. (請保持安靜)",
+    "prompt": "【英語評量】請問「Be quiet」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "好朋友",
+        "en": "friend",
+        "zh": "👫 好朋友"
+      },
+      {
+        "val": "請舉手",
+        "en": "Raise your hand",
+        "zh": "🙋 請舉手"
+      },
+      {
+        "val": "打開課本",
+        "en": "Open your book",
+        "zh": "📖 打開課本"
+      },
+      {
+        "val": "請安靜",
+        "en": "Be quiet",
+        "zh": "🤫 請安靜"
+      }
+    ],
+    "answer": "請安靜"
+  },
+  {
+    "id": 140,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "Line up",
+    "meaning": "請排隊",
+    "emoji": "🚶",
+    "example": "Line up at the door. (在門口排隊)",
+    "prompt": "【英語評量】請問「Line up」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "喜歡",
+        "en": "like",
+        "zh": "💖 喜歡"
+      },
+      {
+        "val": "再見",
+        "en": "Goodbye",
+        "zh": "👋 再見"
+      },
+      {
+        "val": "請坐下",
+        "en": "Sit down",
+        "zh": "🪑 請坐下"
+      },
+      {
+        "val": "請排隊",
+        "en": "Line up",
+        "zh": "🚶 請排隊"
+      }
+    ],
+    "answer": "請排隊"
+  },
+  {
+    "id": 141,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "How are you?",
+    "meaning": "你好嗎？",
+    "emoji": "😊",
+    "example": "I'm fine, thank you. (我很好，謝謝)",
+    "prompt": "【英語評量】請問「How are you?」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "你幾歲？",
+        "en": "How old are you?",
+        "zh": "🎂 你幾歲？"
+      },
+      {
+        "val": "仔細聽",
+        "en": "Listen",
+        "zh": "👂 仔細聽"
+      },
+      {
+        "val": "合上課本",
+        "en": "Close your book",
+        "zh": "📕 合上課本"
+      },
+      {
+        "val": "你好嗎？",
+        "en": "How are you?",
+        "zh": "😊 你好嗎？"
+      }
+    ],
+    "answer": "你好嗎？"
+  },
+  {
+    "id": 142,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "What's your name?",
+    "meaning": "你叫什麼名字？",
+    "emoji": "🏷️",
+    "example": "My name is Amy. (我的名字是艾咪)",
+    "prompt": "【英語評量】請問「What's your name?」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "合上課本",
+        "en": "Close your book",
+        "zh": "📕 合上課本"
+      },
+      {
+        "val": "很棒的/好的",
+        "en": "good",
+        "zh": "👍 很棒的/好的"
+      },
+      {
+        "val": "你叫什麼名字？",
+        "en": "What's your name?",
+        "zh": "🏷️ 你叫什麼名字？"
+      },
+      {
+        "val": "請安靜",
+        "en": "Be quiet",
+        "zh": "🤫 請安靜"
+      }
+    ],
+    "answer": "你叫什麼名字？"
+  },
+  {
+    "id": 143,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "How old are you?",
+    "meaning": "你幾歲？",
+    "emoji": "🎂",
+    "example": "I am seven years old. (我七歲)",
+    "prompt": "【英語評量】請問「How old are you?」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "喜歡",
+        "en": "like",
+        "zh": "💖 喜歡"
+      },
+      {
+        "val": "仔細聽",
+        "en": "Listen",
+        "zh": "👂 仔細聽"
+      },
+      {
+        "val": "你幾歲？",
+        "en": "How old are you?",
+        "zh": "🎂 你幾歲？"
+      },
+      {
+        "val": "蘋果",
+        "en": "apple",
+        "zh": "🍎 蘋果"
+      }
+    ],
+    "answer": "你幾歲？"
+  },
+  {
+    "id": 144,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "apple",
+    "meaning": "蘋果",
+    "emoji": "🍎",
+    "example": "It is an apple. (它是一顆蘋果)",
+    "prompt": "【英語評量】請問「apple」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "蘋果",
+        "en": "apple",
+        "zh": "🍎 蘋果"
+      },
+      {
+        "val": "矮的/短的",
+        "en": "short",
+        "zh": "✏️ 矮的/短的"
+      },
+      {
+        "val": "請安靜",
+        "en": "Be quiet",
+        "zh": "🤫 請安靜"
+      },
+      {
+        "val": "好朋友",
+        "en": "friend",
+        "zh": "👫 好朋友"
+      }
+    ],
+    "answer": "蘋果"
+  },
+  {
+    "id": 145,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "big",
+    "meaning": "大的",
+    "emoji": "🐘",
+    "example": "A big elephant. (一隻大象)",
+    "prompt": "【英語評量】請問「big」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "快樂開心的",
+        "en": "happy",
+        "zh": "😄 快樂開心的"
+      },
+      {
+        "val": "大的",
+        "en": "big",
+        "zh": "🐘 大的"
+      },
+      {
+        "val": "請排隊",
+        "en": "Line up",
+        "zh": "🚶 請排隊"
+      },
+      {
+        "val": "對不起",
+        "en": "I'm sorry",
+        "zh": "🙇 對不起"
+      }
+    ],
+    "answer": "大的"
+  },
+  {
+    "id": 146,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "small",
+    "meaning": "小的",
+    "emoji": "🐭",
+    "example": "A small mouse. (一隻小老鼠)",
+    "prompt": "【英語評量】請問「small」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "仔細聽",
+        "en": "Listen",
+        "zh": "👂 仔細聽"
+      },
+      {
+        "val": "合上課本",
+        "en": "Close your book",
+        "zh": "📕 合上課本"
+      },
+      {
+        "val": "看見",
+        "en": "see",
+        "zh": "👀 看見"
+      },
+      {
+        "val": "小的",
+        "en": "small",
+        "zh": "🐭 小的"
+      }
+    ],
+    "answer": "小的"
+  },
+  {
+    "id": 147,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "tall",
+    "meaning": "高的",
+    "emoji": "🦒",
+    "example": "A tall giraffe. (一隻高長頸鹿)",
+    "prompt": "【英語評量】請問「tall」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "你叫什麼名字？",
+        "en": "What's your name?",
+        "zh": "🏷️ 你叫什麼名字？"
+      },
+      {
+        "val": "高的",
+        "en": "tall",
+        "zh": "🦒 高的"
+      },
+      {
+        "val": "難過的",
+        "en": "sad",
+        "zh": "😢 難過的"
+      },
+      {
+        "val": "午安",
+        "en": "Good afternoon",
+        "zh": "☀️ 午安"
+      }
+    ],
+    "answer": "高的"
+  },
+  {
+    "id": 148,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "short",
+    "meaning": "矮的/短的",
+    "emoji": "✏️",
+    "example": "A short pencil. (一枝短鉛筆)",
+    "prompt": "【英語評量】請問「short」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "請安靜",
+        "en": "Be quiet",
+        "zh": "🤫 請安靜"
+      },
+      {
+        "val": "矮的/短的",
+        "en": "short",
+        "zh": "✏️ 矮的/短的"
+      },
+      {
+        "val": "跳躍",
+        "en": "jump",
+        "zh": "🦘 跳躍"
+      },
+      {
+        "val": "擁有/有",
+        "en": "have",
+        "zh": "🎒 擁有/有"
+      }
+    ],
+    "answer": "矮的/短的"
+  },
+  {
+    "id": 149,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "happy",
+    "meaning": "快樂開心的",
+    "emoji": "😄",
+    "example": "I am happy today! (我今天很開心)",
+    "prompt": "【英語評量】請問「happy」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "請坐下",
+        "en": "Sit down",
+        "zh": "🪑 請坐下"
+      },
+      {
+        "val": "小的",
+        "en": "small",
+        "zh": "🐭 小的"
+      },
+      {
+        "val": "大的",
+        "en": "big",
+        "zh": "🐘 大的"
+      },
+      {
+        "val": "快樂開心的",
+        "en": "happy",
+        "zh": "😄 快樂開心的"
+      }
+    ],
+    "answer": "快樂開心的"
+  },
+  {
+    "id": 150,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "sad",
+    "meaning": "難過的",
+    "emoji": "😢",
+    "example": "Don't be sad. (不要難過)",
+    "prompt": "【英語評量】請問「sad」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "小的",
+        "en": "small",
+        "zh": "🐭 小的"
+      },
+      {
+        "val": "好朋友",
+        "en": "friend",
+        "zh": "👫 好朋友"
+      },
+      {
+        "val": "對不起",
+        "en": "I'm sorry",
+        "zh": "🙇 對不起"
+      },
+      {
+        "val": "難過的",
+        "en": "sad",
+        "zh": "😢 難過的"
+      }
+    ],
+    "answer": "難過的"
+  },
+  {
+    "id": 151,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "good",
+    "meaning": "很棒的/好的",
+    "emoji": "👍",
+    "example": "Good job! (做得好)",
+    "prompt": "【英語評量】請問「good」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "謝謝你",
+        "en": "Thank you",
+        "zh": "🙏 謝謝你"
+      },
+      {
+        "val": "很棒的/好的",
+        "en": "good",
+        "zh": "👍 很棒的/好的"
+      },
+      {
+        "val": "早安",
+        "en": "Good morning",
+        "zh": "🌅 早安"
+      },
+      {
+        "val": "合上課本",
+        "en": "Close your book",
+        "zh": "📕 合上課本"
+      }
+    ],
+    "answer": "很棒的/好的"
+  },
+  {
+    "id": 152,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "can",
+    "meaning": "可以/會",
+    "emoji": "💪",
+    "example": "I can swim and jump! (我會游泳和跳)",
+    "prompt": "【英語評量】請問「can」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "請起立",
+        "en": "Stand up",
+        "zh": "🧍 請起立"
+      },
+      {
+        "val": "很棒的/好的",
+        "en": "good",
+        "zh": "👍 很棒的/好的"
+      },
+      {
+        "val": "可以/會",
+        "en": "can",
+        "zh": "💪 可以/會"
+      },
+      {
+        "val": "大的",
+        "en": "big",
+        "zh": "🐘 大的"
+      }
+    ],
+    "answer": "可以/會"
+  },
+  {
+    "id": 153,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "like",
+    "meaning": "喜歡",
+    "emoji": "💖",
+    "example": "I like strawberries. (我喜歡草莓)",
+    "prompt": "【英語評量】請問「like」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "喜歡",
+        "en": "like",
+        "zh": "💖 喜歡"
+      },
+      {
+        "val": "玩耍",
+        "en": "play",
+        "zh": "🎮 玩耍"
+      },
+      {
+        "val": "早安",
+        "en": "Good morning",
+        "zh": "🌅 早安"
+      },
+      {
+        "val": "合上課本",
+        "en": "Close your book",
+        "zh": "📕 合上課本"
+      }
+    ],
+    "answer": "喜歡"
+  },
+  {
+    "id": 154,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "have",
+    "meaning": "擁有/有",
+    "emoji": "🎒",
+    "example": "I have a new ruler. (我有一把新尺)",
+    "prompt": "【英語評量】請問「have」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "小的",
+        "en": "small",
+        "zh": "🐭 小的"
+      },
+      {
+        "val": "矮的/短的",
+        "en": "short",
+        "zh": "✏️ 矮的/短的"
+      },
+      {
+        "val": "擁有/有",
+        "en": "have",
+        "zh": "🎒 擁有/有"
+      },
+      {
+        "val": "難過的",
+        "en": "sad",
+        "zh": "😢 難過的"
+      }
+    ],
+    "answer": "擁有/有"
+  },
+  {
+    "id": 155,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "see",
+    "meaning": "看見",
+    "emoji": "👀",
+    "example": "I see a rainbow. (我看見一道彩虹)",
+    "prompt": "【英語評量】請問「see」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "看見",
+        "en": "see",
+        "zh": "👀 看見"
+      },
+      {
+        "val": "小的",
+        "en": "small",
+        "zh": "🐭 小的"
+      },
+      {
+        "val": "請坐下",
+        "en": "Sit down",
+        "zh": "🪑 請坐下"
+      },
+      {
+        "val": "很棒的/好的",
+        "en": "good",
+        "zh": "👍 很棒的/好的"
+      }
+    ],
+    "answer": "看見"
+  },
+  {
+    "id": 156,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "play",
+    "meaning": "玩耍",
+    "emoji": "🎮",
+    "example": "Let's play together! (我們一起玩吧)",
+    "prompt": "【英語評量】請問「play」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "你叫什麼名字？",
+        "en": "What's your name?",
+        "zh": "🏷️ 你叫什麼名字？"
+      },
+      {
+        "val": "請舉手",
+        "en": "Raise your hand",
+        "zh": "🙋 請舉手"
+      },
+      {
+        "val": "玩耍",
+        "en": "play",
+        "zh": "🎮 玩耍"
+      },
+      {
+        "val": "你幾歲？",
+        "en": "How old are you?",
+        "zh": "🎂 你幾歲？"
+      }
+    ],
+    "answer": "玩耍"
+  },
+  {
+    "id": 157,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "jump",
+    "meaning": "跳躍",
+    "emoji": "🦘",
+    "example": "Jump up high! (跳得高高的)",
+    "prompt": "【英語評量】請問「jump」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "謝謝你",
+        "en": "Thank you",
+        "zh": "🙏 謝謝你"
+      },
+      {
+        "val": "請起立",
+        "en": "Stand up",
+        "zh": "🧍 請起立"
+      },
+      {
+        "val": "矮的/短的",
+        "en": "short",
+        "zh": "✏️ 矮的/短的"
+      },
+      {
+        "val": "跳躍",
+        "en": "jump",
+        "zh": "🦘 跳躍"
+      }
+    ],
+    "answer": "跳躍"
+  },
+  {
+    "id": 158,
+    "category": "sight_words",
+    "exam_tag": "河堤國小×康軒期中期末・教室用語與常用字",
+    "type": "word_recognize",
+    "word": "friend",
+    "meaning": "好朋友",
+    "emoji": "👫",
+    "example": "She is my good friend. (她是我的好朋友)",
+    "prompt": "【英語評量】請問「friend」的中文意思是什麼呢？",
+    "options": [
+      {
+        "val": "謝謝你",
+        "en": "Thank you",
+        "zh": "🙏 謝謝你"
+      },
+      {
+        "val": "難過的",
+        "en": "sad",
+        "zh": "😢 難過的"
+      },
+      {
+        "val": "好朋友",
+        "en": "friend",
+        "zh": "👫 好朋友"
+      },
+      {
+        "val": "看這裡",
+        "en": "Look",
+        "zh": "👀 看這裡"
+      }
+    ],
+    "answer": "好朋友"
+  },
+  {
+    "id": 159,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "one",
+    "meaning": "數字 1 (一)",
+    "emoji": "1️⃣",
+    "prompt": "【單字評量】看到「1️⃣ 數字 1 (一)」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "five",
+        "en": "five",
+        "zh": "5️⃣ 數字 5 (五)"
+      },
+      {
+        "val": "nine",
+        "en": "nine",
+        "zh": "9️⃣ 數字 9 (九)"
+      },
+      {
+        "val": "six",
+        "en": "six",
+        "zh": "6️⃣ 數字 6 (六)"
+      },
+      {
+        "val": "one",
+        "en": "one",
+        "zh": "1️⃣ 數字 1 (一)"
+      }
+    ],
+    "answer": "one"
+  },
+  {
+    "id": 160,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "two",
+    "meaning": "數字 2 (二)",
+    "emoji": "2️⃣",
+    "prompt": "【單字評量】看到「2️⃣ 數字 2 (二)」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "eight",
+        "en": "eight",
+        "zh": "8️⃣ 數字 8 (八)"
+      },
+      {
+        "val": "nine",
+        "en": "nine",
+        "zh": "9️⃣ 數字 9 (九)"
+      },
+      {
+        "val": "two",
+        "en": "two",
+        "zh": "2️⃣ 數字 2 (二)"
+      },
+      {
+        "val": "ten",
+        "en": "ten",
+        "zh": "🔟 數字 10 (十)"
+      }
+    ],
+    "answer": "two"
+  },
+  {
+    "id": 161,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "three",
+    "meaning": "數字 3 (三)",
+    "emoji": "3️⃣",
+    "prompt": "【單字評量】看到「3️⃣ 數字 3 (三)」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "three",
+        "en": "three",
+        "zh": "3️⃣ 數字 3 (三)"
+      },
+      {
+        "val": "nine",
+        "en": "nine",
+        "zh": "9️⃣ 數字 9 (九)"
+      },
+      {
+        "val": "ten",
+        "en": "ten",
+        "zh": "🔟 數字 10 (十)"
+      },
+      {
+        "val": "four",
+        "en": "four",
+        "zh": "4️⃣ 數字 4 (四)"
+      }
+    ],
+    "answer": "three"
+  },
+  {
+    "id": 162,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "four",
+    "meaning": "數字 4 (四)",
+    "emoji": "4️⃣",
+    "prompt": "【單字評量】看到「4️⃣ 數字 4 (四)」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "one",
+        "en": "one",
+        "zh": "1️⃣ 數字 1 (一)"
+      },
+      {
+        "val": "two",
+        "en": "two",
+        "zh": "2️⃣ 數字 2 (二)"
+      },
+      {
+        "val": "nine",
+        "en": "nine",
+        "zh": "9️⃣ 數字 9 (九)"
+      },
+      {
+        "val": "four",
+        "en": "four",
+        "zh": "4️⃣ 數字 4 (四)"
+      }
+    ],
+    "answer": "four"
+  },
+  {
+    "id": 163,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "five",
+    "meaning": "數字 5 (五)",
+    "emoji": "5️⃣",
+    "prompt": "【單字評量】看到「5️⃣ 數字 5 (五)」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "two",
+        "en": "two",
+        "zh": "2️⃣ 數字 2 (二)"
+      },
+      {
+        "val": "five",
+        "en": "five",
+        "zh": "5️⃣ 數字 5 (五)"
+      },
+      {
+        "val": "four",
+        "en": "four",
+        "zh": "4️⃣ 數字 4 (四)"
+      },
+      {
+        "val": "one",
+        "en": "one",
+        "zh": "1️⃣ 數字 1 (一)"
+      }
+    ],
+    "answer": "five"
+  },
+  {
+    "id": 164,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "six",
+    "meaning": "數字 6 (六)",
+    "emoji": "6️⃣",
+    "prompt": "【單字評量】看到「6️⃣ 數字 6 (六)」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "seven",
+        "en": "seven",
+        "zh": "7️⃣ 數字 7 (七)"
+      },
+      {
+        "val": "six",
+        "en": "six",
+        "zh": "6️⃣ 數字 6 (六)"
+      },
+      {
+        "val": "eight",
+        "en": "eight",
+        "zh": "8️⃣ 數字 8 (八)"
+      },
+      {
+        "val": "nine",
+        "en": "nine",
+        "zh": "9️⃣ 數字 9 (九)"
+      }
+    ],
+    "answer": "six"
+  },
+  {
+    "id": 165,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "seven",
+    "meaning": "數字 7 (七)",
+    "emoji": "7️⃣",
+    "prompt": "【單字評量】看到「7️⃣ 數字 7 (七)」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "four",
+        "en": "four",
+        "zh": "4️⃣ 數字 4 (四)"
+      },
+      {
+        "val": "five",
+        "en": "five",
+        "zh": "5️⃣ 數字 5 (五)"
+      },
+      {
+        "val": "seven",
+        "en": "seven",
+        "zh": "7️⃣ 數字 7 (七)"
+      },
+      {
+        "val": "ten",
+        "en": "ten",
+        "zh": "🔟 數字 10 (十)"
+      }
+    ],
+    "answer": "seven"
+  },
+  {
+    "id": 166,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "eight",
+    "meaning": "數字 8 (八)",
+    "emoji": "8️⃣",
+    "prompt": "【單字評量】看到「8️⃣ 數字 8 (八)」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "nine",
+        "en": "nine",
+        "zh": "9️⃣ 數字 9 (九)"
+      },
+      {
+        "val": "five",
+        "en": "five",
+        "zh": "5️⃣ 數字 5 (五)"
+      },
+      {
+        "val": "four",
+        "en": "four",
+        "zh": "4️⃣ 數字 4 (四)"
+      },
+      {
+        "val": "eight",
+        "en": "eight",
+        "zh": "8️⃣ 數字 8 (八)"
+      }
+    ],
+    "answer": "eight"
+  },
+  {
+    "id": 167,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "nine",
+    "meaning": "數字 9 (九)",
+    "emoji": "9️⃣",
+    "prompt": "【單字評量】看到「9️⃣ 數字 9 (九)」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "nine",
+        "en": "nine",
+        "zh": "9️⃣ 數字 9 (九)"
+      },
+      {
+        "val": "one",
+        "en": "one",
+        "zh": "1️⃣ 數字 1 (一)"
+      },
+      {
+        "val": "three",
+        "en": "three",
+        "zh": "3️⃣ 數字 3 (三)"
+      },
+      {
+        "val": "seven",
+        "en": "seven",
+        "zh": "7️⃣ 數字 7 (七)"
+      }
+    ],
+    "answer": "nine"
+  },
+  {
+    "id": 168,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "ten",
+    "meaning": "數字 10 (十)",
+    "emoji": "🔟",
+    "prompt": "【單字評量】看到「🔟 數字 10 (十)」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "five",
+        "en": "five",
+        "zh": "5️⃣ 數字 5 (五)"
+      },
+      {
+        "val": "ten",
+        "en": "ten",
+        "zh": "🔟 數字 10 (十)"
+      },
+      {
+        "val": "one",
+        "en": "one",
+        "zh": "1️⃣ 數字 1 (一)"
+      },
+      {
+        "val": "six",
+        "en": "six",
+        "zh": "6️⃣ 數字 6 (六)"
+      }
+    ],
+    "answer": "ten"
+  },
+  {
+    "id": 169,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "pink",
+    "meaning": "粉紅色",
+    "emoji": "🩷",
+    "prompt": "【單字評量】看到「🩷 粉紅色」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "black",
+        "en": "black",
+        "zh": "🖤 黑色"
+      },
+      {
+        "val": "red",
+        "en": "red",
+        "zh": "🔴 紅色"
+      },
+      {
+        "val": "pink",
+        "en": "pink",
+        "zh": "🩷 粉紅色"
+      },
+      {
+        "val": "blue",
+        "en": "blue",
+        "zh": "💙 藍色"
+      }
+    ],
+    "answer": "pink"
+  },
+  {
+    "id": 170,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "red",
+    "meaning": "紅色",
+    "emoji": "🔴",
+    "prompt": "【單字評量】看到「🔴 紅色」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "green",
+        "en": "green",
+        "zh": "🟢 綠色"
+      },
+      {
+        "val": "orange",
+        "en": "orange",
+        "zh": "🟠 橘色"
+      },
+      {
+        "val": "red",
+        "en": "red",
+        "zh": "🔴 紅色"
+      },
+      {
+        "val": "black",
+        "en": "black",
+        "zh": "🖤 黑色"
+      }
+    ],
+    "answer": "red"
+  },
+  {
+    "id": 171,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "blue",
+    "meaning": "藍色",
+    "emoji": "💙",
+    "prompt": "【單字評量】看到「💙 藍色」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "purple",
+        "en": "purple",
+        "zh": "💜 紫色"
+      },
+      {
+        "val": "yellow",
+        "en": "yellow",
+        "zh": "🟡 黃色"
+      },
+      {
+        "val": "blue",
+        "en": "blue",
+        "zh": "💙 藍色"
+      },
+      {
+        "val": "orange",
+        "en": "orange",
+        "zh": "🟠 橘色"
+      }
+    ],
+    "answer": "blue"
+  },
+  {
+    "id": 172,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "yellow",
+    "meaning": "黃色",
+    "emoji": "🟡",
+    "prompt": "【單字評量】看到「🟡 黃色」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "yellow",
+        "en": "yellow",
+        "zh": "🟡 黃色"
+      },
+      {
+        "val": "black",
+        "en": "black",
+        "zh": "🖤 黑色"
+      },
+      {
+        "val": "purple",
+        "en": "purple",
+        "zh": "💜 紫色"
+      },
+      {
+        "val": "green",
+        "en": "green",
+        "zh": "🟢 綠色"
+      }
+    ],
+    "answer": "yellow"
+  },
+  {
+    "id": 173,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "green",
+    "meaning": "綠色",
+    "emoji": "🟢",
+    "prompt": "【單字評量】看到「🟢 綠色」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "yellow",
+        "en": "yellow",
+        "zh": "🟡 黃色"
+      },
+      {
+        "val": "black",
+        "en": "black",
+        "zh": "🖤 黑色"
+      },
+      {
+        "val": "green",
+        "en": "green",
+        "zh": "🟢 綠色"
+      },
+      {
+        "val": "red",
+        "en": "red",
+        "zh": "🔴 紅色"
+      }
+    ],
+    "answer": "green"
+  },
+  {
+    "id": 174,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "purple",
+    "meaning": "紫色",
+    "emoji": "💜",
+    "prompt": "【單字評量】看到「💜 紫色」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "black",
+        "en": "black",
+        "zh": "🖤 黑色"
+      },
+      {
+        "val": "purple",
+        "en": "purple",
+        "zh": "💜 紫色"
+      },
+      {
+        "val": "green",
+        "en": "green",
+        "zh": "🟢 綠色"
+      },
+      {
+        "val": "orange",
+        "en": "orange",
+        "zh": "🟠 橘色"
+      }
+    ],
+    "answer": "purple"
+  },
+  {
+    "id": 175,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "orange",
+    "meaning": "橘色",
+    "emoji": "🟠",
+    "prompt": "【單字評量】看到「🟠 橘色」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "orange",
+        "en": "orange",
+        "zh": "🟠 橘色"
+      },
+      {
+        "val": "yellow",
+        "en": "yellow",
+        "zh": "🟡 黃色"
+      },
+      {
+        "val": "red",
+        "en": "red",
+        "zh": "🔴 紅色"
+      },
+      {
+        "val": "blue",
+        "en": "blue",
+        "zh": "💙 藍色"
+      }
+    ],
+    "answer": "orange"
+  },
+  {
+    "id": 176,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "white",
+    "meaning": "白色",
+    "emoji": "🤍",
+    "prompt": "【單字評量】看到「🤍 白色」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "pink",
+        "en": "pink",
+        "zh": "🩷 粉紅色"
+      },
+      {
+        "val": "orange",
+        "en": "orange",
+        "zh": "🟠 橘色"
+      },
+      {
+        "val": "green",
+        "en": "green",
+        "zh": "🟢 綠色"
+      },
+      {
+        "val": "white",
+        "en": "white",
+        "zh": "🤍 白色"
+      }
+    ],
+    "answer": "white"
+  },
+  {
+    "id": 177,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "black",
+    "meaning": "黑色",
+    "emoji": "🖤",
+    "prompt": "【單字評量】看到「🖤 黑色」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "green",
+        "en": "green",
+        "zh": "🟢 綠色"
+      },
+      {
+        "val": "black",
+        "en": "black",
+        "zh": "🖤 黑色"
+      },
+      {
+        "val": "orange",
+        "en": "orange",
+        "zh": "🟠 橘色"
+      },
+      {
+        "val": "blue",
+        "en": "blue",
+        "zh": "💙 藍色"
+      }
+    ],
+    "answer": "black"
+  },
+  {
+    "id": 178,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "book",
+    "meaning": "書本/課本",
+    "emoji": "📚",
+    "prompt": "【單字評量】看到「📚 書本/課本」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "desk",
+        "en": "desk",
+        "zh": "🪑 書桌/課桌"
+      },
+      {
+        "val": "book",
+        "en": "book",
+        "zh": "📚 書本/課本"
+      },
+      {
+        "val": "teacher",
+        "en": "teacher",
+        "zh": "👩‍🏫 老師"
+      },
+      {
+        "val": "eraser",
+        "en": "eraser",
+        "zh": "🧼 橡皮擦"
+      }
+    ],
+    "answer": "book"
+  },
+  {
+    "id": 179,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "pen",
+    "meaning": "原子筆",
+    "emoji": "🖊️",
+    "prompt": "【單字評量】看到「🖊️ 原子筆」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "chair",
+        "en": "chair",
+        "zh": "🪑 椅子"
+      },
+      {
+        "val": "pen",
+        "en": "pen",
+        "zh": "🖊️ 原子筆"
+      },
+      {
+        "val": "ruler",
+        "en": "ruler",
+        "zh": "📏 尺"
+      },
+      {
+        "val": "book",
+        "en": "book",
+        "zh": "📚 書本/課本"
+      }
+    ],
+    "answer": "pen"
+  },
+  {
+    "id": 180,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "pencil",
+    "meaning": "鉛筆",
+    "emoji": "✏️",
+    "prompt": "【單字評量】看到「✏️ 鉛筆」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "bag",
+        "en": "bag",
+        "zh": "🎒 書包"
+      },
+      {
+        "val": "pencil box",
+        "en": "pencil box",
+        "zh": "🧰 鉛筆盒"
+      },
+      {
+        "val": "pencil",
+        "en": "pencil",
+        "zh": "✏️ 鉛筆"
+      },
+      {
+        "val": "eraser",
+        "en": "eraser",
+        "zh": "🧼 橡皮擦"
+      }
+    ],
+    "answer": "pencil"
+  },
+  {
+    "id": 181,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "eraser",
+    "meaning": "橡皮擦",
+    "emoji": "🧼",
+    "prompt": "【單字評量】看到「🧼 橡皮擦」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "chair",
+        "en": "chair",
+        "zh": "🪑 椅子"
+      },
+      {
+        "val": "student",
+        "en": "student",
+        "zh": "👧 學生"
+      },
+      {
+        "val": "pen",
+        "en": "pen",
+        "zh": "🖊️ 原子筆"
+      },
+      {
+        "val": "eraser",
+        "en": "eraser",
+        "zh": "🧼 橡皮擦"
+      }
+    ],
+    "answer": "eraser"
+  },
+  {
+    "id": 182,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "ruler",
+    "meaning": "尺",
+    "emoji": "📏",
+    "prompt": "【單字評量】看到「📏 尺」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "teacher",
+        "en": "teacher",
+        "zh": "👩‍🏫 老師"
+      },
+      {
+        "val": "eraser",
+        "en": "eraser",
+        "zh": "🧼 橡皮擦"
+      },
+      {
+        "val": "pen",
+        "en": "pen",
+        "zh": "🖊️ 原子筆"
+      },
+      {
+        "val": "ruler",
+        "en": "ruler",
+        "zh": "📏 尺"
+      }
+    ],
+    "answer": "ruler"
+  },
+  {
+    "id": 183,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "marker",
+    "meaning": "彩色筆/麥克筆",
+    "emoji": "🖍️",
+    "prompt": "【單字評量】看到「🖍️ 彩色筆/麥克筆」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "marker",
+        "en": "marker",
+        "zh": "🖍️ 彩色筆/麥克筆"
+      },
+      {
+        "val": "book",
+        "en": "book",
+        "zh": "📚 書本/課本"
+      },
+      {
+        "val": "pen",
+        "en": "pen",
+        "zh": "🖊️ 原子筆"
+      },
+      {
+        "val": "student",
+        "en": "student",
+        "zh": "👧 學生"
+      }
+    ],
+    "answer": "marker"
+  },
+  {
+    "id": 184,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "pencil box",
+    "meaning": "鉛筆盒",
+    "emoji": "🧰",
+    "prompt": "【單字評量】看到「🧰 鉛筆盒」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "ruler",
+        "en": "ruler",
+        "zh": "📏 尺"
+      },
+      {
+        "val": "desk",
+        "en": "desk",
+        "zh": "🪑 書桌/課桌"
+      },
+      {
+        "val": "pen",
+        "en": "pen",
+        "zh": "🖊️ 原子筆"
+      },
+      {
+        "val": "pencil box",
+        "en": "pencil box",
+        "zh": "🧰 鉛筆盒"
+      }
+    ],
+    "answer": "pencil box"
+  },
+  {
+    "id": 185,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "bag",
+    "meaning": "書包",
+    "emoji": "🎒",
+    "prompt": "【單字評量】看到「🎒 書包」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "book",
+        "en": "book",
+        "zh": "📚 書本/課本"
+      },
+      {
+        "val": "bag",
+        "en": "bag",
+        "zh": "🎒 書包"
+      },
+      {
+        "val": "pencil",
+        "en": "pencil",
+        "zh": "✏️ 鉛筆"
+      },
+      {
+        "val": "desk",
+        "en": "desk",
+        "zh": "🪑 書桌/課桌"
+      }
+    ],
+    "answer": "bag"
+  },
+  {
+    "id": 186,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "desk",
+    "meaning": "書桌/課桌",
+    "emoji": "🪑",
+    "prompt": "【單字評量】看到「🪑 書桌/課桌」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "student",
+        "en": "student",
+        "zh": "👧 學生"
+      },
+      {
+        "val": "desk",
+        "en": "desk",
+        "zh": "🪑 書桌/課桌"
+      },
+      {
+        "val": "marker",
+        "en": "marker",
+        "zh": "🖍️ 彩色筆/麥克筆"
+      },
+      {
+        "val": "pen",
+        "en": "pen",
+        "zh": "🖊️ 原子筆"
+      }
+    ],
+    "answer": "desk"
+  },
+  {
+    "id": 187,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "chair",
+    "meaning": "椅子",
+    "emoji": "🪑",
+    "prompt": "【單字評量】看到「🪑 椅子」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "ruler",
+        "en": "ruler",
+        "zh": "📏 尺"
+      },
+      {
+        "val": "eraser",
+        "en": "eraser",
+        "zh": "🧼 橡皮擦"
+      },
+      {
+        "val": "teacher",
+        "en": "teacher",
+        "zh": "👩‍🏫 老師"
+      },
+      {
+        "val": "chair",
+        "en": "chair",
+        "zh": "🪑 椅子"
+      }
+    ],
+    "answer": "chair"
+  },
+  {
+    "id": 188,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "teacher",
+    "meaning": "老師",
+    "emoji": "👩‍🏫",
+    "prompt": "【單字評量】看到「👩‍🏫 老師」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "teacher",
+        "en": "teacher",
+        "zh": "👩‍🏫 老師"
+      },
+      {
+        "val": "book",
+        "en": "book",
+        "zh": "📚 書本/課本"
+      },
+      {
+        "val": "eraser",
+        "en": "eraser",
+        "zh": "🧼 橡皮擦"
+      },
+      {
+        "val": "ruler",
+        "en": "ruler",
+        "zh": "📏 尺"
+      }
+    ],
+    "answer": "teacher"
+  },
+  {
+    "id": 189,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "student",
+    "meaning": "學生",
+    "emoji": "👧",
+    "prompt": "【單字評量】看到「👧 學生」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "eraser",
+        "en": "eraser",
+        "zh": "🧼 橡皮擦"
+      },
+      {
+        "val": "chair",
+        "en": "chair",
+        "zh": "🪑 椅子"
+      },
+      {
+        "val": "pencil box",
+        "en": "pencil box",
+        "zh": "🧰 鉛筆盒"
+      },
+      {
+        "val": "student",
+        "en": "student",
+        "zh": "👧 學生"
+      }
+    ],
+    "answer": "student"
+  },
+  {
+    "id": 190,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "grandpa",
+    "meaning": "爺爺/阿公",
+    "emoji": "👴",
+    "prompt": "【單字評量】看到「👴 爺爺/阿公」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "father",
+        "en": "father",
+        "zh": "👨 爸爸 (father)"
+      },
+      {
+        "val": "sister",
+        "en": "sister",
+        "zh": "👧 姊姊/妹妹"
+      },
+      {
+        "val": "brother",
+        "en": "brother",
+        "zh": "👦 哥哥/弟弟"
+      },
+      {
+        "val": "grandpa",
+        "en": "grandpa",
+        "zh": "👴 爺爺/阿公"
+      }
+    ],
+    "answer": "grandpa"
+  },
+  {
+    "id": 191,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "grandma",
+    "meaning": "奶奶/阿嬤",
+    "emoji": "👵",
+    "prompt": "【單字評量】看到「👵 奶奶/阿嬤」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "mother",
+        "en": "mother",
+        "zh": "👩 媽媽 (mother)"
+      },
+      {
+        "val": "grandpa",
+        "en": "grandpa",
+        "zh": "👴 爺爺/阿公"
+      },
+      {
+        "val": "grandma",
+        "en": "grandma",
+        "zh": "👵 奶奶/阿嬤"
+      },
+      {
+        "val": "father",
+        "en": "father",
+        "zh": "👨 爸爸 (father)"
+      }
+    ],
+    "answer": "grandma"
+  },
+  {
+    "id": 192,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "father",
+    "meaning": "爸爸 (father)",
+    "emoji": "👨",
+    "prompt": "【單字評量】看到「👨 爸爸 (father)」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "mother",
+        "en": "mother",
+        "zh": "👩 媽媽 (mother)"
+      },
+      {
+        "val": "father",
+        "en": "father",
+        "zh": "👨 爸爸 (father)"
+      },
+      {
+        "val": "brother",
+        "en": "brother",
+        "zh": "👦 哥哥/弟弟"
+      },
+      {
+        "val": "sister",
+        "en": "sister",
+        "zh": "👧 姊姊/妹妹"
+      }
+    ],
+    "answer": "father"
+  },
+  {
+    "id": 193,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "mother",
+    "meaning": "媽媽 (mother)",
+    "emoji": "👩",
+    "prompt": "【單字評量】看到「👩 媽媽 (mother)」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "brother",
+        "en": "brother",
+        "zh": "👦 哥哥/弟弟"
+      },
+      {
+        "val": "grandpa",
+        "en": "grandpa",
+        "zh": "👴 爺爺/阿公"
+      },
+      {
+        "val": "grandma",
+        "en": "grandma",
+        "zh": "👵 奶奶/阿嬤"
+      },
+      {
+        "val": "mother",
+        "en": "mother",
+        "zh": "👩 媽媽 (mother)"
+      }
+    ],
+    "answer": "mother"
+  },
+  {
+    "id": 194,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "brother",
+    "meaning": "哥哥/弟弟",
+    "emoji": "👦",
+    "prompt": "【單字評量】看到「👦 哥哥/弟弟」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "grandpa",
+        "en": "grandpa",
+        "zh": "👴 爺爺/阿公"
+      },
+      {
+        "val": "brother",
+        "en": "brother",
+        "zh": "👦 哥哥/弟弟"
+      },
+      {
+        "val": "father",
+        "en": "father",
+        "zh": "👨 爸爸 (father)"
+      },
+      {
+        "val": "mother",
+        "en": "mother",
+        "zh": "👩 媽媽 (mother)"
+      }
+    ],
+    "answer": "brother"
+  },
+  {
+    "id": 195,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "sister",
+    "meaning": "姊姊/妹妹",
+    "emoji": "👧",
+    "prompt": "【單字評量】看到「👧 姊姊/妹妹」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "baby",
+        "en": "baby",
+        "zh": "👶 小寶寶"
+      },
+      {
+        "val": "sister",
+        "en": "sister",
+        "zh": "👧 姊姊/妹妹"
+      },
+      {
+        "val": "father",
+        "en": "father",
+        "zh": "👨 爸爸 (father)"
+      },
+      {
+        "val": "mother",
+        "en": "mother",
+        "zh": "👩 媽媽 (mother)"
+      }
+    ],
+    "answer": "sister"
+  },
+  {
+    "id": 196,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "baby",
+    "meaning": "小寶寶",
+    "emoji": "👶",
+    "prompt": "【單字評量】看到「👶 小寶寶」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "grandma",
+        "en": "grandma",
+        "zh": "👵 奶奶/阿嬤"
+      },
+      {
+        "val": "baby",
+        "en": "baby",
+        "zh": "👶 小寶寶"
+      },
+      {
+        "val": "sister",
+        "en": "sister",
+        "zh": "👧 姊姊/妹妹"
+      },
+      {
+        "val": "brother",
+        "en": "brother",
+        "zh": "👦 哥哥/弟弟"
+      }
+    ],
+    "answer": "baby"
+  },
+  {
+    "id": 197,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "cat",
+    "meaning": "小貓",
+    "emoji": "🐱",
+    "prompt": "【單字評量】看到「🐱 小貓」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "elephant",
+        "en": "elephant",
+        "zh": "🐘 大象"
+      },
+      {
+        "val": "duck",
+        "en": "duck",
+        "zh": "🦆 小鴨子"
+      },
+      {
+        "val": "cat",
+        "en": "cat",
+        "zh": "🐱 小貓"
+      },
+      {
+        "val": "rabbit",
+        "en": "rabbit",
+        "zh": "🐰 小白兔"
+      }
+    ],
+    "answer": "cat"
+  },
+  {
+    "id": 198,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "dog",
+    "meaning": "小狗",
+    "emoji": "🐶",
+    "prompt": "【單字評量】看到「🐶 小狗」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "bird",
+        "en": "bird",
+        "zh": "🐦 小鳥"
+      },
+      {
+        "val": "duck",
+        "en": "duck",
+        "zh": "🦆 小鴨子"
+      },
+      {
+        "val": "dog",
+        "en": "dog",
+        "zh": "🐶 小狗"
+      },
+      {
+        "val": "elephant",
+        "en": "elephant",
+        "zh": "🐘 大象"
+      }
+    ],
+    "answer": "dog"
+  },
+  {
+    "id": 199,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "rabbit",
+    "meaning": "小白兔",
+    "emoji": "🐰",
+    "prompt": "【單字評量】看到「🐰 小白兔」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "rabbit",
+        "en": "rabbit",
+        "zh": "🐰 小白兔"
+      },
+      {
+        "val": "bird",
+        "en": "bird",
+        "zh": "🐦 小鳥"
+      },
+      {
+        "val": "duck",
+        "en": "duck",
+        "zh": "🦆 小鴨子"
+      },
+      {
+        "val": "bear",
+        "en": "bear",
+        "zh": "🧸 小熊"
+      }
+    ],
+    "answer": "rabbit"
+  },
+  {
+    "id": 200,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "bear",
+    "meaning": "小熊",
+    "emoji": "🧸",
+    "prompt": "【單字評量】看到「🧸 小熊」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "monkey",
+        "en": "monkey",
+        "zh": "🐒 猴子"
+      },
+      {
+        "val": "bear",
+        "en": "bear",
+        "zh": "🧸 小熊"
+      },
+      {
+        "val": "cat",
+        "en": "cat",
+        "zh": "🐱 小貓"
+      },
+      {
+        "val": "duck",
+        "en": "duck",
+        "zh": "🦆 小鴨子"
+      }
+    ],
+    "answer": "bear"
+  },
+  {
+    "id": 201,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "bird",
+    "meaning": "小鳥",
+    "emoji": "🐦",
+    "prompt": "【單字評量】看到「🐦 小鳥」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "rabbit",
+        "en": "rabbit",
+        "zh": "🐰 小白兔"
+      },
+      {
+        "val": "monkey",
+        "en": "monkey",
+        "zh": "🐒 猴子"
+      },
+      {
+        "val": "bird",
+        "en": "bird",
+        "zh": "🐦 小鳥"
+      },
+      {
+        "val": "turtle",
+        "en": "turtle",
+        "zh": "🐢 烏龜"
+      }
+    ],
+    "answer": "bird"
+  },
+  {
+    "id": 202,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "duck",
+    "meaning": "小鴨子",
+    "emoji": "🦆",
+    "prompt": "【單字評量】看到「🦆 小鴨子」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "duck",
+        "en": "duck",
+        "zh": "🦆 小鴨子"
+      },
+      {
+        "val": "turtle",
+        "en": "turtle",
+        "zh": "🐢 烏龜"
+      },
+      {
+        "val": "dog",
+        "en": "dog",
+        "zh": "🐶 小狗"
+      },
+      {
+        "val": "tiger",
+        "en": "tiger",
+        "zh": "🐯 老虎"
+      }
+    ],
+    "answer": "duck"
+  },
+  {
+    "id": 203,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "fish",
+    "meaning": "小魚",
+    "emoji": "🐟",
+    "prompt": "【單字評量】看到「🐟 小魚」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "tiger",
+        "en": "tiger",
+        "zh": "🐯 老虎"
+      },
+      {
+        "val": "rabbit",
+        "en": "rabbit",
+        "zh": "🐰 小白兔"
+      },
+      {
+        "val": "fish",
+        "en": "fish",
+        "zh": "🐟 小魚"
+      },
+      {
+        "val": "lion",
+        "en": "lion",
+        "zh": "🦁 獅子"
+      }
+    ],
+    "answer": "fish"
+  },
+  {
+    "id": 204,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "frog",
+    "meaning": "青蛙",
+    "emoji": "🐸",
+    "prompt": "【單字評量】看到「🐸 青蛙」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "monkey",
+        "en": "monkey",
+        "zh": "🐒 猴子"
+      },
+      {
+        "val": "butterfly",
+        "en": "butterfly",
+        "zh": "🦋 蝴蝶"
+      },
+      {
+        "val": "frog",
+        "en": "frog",
+        "zh": "🐸 青蛙"
+      },
+      {
+        "val": "tiger",
+        "en": "tiger",
+        "zh": "🐯 老虎"
+      }
+    ],
+    "answer": "frog"
+  },
+  {
+    "id": 205,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "butterfly",
+    "meaning": "蝴蝶",
+    "emoji": "🦋",
+    "prompt": "【單字評量】看到「🦋 蝴蝶」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "turtle",
+        "en": "turtle",
+        "zh": "🐢 烏龜"
+      },
+      {
+        "val": "rabbit",
+        "en": "rabbit",
+        "zh": "🐰 小白兔"
+      },
+      {
+        "val": "tiger",
+        "en": "tiger",
+        "zh": "🐯 老虎"
+      },
+      {
+        "val": "butterfly",
+        "en": "butterfly",
+        "zh": "🦋 蝴蝶"
+      }
+    ],
+    "answer": "butterfly"
+  },
+  {
+    "id": 206,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "monkey",
+    "meaning": "猴子",
+    "emoji": "🐒",
+    "prompt": "【單字評量】看到「🐒 猴子」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "monkey",
+        "en": "monkey",
+        "zh": "🐒 猴子"
+      },
+      {
+        "val": "duck",
+        "en": "duck",
+        "zh": "🦆 小鴨子"
+      },
+      {
+        "val": "turtle",
+        "en": "turtle",
+        "zh": "🐢 烏龜"
+      },
+      {
+        "val": "rabbit",
+        "en": "rabbit",
+        "zh": "🐰 小白兔"
+      }
+    ],
+    "answer": "monkey"
+  },
+  {
+    "id": 207,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "lion",
+    "meaning": "獅子",
+    "emoji": "🦁",
+    "prompt": "【單字評量】看到「🦁 獅子」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "monkey",
+        "en": "monkey",
+        "zh": "🐒 猴子"
+      },
+      {
+        "val": "turtle",
+        "en": "turtle",
+        "zh": "🐢 烏龜"
+      },
+      {
+        "val": "frog",
+        "en": "frog",
+        "zh": "🐸 青蛙"
+      },
+      {
+        "val": "lion",
+        "en": "lion",
+        "zh": "🦁 獅子"
+      }
+    ],
+    "answer": "lion"
+  },
+  {
+    "id": 208,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "elephant",
+    "meaning": "大象",
+    "emoji": "🐘",
+    "prompt": "【單字評量】看到「🐘 大象」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "tiger",
+        "en": "tiger",
+        "zh": "🐯 老虎"
+      },
+      {
+        "val": "turtle",
+        "en": "turtle",
+        "zh": "🐢 烏龜"
+      },
+      {
+        "val": "bear",
+        "en": "bear",
+        "zh": "🧸 小熊"
+      },
+      {
+        "val": "elephant",
+        "en": "elephant",
+        "zh": "🐘 大象"
+      }
+    ],
+    "answer": "elephant"
+  },
+  {
+    "id": 209,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "tiger",
+    "meaning": "老虎",
+    "emoji": "🐯",
+    "prompt": "【單字評量】看到「🐯 老虎」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "duck",
+        "en": "duck",
+        "zh": "🦆 小鴨子"
+      },
+      {
+        "val": "dog",
+        "en": "dog",
+        "zh": "🐶 小狗"
+      },
+      {
+        "val": "tiger",
+        "en": "tiger",
+        "zh": "🐯 老虎"
+      },
+      {
+        "val": "cat",
+        "en": "cat",
+        "zh": "🐱 小貓"
+      }
+    ],
+    "answer": "tiger"
+  },
+  {
+    "id": 210,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "turtle",
+    "meaning": "烏龜",
+    "emoji": "🐢",
+    "prompt": "【單字評量】看到「🐢 烏龜」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "butterfly",
+        "en": "butterfly",
+        "zh": "🦋 蝴蝶"
+      },
+      {
+        "val": "turtle",
+        "en": "turtle",
+        "zh": "🐢 烏龜"
+      },
+      {
+        "val": "duck",
+        "en": "duck",
+        "zh": "🦆 小鴨子"
+      },
+      {
+        "val": "bird",
+        "en": "bird",
+        "zh": "🐦 小鳥"
+      }
+    ],
+    "answer": "turtle"
+  },
+  {
+    "id": 211,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "apple",
+    "meaning": "蘋果",
+    "emoji": "🍎",
+    "prompt": "【單字評量】看到「🍎 蘋果」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "water",
+        "en": "water",
+        "zh": "💧 開水"
+      },
+      {
+        "val": "strawberry",
+        "en": "strawberry",
+        "zh": "🍓 草莓"
+      },
+      {
+        "val": "apple",
+        "en": "apple",
+        "zh": "🍎 蘋果"
+      },
+      {
+        "val": "egg",
+        "en": "egg",
+        "zh": "🥚 雞蛋"
+      }
+    ],
+    "answer": "apple"
+  },
+  {
+    "id": 212,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "banana",
+    "meaning": "香蕉",
+    "emoji": "🍌",
+    "prompt": "【單字評量】看到「🍌 香蕉」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "watermelon",
+        "en": "watermelon",
+        "zh": "🍉 西瓜"
+      },
+      {
+        "val": "cake",
+        "en": "cake",
+        "zh": "🍰 蛋糕"
+      },
+      {
+        "val": "banana",
+        "en": "banana",
+        "zh": "🍌 香蕉"
+      },
+      {
+        "val": "ice cream",
+        "en": "ice cream",
+        "zh": "🍦 冰淇淋"
+      }
+    ],
+    "answer": "banana"
+  },
+  {
+    "id": 213,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "strawberry",
+    "meaning": "草莓",
+    "emoji": "🍓",
+    "prompt": "【單字評量】看到「🍓 草莓」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "strawberry",
+        "en": "strawberry",
+        "zh": "🍓 草莓"
+      },
+      {
+        "val": "cake",
+        "en": "cake",
+        "zh": "🍰 蛋糕"
+      },
+      {
+        "val": "ice cream",
+        "en": "ice cream",
+        "zh": "🍦 冰淇淋"
+      },
+      {
+        "val": "watermelon",
+        "en": "watermelon",
+        "zh": "🍉 西瓜"
+      }
+    ],
+    "answer": "strawberry"
+  },
+  {
+    "id": 214,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "watermelon",
+    "meaning": "西瓜",
+    "emoji": "🍉",
+    "prompt": "【單字評量】看到「🍉 西瓜」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "cookie",
+        "en": "cookie",
+        "zh": "🍪 餅乾"
+      },
+      {
+        "val": "strawberry",
+        "en": "strawberry",
+        "zh": "🍓 草莓"
+      },
+      {
+        "val": "watermelon",
+        "en": "watermelon",
+        "zh": "🍉 西瓜"
+      },
+      {
+        "val": "water",
+        "en": "water",
+        "zh": "💧 開水"
+      }
+    ],
+    "answer": "watermelon"
+  },
+  {
+    "id": 215,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "milk",
+    "meaning": "鮮奶/牛奶",
+    "emoji": "🥛",
+    "prompt": "【單字評量】看到「🥛 鮮奶/牛奶」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "water",
+        "en": "water",
+        "zh": "💧 開水"
+      },
+      {
+        "val": "milk",
+        "en": "milk",
+        "zh": "🥛 鮮奶/牛奶"
+      },
+      {
+        "val": "apple",
+        "en": "apple",
+        "zh": "🍎 蘋果"
+      },
+      {
+        "val": "watermelon",
+        "en": "watermelon",
+        "zh": "🍉 西瓜"
+      }
+    ],
+    "answer": "milk"
+  },
+  {
+    "id": 216,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "cake",
+    "meaning": "蛋糕",
+    "emoji": "🍰",
+    "prompt": "【單字評量】看到「🍰 蛋糕」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "juice",
+        "en": "juice",
+        "zh": "🧃 果汁"
+      },
+      {
+        "val": "cookie",
+        "en": "cookie",
+        "zh": "🍪 餅乾"
+      },
+      {
+        "val": "cake",
+        "en": "cake",
+        "zh": "🍰 蛋糕"
+      },
+      {
+        "val": "milk",
+        "en": "milk",
+        "zh": "🥛 鮮奶/牛奶"
+      }
+    ],
+    "answer": "cake"
+  },
+  {
+    "id": 217,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "cookie",
+    "meaning": "餅乾",
+    "emoji": "🍪",
+    "prompt": "【單字評量】看到「🍪 餅乾」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "bread",
+        "en": "bread",
+        "zh": "🍞 麵包"
+      },
+      {
+        "val": "juice",
+        "en": "juice",
+        "zh": "🧃 果汁"
+      },
+      {
+        "val": "cookie",
+        "en": "cookie",
+        "zh": "🍪 餅乾"
+      },
+      {
+        "val": "watermelon",
+        "en": "watermelon",
+        "zh": "🍉 西瓜"
+      }
+    ],
+    "answer": "cookie"
+  },
+  {
+    "id": 218,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "ice cream",
+    "meaning": "冰淇淋",
+    "emoji": "🍦",
+    "prompt": "【單字評量】看到「🍦 冰淇淋」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "milk",
+        "en": "milk",
+        "zh": "🥛 鮮奶/牛奶"
+      },
+      {
+        "val": "strawberry",
+        "en": "strawberry",
+        "zh": "🍓 草莓"
+      },
+      {
+        "val": "banana",
+        "en": "banana",
+        "zh": "🍌 香蕉"
+      },
+      {
+        "val": "ice cream",
+        "en": "ice cream",
+        "zh": "🍦 冰淇淋"
+      }
+    ],
+    "answer": "ice cream"
+  },
+  {
+    "id": 219,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "egg",
+    "meaning": "雞蛋",
+    "emoji": "🥚",
+    "prompt": "【單字評量】看到「🥚 雞蛋」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "egg",
+        "en": "egg",
+        "zh": "🥚 雞蛋"
+      },
+      {
+        "val": "juice",
+        "en": "juice",
+        "zh": "🧃 果汁"
+      },
+      {
+        "val": "cake",
+        "en": "cake",
+        "zh": "🍰 蛋糕"
+      },
+      {
+        "val": "banana",
+        "en": "banana",
+        "zh": "🍌 香蕉"
+      }
+    ],
+    "answer": "egg"
+  },
+  {
+    "id": 220,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "bread",
+    "meaning": "麵包",
+    "emoji": "🍞",
+    "prompt": "【單字評量】看到「🍞 麵包」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "cookie",
+        "en": "cookie",
+        "zh": "🍪 餅乾"
+      },
+      {
+        "val": "bread",
+        "en": "bread",
+        "zh": "🍞 麵包"
+      },
+      {
+        "val": "water",
+        "en": "water",
+        "zh": "💧 開水"
+      },
+      {
+        "val": "strawberry",
+        "en": "strawberry",
+        "zh": "🍓 草莓"
+      }
+    ],
+    "answer": "bread"
+  },
+  {
+    "id": 221,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "water",
+    "meaning": "開水",
+    "emoji": "💧",
+    "prompt": "【單字評量】看到「💧 開水」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "cake",
+        "en": "cake",
+        "zh": "🍰 蛋糕"
+      },
+      {
+        "val": "banana",
+        "en": "banana",
+        "zh": "🍌 香蕉"
+      },
+      {
+        "val": "cookie",
+        "en": "cookie",
+        "zh": "🍪 餅乾"
+      },
+      {
+        "val": "water",
+        "en": "water",
+        "zh": "💧 開水"
+      }
+    ],
+    "answer": "water"
+  },
+  {
+    "id": 222,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "juice",
+    "meaning": "果汁",
+    "emoji": "🧃",
+    "prompt": "【單字評量】看到「🧃 果汁」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "egg",
+        "en": "egg",
+        "zh": "🥚 雞蛋"
+      },
+      {
+        "val": "ice cream",
+        "en": "ice cream",
+        "zh": "🍦 冰淇淋"
+      },
+      {
+        "val": "apple",
+        "en": "apple",
+        "zh": "🍎 蘋果"
+      },
+      {
+        "val": "juice",
+        "en": "juice",
+        "zh": "🧃 果汁"
+      }
+    ],
+    "answer": "juice"
+  },
+  {
+    "id": 223,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "head",
+    "meaning": "頭",
+    "emoji": "🗣️",
+    "prompt": "【單字評量】看到「🗣️ 頭」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "head",
+        "en": "head",
+        "zh": "🗣️ 頭"
+      },
+      {
+        "val": "ear",
+        "en": "ear",
+        "zh": "👂 耳朵"
+      },
+      {
+        "val": "nose",
+        "en": "nose",
+        "zh": "👃 鼻子"
+      },
+      {
+        "val": "foot",
+        "en": "foot",
+        "zh": "🦶 腳"
+      }
+    ],
+    "answer": "head"
+  },
+  {
+    "id": 224,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "eye",
+    "meaning": "眼睛",
+    "emoji": "👁️",
+    "prompt": "【單字評量】看到「👁️ 眼睛」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "eye",
+        "en": "eye",
+        "zh": "👁️ 眼睛"
+      },
+      {
+        "val": "mouth",
+        "en": "mouth",
+        "zh": "👄 嘴巴"
+      },
+      {
+        "val": "hand",
+        "en": "hand",
+        "zh": "✋ 手"
+      },
+      {
+        "val": "nose",
+        "en": "nose",
+        "zh": "👃 鼻子"
+      }
+    ],
+    "answer": "eye"
+  },
+  {
+    "id": 225,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "ear",
+    "meaning": "耳朵",
+    "emoji": "👂",
+    "prompt": "【單字評量】看到「👂 耳朵」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "foot",
+        "en": "foot",
+        "zh": "🦶 腳"
+      },
+      {
+        "val": "ear",
+        "en": "ear",
+        "zh": "👂 耳朵"
+      },
+      {
+        "val": "nose",
+        "en": "nose",
+        "zh": "👃 鼻子"
+      },
+      {
+        "val": "eye",
+        "en": "eye",
+        "zh": "👁️ 眼睛"
+      }
+    ],
+    "answer": "ear"
+  },
+  {
+    "id": 226,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "nose",
+    "meaning": "鼻子",
+    "emoji": "👃",
+    "prompt": "【單字評量】看到「👃 鼻子」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "eye",
+        "en": "eye",
+        "zh": "👁️ 眼睛"
+      },
+      {
+        "val": "nose",
+        "en": "nose",
+        "zh": "👃 鼻子"
+      },
+      {
+        "val": "hand",
+        "en": "hand",
+        "zh": "✋ 手"
+      },
+      {
+        "val": "foot",
+        "en": "foot",
+        "zh": "🦶 腳"
+      }
+    ],
+    "answer": "nose"
+  },
+  {
+    "id": 227,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "mouth",
+    "meaning": "嘴巴",
+    "emoji": "👄",
+    "prompt": "【單字評量】看到「👄 嘴巴」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "mouth",
+        "en": "mouth",
+        "zh": "👄 嘴巴"
+      },
+      {
+        "val": "eye",
+        "en": "eye",
+        "zh": "👁️ 眼睛"
+      },
+      {
+        "val": "foot",
+        "en": "foot",
+        "zh": "🦶 腳"
+      },
+      {
+        "val": "nose",
+        "en": "nose",
+        "zh": "👃 鼻子"
+      }
+    ],
+    "answer": "mouth"
+  },
+  {
+    "id": 228,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "hand",
+    "meaning": "手",
+    "emoji": "✋",
+    "prompt": "【單字評量】看到「✋ 手」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "ear",
+        "en": "ear",
+        "zh": "👂 耳朵"
+      },
+      {
+        "val": "eye",
+        "en": "eye",
+        "zh": "👁️ 眼睛"
+      },
+      {
+        "val": "nose",
+        "en": "nose",
+        "zh": "👃 鼻子"
+      },
+      {
+        "val": "hand",
+        "en": "hand",
+        "zh": "✋ 手"
+      }
+    ],
+    "answer": "hand"
+  },
+  {
+    "id": 229,
+    "category": "thematic",
+    "exam_tag": "河堤國小×康軒評量・主題核心單字",
+    "type": "thematic_word",
+    "word": "foot",
+    "meaning": "腳",
+    "emoji": "🦶",
+    "prompt": "【單字評量】看到「🦶 腳」，請選出對應的英文單字：",
+    "options": [
+      {
+        "val": "foot",
+        "en": "foot",
+        "zh": "🦶 腳"
+      },
+      {
+        "val": "head",
+        "en": "head",
+        "zh": "🗣️ 頭"
+      },
+      {
+        "val": "mouth",
+        "en": "mouth",
+        "zh": "👄 嘴巴"
+      },
+      {
+        "val": "ear",
+        "en": "ear",
+        "zh": "👂 耳朵"
+      }
+    ],
+    "answer": "foot"
+  }
+]

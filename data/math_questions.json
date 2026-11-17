@@ -1,0 +1,6408 @@
+[
+  {
+    "id": 1,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 1,
+    "emoji": "🍎",
+    "display": "🍎",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍎 呢？",
+    "answer": 1,
+    "options": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "id": 2,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 2,
+    "emoji": "🍌",
+    "display": "🍌🍌",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍌 呢？",
+    "answer": 2,
+    "options": [
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "id": 3,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 3,
+    "emoji": "🍬",
+    "display": "🍬🍬🍬",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍬 呢？",
+    "answer": 3,
+    "options": [
+      4,
+      5,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 4,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 4,
+    "emoji": "⭐",
+    "display": "⭐⭐⭐⭐",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 ⭐ 呢？",
+    "answer": 4,
+    "options": [
+      4,
+      5,
+      3,
+      6
+    ]
+  },
+  {
+    "id": 5,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 5,
+    "emoji": "🍪",
+    "display": "🍪🍪🍪🍪🍪",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍪 呢？",
+    "answer": 5,
+    "options": [
+      7,
+      5,
+      6,
+      4
+    ]
+  },
+  {
+    "id": 6,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 6,
+    "emoji": "🧸",
+    "display": "🧸🧸🧸🧸🧸🧸",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🧸 呢？",
+    "answer": 6,
+    "options": [
+      7,
+      5,
+      8,
+      6
+    ]
+  },
+  {
+    "id": 7,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 7,
+    "emoji": "🎈",
+    "display": "🎈🎈🎈🎈🎈🎈🎈",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🎈 呢？",
+    "answer": 7,
+    "options": [
+      9,
+      7,
+      8,
+      6
+    ]
+  },
+  {
+    "id": 8,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 8,
+    "emoji": "🌸",
+    "display": "🌸🌸🌸🌸🌸🌸🌸🌸",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🌸 呢？",
+    "answer": 8,
+    "options": [
+      10,
+      9,
+      7,
+      8
+    ]
+  },
+  {
+    "id": 9,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 9,
+    "emoji": "🍉",
+    "display": "🍉🍉🍉🍉🍉🍉🍉🍉🍉",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍉 呢？",
+    "answer": 9,
+    "options": [
+      11,
+      9,
+      10,
+      8
+    ]
+  },
+  {
+    "id": 10,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 10,
+    "emoji": "🍓",
+    "display": "🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍓 呢？",
+    "answer": 10,
+    "options": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "id": 11,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 11,
+    "emoji": "🍎",
+    "display": "🍎🍎🍎🍎🍎  🍎🍎🍎🍎🍎  🍎",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍎 呢？",
+    "answer": 11,
+    "options": [
+      11,
+      10,
+      13,
+      12
+    ]
+  },
+  {
+    "id": 12,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 12,
+    "emoji": "🍌",
+    "display": "🍌🍌🍌🍌🍌  🍌🍌🍌🍌🍌  🍌🍌",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍌 呢？",
+    "answer": 12,
+    "options": [
+      11,
+      13,
+      14,
+      12
+    ]
+  },
+  {
+    "id": 13,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 13,
+    "emoji": "🍬",
+    "display": "🍬🍬🍬🍬🍬  🍬🍬🍬🍬🍬  🍬🍬🍬",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍬 呢？",
+    "answer": 13,
+    "options": [
+      13,
+      14,
+      15,
+      12
+    ]
+  },
+  {
+    "id": 14,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 14,
+    "emoji": "⭐",
+    "display": "⭐⭐⭐⭐⭐  ⭐⭐⭐⭐⭐  ⭐⭐⭐⭐",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 ⭐ 呢？",
+    "answer": 14,
+    "options": [
+      14,
+      16,
+      15,
+      13
+    ]
+  },
+  {
+    "id": 15,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 15,
+    "emoji": "🍪",
+    "display": "🍪🍪🍪🍪🍪  🍪🍪🍪🍪🍪  🍪🍪🍪🍪🍪",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍪 呢？",
+    "answer": 15,
+    "options": [
+      14,
+      15,
+      17,
+      16
+    ]
+  },
+  {
+    "id": 16,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 16,
+    "emoji": "🧸",
+    "display": "🧸🧸🧸🧸🧸  🧸🧸🧸🧸🧸  🧸🧸🧸🧸🧸🧸",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🧸 呢？",
+    "answer": 16,
+    "options": [
+      18,
+      17,
+      16,
+      15
+    ]
+  },
+  {
+    "id": 17,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 17,
+    "emoji": "🎈",
+    "display": "🎈🎈🎈🎈🎈  🎈🎈🎈🎈🎈  🎈🎈🎈🎈🎈🎈🎈",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🎈 呢？",
+    "answer": 17,
+    "options": [
+      17,
+      18,
+      19,
+      16
+    ]
+  },
+  {
+    "id": 18,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 18,
+    "emoji": "🌸",
+    "display": "🌸🌸🌸🌸🌸  🌸🌸🌸🌸🌸  🌸🌸🌸🌸🌸🌸🌸🌸",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🌸 呢？",
+    "answer": 18,
+    "options": [
+      17,
+      19,
+      20,
+      18
+    ]
+  },
+  {
+    "id": 19,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 19,
+    "emoji": "🍉",
+    "display": "🍉🍉🍉🍉🍉  🍉🍉🍉🍉🍉  🍉🍉🍉🍉🍉🍉🍉🍉🍉",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍉 呢？",
+    "answer": 19,
+    "options": [
+      19,
+      21,
+      20,
+      18
+    ]
+  },
+  {
+    "id": 20,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 20,
+    "emoji": "🍓",
+    "display": "🍓🍓🍓🍓🍓  🍓🍓🍓🍓🍓  🍓🍓🍓🍓🍓🍓🍓🍓🍓🍓",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍓 呢？",
+    "answer": 20,
+    "options": [
+      19,
+      22,
+      21,
+      20
+    ]
+  },
+  {
+    "id": 21,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 21,
+    "emoji": "🍎",
+    "display": "🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎\n🍎🍎🍎🍎🍎🍎🍎🍎🍎🍎  🍎",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍎 呢？",
+    "answer": 21,
+    "options": [
+      20,
+      22,
+      21,
+      23
+    ]
+  },
+  {
+    "id": 22,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 22,
+    "emoji": "🍌",
+    "display": "🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌\n🍌🍌🍌🍌🍌🍌🍌🍌🍌🍌  🍌🍌",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍌 呢？",
+    "answer": 22,
+    "options": [
+      24,
+      23,
+      21,
+      22
+    ]
+  },
+  {
+    "id": 23,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 23,
+    "emoji": "🍬",
+    "display": "🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬\n🍬🍬🍬🍬🍬🍬🍬🍬🍬🍬  🍬🍬🍬",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍬 呢？",
+    "answer": 23,
+    "options": [
+      25,
+      22,
+      24,
+      23
+    ]
+  },
+  {
+    "id": 24,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 24,
+    "emoji": "⭐",
+    "display": "⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐\n⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐  ⭐⭐⭐⭐",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 ⭐ 呢？",
+    "answer": 24,
+    "options": [
+      23,
+      24,
+      25,
+      26
+    ]
+  },
+  {
+    "id": 25,
+    "category": "counting",
+    "exam_tag": "康軒一上期中評量・數數看",
+    "type": "count_objects",
+    "count": 25,
+    "emoji": "🍪",
+    "display": "🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪\n🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪  🍪🍪🍪🍪🍪",
+    "formula": "5個、10個一數，共有幾個？",
+    "prompt": "【康軒評量】數數看，畫面上一共有幾個 🍪 呢？",
+    "answer": 25,
+    "options": [
+      27,
+      26,
+      25,
+      24
+    ]
+  },
+  {
+    "id": 26,
+    "category": "counting",
+    "exam_tag": "康軒新挑戰測驗卷・排順序與第幾個",
+    "type": "ordinal_number",
+    "display": "👧👦🧒🧑👩👨",
+    "formula": "排隊問題：第 4 個的前面有 ？ 人",
+    "prompt": "【新挑戰測驗卷】從左邊數來【第 4 個人】的前面有幾個人？",
+    "answer": 3,
+    "options": [
+      2,
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 27,
+    "category": "counting",
+    "exam_tag": "康軒新挑戰測驗卷・排順序與第幾個",
+    "type": "ordinal_number",
+    "display": "🍓🍓🍓🍓🍓🍓🍓🍓",
+    "formula": "第 5 顆 ＝ 只有那 1 顆喔！",
+    "prompt": "【新挑戰測驗卷】媽媽把左邊數來【第 5 顆】草莓吃掉，請問她吃掉了幾顆草莓？",
+    "answer": 1,
+    "options": [
+      5,
+      4,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 28,
+    "category": "counting",
+    "exam_tag": "康軒新挑戰測驗卷・排順序與第幾個",
+    "type": "ordinal_number",
+    "display": "🍎🍎🍎🍎🍎🍎🍎",
+    "formula": "7 顆吃掉 3 顆 ➔ 剩下 ？ 顆",
+    "prompt": "【新挑戰測驗卷】盤子有 7 顆蘋果，吃掉【左邊 3 顆】後，還剩下幾顆蘋果？",
+    "answer": 4,
+    "options": [
+      3,
+      6,
+      4,
+      5
+    ]
+  },
+  {
+    "id": 29,
+    "category": "counting",
+    "exam_tag": "康軒新挑戰測驗卷・排順序與第幾個",
+    "type": "ordinal_number",
+    "display": "🚗🚕🚙🚌🚎🏎️🚓",
+    "formula": "共 7 輛，第 3 輛後面有 ？ 輛",
+    "prompt": "【新挑戰測驗卷】一共有 7 輛車排隊，小紅車排在從左數來【第 3 輛】，它後面還有幾輛車？",
+    "answer": 4,
+    "options": [
+      3,
+      5,
+      4,
+      2
+    ]
+  },
+  {
+    "id": 30,
+    "category": "counting",
+    "exam_tag": "康軒新挑戰測驗卷・排順序與第幾個",
+    "type": "ordinal_number",
+    "display": "🐤🐤🐤🐤🐤🐤🐤🐤🐤",
+    "formula": "9 隻的正中間是第 ？ 隻",
+    "prompt": "【新挑戰測驗卷】9 隻小雞排隊，小黃排在正中間，請問小黃是從左邊數來【第幾隻】？",
+    "answer": 5,
+    "options": [
+      5,
+      4,
+      3,
+      6
+    ]
+  },
+  {
+    "id": 31,
+    "category": "counting",
+    "exam_tag": "康軒新挑戰測驗卷・排順序與第幾個",
+    "type": "ordinal_number",
+    "display": "🏃‍♂️🏃‍♀️🏃🏃‍♂️🏃‍♀️🏃",
+    "formula": "第 1 名 + 後面 5 人 = ？ 人",
+    "prompt": "【新挑戰測驗卷】賽跑比賽，小華跑在【第 1 名】，他後面有 5 個人，請問一共有幾個人比賽？",
+    "answer": 6,
+    "options": [
+      7,
+      5,
+      4,
+      6
+    ]
+  },
+  {
+    "id": 32,
+    "category": "counting",
+    "exam_tag": "康軒一下期中評量・100以內的數",
+    "type": "place_value",
+    "display": "🔟🔟🔟 + 🪙🪙🪙🪙🪙",
+    "formula": "3 個十和 5 個一",
+    "prompt": "【康軒一下評量】3 個十和 5 個一合起來是多少？",
+    "answer": 35,
+    "options": [
+      30,
+      53,
+      35,
+      25
+    ]
+  },
+  {
+    "id": 33,
+    "category": "counting",
+    "exam_tag": "康軒一下期中評量・100以內的數",
+    "type": "place_value",
+    "display": "🔟🔟🔟🔟 + 🪙🪙🪙🪙🪙🪙🪙",
+    "formula": "4 個十和 7 個一",
+    "prompt": "【康軒一下評量】4 個十和 7 個一合起來是多少？",
+    "answer": 47,
+    "options": [
+      37,
+      40,
+      47,
+      74
+    ]
+  },
+  {
+    "id": 34,
+    "category": "counting",
+    "exam_tag": "康軒一下期中評量・100以內的數",
+    "type": "place_value",
+    "display": "🪙🪙🪙🪙🪙🪙 + 🔟🔟🔟🔟🔟",
+    "formula": "⚠️ 6 個一和 5 個十",
+    "prompt": "【新挑戰測驗卷陷阱題】注意看喔！6 個一和 5 個十合起來是多少？",
+    "answer": 56,
+    "options": [
+      65,
+      56,
+      60,
+      50
+    ]
+  },
+  {
+    "id": 35,
+    "category": "counting",
+    "exam_tag": "康軒一下期中評量・100以內的數",
+    "type": "place_value",
+    "display": "🪙🪙🪙 + 🔟🔟🔟🔟🔟🔟🔟",
+    "formula": "⚠️ 3 個一和 7 個十",
+    "prompt": "【新挑戰測驗卷陷阱題】仔細看！3 個一和 7 個十合起來是多少？",
+    "answer": 73,
+    "options": [
+      30,
+      73,
+      37,
+      70
+    ]
+  },
+  {
+    "id": 36,
+    "category": "counting",
+    "exam_tag": "康軒一下期中評量・100以內的數",
+    "type": "place_value",
+    "display": "🪙🪙🪙🪙🪙🪙🪙🪙 + 🔟🔟",
+    "formula": "⚠️ 8 個一和 2 個十",
+    "prompt": "【新挑戰測驗卷陷阱題】8 個一和 2 個十合起來是多少？",
+    "answer": 28,
+    "options": [
+      20,
+      82,
+      80,
+      28
+    ]
+  },
+  {
+    "id": 37,
+    "category": "counting",
+    "exam_tag": "康軒一下期中評量・100以內的數",
+    "type": "place_value",
+    "display": "🔟🔟🔟🔟🔟🔟🔟🔟",
+    "formula": "8 個十和 0 個一",
+    "prompt": "【康軒一下評量】8 個十合起來是多少？",
+    "answer": 80,
+    "options": [
+      88,
+      80,
+      18,
+      8
+    ]
+  },
+  {
+    "id": 38,
+    "category": "counting",
+    "exam_tag": "康軒一下期中評量・100以內的數",
+    "type": "place_value",
+    "display": "🔟🔟🔟🔟🔟🔟🔟🔟🔟 + 🪙🪙🪙🪙🪙🪙🪙🪙🪙",
+    "formula": "9 個十和 9 個一",
+    "prompt": "【康軒一下評量】9 個十和 9 個一合起來，再加 1 是多少？",
+    "answer": 100,
+    "options": [
+      99,
+      98,
+      90,
+      100
+    ]
+  },
+  {
+    "id": 39,
+    "category": "counting",
+    "exam_tag": "康軒一下期中評量・100以內的數",
+    "type": "place_value",
+    "display": "🔢 68",
+    "formula": "68 ➔ [ ? ] 個十和 8 個一",
+    "prompt": "【康軒一下評量】數字 68 裡面有幾個「十」和 8 個「一」？",
+    "answer": 6,
+    "options": [
+      8,
+      14,
+      60,
+      6
+    ]
+  },
+  {
+    "id": 40,
+    "category": "counting",
+    "exam_tag": "康軒一下期中評量・100以內的數",
+    "type": "place_value",
+    "display": "🔢 92",
+    "formula": "92 ➔ 9 個十和 [ ? ] 個一",
+    "prompt": "【康軒一下評量】數字 92 裡面有 9 個「十」和幾個「一」？",
+    "answer": 2,
+    "options": [
+      2,
+      11,
+      9,
+      20
+    ]
+  },
+  {
+    "id": 41,
+    "category": "counting",
+    "exam_tag": "康軒新挑戰測驗卷・數的順序與跳數",
+    "type": "number_sequence",
+    "display": "🚂 數列火車",
+    "formula": "18 ➔ 19 ➔ 【 ？ 】 ➔ 21",
+    "prompt": "【康軒一上期末評量】按照順序填填看，19 的下一個數是多少？",
+    "answer": 20,
+    "options": [
+      22,
+      10,
+      17,
+      20
+    ]
+  },
+  {
+    "id": 42,
+    "category": "counting",
+    "exam_tag": "康軒新挑戰測驗卷・數的順序與跳數",
+    "type": "number_sequence",
+    "display": "🚂 倒數火車",
+    "formula": "31 ➔ 30 ➔ 【 ？ 】 ➔ 28",
+    "prompt": "【康軒一下期中評量】倒著數數看，30 的前一個數是多少？",
+    "answer": 29,
+    "options": [
+      20,
+      27,
+      29,
+      32
+    ]
+  },
+  {
+    "id": 43,
+    "category": "counting",
+    "exam_tag": "康軒新挑戰測驗卷・數的順序與跳數",
+    "type": "number_sequence",
+    "display": "🖐️ 5個一數",
+    "formula": "15 ➔ 20 ➔ 【 ？ 】 ➔ 30",
+    "prompt": "【康軒一下評量】5 個一數，20 再往下數 5 是多少？",
+    "answer": 25,
+    "options": [
+      24,
+      25,
+      35,
+      21
+    ]
+  },
+  {
+    "id": 44,
+    "category": "counting",
+    "exam_tag": "康軒新挑戰測驗卷・數的順序與跳數",
+    "type": "number_sequence",
+    "display": "🖐️ 5個一數",
+    "formula": "45 ➔ 50 ➔ 55 ➔ 【 ？ 】",
+    "prompt": "【康軒一下評量】5 個一數，55 的下一個數是多少？",
+    "answer": 60,
+    "options": [
+      56,
+      60,
+      50,
+      65
+    ]
+  },
+  {
+    "id": 45,
+    "category": "counting",
+    "exam_tag": "康軒新挑戰測驗卷・數的順序與跳數",
+    "type": "number_sequence",
+    "display": "🍒 2個一數",
+    "formula": "12 ➔ 14 ➔ 【 ？ 】 ➔ 18",
+    "prompt": "【康軒一上期末評量】2 個一數，14 的下一個數是多少？",
+    "answer": 16,
+    "options": [
+      16,
+      20,
+      17,
+      15
+    ]
+  },
+  {
+    "id": 46,
+    "category": "counting",
+    "exam_tag": "康軒新挑戰測驗卷・數的順序與跳數",
+    "type": "number_sequence",
+    "display": "🔟 10個一數",
+    "formula": "40 ➔ 50 ➔ 【 ？ 】 ➔ 70",
+    "prompt": "【康軒一下期中評量】10 個一數，50 的下一個數是多少？",
+    "answer": 60,
+    "options": [
+      55,
+      51,
+      80,
+      60
+    ]
+  },
+  {
+    "id": 47,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 39,
+    "num_b": 52,
+    "display": "⚖️ 數字比一比",
+    "formula": "39   [ ? ]   52",
+    "prompt": "【康軒評量】請比較大小：【 39 】和【 52 】中間要填什麼符號？",
+    "answer": "<",
+    "options": [
+      "=",
+      "<",
+      ">"
+    ],
+    "explanation": "39 比 52 小"
+  },
+  {
+    "id": 48,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 45,
+    "num_b": 8,
+    "display": "⚖️ 數字比一比",
+    "formula": "45   [ ? ]   8",
+    "prompt": "【康軒評量】請比較大小：【 45 】和【 8 】中間要填什麼符號？",
+    "answer": ">",
+    "options": [
+      "=",
+      "<",
+      ">"
+    ],
+    "explanation": "45 比 8 大"
+  },
+  {
+    "id": 49,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 41,
+    "num_b": 95,
+    "display": "⚖️ 數字比一比",
+    "formula": "41   [ ? ]   95",
+    "prompt": "【康軒評量】請比較大小：【 41 】和【 95 】中間要填什麼符號？",
+    "answer": "<",
+    "options": [
+      "=",
+      "<",
+      ">"
+    ],
+    "explanation": "41 比 95 小"
+  },
+  {
+    "id": 50,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 75,
+    "num_b": 32,
+    "display": "⚖️ 數字比一比",
+    "formula": "75   [ ? ]   32",
+    "prompt": "【康軒評量】請比較大小：【 75 】和【 32 】中間要填什麼符號？",
+    "answer": ">",
+    "options": [
+      "<",
+      ">",
+      "="
+    ],
+    "explanation": "75 比 32 大"
+  },
+  {
+    "id": 51,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 20,
+    "num_b": 56,
+    "display": "⚖️ 數字比一比",
+    "formula": "20   [ ? ]   56",
+    "prompt": "【康軒評量】請比較大小：【 20 】和【 56 】中間要填什麼符號？",
+    "answer": "<",
+    "options": [
+      "=",
+      ">",
+      "<"
+    ],
+    "explanation": "20 比 56 小"
+  },
+  {
+    "id": 52,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 20,
+    "num_b": 56,
+    "display": "⚖️ 數字比一比",
+    "formula": "20   [ ? ]   56",
+    "prompt": "【康軒評量】請比較大小：【 20 】和【 56 】中間要填什麼符號？",
+    "answer": "<",
+    "options": [
+      "=",
+      ">",
+      "<"
+    ],
+    "explanation": "20 比 56 小"
+  },
+  {
+    "id": 53,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 88,
+    "num_b": 68,
+    "display": "⚖️ 數字比一比",
+    "formula": "88   [ ? ]   68",
+    "prompt": "【康軒評量】請比較大小：【 88 】和【 68 】中間要填什麼符號？",
+    "answer": ">",
+    "options": [
+      "=",
+      "<",
+      ">"
+    ],
+    "explanation": "88 比 68 大"
+  },
+  {
+    "id": 54,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 84,
+    "num_b": 38,
+    "display": "⚖️ 數字比一比",
+    "formula": "84   [ ? ]   38",
+    "prompt": "【康軒評量】請比較大小：【 84 】和【 38 】中間要填什麼符號？",
+    "answer": ">",
+    "options": [
+      ">",
+      "=",
+      "<"
+    ],
+    "explanation": "84 比 38 大"
+  },
+  {
+    "id": 55,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 95,
+    "num_b": 43,
+    "display": "⚖️ 數字比一比",
+    "formula": "95   [ ? ]   43",
+    "prompt": "【康軒評量】請比較大小：【 95 】和【 43 】中間要填什麼符號？",
+    "answer": ">",
+    "options": [
+      "<",
+      ">",
+      "="
+    ],
+    "explanation": "95 比 43 大"
+  },
+  {
+    "id": 56,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 12,
+    "num_b": 69,
+    "display": "⚖️ 數字比一比",
+    "formula": "12   [ ? ]   69",
+    "prompt": "【康軒評量】請比較大小：【 12 】和【 69 】中間要填什麼符號？",
+    "answer": "<",
+    "options": [
+      "=",
+      "<",
+      ">"
+    ],
+    "explanation": "12 比 69 小"
+  },
+  {
+    "id": 57,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 87,
+    "num_b": 16,
+    "display": "⚖️ 數字比一比",
+    "formula": "87   [ ? ]   16",
+    "prompt": "【康軒評量】請比較大小：【 87 】和【 16 】中間要填什麼符號？",
+    "answer": ">",
+    "options": [
+      ">",
+      "=",
+      "<"
+    ],
+    "explanation": "87 比 16 大"
+  },
+  {
+    "id": 58,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 43,
+    "num_b": 65,
+    "display": "⚖️ 數字比一比",
+    "formula": "43   [ ? ]   65",
+    "prompt": "【康軒評量】請比較大小：【 43 】和【 65 】中間要填什麼符號？",
+    "answer": "<",
+    "options": [
+      ">",
+      "=",
+      "<"
+    ],
+    "explanation": "43 比 65 小"
+  },
+  {
+    "id": 59,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 50,
+    "num_b": 91,
+    "display": "⚖️ 數字比一比",
+    "formula": "50   [ ? ]   91",
+    "prompt": "【康軒評量】請比較大小：【 50 】和【 91 】中間要填什麼符號？",
+    "answer": "<",
+    "options": [
+      "<",
+      ">",
+      "="
+    ],
+    "explanation": "50 比 91 小"
+  },
+  {
+    "id": 60,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 93,
+    "num_b": 77,
+    "display": "⚖️ 數字比一比",
+    "formula": "93   [ ? ]   77",
+    "prompt": "【康軒評量】請比較大小：【 93 】和【 77 】中間要填什麼符號？",
+    "answer": ">",
+    "options": [
+      "=",
+      "<",
+      ">"
+    ],
+    "explanation": "93 比 77 大"
+  },
+  {
+    "id": 61,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 37,
+    "num_b": 68,
+    "display": "⚖️ 數字比一比",
+    "formula": "37   [ ? ]   68",
+    "prompt": "【康軒評量】請比較大小：【 37 】和【 68 】中間要填什麼符號？",
+    "answer": "<",
+    "options": [
+      ">",
+      "<",
+      "="
+    ],
+    "explanation": "37 比 68 小"
+  },
+  {
+    "id": 62,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 46,
+    "num_b": 36,
+    "display": "⚖️ 數字比一比",
+    "formula": "46   [ ? ]   36",
+    "prompt": "【康軒評量】請比較大小：【 46 】和【 36 】中間要填什麼符號？",
+    "answer": ">",
+    "options": [
+      "<",
+      ">",
+      "="
+    ],
+    "explanation": "46 比 36 大"
+  },
+  {
+    "id": 63,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 69,
+    "num_b": 27,
+    "display": "⚖️ 數字比一比",
+    "formula": "69   [ ? ]   27",
+    "prompt": "【康軒評量】請比較大小：【 69 】和【 27 】中間要填什麼符號？",
+    "answer": ">",
+    "options": [
+      ">",
+      "<",
+      "="
+    ],
+    "explanation": "69 比 27 大"
+  },
+  {
+    "id": 64,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 64,
+    "num_b": 92,
+    "display": "⚖️ 數字比一比",
+    "formula": "64   [ ? ]   92",
+    "prompt": "【康軒評量】請比較大小：【 64 】和【 92 】中間要填什麼符號？",
+    "answer": "<",
+    "options": [
+      "=",
+      "<",
+      ">"
+    ],
+    "explanation": "64 比 92 小"
+  },
+  {
+    "id": 65,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 64,
+    "num_b": 67,
+    "display": "⚖️ 數字比一比",
+    "formula": "64   [ ? ]   67",
+    "prompt": "【康軒評量】請比較大小：【 64 】和【 67 】中間要填什麼符號？",
+    "answer": "<",
+    "options": [
+      "<",
+      "=",
+      ">"
+    ],
+    "explanation": "64 比 67 小"
+  },
+  {
+    "id": 66,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 8,
+    "num_b": 75,
+    "display": "⚖️ 數字比一比",
+    "formula": "8   [ ? ]   75",
+    "prompt": "【康軒評量】請比較大小：【 8 】和【 75 】中間要填什麼符號？",
+    "answer": "<",
+    "options": [
+      "=",
+      ">",
+      "<"
+    ],
+    "explanation": "8 比 75 小"
+  },
+  {
+    "id": 67,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 38,
+    "num_b": 13,
+    "display": "⚖️ 數字比一比",
+    "formula": "38   [ ? ]   13",
+    "prompt": "【康軒評量】請比較大小：【 38 】和【 13 】中間要填什麼符號？",
+    "answer": ">",
+    "options": [
+      "<",
+      "=",
+      ">"
+    ],
+    "explanation": "38 比 13 大"
+  },
+  {
+    "id": 68,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 84,
+    "num_b": 25,
+    "display": "⚖️ 數字比一比",
+    "formula": "84   [ ? ]   25",
+    "prompt": "【康軒評量】請比較大小：【 84 】和【 25 】中間要填什麼符號？",
+    "answer": ">",
+    "options": [
+      ">",
+      "=",
+      "<"
+    ],
+    "explanation": "84 比 25 大"
+  },
+  {
+    "id": 69,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 36,
+    "num_b": 52,
+    "display": "⚖️ 數字比一比",
+    "formula": "36   [ ? ]   52",
+    "prompt": "【康軒評量】請比較大小：【 36 】和【 52 】中間要填什麼符號？",
+    "answer": "<",
+    "options": [
+      "<",
+      "=",
+      ">"
+    ],
+    "explanation": "36 比 52 小"
+  },
+  {
+    "id": 70,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 83,
+    "num_b": 30,
+    "display": "⚖️ 數字比一比",
+    "formula": "83   [ ? ]   30",
+    "prompt": "【康軒評量】請比較大小：【 83 】和【 30 】中間要填什麼符號？",
+    "answer": ">",
+    "options": [
+      "<",
+      "=",
+      ">"
+    ],
+    "explanation": "83 比 30 大"
+  },
+  {
+    "id": 71,
+    "category": "compare",
+    "exam_tag": "康軒一上/一下評量・比大小",
+    "type": "compare_numbers",
+    "num_a": 18,
+    "num_b": 74,
+    "display": "⚖️ 數字比一比",
+    "formula": "18   [ ? ]   74",
+    "prompt": "【康軒評量】請比較大小：【 18 】和【 74 】中間要填什麼符號？",
+    "answer": "<",
+    "options": [
+      "=",
+      ">",
+      "<"
+    ],
+    "explanation": "18 比 74 小"
+  },
+  {
+    "id": 72,
+    "category": "compare",
+    "exam_tag": "康軒期中評量・比長短高矮輕重",
+    "type": "measurement_compare",
+    "display": "✏️📎📎📎📎📎 vs 🧼📎📎",
+    "formula": "鉛筆=5個迴紋針，橡皮擦=2個迴紋針",
+    "prompt": "【康軒一上期中＆一下第4單元】鉛筆和 5 個迴紋針一樣長，橡皮擦和 2 個迴紋針一樣長，鉛筆比橡皮擦長幾個迴紋針？",
+    "answer": "3個",
+    "options": [
+      "2個",
+      "3個",
+      "5個",
+      "7個"
+    ]
+  },
+  {
+    "id": 73,
+    "category": "compare",
+    "exam_tag": "康軒期中評量・比長短高矮輕重",
+    "type": "measurement_compare",
+    "display": "🧸⬇️ 翹翹板 ⬆️🐰",
+    "formula": "小熊在下面・小兔在上面",
+    "prompt": "【康軒一上期中評量】小熊和小兔玩翹翹板，小熊沉在下面，小兔翹在上面，請問誰比較重？",
+    "answer": "小熊比較重",
+    "options": [
+      "無法比較",
+      "小兔比較重",
+      "一樣重",
+      "小熊比較重"
+    ]
+  },
+  {
+    "id": 74,
+    "category": "compare",
+    "exam_tag": "康軒期中評量・比長短高矮輕重",
+    "type": "measurement_compare",
+    "display": "📕 12公分 vs 📗 4公分",
+    "formula": "字典厚 12 公分・課本厚 4 公分",
+    "prompt": "【康軒一上期中評量】字典和國語課本比厚薄，哪一本書比較「薄」？",
+    "answer": "國語課本",
+    "options": [
+      "一樣厚",
+      "無法比較",
+      "國語課本",
+      "字典"
+    ]
+  },
+  {
+    "id": 75,
+    "category": "compare",
+    "exam_tag": "康軒期中評量・比長短高矮輕重",
+    "type": "measurement_compare",
+    "display": "👦 > 👧 > 👶",
+    "formula": "哥哥比姊姊高，姊姊比妹妹高",
+    "prompt": "【康軒新挑戰測驗卷】哥哥比姊姊高，姊姊又比妹妹高，請問三個人當中誰最「高」？",
+    "answer": "哥哥",
+    "options": [
+      "姊姊",
+      "一樣高",
+      "哥哥",
+      "妹妹"
+    ]
+  },
+  {
+    "id": 76,
+    "category": "compare",
+    "exam_tag": "康軒期中評量・比長短高矮輕重",
+    "type": "measurement_compare",
+    "display": "🎀 紅彩帶 9格 vs 💙 藍彩帶 6格",
+    "formula": "紅彩帶長 9 格・藍彩帶長 6 格",
+    "prompt": "【康軒一下期中評量】紅彩帶長 9 格，藍彩帶長 6 格，兩條彩帶接在一起共長幾格？",
+    "answer": "15格",
+    "options": [
+      "16格",
+      "3格",
+      "14格",
+      "15格"
+    ]
+  },
+  {
+    "id": 77,
+    "category": "compare",
+    "exam_tag": "康軒期中評量・比長短高矮輕重",
+    "type": "measurement_compare",
+    "display": "📏 書桌長 8 個手掌寬",
+    "formula": "媽媽手掌大 vs 小美手掌小",
+    "prompt": "【康軒新挑戰測驗卷】同一張書桌，小美用手掌量是 8 個手掌長，爸爸手掌比較大，爸爸量起來會比 8 個手掌多還是少？",
+    "answer": "比8個少",
+    "options": [
+      "比8個多",
+      "比8個少",
+      "16個",
+      "一樣是8個"
+    ]
+  },
+  {
+    "id": 78,
+    "category": "compare",
+    "exam_tag": "康軒一上期中評量・認識形狀",
+    "type": "shape_recognition",
+    "display": "⚽ 🏀 🎾",
+    "formula": "可以四處滾動、不能疊高",
+    "prompt": "【康軒一上期中評量】皮球和彈珠可以往四面八方滾動，這種形狀叫做什麼？",
+    "answer": "球",
+    "options": [
+      "正方體",
+      "球",
+      "長方體",
+      "圓柱"
+    ]
+  },
+  {
+    "id": 79,
+    "category": "compare",
+    "exam_tag": "康軒一上期中評量・認識形狀",
+    "type": "shape_recognition",
+    "display": "🥫 🥛 🛢️",
+    "formula": "平放會滾動・立起來能疊高",
+    "prompt": "【康軒新挑戰測驗卷】飲料罐頭立起來平平的可以疊高，橫著放卻會滾動，它是哪一種形狀？",
+    "answer": "圓柱",
+    "options": [
+      "三角形",
+      "球",
+      "正方體",
+      "圓柱"
+    ]
+  },
+  {
+    "id": 80,
+    "category": "compare",
+    "exam_tag": "康軒一上期中評量・認識形狀",
+    "type": "shape_recognition",
+    "display": "🎲 🧊",
+    "formula": "6 個面都是大小一樣的正方形",
+    "prompt": "【康軒一上期中評量】骰子的 6 個面都是大小完全一樣的正方形，它是哪一種立體形狀？",
+    "answer": "正方體",
+    "options": [
+      "球",
+      "長方體",
+      "圓柱",
+      "正方體"
+    ]
+  },
+  {
+    "id": 81,
+    "category": "compare",
+    "exam_tag": "康軒一上期中評量・認識形狀",
+    "type": "shape_recognition",
+    "display": "📐 三角形",
+    "formula": "有 3 條直直的邊、3 個尖尖的角",
+    "prompt": "【康軒一上評量】哪一種平面圖形有 3 個尖尖的角和 3 條邊？",
+    "answer": "三角形",
+    "options": [
+      "長方形",
+      "三角形",
+      "圓形",
+      "正方形"
+    ]
+  },
+  {
+    "id": 82,
+    "category": "compare",
+    "exam_tag": "康軒一上期中評量・認識形狀",
+    "type": "shape_recognition",
+    "display": "🥫 ➔ ⭕",
+    "formula": "把圓柱體的底面壓在紙上描一描",
+    "prompt": "【康軒新挑戰測驗卷】拿一個圓柱體茶罐，把底部壓在白紙上描出邊緣，會畫出什麼圖形？",
+    "answer": "圓形",
+    "options": [
+      "三角形",
+      "圓形",
+      "長方形",
+      "正方形"
+    ]
+  },
+  {
+    "id": 83,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 4,
+    "part1": 1,
+    "part2": 3,
+    "display": "🍰 分一分・合一合",
+    "formula": "4 ➔ 1 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 4 】可以分成【 1 】和多少？",
+    "answer": 3,
+    "options": [
+      5,
+      3,
+      4,
+      2
+    ]
+  },
+  {
+    "id": 84,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 4,
+    "part1": 2,
+    "part2": 2,
+    "display": "🍰 分一分・合一合",
+    "formula": "4 ➔ 2 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 4 】可以分成【 2 】和多少？",
+    "answer": 2,
+    "options": [
+      4,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 85,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 4,
+    "part1": 3,
+    "part2": 1,
+    "display": "🍰 分一分・合一合",
+    "formula": "4 ➔ 3 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 4 】可以分成【 3 】和多少？",
+    "answer": 1,
+    "options": [
+      2,
+      11,
+      1,
+      3
+    ]
+  },
+  {
+    "id": 86,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 5,
+    "part1": 1,
+    "part2": 4,
+    "display": "🍰 分一分・合一合",
+    "formula": "5 ➔ 1 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 5 】可以分成【 1 】和多少？",
+    "answer": 4,
+    "options": [
+      5,
+      3,
+      6,
+      4
+    ]
+  },
+  {
+    "id": 87,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 5,
+    "part1": 2,
+    "part2": 3,
+    "display": "🍰 分一分・合一合",
+    "formula": "5 ➔ 2 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 5 】可以分成【 2 】和多少？",
+    "answer": 3,
+    "options": [
+      5,
+      4,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 88,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 5,
+    "part1": 3,
+    "part2": 2,
+    "display": "🍰 分一分・合一合",
+    "formula": "5 ➔ 3 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 5 】可以分成【 3 】和多少？",
+    "answer": 2,
+    "options": [
+      1,
+      4,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 89,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 5,
+    "part1": 4,
+    "part2": 1,
+    "display": "🍰 分一分・合一合",
+    "formula": "5 ➔ 4 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 5 】可以分成【 4 】和多少？",
+    "answer": 1,
+    "options": [
+      2,
+      3,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 90,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 6,
+    "part1": 1,
+    "part2": 5,
+    "display": "🍰 分一分・合一合",
+    "formula": "6 ➔ 1 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 6 】可以分成【 1 】和多少？",
+    "answer": 5,
+    "options": [
+      6,
+      5,
+      7,
+      4
+    ]
+  },
+  {
+    "id": 91,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 6,
+    "part1": 2,
+    "part2": 4,
+    "display": "🍰 分一分・合一合",
+    "formula": "6 ➔ 2 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 6 】可以分成【 2 】和多少？",
+    "answer": 4,
+    "options": [
+      6,
+      3,
+      5,
+      4
+    ]
+  },
+  {
+    "id": 92,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 6,
+    "part1": 3,
+    "part2": 3,
+    "display": "🍰 分一分・合一合",
+    "formula": "6 ➔ 3 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 6 】可以分成【 3 】和多少？",
+    "answer": 3,
+    "options": [
+      4,
+      5,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 93,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 6,
+    "part1": 4,
+    "part2": 2,
+    "display": "🍰 分一分・合一合",
+    "formula": "6 ➔ 4 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 6 】可以分成【 4 】和多少？",
+    "answer": 2,
+    "options": [
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 94,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 6,
+    "part1": 5,
+    "part2": 1,
+    "display": "🍰 分一分・合一合",
+    "formula": "6 ➔ 5 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 6 】可以分成【 5 】和多少？",
+    "answer": 1,
+    "options": [
+      3,
+      2,
+      5,
+      1
+    ]
+  },
+  {
+    "id": 95,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 7,
+    "part1": 1,
+    "part2": 6,
+    "display": "🍰 分一分・合一合",
+    "formula": "7 ➔ 1 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 7 】可以分成【 1 】和多少？",
+    "answer": 6,
+    "options": [
+      5,
+      6,
+      8,
+      7
+    ]
+  },
+  {
+    "id": 96,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 7,
+    "part1": 2,
+    "part2": 5,
+    "display": "🍰 分一分・合一合",
+    "formula": "7 ➔ 2 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 7 】可以分成【 2 】和多少？",
+    "answer": 5,
+    "options": [
+      7,
+      5,
+      4,
+      6
+    ]
+  },
+  {
+    "id": 97,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 7,
+    "part1": 3,
+    "part2": 4,
+    "display": "🍰 分一分・合一合",
+    "formula": "7 ➔ 3 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 7 】可以分成【 3 】和多少？",
+    "answer": 4,
+    "options": [
+      6,
+      5,
+      4,
+      3
+    ]
+  },
+  {
+    "id": 98,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 7,
+    "part1": 4,
+    "part2": 3,
+    "display": "🍰 分一分・合一合",
+    "formula": "7 ➔ 4 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 7 】可以分成【 4 】和多少？",
+    "answer": 3,
+    "options": [
+      4,
+      3,
+      2,
+      5
+    ]
+  },
+  {
+    "id": 99,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 7,
+    "part1": 5,
+    "part2": 2,
+    "display": "🍰 分一分・合一合",
+    "formula": "7 ➔ 5 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 7 】可以分成【 5 】和多少？",
+    "answer": 2,
+    "options": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 100,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 7,
+    "part1": 6,
+    "part2": 1,
+    "display": "🍰 分一分・合一合",
+    "formula": "7 ➔ 6 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 7 】可以分成【 6 】和多少？",
+    "answer": 1,
+    "options": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 101,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 8,
+    "part1": 1,
+    "part2": 7,
+    "display": "🍰 分一分・合一合",
+    "formula": "8 ➔ 1 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 8 】可以分成【 1 】和多少？",
+    "answer": 7,
+    "options": [
+      8,
+      7,
+      6,
+      9
+    ]
+  },
+  {
+    "id": 102,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 8,
+    "part1": 2,
+    "part2": 6,
+    "display": "🍰 分一分・合一合",
+    "formula": "8 ➔ 2 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 8 】可以分成【 2 】和多少？",
+    "answer": 6,
+    "options": [
+      7,
+      6,
+      8,
+      5
+    ]
+  },
+  {
+    "id": 103,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 8,
+    "part1": 3,
+    "part2": 5,
+    "display": "🍰 分一分・合一合",
+    "formula": "8 ➔ 3 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 8 】可以分成【 3 】和多少？",
+    "answer": 5,
+    "options": [
+      4,
+      5,
+      7,
+      6
+    ]
+  },
+  {
+    "id": 104,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 8,
+    "part1": 4,
+    "part2": 4,
+    "display": "🍰 分一分・合一合",
+    "formula": "8 ➔ 4 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 8 】可以分成【 4 】和多少？",
+    "answer": 4,
+    "options": [
+      5,
+      3,
+      4,
+      6
+    ]
+  },
+  {
+    "id": 105,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 8,
+    "part1": 5,
+    "part2": 3,
+    "display": "🍰 分一分・合一合",
+    "formula": "8 ➔ 5 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 8 】可以分成【 5 】和多少？",
+    "answer": 3,
+    "options": [
+      3,
+      5,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 106,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 8,
+    "part1": 6,
+    "part2": 2,
+    "display": "🍰 分一分・合一合",
+    "formula": "8 ➔ 6 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 8 】可以分成【 6 】和多少？",
+    "answer": 2,
+    "options": [
+      4,
+      2,
+      3,
+      1
+    ]
+  },
+  {
+    "id": 107,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 8,
+    "part1": 7,
+    "part2": 1,
+    "display": "🍰 分一分・合一合",
+    "formula": "8 ➔ 7 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 8 】可以分成【 7 】和多少？",
+    "answer": 1,
+    "options": [
+      3,
+      2,
+      1,
+      6
+    ]
+  },
+  {
+    "id": 108,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 9,
+    "part1": 1,
+    "part2": 8,
+    "display": "🍰 分一分・合一合",
+    "formula": "9 ➔ 1 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 9 】可以分成【 1 】和多少？",
+    "answer": 8,
+    "options": [
+      8,
+      9,
+      10,
+      7
+    ]
+  },
+  {
+    "id": 109,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 9,
+    "part1": 2,
+    "part2": 7,
+    "display": "🍰 分一分・合一合",
+    "formula": "9 ➔ 2 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 9 】可以分成【 2 】和多少？",
+    "answer": 7,
+    "options": [
+      9,
+      6,
+      8,
+      7
+    ]
+  },
+  {
+    "id": 110,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 9,
+    "part1": 3,
+    "part2": 6,
+    "display": "🍰 分一分・合一合",
+    "formula": "9 ➔ 3 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 9 】可以分成【 3 】和多少？",
+    "answer": 6,
+    "options": [
+      6,
+      8,
+      7,
+      5
+    ]
+  },
+  {
+    "id": 111,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 9,
+    "part1": 4,
+    "part2": 5,
+    "display": "🍰 分一分・合一合",
+    "formula": "9 ➔ 4 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 9 】可以分成【 4 】和多少？",
+    "answer": 5,
+    "options": [
+      4,
+      7,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 112,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 9,
+    "part1": 5,
+    "part2": 4,
+    "display": "🍰 分一分・合一合",
+    "formula": "9 ➔ 5 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 9 】可以分成【 5 】和多少？",
+    "answer": 4,
+    "options": [
+      3,
+      4,
+      6,
+      5
+    ]
+  },
+  {
+    "id": 113,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 9,
+    "part1": 6,
+    "part2": 3,
+    "display": "🍰 分一分・合一合",
+    "formula": "9 ➔ 6 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 9 】可以分成【 6 】和多少？",
+    "answer": 3,
+    "options": [
+      3,
+      4,
+      2,
+      5
+    ]
+  },
+  {
+    "id": 114,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 9,
+    "part1": 7,
+    "part2": 2,
+    "display": "🍰 分一分・合一合",
+    "formula": "9 ➔ 7 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 9 】可以分成【 7 】和多少？",
+    "answer": 2,
+    "options": [
+      1,
+      4,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 115,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 9,
+    "part1": 8,
+    "part2": 1,
+    "display": "🍰 分一分・合一合",
+    "formula": "9 ➔ 8 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 9 】可以分成【 8 】和多少？",
+    "answer": 1,
+    "options": [
+      2,
+      1,
+      3,
+      6
+    ]
+  },
+  {
+    "id": 116,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 10,
+    "part1": 1,
+    "part2": 9,
+    "display": "🍰 分一分・合一合",
+    "formula": "10 ➔ 1 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 10 】可以分成【 1 】和多少？",
+    "answer": 9,
+    "options": [
+      8,
+      11,
+      10,
+      9
+    ]
+  },
+  {
+    "id": 117,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 10,
+    "part1": 2,
+    "part2": 8,
+    "display": "🍰 分一分・合一合",
+    "formula": "10 ➔ 2 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 10 】可以分成【 2 】和多少？",
+    "answer": 8,
+    "options": [
+      9,
+      10,
+      8,
+      7
+    ]
+  },
+  {
+    "id": 118,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 10,
+    "part1": 3,
+    "part2": 7,
+    "display": "🍰 分一分・合一合",
+    "formula": "10 ➔ 3 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 10 】可以分成【 3 】和多少？",
+    "answer": 7,
+    "options": [
+      6,
+      9,
+      8,
+      7
+    ]
+  },
+  {
+    "id": 119,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 10,
+    "part1": 4,
+    "part2": 6,
+    "display": "🍰 分一分・合一合",
+    "formula": "10 ➔ 4 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 10 】可以分成【 4 】和多少？",
+    "answer": 6,
+    "options": [
+      8,
+      6,
+      7,
+      5
+    ]
+  },
+  {
+    "id": 120,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 10,
+    "part1": 5,
+    "part2": 5,
+    "display": "🍰 分一分・合一合",
+    "formula": "10 ➔ 5 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 10 】可以分成【 5 】和多少？",
+    "answer": 5,
+    "options": [
+      5,
+      6,
+      7,
+      4
+    ]
+  },
+  {
+    "id": 121,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 10,
+    "part1": 6,
+    "part2": 4,
+    "display": "🍰 分一分・合一合",
+    "formula": "10 ➔ 6 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 10 】可以分成【 6 】和多少？",
+    "answer": 4,
+    "options": [
+      5,
+      6,
+      4,
+      3
+    ]
+  },
+  {
+    "id": 122,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 10,
+    "part1": 7,
+    "part2": 3,
+    "display": "🍰 分一分・合一合",
+    "formula": "10 ➔ 7 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 10 】可以分成【 7 】和多少？",
+    "answer": 3,
+    "options": [
+      4,
+      5,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 123,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 10,
+    "part1": 8,
+    "part2": 2,
+    "display": "🍰 分一分・合一合",
+    "formula": "10 ➔ 8 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 10 】可以分成【 8 】和多少？",
+    "answer": 2,
+    "options": [
+      1,
+      3,
+      4,
+      2
+    ]
+  },
+  {
+    "id": 124,
+    "category": "bonds",
+    "exam_tag": "康軒一上期中評量・10以內分與合",
+    "type": "number_bond",
+    "total": 10,
+    "part1": 9,
+    "part2": 1,
+    "display": "🍰 分一分・合一合",
+    "formula": "10 ➔ 9 和 [ ? ]",
+    "prompt": "【康軒一上評量】數字的分與合：【 10 】可以分成【 9 】和多少？",
+    "answer": 1,
+    "options": [
+      1,
+      6,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 125,
+    "category": "bonds",
+    "exam_tag": "康軒一下期中評量・湊十法與拆十法",
+    "type": "make_ten_method",
+    "display": "🔟 湊十法：8 + 5",
+    "formula": "8 + 5 = 8 + 2 + [ ? ] = 13",
+    "prompt": "【康軒一下期中評量】算 8 + 5 時，先把 5 分成 2 和多少，讓 8 + 2 先湊成 10？",
+    "answer": 3,
+    "options": [
+      5,
+      4,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 126,
+    "category": "bonds",
+    "exam_tag": "康軒一下期中評量・湊十法與拆十法",
+    "type": "make_ten_method",
+    "display": "🔟 湊十法：9 + 6",
+    "formula": "9 + 6 = 9 + 1 + 5 = [ ? ]",
+    "prompt": "【康軒一下期中評量】算 9 + 6 時，先把 6 分成 1 和 5，9 + 1 = 10，10 再加 5 等於多少？",
+    "answer": 15,
+    "options": [
+      16,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "id": 127,
+    "category": "bonds",
+    "exam_tag": "康軒一下期中評量・湊十法與拆十法",
+    "type": "make_ten_method",
+    "display": "🔟 湊十法：7 + 6",
+    "formula": "7 + [ ? ] = 10，10 + 3 = 13",
+    "prompt": "【康軒新挑戰測驗卷】算 7 + 6 時，先把 6 分成 3 和 3，請問 7 先加多少會湊成 10？",
+    "answer": 3,
+    "options": [
+      6,
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 128,
+    "category": "bonds",
+    "exam_tag": "康軒一下期中評量・湊十法與拆十法",
+    "type": "make_ten_method",
+    "display": "🔟 拆十法：13 - 8",
+    "formula": "13 - 8 ➔ 先算 10 - 8 = 2，再算 2 + 3 = [ ? ]",
+    "prompt": "【康軒一下期中評量】算 13 - 8 時，把 13 分成 10 和 3，先算 10 - 8 = 2，再算 2 + 3 等於多少？",
+    "answer": 5,
+    "options": [
+      3,
+      5,
+      4,
+      6
+    ]
+  },
+  {
+    "id": 129,
+    "category": "bonds",
+    "exam_tag": "康軒一下期中評量・湊十法與拆十法",
+    "type": "make_ten_method",
+    "display": "🔟 拆十法：15 - 9",
+    "formula": "15 - 9 ➔ 先算 10 - 9 = 1，再算 1 + 5 = [ ? ]",
+    "prompt": "【康軒一下期中評量】算 15 - 9 時，把 15 分成 10 和 5，先算 10 - 9 = 1，再算 1 + 5 等於多少？",
+    "answer": 6,
+    "options": [
+      6,
+      7,
+      5,
+      4
+    ]
+  },
+  {
+    "id": 130,
+    "category": "bonds",
+    "exam_tag": "康軒一下期中評量・湊十法與拆十法",
+    "type": "make_ten_method",
+    "display": "🔟 拆十法：14 - 6",
+    "formula": "14 - 6 ➔ 10 - 6 = 4，4 + 4 = [ ? ]",
+    "prompt": "【康軒新挑戰測驗卷】算 14 - 6 時，先用 10 減 6 等於 4，4 再加上個位的 4 等於多少？",
+    "answer": 8,
+    "options": [
+      7,
+      9,
+      8,
+      6
+    ]
+  },
+  {
+    "id": 131,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 2,
+    "num_b": 2,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "2 + 2 = ？",
+    "prompt": "【康軒一上期末評量】算算看：2 + 2 = ？",
+    "answer": 4,
+    "options": [
+      3,
+      5,
+      6,
+      4
+    ]
+  },
+  {
+    "id": 132,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 2,
+    "num_b": 3,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "2 + 3 = ？",
+    "prompt": "【康軒一上期末評量】算算看：2 + 3 = ？",
+    "answer": 5,
+    "options": [
+      7,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 133,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 2,
+    "num_b": 4,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "2 + 4 = ？",
+    "prompt": "【康軒一上期末評量】算算看：2 + 4 = ？",
+    "answer": 6,
+    "options": [
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "id": 134,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 2,
+    "num_b": 5,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "2 + 5 = ？",
+    "prompt": "【康軒一上期末評量】算算看：2 + 5 = ？",
+    "answer": 7,
+    "options": [
+      7,
+      6,
+      9,
+      8
+    ]
+  },
+  {
+    "id": 135,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 2,
+    "num_b": 6,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "2 + 6 = ？",
+    "prompt": "【康軒一上期末評量】算算看：2 + 6 = ？",
+    "answer": 8,
+    "options": [
+      10,
+      8,
+      9,
+      7
+    ]
+  },
+  {
+    "id": 136,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 2,
+    "num_b": 7,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "2 + 7 = ？",
+    "prompt": "【康軒一上期末評量】算算看：2 + 7 = ？",
+    "answer": 9,
+    "options": [
+      10,
+      11,
+      8,
+      9
+    ]
+  },
+  {
+    "id": 137,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 2,
+    "num_b": 8,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "2 + 8 = ？",
+    "prompt": "【康軒一上期末評量】算算看：2 + 8 = ？",
+    "answer": 10,
+    "options": [
+      11,
+      9,
+      10,
+      12
+    ]
+  },
+  {
+    "id": 138,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 2,
+    "num_b": 9,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "2 + 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：2 + 9 = ？",
+    "answer": 11,
+    "options": [
+      11,
+      12,
+      13,
+      10
+    ]
+  },
+  {
+    "id": 139,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 3,
+    "num_b": 2,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "3 + 2 = ？",
+    "prompt": "【康軒一上期末評量】算算看：3 + 2 = ？",
+    "answer": 5,
+    "options": [
+      5,
+      6,
+      7,
+      4
+    ]
+  },
+  {
+    "id": 140,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 3,
+    "num_b": 3,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "3 + 3 = ？",
+    "prompt": "【康軒一上期末評量】算算看：3 + 3 = ？",
+    "answer": 6,
+    "options": [
+      6,
+      8,
+      7,
+      5
+    ]
+  },
+  {
+    "id": 141,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 3,
+    "num_b": 4,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "3 + 4 = ？",
+    "prompt": "【康軒一上期末評量】算算看：3 + 4 = ？",
+    "answer": 7,
+    "options": [
+      9,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "id": 142,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 3,
+    "num_b": 5,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "3 + 5 = ？",
+    "prompt": "【康軒一上期末評量】算算看：3 + 5 = ？",
+    "answer": 8,
+    "options": [
+      10,
+      8,
+      9,
+      7
+    ]
+  },
+  {
+    "id": 143,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 3,
+    "num_b": 6,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "3 + 6 = ？",
+    "prompt": "【康軒一上期末評量】算算看：3 + 6 = ？",
+    "answer": 9,
+    "options": [
+      8,
+      9,
+      11,
+      10
+    ]
+  },
+  {
+    "id": 144,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 3,
+    "num_b": 7,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "3 + 7 = ？",
+    "prompt": "【康軒一上期末評量】算算看：3 + 7 = ？",
+    "answer": 10,
+    "options": [
+      9,
+      12,
+      11,
+      10
+    ]
+  },
+  {
+    "id": 145,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 3,
+    "num_b": 8,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "3 + 8 = ？",
+    "prompt": "【康軒一下期中評量】算算看：3 + 8 = ？",
+    "answer": 11,
+    "options": [
+      13,
+      12,
+      11,
+      10
+    ]
+  },
+  {
+    "id": 146,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 3,
+    "num_b": 9,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "3 + 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：3 + 9 = ？",
+    "answer": 12,
+    "options": [
+      12,
+      14,
+      11,
+      13
+    ]
+  },
+  {
+    "id": 147,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 4,
+    "num_b": 2,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "4 + 2 = ？",
+    "prompt": "【康軒一上期末評量】算算看：4 + 2 = ？",
+    "answer": 6,
+    "options": [
+      7,
+      5,
+      8,
+      6
+    ]
+  },
+  {
+    "id": 148,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 4,
+    "num_b": 3,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "4 + 3 = ？",
+    "prompt": "【康軒一上期末評量】算算看：4 + 3 = ？",
+    "answer": 7,
+    "options": [
+      6,
+      8,
+      9,
+      7
+    ]
+  },
+  {
+    "id": 149,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 4,
+    "num_b": 4,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "4 + 4 = ？",
+    "prompt": "【康軒一上期末評量】算算看：4 + 4 = ？",
+    "answer": 8,
+    "options": [
+      7,
+      10,
+      8,
+      9
+    ]
+  },
+  {
+    "id": 150,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 4,
+    "num_b": 5,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "4 + 5 = ？",
+    "prompt": "【康軒一上期末評量】算算看：4 + 5 = ？",
+    "answer": 9,
+    "options": [
+      9,
+      10,
+      11,
+      8
+    ]
+  },
+  {
+    "id": 151,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 4,
+    "num_b": 6,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "4 + 6 = ？",
+    "prompt": "【康軒一上期末評量】算算看：4 + 6 = ？",
+    "answer": 10,
+    "options": [
+      11,
+      9,
+      10,
+      12
+    ]
+  },
+  {
+    "id": 152,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 4,
+    "num_b": 7,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "4 + 7 = ？",
+    "prompt": "【康軒一下期中評量】算算看：4 + 7 = ？",
+    "answer": 11,
+    "options": [
+      10,
+      12,
+      11,
+      13
+    ]
+  },
+  {
+    "id": 153,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 4,
+    "num_b": 8,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "4 + 8 = ？",
+    "prompt": "【康軒一下期中評量】算算看：4 + 8 = ？",
+    "answer": 12,
+    "options": [
+      14,
+      13,
+      11,
+      12
+    ]
+  },
+  {
+    "id": 154,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 4,
+    "num_b": 9,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "4 + 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：4 + 9 = ？",
+    "answer": 13,
+    "options": [
+      15,
+      14,
+      12,
+      13
+    ]
+  },
+  {
+    "id": 155,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 5,
+    "num_b": 2,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "5 + 2 = ？",
+    "prompt": "【康軒一上期末評量】算算看：5 + 2 = ？",
+    "answer": 7,
+    "options": [
+      8,
+      7,
+      9,
+      6
+    ]
+  },
+  {
+    "id": 156,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 5,
+    "num_b": 3,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "5 + 3 = ？",
+    "prompt": "【康軒一上期末評量】算算看：5 + 3 = ？",
+    "answer": 8,
+    "options": [
+      7,
+      9,
+      8,
+      10
+    ]
+  },
+  {
+    "id": 157,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 5,
+    "num_b": 4,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "5 + 4 = ？",
+    "prompt": "【康軒一上期末評量】算算看：5 + 4 = ？",
+    "answer": 9,
+    "options": [
+      11,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "id": 158,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 5,
+    "num_b": 5,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "5 + 5 = ？",
+    "prompt": "【康軒一上期末評量】算算看：5 + 5 = ？",
+    "answer": 10,
+    "options": [
+      10,
+      9,
+      11,
+      12
+    ]
+  },
+  {
+    "id": 159,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 5,
+    "num_b": 6,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "5 + 6 = ？",
+    "prompt": "【康軒一下期中評量】算算看：5 + 6 = ？",
+    "answer": 11,
+    "options": [
+      13,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "id": 160,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 5,
+    "num_b": 7,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "5 + 7 = ？",
+    "prompt": "【康軒一下期中評量】算算看：5 + 7 = ？",
+    "answer": 12,
+    "options": [
+      14,
+      12,
+      13,
+      11
+    ]
+  },
+  {
+    "id": 161,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 5,
+    "num_b": 8,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "5 + 8 = ？",
+    "prompt": "【康軒一下期中評量】算算看：5 + 8 = ？",
+    "answer": 13,
+    "options": [
+      15,
+      12,
+      14,
+      13
+    ]
+  },
+  {
+    "id": 162,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 5,
+    "num_b": 9,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "5 + 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：5 + 9 = ？",
+    "answer": 14,
+    "options": [
+      14,
+      15,
+      13,
+      16
+    ]
+  },
+  {
+    "id": 163,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 6,
+    "num_b": 2,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "6 + 2 = ？",
+    "prompt": "【康軒一上期末評量】算算看：6 + 2 = ？",
+    "answer": 8,
+    "options": [
+      9,
+      8,
+      7,
+      10
+    ]
+  },
+  {
+    "id": 164,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 6,
+    "num_b": 3,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "6 + 3 = ？",
+    "prompt": "【康軒一上期末評量】算算看：6 + 3 = ？",
+    "answer": 9,
+    "options": [
+      9,
+      8,
+      10,
+      11
+    ]
+  },
+  {
+    "id": 165,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 6,
+    "num_b": 4,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "6 + 4 = ？",
+    "prompt": "【康軒一上期末評量】算算看：6 + 4 = ？",
+    "answer": 10,
+    "options": [
+      9,
+      10,
+      12,
+      11
+    ]
+  },
+  {
+    "id": 166,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 6,
+    "num_b": 5,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "6 + 5 = ？",
+    "prompt": "【康軒一下期中評量】算算看：6 + 5 = ？",
+    "answer": 11,
+    "options": [
+      13,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "id": 167,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 6,
+    "num_b": 6,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "6 + 6 = ？",
+    "prompt": "【康軒一下期中評量】算算看：6 + 6 = ？",
+    "answer": 12,
+    "options": [
+      11,
+      12,
+      14,
+      13
+    ]
+  },
+  {
+    "id": 168,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 6,
+    "num_b": 7,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "6 + 7 = ？",
+    "prompt": "【康軒一下期中評量】算算看：6 + 7 = ？",
+    "answer": 13,
+    "options": [
+      14,
+      13,
+      12,
+      15
+    ]
+  },
+  {
+    "id": 169,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 6,
+    "num_b": 8,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "6 + 8 = ？",
+    "prompt": "【康軒一下期中評量】算算看：6 + 8 = ？",
+    "answer": 14,
+    "options": [
+      16,
+      13,
+      14,
+      15
+    ]
+  },
+  {
+    "id": 170,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 6,
+    "num_b": 9,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "6 + 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：6 + 9 = ？",
+    "answer": 15,
+    "options": [
+      17,
+      14,
+      15,
+      16
+    ]
+  },
+  {
+    "id": 171,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 7,
+    "num_b": 2,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "7 + 2 = ？",
+    "prompt": "【康軒一上期末評量】算算看：7 + 2 = ？",
+    "answer": 9,
+    "options": [
+      9,
+      11,
+      10,
+      8
+    ]
+  },
+  {
+    "id": 172,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 7,
+    "num_b": 3,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "7 + 3 = ？",
+    "prompt": "【康軒一上期末評量】算算看：7 + 3 = ？",
+    "answer": 10,
+    "options": [
+      9,
+      11,
+      10,
+      12
+    ]
+  },
+  {
+    "id": 173,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 7,
+    "num_b": 4,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "7 + 4 = ？",
+    "prompt": "【康軒一下期中評量】算算看：7 + 4 = ？",
+    "answer": 11,
+    "options": [
+      12,
+      13,
+      10,
+      11
+    ]
+  },
+  {
+    "id": 174,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 7,
+    "num_b": 5,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "7 + 5 = ？",
+    "prompt": "【康軒一下期中評量】算算看：7 + 5 = ？",
+    "answer": 12,
+    "options": [
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  {
+    "id": 175,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 7,
+    "num_b": 6,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "7 + 6 = ？",
+    "prompt": "【康軒一下期中評量】算算看：7 + 6 = ？",
+    "answer": 13,
+    "options": [
+      13,
+      15,
+      12,
+      14
+    ]
+  },
+  {
+    "id": 176,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 7,
+    "num_b": 7,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "7 + 7 = ？",
+    "prompt": "【康軒一下期中評量】算算看：7 + 7 = ？",
+    "answer": 14,
+    "options": [
+      15,
+      13,
+      16,
+      14
+    ]
+  },
+  {
+    "id": 177,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 7,
+    "num_b": 8,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "7 + 8 = ？",
+    "prompt": "【康軒一下期中評量】算算看：7 + 8 = ？",
+    "answer": 15,
+    "options": [
+      14,
+      16,
+      15,
+      17
+    ]
+  },
+  {
+    "id": 178,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 7,
+    "num_b": 9,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "7 + 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：7 + 9 = ？",
+    "answer": 16,
+    "options": [
+      16,
+      17,
+      15,
+      18
+    ]
+  },
+  {
+    "id": 179,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・10以內加法",
+    "type": "add_within_20",
+    "num_a": 8,
+    "num_b": 2,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "8 + 2 = ？",
+    "prompt": "【康軒一上期末評量】算算看：8 + 2 = ？",
+    "answer": 10,
+    "options": [
+      10,
+      12,
+      9,
+      11
+    ]
+  },
+  {
+    "id": 180,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 8,
+    "num_b": 3,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "8 + 3 = ？",
+    "prompt": "【康軒一下期中評量】算算看：8 + 3 = ？",
+    "answer": 11,
+    "options": [
+      12,
+      13,
+      10,
+      11
+    ]
+  },
+  {
+    "id": 181,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 8,
+    "num_b": 4,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "8 + 4 = ？",
+    "prompt": "【康軒一下期中評量】算算看：8 + 4 = ？",
+    "answer": 12,
+    "options": [
+      14,
+      13,
+      11,
+      12
+    ]
+  },
+  {
+    "id": 182,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 8,
+    "num_b": 5,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "8 + 5 = ？",
+    "prompt": "【康軒一下期中評量】算算看：8 + 5 = ？",
+    "answer": 13,
+    "options": [
+      14,
+      12,
+      15,
+      13
+    ]
+  },
+  {
+    "id": 183,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 8,
+    "num_b": 6,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "8 + 6 = ？",
+    "prompt": "【康軒一下期中評量】算算看：8 + 6 = ？",
+    "answer": 14,
+    "options": [
+      15,
+      13,
+      16,
+      14
+    ]
+  },
+  {
+    "id": 184,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 8,
+    "num_b": 7,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "8 + 7 = ？",
+    "prompt": "【康軒一下期中評量】算算看：8 + 7 = ？",
+    "answer": 15,
+    "options": [
+      16,
+      17,
+      15,
+      14
+    ]
+  },
+  {
+    "id": 185,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 8,
+    "num_b": 8,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "8 + 8 = ？",
+    "prompt": "【康軒一下期中評量】算算看：8 + 8 = ？",
+    "answer": 16,
+    "options": [
+      18,
+      16,
+      15,
+      17
+    ]
+  },
+  {
+    "id": 186,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 8,
+    "num_b": 9,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "8 + 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：8 + 9 = ？",
+    "answer": 17,
+    "options": [
+      17,
+      18,
+      16,
+      19
+    ]
+  },
+  {
+    "id": 187,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 9,
+    "num_b": 2,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "9 + 2 = ？",
+    "prompt": "【康軒一下期中評量】算算看：9 + 2 = ？",
+    "answer": 11,
+    "options": [
+      13,
+      12,
+      11,
+      10
+    ]
+  },
+  {
+    "id": 188,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 9,
+    "num_b": 3,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "9 + 3 = ？",
+    "prompt": "【康軒一下期中評量】算算看：9 + 3 = ？",
+    "answer": 12,
+    "options": [
+      12,
+      14,
+      13,
+      11
+    ]
+  },
+  {
+    "id": 189,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 9,
+    "num_b": 4,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "9 + 4 = ？",
+    "prompt": "【康軒一下期中評量】算算看：9 + 4 = ？",
+    "answer": 13,
+    "options": [
+      14,
+      12,
+      13,
+      15
+    ]
+  },
+  {
+    "id": 190,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 9,
+    "num_b": 5,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "9 + 5 = ？",
+    "prompt": "【康軒一下期中評量】算算看：9 + 5 = ？",
+    "answer": 14,
+    "options": [
+      14,
+      13,
+      15,
+      16
+    ]
+  },
+  {
+    "id": 191,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 9,
+    "num_b": 6,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "9 + 6 = ？",
+    "prompt": "【康軒一下期中評量】算算看：9 + 6 = ？",
+    "answer": 15,
+    "options": [
+      14,
+      17,
+      16,
+      15
+    ]
+  },
+  {
+    "id": 192,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 9,
+    "num_b": 7,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "9 + 7 = ？",
+    "prompt": "【康軒一下期中評量】算算看：9 + 7 = ？",
+    "answer": 16,
+    "options": [
+      15,
+      18,
+      16,
+      17
+    ]
+  },
+  {
+    "id": 193,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 9,
+    "num_b": 8,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "9 + 8 = ？",
+    "prompt": "【康軒一下期中評量】算算看：9 + 8 = ？",
+    "answer": 17,
+    "options": [
+      17,
+      19,
+      16,
+      18
+    ]
+  },
+  {
+    "id": 194,
+    "category": "addition",
+    "exam_tag": "康軒一下期中評量・18以內進位加法",
+    "type": "add_within_20",
+    "num_a": 9,
+    "num_b": 9,
+    "operator": "+",
+    "display": "➕ 加法心算挑戰",
+    "formula": "9 + 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：9 + 9 = ？",
+    "answer": 18,
+    "options": [
+      18,
+      19,
+      17,
+      20
+    ]
+  },
+  {
+    "id": 195,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 6,
+    "num_b": 2,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "6 - 2 = ？",
+    "prompt": "【康軒一上期末評量】算算看：6 - 2 = ？",
+    "answer": 4,
+    "options": [
+      4,
+      3,
+      6,
+      5
+    ]
+  },
+  {
+    "id": 196,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 6,
+    "num_b": 3,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "6 - 3 = ？",
+    "prompt": "【康軒一上期末評量】算算看：6 - 3 = ？",
+    "answer": 3,
+    "options": [
+      5,
+      2,
+      4,
+      3
+    ]
+  },
+  {
+    "id": 197,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 6,
+    "num_b": 4,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "6 - 4 = ？",
+    "prompt": "【康軒一上期末評量】算算看：6 - 4 = ？",
+    "answer": 2,
+    "options": [
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 198,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 6,
+    "num_b": 5,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "6 - 5 = ？",
+    "prompt": "【康軒一上期末評量】算算看：6 - 5 = ？",
+    "answer": 1,
+    "options": [
+      1,
+      2,
+      3,
+      0
+    ]
+  },
+  {
+    "id": 199,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 7,
+    "num_b": 2,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "7 - 2 = ？",
+    "prompt": "【康軒一上期末評量】算算看：7 - 2 = ？",
+    "answer": 5,
+    "options": [
+      6,
+      5,
+      7,
+      4
+    ]
+  },
+  {
+    "id": 200,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 7,
+    "num_b": 3,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "7 - 3 = ？",
+    "prompt": "【康軒一上期末評量】算算看：7 - 3 = ？",
+    "answer": 4,
+    "options": [
+      5,
+      3,
+      6,
+      4
+    ]
+  },
+  {
+    "id": 201,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 7,
+    "num_b": 4,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "7 - 4 = ？",
+    "prompt": "【康軒一上期末評量】算算看：7 - 4 = ？",
+    "answer": 3,
+    "options": [
+      2,
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 202,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 7,
+    "num_b": 5,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "7 - 5 = ？",
+    "prompt": "【康軒一上期末評量】算算看：7 - 5 = ？",
+    "answer": 2,
+    "options": [
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  {
+    "id": 203,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 7,
+    "num_b": 6,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "7 - 6 = ？",
+    "prompt": "【康軒一上期末評量】算算看：7 - 6 = ？",
+    "answer": 1,
+    "options": [
+      2,
+      3,
+      0,
+      1
+    ]
+  },
+  {
+    "id": 204,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 8,
+    "num_b": 2,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "8 - 2 = ？",
+    "prompt": "【康軒一上期末評量】算算看：8 - 2 = ？",
+    "answer": 6,
+    "options": [
+      7,
+      5,
+      8,
+      6
+    ]
+  },
+  {
+    "id": 205,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 8,
+    "num_b": 3,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "8 - 3 = ？",
+    "prompt": "【康軒一上期末評量】算算看：8 - 3 = ？",
+    "answer": 5,
+    "options": [
+      6,
+      5,
+      4,
+      7
+    ]
+  },
+  {
+    "id": 206,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 8,
+    "num_b": 4,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "8 - 4 = ？",
+    "prompt": "【康軒一上期末評量】算算看：8 - 4 = ？",
+    "answer": 4,
+    "options": [
+      3,
+      6,
+      5,
+      4
+    ]
+  },
+  {
+    "id": 207,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 8,
+    "num_b": 5,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "8 - 5 = ？",
+    "prompt": "【康軒一上期末評量】算算看：8 - 5 = ？",
+    "answer": 3,
+    "options": [
+      2,
+      3,
+      5,
+      4
+    ]
+  },
+  {
+    "id": 208,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 8,
+    "num_b": 6,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "8 - 6 = ？",
+    "prompt": "【康軒一上期末評量】算算看：8 - 6 = ？",
+    "answer": 2,
+    "options": [
+      2,
+      1,
+      4,
+      3
+    ]
+  },
+  {
+    "id": 209,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 8,
+    "num_b": 7,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "8 - 7 = ？",
+    "prompt": "【康軒一上期末評量】算算看：8 - 7 = ？",
+    "answer": 1,
+    "options": [
+      1,
+      0,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 210,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 9,
+    "num_b": 2,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "9 - 2 = ？",
+    "prompt": "【康軒一上期末評量】算算看：9 - 2 = ？",
+    "answer": 7,
+    "options": [
+      6,
+      8,
+      7,
+      9
+    ]
+  },
+  {
+    "id": 211,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 9,
+    "num_b": 3,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "9 - 3 = ？",
+    "prompt": "【康軒一上期末評量】算算看：9 - 3 = ？",
+    "answer": 6,
+    "options": [
+      8,
+      6,
+      5,
+      7
+    ]
+  },
+  {
+    "id": 212,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 9,
+    "num_b": 4,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "9 - 4 = ？",
+    "prompt": "【康軒一上期末評量】算算看：9 - 4 = ？",
+    "answer": 5,
+    "options": [
+      5,
+      4,
+      6,
+      7
+    ]
+  },
+  {
+    "id": 213,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 9,
+    "num_b": 5,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "9 - 5 = ？",
+    "prompt": "【康軒一上期末評量】算算看：9 - 5 = ？",
+    "answer": 4,
+    "options": [
+      6,
+      5,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 214,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 9,
+    "num_b": 6,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "9 - 6 = ？",
+    "prompt": "【康軒一上期末評量】算算看：9 - 6 = ？",
+    "answer": 3,
+    "options": [
+      5,
+      3,
+      2,
+      4
+    ]
+  },
+  {
+    "id": 215,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 9,
+    "num_b": 7,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "9 - 7 = ？",
+    "prompt": "【康軒一上期末評量】算算看：9 - 7 = ？",
+    "answer": 2,
+    "options": [
+      2,
+      3,
+      1,
+      4
+    ]
+  },
+  {
+    "id": 216,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 9,
+    "num_b": 8,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "9 - 8 = ？",
+    "prompt": "【康軒一上期末評量】算算看：9 - 8 = ？",
+    "answer": 1,
+    "options": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "id": 217,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 10,
+    "num_b": 2,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "10 - 2 = ？",
+    "prompt": "【康軒一上期末評量】算算看：10 - 2 = ？",
+    "answer": 8,
+    "options": [
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  {
+    "id": 218,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 10,
+    "num_b": 3,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "10 - 3 = ？",
+    "prompt": "【康軒一上期末評量】算算看：10 - 3 = ？",
+    "answer": 7,
+    "options": [
+      7,
+      8,
+      6,
+      9
+    ]
+  },
+  {
+    "id": 219,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 10,
+    "num_b": 4,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "10 - 4 = ？",
+    "prompt": "【康軒一上期末評量】算算看：10 - 4 = ？",
+    "answer": 6,
+    "options": [
+      5,
+      8,
+      6,
+      7
+    ]
+  },
+  {
+    "id": 220,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 10,
+    "num_b": 5,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "10 - 5 = ？",
+    "prompt": "【康軒一上期末評量】算算看：10 - 5 = ？",
+    "answer": 5,
+    "options": [
+      4,
+      6,
+      7,
+      5
+    ]
+  },
+  {
+    "id": 221,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 10,
+    "num_b": 6,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "10 - 6 = ？",
+    "prompt": "【康軒一上期末評量】算算看：10 - 6 = ？",
+    "answer": 4,
+    "options": [
+      3,
+      5,
+      6,
+      4
+    ]
+  },
+  {
+    "id": 222,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 10,
+    "num_b": 7,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "10 - 7 = ？",
+    "prompt": "【康軒一上期末評量】算算看：10 - 7 = ？",
+    "answer": 3,
+    "options": [
+      2,
+      3,
+      5,
+      4
+    ]
+  },
+  {
+    "id": 223,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 10,
+    "num_b": 8,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "10 - 8 = ？",
+    "prompt": "【康軒一上期末評量】算算看：10 - 8 = ？",
+    "answer": 2,
+    "options": [
+      4,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 224,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・10以內減法",
+    "type": "sub_within_20",
+    "num_a": 10,
+    "num_b": 9,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "10 - 9 = ？",
+    "prompt": "【康軒一上期末評量】算算看：10 - 9 = ？",
+    "answer": 1,
+    "options": [
+      0,
+      1,
+      3,
+      2
+    ]
+  },
+  {
+    "id": 225,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 11,
+    "num_b": 2,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "11 - 2 = ？",
+    "prompt": "【康軒一下期中評量】算算看：11 - 2 = ？",
+    "answer": 9,
+    "options": [
+      11,
+      10,
+      8,
+      9
+    ]
+  },
+  {
+    "id": 226,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 11,
+    "num_b": 3,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "11 - 3 = ？",
+    "prompt": "【康軒一下期中評量】算算看：11 - 3 = ？",
+    "answer": 8,
+    "options": [
+      7,
+      10,
+      8,
+      9
+    ]
+  },
+  {
+    "id": 227,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 11,
+    "num_b": 4,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "11 - 4 = ？",
+    "prompt": "【康軒一下期中評量】算算看：11 - 4 = ？",
+    "answer": 7,
+    "options": [
+      8,
+      6,
+      7,
+      9
+    ]
+  },
+  {
+    "id": 228,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 11,
+    "num_b": 5,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "11 - 5 = ？",
+    "prompt": "【康軒一下期中評量】算算看：11 - 5 = ？",
+    "answer": 6,
+    "options": [
+      7,
+      5,
+      8,
+      6
+    ]
+  },
+  {
+    "id": 229,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 11,
+    "num_b": 6,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "11 - 6 = ？",
+    "prompt": "【康軒一下期中評量】算算看：11 - 6 = ？",
+    "answer": 5,
+    "options": [
+      6,
+      4,
+      5,
+      7
+    ]
+  },
+  {
+    "id": 230,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 11,
+    "num_b": 7,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "11 - 7 = ？",
+    "prompt": "【康軒一下期中評量】算算看：11 - 7 = ？",
+    "answer": 4,
+    "options": [
+      5,
+      6,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 231,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 11,
+    "num_b": 8,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "11 - 8 = ？",
+    "prompt": "【康軒一下期中評量】算算看：11 - 8 = ？",
+    "answer": 3,
+    "options": [
+      3,
+      5,
+      4,
+      2
+    ]
+  },
+  {
+    "id": 232,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 11,
+    "num_b": 9,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "11 - 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：11 - 9 = ？",
+    "answer": 2,
+    "options": [
+      4,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": 233,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 12,
+    "num_b": 2,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "12 - 2 = ？",
+    "prompt": "【康軒一下期中評量】算算看：12 - 2 = ？",
+    "answer": 10,
+    "options": [
+      9,
+      10,
+      12,
+      11
+    ]
+  },
+  {
+    "id": 234,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 12,
+    "num_b": 3,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "12 - 3 = ？",
+    "prompt": "【康軒一下期中評量】算算看：12 - 3 = ？",
+    "answer": 9,
+    "options": [
+      9,
+      8,
+      11,
+      10
+    ]
+  },
+  {
+    "id": 235,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 12,
+    "num_b": 4,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "12 - 4 = ？",
+    "prompt": "【康軒一下期中評量】算算看：12 - 4 = ？",
+    "answer": 8,
+    "options": [
+      7,
+      9,
+      8,
+      10
+    ]
+  },
+  {
+    "id": 236,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 12,
+    "num_b": 5,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "12 - 5 = ？",
+    "prompt": "【康軒一下期中評量】算算看：12 - 5 = ？",
+    "answer": 7,
+    "options": [
+      9,
+      7,
+      8,
+      6
+    ]
+  },
+  {
+    "id": 237,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 12,
+    "num_b": 6,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "12 - 6 = ？",
+    "prompt": "【康軒一下期中評量】算算看：12 - 6 = ？",
+    "answer": 6,
+    "options": [
+      8,
+      7,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 238,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 12,
+    "num_b": 7,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "12 - 7 = ？",
+    "prompt": "【康軒一下期中評量】算算看：12 - 7 = ？",
+    "answer": 5,
+    "options": [
+      5,
+      7,
+      4,
+      6
+    ]
+  },
+  {
+    "id": 239,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 12,
+    "num_b": 8,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "12 - 8 = ？",
+    "prompt": "【康軒一下期中評量】算算看：12 - 8 = ？",
+    "answer": 4,
+    "options": [
+      5,
+      6,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 240,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 12,
+    "num_b": 9,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "12 - 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：12 - 9 = ？",
+    "answer": 3,
+    "options": [
+      2,
+      4,
+      3,
+      5
+    ]
+  },
+  {
+    "id": 241,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 13,
+    "num_b": 2,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "13 - 2 = ？",
+    "prompt": "【康軒一下期中評量】算算看：13 - 2 = ？",
+    "answer": 11,
+    "options": [
+      12,
+      13,
+      11,
+      10
+    ]
+  },
+  {
+    "id": 242,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 13,
+    "num_b": 3,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "13 - 3 = ？",
+    "prompt": "【康軒一下期中評量】算算看：13 - 3 = ？",
+    "answer": 10,
+    "options": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "id": 243,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 13,
+    "num_b": 4,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "13 - 4 = ？",
+    "prompt": "【康軒一下期中評量】算算看：13 - 4 = ？",
+    "answer": 9,
+    "options": [
+      9,
+      8,
+      10,
+      11
+    ]
+  },
+  {
+    "id": 244,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 13,
+    "num_b": 5,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "13 - 5 = ？",
+    "prompt": "【康軒一下期中評量】算算看：13 - 5 = ？",
+    "answer": 8,
+    "options": [
+      10,
+      8,
+      9,
+      7
+    ]
+  },
+  {
+    "id": 245,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 13,
+    "num_b": 6,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "13 - 6 = ？",
+    "prompt": "【康軒一下期中評量】算算看：13 - 6 = ？",
+    "answer": 7,
+    "options": [
+      7,
+      9,
+      6,
+      8
+    ]
+  },
+  {
+    "id": 246,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 13,
+    "num_b": 7,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "13 - 7 = ？",
+    "prompt": "【康軒一下期中評量】算算看：13 - 7 = ？",
+    "answer": 6,
+    "options": [
+      5,
+      7,
+      6,
+      8
+    ]
+  },
+  {
+    "id": 247,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 13,
+    "num_b": 8,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "13 - 8 = ？",
+    "prompt": "【康軒一下期中評量】算算看：13 - 8 = ？",
+    "answer": 5,
+    "options": [
+      6,
+      7,
+      5,
+      4
+    ]
+  },
+  {
+    "id": 248,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 13,
+    "num_b": 9,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "13 - 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：13 - 9 = ？",
+    "answer": 4,
+    "options": [
+      5,
+      6,
+      3,
+      4
+    ]
+  },
+  {
+    "id": 249,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 14,
+    "num_b": 2,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "14 - 2 = ？",
+    "prompt": "【康軒一下期中評量】算算看：14 - 2 = ？",
+    "answer": 12,
+    "options": [
+      13,
+      12,
+      14,
+      11
+    ]
+  },
+  {
+    "id": 250,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 14,
+    "num_b": 3,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "14 - 3 = ？",
+    "prompt": "【康軒一下期中評量】算算看：14 - 3 = ？",
+    "answer": 11,
+    "options": [
+      10,
+      13,
+      11,
+      12
+    ]
+  },
+  {
+    "id": 251,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 14,
+    "num_b": 4,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "14 - 4 = ？",
+    "prompt": "【康軒一下期中評量】算算看：14 - 4 = ？",
+    "answer": 10,
+    "options": [
+      9,
+      12,
+      11,
+      10
+    ]
+  },
+  {
+    "id": 252,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 14,
+    "num_b": 5,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "14 - 5 = ？",
+    "prompt": "【康軒一下期中評量】算算看：14 - 5 = ？",
+    "answer": 9,
+    "options": [
+      9,
+      11,
+      10,
+      8
+    ]
+  },
+  {
+    "id": 253,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 14,
+    "num_b": 6,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "14 - 6 = ？",
+    "prompt": "【康軒一下期中評量】算算看：14 - 6 = ？",
+    "answer": 8,
+    "options": [
+      10,
+      8,
+      9,
+      7
+    ]
+  },
+  {
+    "id": 254,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 14,
+    "num_b": 7,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "14 - 7 = ？",
+    "prompt": "【康軒一下期中評量】算算看：14 - 7 = ？",
+    "answer": 7,
+    "options": [
+      7,
+      6,
+      9,
+      8
+    ]
+  },
+  {
+    "id": 255,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 14,
+    "num_b": 8,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "14 - 8 = ？",
+    "prompt": "【康軒一下期中評量】算算看：14 - 8 = ？",
+    "answer": 6,
+    "options": [
+      7,
+      5,
+      8,
+      6
+    ]
+  },
+  {
+    "id": 256,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 14,
+    "num_b": 9,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "14 - 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：14 - 9 = ？",
+    "answer": 5,
+    "options": [
+      4,
+      5,
+      7,
+      6
+    ]
+  },
+  {
+    "id": 257,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 15,
+    "num_b": 2,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "15 - 2 = ？",
+    "prompt": "【康軒一下期中評量】算算看：15 - 2 = ？",
+    "answer": 13,
+    "options": [
+      13,
+      12,
+      15,
+      14
+    ]
+  },
+  {
+    "id": 258,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 15,
+    "num_b": 3,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "15 - 3 = ？",
+    "prompt": "【康軒一下期中評量】算算看：15 - 3 = ？",
+    "answer": 12,
+    "options": [
+      13,
+      11,
+      14,
+      12
+    ]
+  },
+  {
+    "id": 259,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 15,
+    "num_b": 4,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "15 - 4 = ？",
+    "prompt": "【康軒一下期中評量】算算看：15 - 4 = ？",
+    "answer": 11,
+    "options": [
+      10,
+      12,
+      13,
+      11
+    ]
+  },
+  {
+    "id": 260,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 15,
+    "num_b": 5,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "15 - 5 = ？",
+    "prompt": "【康軒一下期中評量】算算看：15 - 5 = ？",
+    "answer": 10,
+    "options": [
+      11,
+      10,
+      9,
+      12
+    ]
+  },
+  {
+    "id": 261,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 15,
+    "num_b": 6,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "15 - 6 = ？",
+    "prompt": "【康軒一下期中評量】算算看：15 - 6 = ？",
+    "answer": 9,
+    "options": [
+      9,
+      11,
+      10,
+      8
+    ]
+  },
+  {
+    "id": 262,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 15,
+    "num_b": 7,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "15 - 7 = ？",
+    "prompt": "【康軒一下期中評量】算算看：15 - 7 = ？",
+    "answer": 8,
+    "options": [
+      7,
+      10,
+      9,
+      8
+    ]
+  },
+  {
+    "id": 263,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 15,
+    "num_b": 8,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "15 - 8 = ？",
+    "prompt": "【康軒一下期中評量】算算看：15 - 8 = ？",
+    "answer": 7,
+    "options": [
+      7,
+      8,
+      6,
+      9
+    ]
+  },
+  {
+    "id": 264,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 15,
+    "num_b": 9,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "15 - 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：15 - 9 = ？",
+    "answer": 6,
+    "options": [
+      7,
+      8,
+      5,
+      6
+    ]
+  },
+  {
+    "id": 265,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 16,
+    "num_b": 2,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "16 - 2 = ？",
+    "prompt": "【康軒一下期中評量】算算看：16 - 2 = ？",
+    "answer": 14,
+    "options": [
+      14,
+      15,
+      13,
+      16
+    ]
+  },
+  {
+    "id": 266,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 16,
+    "num_b": 3,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "16 - 3 = ？",
+    "prompt": "【康軒一下期中評量】算算看：16 - 3 = ？",
+    "answer": 13,
+    "options": [
+      13,
+      14,
+      15,
+      12
+    ]
+  },
+  {
+    "id": 267,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 16,
+    "num_b": 4,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "16 - 4 = ？",
+    "prompt": "【康軒一下期中評量】算算看：16 - 4 = ？",
+    "answer": 12,
+    "options": [
+      12,
+      14,
+      11,
+      13
+    ]
+  },
+  {
+    "id": 268,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 16,
+    "num_b": 5,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "16 - 5 = ？",
+    "prompt": "【康軒一下期中評量】算算看：16 - 5 = ？",
+    "answer": 11,
+    "options": [
+      10,
+      12,
+      11,
+      13
+    ]
+  },
+  {
+    "id": 269,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 16,
+    "num_b": 6,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "16 - 6 = ？",
+    "prompt": "【康軒一下期中評量】算算看：16 - 6 = ？",
+    "answer": 10,
+    "options": [
+      12,
+      10,
+      11,
+      9
+    ]
+  },
+  {
+    "id": 270,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 16,
+    "num_b": 7,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "16 - 7 = ？",
+    "prompt": "【康軒一下期中評量】算算看：16 - 7 = ？",
+    "answer": 9,
+    "options": [
+      10,
+      9,
+      11,
+      8
+    ]
+  },
+  {
+    "id": 271,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 16,
+    "num_b": 8,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "16 - 8 = ？",
+    "prompt": "【康軒一下期中評量】算算看：16 - 8 = ？",
+    "answer": 8,
+    "options": [
+      7,
+      9,
+      8,
+      10
+    ]
+  },
+  {
+    "id": 272,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 16,
+    "num_b": 9,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "16 - 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：16 - 9 = ？",
+    "answer": 7,
+    "options": [
+      6,
+      9,
+      7,
+      8
+    ]
+  },
+  {
+    "id": 273,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 17,
+    "num_b": 2,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "17 - 2 = ？",
+    "prompt": "【康軒一下期中評量】算算看：17 - 2 = ？",
+    "answer": 15,
+    "options": [
+      16,
+      17,
+      14,
+      15
+    ]
+  },
+  {
+    "id": 274,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 17,
+    "num_b": 3,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "17 - 3 = ？",
+    "prompt": "【康軒一下期中評量】算算看：17 - 3 = ？",
+    "answer": 14,
+    "options": [
+      15,
+      13,
+      14,
+      16
+    ]
+  },
+  {
+    "id": 275,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 17,
+    "num_b": 4,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "17 - 4 = ？",
+    "prompt": "【康軒一下期中評量】算算看：17 - 4 = ？",
+    "answer": 13,
+    "options": [
+      14,
+      12,
+      13,
+      15
+    ]
+  },
+  {
+    "id": 276,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 17,
+    "num_b": 5,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "17 - 5 = ？",
+    "prompt": "【康軒一下期中評量】算算看：17 - 5 = ？",
+    "answer": 12,
+    "options": [
+      11,
+      14,
+      13,
+      12
+    ]
+  },
+  {
+    "id": 277,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 17,
+    "num_b": 6,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "17 - 6 = ？",
+    "prompt": "【康軒一下期中評量】算算看：17 - 6 = ？",
+    "answer": 11,
+    "options": [
+      10,
+      11,
+      13,
+      12
+    ]
+  },
+  {
+    "id": 278,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 17,
+    "num_b": 7,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "17 - 7 = ？",
+    "prompt": "【康軒一下期中評量】算算看：17 - 7 = ？",
+    "answer": 10,
+    "options": [
+      11,
+      10,
+      9,
+      12
+    ]
+  },
+  {
+    "id": 279,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 17,
+    "num_b": 8,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "17 - 8 = ？",
+    "prompt": "【康軒一下期中評量】算算看：17 - 8 = ？",
+    "answer": 9,
+    "options": [
+      11,
+      10,
+      8,
+      9
+    ]
+  },
+  {
+    "id": 280,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 17,
+    "num_b": 9,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "17 - 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：17 - 9 = ？",
+    "answer": 8,
+    "options": [
+      7,
+      9,
+      8,
+      10
+    ]
+  },
+  {
+    "id": 281,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 18,
+    "num_b": 2,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "18 - 2 = ？",
+    "prompt": "【康軒一下期中評量】算算看：18 - 2 = ？",
+    "answer": 16,
+    "options": [
+      17,
+      15,
+      18,
+      16
+    ]
+  },
+  {
+    "id": 282,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 18,
+    "num_b": 3,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "18 - 3 = ？",
+    "prompt": "【康軒一下期中評量】算算看：18 - 3 = ？",
+    "answer": 15,
+    "options": [
+      14,
+      17,
+      15,
+      16
+    ]
+  },
+  {
+    "id": 283,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 18,
+    "num_b": 4,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "18 - 4 = ？",
+    "prompt": "【康軒一下期中評量】算算看：18 - 4 = ？",
+    "answer": 14,
+    "options": [
+      15,
+      14,
+      13,
+      16
+    ]
+  },
+  {
+    "id": 284,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 18,
+    "num_b": 5,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "18 - 5 = ？",
+    "prompt": "【康軒一下期中評量】算算看：18 - 5 = ？",
+    "answer": 13,
+    "options": [
+      13,
+      14,
+      15,
+      12
+    ]
+  },
+  {
+    "id": 285,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 18,
+    "num_b": 6,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "18 - 6 = ？",
+    "prompt": "【康軒一下期中評量】算算看：18 - 6 = ？",
+    "answer": 12,
+    "options": [
+      14,
+      12,
+      11,
+      13
+    ]
+  },
+  {
+    "id": 286,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 18,
+    "num_b": 7,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "18 - 7 = ？",
+    "prompt": "【康軒一下期中評量】算算看：18 - 7 = ？",
+    "answer": 11,
+    "options": [
+      12,
+      13,
+      10,
+      11
+    ]
+  },
+  {
+    "id": 287,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 18,
+    "num_b": 8,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "18 - 8 = ？",
+    "prompt": "【康軒一下期中評量】算算看：18 - 8 = ？",
+    "answer": 10,
+    "options": [
+      10,
+      12,
+      11,
+      9
+    ]
+  },
+  {
+    "id": 288,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・18以內退位減法",
+    "type": "sub_within_20",
+    "num_a": 18,
+    "num_b": 9,
+    "operator": "-",
+    "display": "➖ 減法心算挑戰",
+    "formula": "18 - 9 = ？",
+    "prompt": "【康軒一下期中評量】算算看：18 - 9 = ？",
+    "answer": 9,
+    "options": [
+      9,
+      11,
+      8,
+      10
+    ]
+  },
+  {
+    "id": 289,
+    "category": "addition",
+    "exam_tag": "康軒一上期末評量・含0的加法",
+    "type": "word_problem",
+    "operator": "+",
+    "display": "🧺 0 顆 + 8 顆",
+    "formula": "0 + 8 = ？",
+    "prompt": "【康軒一上期末評量】紅籃子裡沒有半顆蘋果（0 顆），綠籃子裡有 8 顆蘋果，兩個籃子合起來共有幾顆蘋果？",
+    "answer": 8,
+    "options": [
+      8,
+      7,
+      9,
+      0
+    ]
+  },
+  {
+    "id": 290,
+    "category": "subtraction",
+    "exam_tag": "康軒一上期末評量・含0的減法",
+    "type": "word_problem",
+    "operator": "-",
+    "display": "🍪 9 塊 - 9 塊",
+    "formula": "9 - 9 = ？",
+    "prompt": "【康軒一上期末評量】盤子裡原本有 9 塊餅乾，小美全部吃光光（吃掉 9 塊），盤子裡還剩下幾塊餅乾？",
+    "answer": 0,
+    "options": [
+      2,
+      1,
+      9,
+      0
+    ]
+  },
+  {
+    "id": 291,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・比多比少應用題",
+    "type": "word_problem",
+    "operator": "-",
+    "display": "🌹 14 朵 vs 🌼 6 朵",
+    "formula": "14 - 6 = ？",
+    "prompt": "【新挑戰測驗卷必考】花園裡有 14 朵紅玫瑰和 6 朵白玫瑰，請問紅玫瑰比白玫瑰「多幾朵」？",
+    "answer": 8,
+    "options": [
+      9,
+      7,
+      8,
+      20
+    ]
+  },
+  {
+    "id": 292,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・不夠多少應用題",
+    "type": "word_problem",
+    "operator": "-",
+    "display": "👧 15 人 vs 🥛 8 瓶",
+    "formula": "15 - 8 = ？",
+    "prompt": "【新挑戰測驗卷必考】河堤國小一年級有 15 個小朋友，一人發 1 瓶鮮奶，桌上只有 8 瓶，請問「還不夠幾瓶」？",
+    "answer": 7,
+    "options": [
+      6,
+      8,
+      23,
+      7
+    ]
+  },
+  {
+    "id": 293,
+    "category": "addition",
+    "exam_tag": "康軒新挑戰測驗卷・排隊壓軸題",
+    "type": "word_problem",
+    "operator": "+",
+    "display": "前 5 人 + 小美 1 人 + 後 4 人",
+    "formula": "5 + 1 + 4 = ？",
+    "prompt": "【新挑戰測驗卷壓軸題】小美排隊進教室，她前面有 5 個人，後面有 4 個人，加上小美自己，這一排一共有幾個人？",
+    "answer": 10,
+    "options": [
+      11,
+      8,
+      10,
+      9
+    ]
+  },
+  {
+    "id": 294,
+    "category": "addition",
+    "exam_tag": "康軒新挑戰測驗卷・排隊壓軸題",
+    "type": "word_problem",
+    "operator": "+",
+    "display": "前 6 人 + 小華 1 人 + 後 6 人",
+    "formula": "6 + 1 + 6 = ？",
+    "prompt": "【新挑戰測驗卷壓軸題】小華排路隊回家，他前面有 6 個人，後面也有 6 個人，這一排總共有幾個人？",
+    "answer": 13,
+    "options": [
+      13,
+      11,
+      14,
+      12
+    ]
+  },
+  {
+    "id": 295,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期中評量・看書頁數題",
+    "type": "word_problem",
+    "operator": "-",
+    "display": "📖 共 17 頁，已看 9 頁",
+    "formula": "17 - 9 = ？",
+    "prompt": "【康軒一下評量】一本繪本有 17 頁，小妍今天讀了 9 頁，請問還剩下幾頁沒讀完？",
+    "answer": 8,
+    "options": [
+      8,
+      6,
+      7,
+      9
+    ]
+  },
+  {
+    "id": 296,
+    "category": "addition",
+    "exam_tag": "康軒一下期末評量・二位數不進位加法",
+    "type": "word_problem",
+    "operator": "+",
+    "display": "🖍️ 23 枝 + 15 枝",
+    "formula": "23 + 15 = ？",
+    "prompt": "【康軒一下期末評量】姊姊有 23 張貼紙，妹妹又給她 15 張，現在姊姊一共有幾張貼紙？",
+    "answer": 38,
+    "options": [
+      38,
+      28,
+      37,
+      48
+    ]
+  },
+  {
+    "id": 297,
+    "category": "subtraction",
+    "exam_tag": "康軒一下期末評量・二位數不退位減法",
+    "type": "word_problem",
+    "operator": "-",
+    "display": "🎈 46 顆 - 22 顆",
+    "formula": "46 - 22 = ？",
+    "prompt": "【康軒一下期末評量】園遊會有 46 顆氣球，送給小朋友 22 顆後，還剩下幾顆氣球？",
+    "answer": 24,
+    "options": [
+      14,
+      22,
+      26,
+      24
+    ]
+  },
+  {
+    "id": 298,
+    "category": "addition",
+    "exam_tag": "康軒一下期末評量・二位數整十加法",
+    "type": "word_problem",
+    "operator": "+",
+    "display": "📚 30 本 + 25 本",
+    "formula": "30 + 25 = ？",
+    "prompt": "【康軒一下期末評量】教室圖書角原本有 30 本故事書，老師又放進 25 本，現在共有幾本？",
+    "answer": 55,
+    "options": [
+      45,
+      65,
+      50,
+      55
+    ]
+  },
+  {
+    "id": 299,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點鐘",
+    "type": "clock_hour",
+    "hour": 1,
+    "minute": 0,
+    "time_str": "1:00",
+    "display": "🕰️ 短針指 1・長針指 12",
+    "formula": "電子鐘顯示 1:00",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 12，短針指在 1，請問現在是幾點？",
+    "answer": "1點鐘",
+    "options": [
+      "2點鐘",
+      "12點鐘",
+      "1點半",
+      "1點鐘"
+    ]
+  },
+  {
+    "id": 300,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點半",
+    "type": "clock_half",
+    "hour": 1,
+    "minute": 30,
+    "time_str": "1:30",
+    "display": "🕰️ 短針在 1 和 2 中間・長針指 6",
+    "formula": "電子鐘顯示 1:30",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 6，短針走到 1 和 2 的中間，請問是幾點半？",
+    "answer": "1點半",
+    "options": [
+      "12點半",
+      "2點半",
+      "1點鐘",
+      "1點半"
+    ]
+  },
+  {
+    "id": 301,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點鐘",
+    "type": "clock_hour",
+    "hour": 2,
+    "minute": 0,
+    "time_str": "2:00",
+    "display": "🕰️ 短針指 2・長針指 12",
+    "formula": "電子鐘顯示 2:00",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 12，短針指在 2，請問現在是幾點？",
+    "answer": "2點鐘",
+    "options": [
+      "2點半",
+      "1點鐘",
+      "3點鐘",
+      "2點鐘"
+    ]
+  },
+  {
+    "id": 302,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點半",
+    "type": "clock_half",
+    "hour": 2,
+    "minute": 30,
+    "time_str": "2:30",
+    "display": "🕰️ 短針在 2 和 3 中間・長針指 6",
+    "formula": "電子鐘顯示 2:30",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 6，短針走到 2 和 3 的中間，請問是幾點半？",
+    "answer": "2點半",
+    "options": [
+      "1點半",
+      "3點半",
+      "2點鐘",
+      "2點半"
+    ]
+  },
+  {
+    "id": 303,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點鐘",
+    "type": "clock_hour",
+    "hour": 3,
+    "minute": 0,
+    "time_str": "3:00",
+    "display": "🕰️ 短針指 3・長針指 12",
+    "formula": "電子鐘顯示 3:00",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 12，短針指在 3，請問現在是幾點？",
+    "answer": "3點鐘",
+    "options": [
+      "2點鐘",
+      "3點半",
+      "3點鐘",
+      "4點鐘"
+    ]
+  },
+  {
+    "id": 304,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點半",
+    "type": "clock_half",
+    "hour": 3,
+    "minute": 30,
+    "time_str": "3:30",
+    "display": "🕰️ 短針在 3 和 4 中間・長針指 6",
+    "formula": "電子鐘顯示 3:30",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 6，短針走到 3 和 4 的中間，請問是幾點半？",
+    "answer": "3點半",
+    "options": [
+      "4點半",
+      "2點半",
+      "3點鐘",
+      "3點半"
+    ]
+  },
+  {
+    "id": 305,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點鐘",
+    "type": "clock_hour",
+    "hour": 4,
+    "minute": 0,
+    "time_str": "4:00",
+    "display": "🕰️ 短針指 4・長針指 12",
+    "formula": "電子鐘顯示 4:00",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 12，短針指在 4，請問現在是幾點？",
+    "answer": "4點鐘",
+    "options": [
+      "3點鐘",
+      "4點鐘",
+      "5點鐘",
+      "4點半"
+    ]
+  },
+  {
+    "id": 306,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點半",
+    "type": "clock_half",
+    "hour": 4,
+    "minute": 30,
+    "time_str": "4:30",
+    "display": "🕰️ 短針在 4 和 5 中間・長針指 6",
+    "formula": "電子鐘顯示 4:30",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 6，短針走到 4 和 5 的中間，請問是幾點半？",
+    "answer": "4點半",
+    "options": [
+      "3點半",
+      "4點半",
+      "4點鐘",
+      "5點半"
+    ]
+  },
+  {
+    "id": 307,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點鐘",
+    "type": "clock_hour",
+    "hour": 5,
+    "minute": 0,
+    "time_str": "5:00",
+    "display": "🕰️ 短針指 5・長針指 12",
+    "formula": "電子鐘顯示 5:00",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 12，短針指在 5，請問現在是幾點？",
+    "answer": "5點鐘",
+    "options": [
+      "6點鐘",
+      "4點鐘",
+      "5點鐘",
+      "5點半"
+    ]
+  },
+  {
+    "id": 308,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點半",
+    "type": "clock_half",
+    "hour": 5,
+    "minute": 30,
+    "time_str": "5:30",
+    "display": "🕰️ 短針在 5 和 6 中間・長針指 6",
+    "formula": "電子鐘顯示 5:30",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 6，短針走到 5 和 6 的中間，請問是幾點半？",
+    "answer": "5點半",
+    "options": [
+      "4點半",
+      "5點半",
+      "6點半",
+      "5點鐘"
+    ]
+  },
+  {
+    "id": 309,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點鐘",
+    "type": "clock_hour",
+    "hour": 6,
+    "minute": 0,
+    "time_str": "6:00",
+    "display": "🕰️ 短針指 6・長針指 12",
+    "formula": "電子鐘顯示 6:00",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 12，短針指在 6，請問現在是幾點？",
+    "answer": "6點鐘",
+    "options": [
+      "5點鐘",
+      "6點半",
+      "6點鐘",
+      "7點鐘"
+    ]
+  },
+  {
+    "id": 310,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點半",
+    "type": "clock_half",
+    "hour": 6,
+    "minute": 30,
+    "time_str": "6:30",
+    "display": "🕰️ 短針在 6 和 7 中間・長針指 6",
+    "formula": "電子鐘顯示 6:30",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 6，短針走到 6 和 7 的中間，請問是幾點半？",
+    "answer": "6點半",
+    "options": [
+      "6點半",
+      "5點半",
+      "7點半",
+      "6點鐘"
+    ]
+  },
+  {
+    "id": 311,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點鐘",
+    "type": "clock_hour",
+    "hour": 7,
+    "minute": 0,
+    "time_str": "7:00",
+    "display": "🕰️ 短針指 7・長針指 12",
+    "formula": "電子鐘顯示 7:00",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 12，短針指在 7，請問現在是幾點？",
+    "answer": "7點鐘",
+    "options": [
+      "7點鐘",
+      "8點鐘",
+      "7點半",
+      "6點鐘"
+    ]
+  },
+  {
+    "id": 312,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點半",
+    "type": "clock_half",
+    "hour": 7,
+    "minute": 30,
+    "time_str": "7:30",
+    "display": "🕰️ 短針在 7 和 8 中間・長針指 6",
+    "formula": "電子鐘顯示 7:30",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 6，短針走到 7 和 8 的中間，請問是幾點半？",
+    "answer": "7點半",
+    "options": [
+      "6點半",
+      "7點半",
+      "7點鐘",
+      "8點半"
+    ]
+  },
+  {
+    "id": 313,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點鐘",
+    "type": "clock_hour",
+    "hour": 8,
+    "minute": 0,
+    "time_str": "8:00",
+    "display": "🕰️ 短針指 8・長針指 12",
+    "formula": "電子鐘顯示 8:00",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 12，短針指在 8，請問現在是幾點？",
+    "answer": "8點鐘",
+    "options": [
+      "9點鐘",
+      "8點半",
+      "7點鐘",
+      "8點鐘"
+    ]
+  },
+  {
+    "id": 314,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點半",
+    "type": "clock_half",
+    "hour": 8,
+    "minute": 30,
+    "time_str": "8:30",
+    "display": "🕰️ 短針在 8 和 9 中間・長針指 6",
+    "formula": "電子鐘顯示 8:30",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 6，短針走到 8 和 9 的中間，請問是幾點半？",
+    "answer": "8點半",
+    "options": [
+      "8點半",
+      "9點半",
+      "7點半",
+      "8點鐘"
+    ]
+  },
+  {
+    "id": 315,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點鐘",
+    "type": "clock_hour",
+    "hour": 9,
+    "minute": 0,
+    "time_str": "9:00",
+    "display": "🕰️ 短針指 9・長針指 12",
+    "formula": "電子鐘顯示 9:00",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 12，短針指在 9，請問現在是幾點？",
+    "answer": "9點鐘",
+    "options": [
+      "9點鐘",
+      "8點鐘",
+      "10點鐘",
+      "9點半"
+    ]
+  },
+  {
+    "id": 316,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點半",
+    "type": "clock_half",
+    "hour": 9,
+    "minute": 30,
+    "time_str": "9:30",
+    "display": "🕰️ 短針在 9 和 10 中間・長針指 6",
+    "formula": "電子鐘顯示 9:30",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 6，短針走到 9 和 10 的中間，請問是幾點半？",
+    "answer": "9點半",
+    "options": [
+      "9點半",
+      "9點鐘",
+      "10點半",
+      "8點半"
+    ]
+  },
+  {
+    "id": 317,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點鐘",
+    "type": "clock_hour",
+    "hour": 10,
+    "minute": 0,
+    "time_str": "10:00",
+    "display": "🕰️ 短針指 10・長針指 12",
+    "formula": "電子鐘顯示 10:00",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 12，短針指在 10，請問現在是幾點？",
+    "answer": "10點鐘",
+    "options": [
+      "11點鐘",
+      "9點鐘",
+      "10點半",
+      "10點鐘"
+    ]
+  },
+  {
+    "id": 318,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點半",
+    "type": "clock_half",
+    "hour": 10,
+    "minute": 30,
+    "time_str": "10:30",
+    "display": "🕰️ 短針在 10 和 11 中間・長針指 6",
+    "formula": "電子鐘顯示 10:30",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 6，短針走到 10 和 11 的中間，請問是幾點半？",
+    "answer": "10點半",
+    "options": [
+      "11點半",
+      "9點半",
+      "10點半",
+      "10點鐘"
+    ]
+  },
+  {
+    "id": 319,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點鐘",
+    "type": "clock_hour",
+    "hour": 11,
+    "minute": 0,
+    "time_str": "11:00",
+    "display": "🕰️ 短針指 11・長針指 12",
+    "formula": "電子鐘顯示 11:00",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 12，短針指在 11，請問現在是幾點？",
+    "answer": "11點鐘",
+    "options": [
+      "11點半",
+      "12點鐘",
+      "11點鐘",
+      "10點鐘"
+    ]
+  },
+  {
+    "id": 320,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點半",
+    "type": "clock_half",
+    "hour": 11,
+    "minute": 30,
+    "time_str": "11:30",
+    "display": "🕰️ 短針在 11 和 12 中間・長針指 6",
+    "formula": "電子鐘顯示 11:30",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 6，短針走到 11 和 12 的中間，請問是幾點半？",
+    "answer": "11點半",
+    "options": [
+      "11點鐘",
+      "12點半",
+      "11點半",
+      "10點半"
+    ]
+  },
+  {
+    "id": 321,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點鐘",
+    "type": "clock_hour",
+    "hour": 12,
+    "minute": 0,
+    "time_str": "12:00",
+    "display": "🕰️ 短針指 12・長針指 12",
+    "formula": "電子鐘顯示 12:00",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 12，短針指在 12，請問現在是幾點？",
+    "answer": "12點鐘",
+    "options": [
+      "1點鐘",
+      "12點鐘",
+      "12點半",
+      "11點鐘"
+    ]
+  },
+  {
+    "id": 322,
+    "category": "clock",
+    "exam_tag": "康軒一上期末評量・幾點半",
+    "type": "clock_half",
+    "hour": 12,
+    "minute": 30,
+    "time_str": "12:30",
+    "display": "🕰️ 短針在 12 和 1 中間・長針指 6",
+    "formula": "電子鐘顯示 12:30",
+    "prompt": "【康軒一上期末評量】時鐘的長針指在 6，短針走到 12 和 1 的中間，請問是幾點半？",
+    "answer": "12點半",
+    "options": [
+      "12點鐘",
+      "12點半",
+      "11點半",
+      "1點半"
+    ]
+  },
+  {
+    "id": 323,
+    "category": "clock",
+    "exam_tag": "康軒期末評量・時間前後與日曆",
+    "type": "time_calendar",
+    "time_str": "⏰ 3:00 ➔ 過 2 小時",
+    "display": "⏰ 3:00 ➔ 過 2 小時",
+    "formula": "3 點鐘再過 2 小時 = ？",
+    "prompt": "【康軒新挑戰測驗卷】現在是下午 3 點鐘，再過 2 小時是幾點鐘？",
+    "answer": "5點鐘",
+    "options": [
+      "4點鐘",
+      "5點鐘",
+      "1點鐘",
+      "6點鐘"
+    ]
+  },
+  {
+    "id": 324,
+    "category": "clock",
+    "exam_tag": "康軒期末評量・時間前後與日曆",
+    "type": "time_calendar",
+    "time_str": "⏰ 9:30 ➔ 1 小時前",
+    "display": "⏰ 9:30 ➔ 1 小時前",
+    "formula": "9 點半的 1 小時前 = ？",
+    "prompt": "【康軒新挑戰測驗卷】小美在 9 點半上床睡覺，請問 1 小時「前」是幾點半？",
+    "answer": "8點半",
+    "options": [
+      "10點半",
+      "7點半",
+      "8點鐘",
+      "8點半"
+    ]
+  },
+  {
+    "id": 325,
+    "category": "clock",
+    "exam_tag": "康軒期末評量・時間前後與日曆",
+    "type": "time_calendar",
+    "time_str": "📅 星期一～星期日",
+    "display": "📅 星期一～星期日",
+    "formula": "1 個星期 = [ ? ] 天",
+    "prompt": "【康軒一下期末評量】日曆上從星期日到星期六，一個星期一共有幾天？",
+    "answer": "7天",
+    "options": [
+      "5天",
+      "7天",
+      "6天",
+      "10天"
+    ]
+  },
+  {
+    "id": 326,
+    "category": "clock",
+    "exam_tag": "康軒期末評量・時間前後與日曆",
+    "type": "time_calendar",
+    "time_str": "📅 今天是星期五",
+    "display": "📅 今天是星期五",
+    "formula": "今天星期五 ➔ 明天是 [ ? ]",
+    "prompt": "【康軒一下期末評量】今天是星期五，明天放假不用上學，請問明天是星期幾？",
+    "answer": "星期六",
+    "options": [
+      "星期一",
+      "星期四",
+      "星期六",
+      "星期日"
+    ]
+  },
+  {
+    "id": 327,
+    "category": "clock",
+    "exam_tag": "康軒期末評量・時間前後與日曆",
+    "type": "time_calendar",
+    "time_str": "📅 今天是星期日",
+    "display": "📅 今天是星期日",
+    "formula": "今天星期日 ➔ 昨天是 [ ? ]",
+    "prompt": "【康軒一下期末評量】今天是星期日，請問「昨天」是星期幾？",
+    "answer": "星期六",
+    "options": [
+      "星期六",
+      "星期一",
+      "星期二",
+      "星期五"
+    ]
+  },
+  {
+    "id": 328,
+    "category": "clock",
+    "exam_tag": "康軒期末評量・時間前後與日曆",
+    "type": "time_calendar",
+    "time_str": "📅 5 月 15 日",
+    "display": "📅 5 月 15 日",
+    "formula": "今天 5月15日 ➔ 明天是 [ ? ]",
+    "prompt": "【康軒新挑戰測驗卷】今天是 5 月 15 日，明天是小美的生日，請問明天是幾月幾日？",
+    "answer": "5月16日",
+    "options": [
+      "5月14日",
+      "5月16日",
+      "6月15日",
+      "5月17日"
+    ]
+  },
+  {
+    "id": 329,
+    "category": "money",
+    "exam_tag": "康軒一下評量・錢幣換算與付錢",
+    "type": "coin_exchange",
+    "item_name": "🪙 50元硬幣 × 1",
+    "emoji": "🪙",
+    "price": 0,
+    "pay": 0,
+    "display": "🪙 50元硬幣 × 1",
+    "formula": "1 個 50 元 = [ ? ] 個 10 元",
+    "prompt": "【康軒一下評量】1 個 50 元硬幣，可以換成幾個 10 元硬幣？",
+    "answer": "5個",
+    "options": [
+      "2個",
+      "5個",
+      "10個",
+      "50個"
+    ]
+  },
+  {
+    "id": 330,
+    "category": "money",
+    "exam_tag": "康軒一下評量・錢幣換算與付錢",
+    "type": "coin_exchange",
+    "item_name": "🪙 10元硬幣 × 1",
+    "emoji": "🪙",
+    "price": 0,
+    "pay": 0,
+    "display": "🪙 10元硬幣 × 1",
+    "formula": "1 個 10 元 = [ ? ] 個 5 元",
+    "prompt": "【康軒一下評量】1 個 10 元硬幣，可以換成幾個 5 元硬幣？",
+    "answer": "2個",
+    "options": [
+      "10個",
+      "5個",
+      "2個",
+      "1個"
+    ]
+  },
+  {
+    "id": 331,
+    "category": "money",
+    "exam_tag": "康軒一下評量・錢幣換算與付錢",
+    "type": "coin_exchange",
+    "item_name": "💵 100元鈔票 × 1",
+    "emoji": "🪙",
+    "price": 0,
+    "pay": 0,
+    "display": "💵 100元鈔票 × 1",
+    "formula": "1 張 100 元 = [ ? ] 個 10 元",
+    "prompt": "【康軒一下評量】1 張紅色的 100 元鈔票，可以換成幾個 10 元硬幣？",
+    "answer": "10個",
+    "options": [
+      "100個",
+      "10個",
+      "5個",
+      "2個"
+    ]
+  },
+  {
+    "id": 332,
+    "category": "money",
+    "exam_tag": "康軒一下評量・錢幣換算與付錢",
+    "type": "coin_exchange",
+    "item_name": "🪙 50元×1 + 10元×2 + 1元×6",
+    "emoji": "🪙",
+    "price": 0,
+    "pay": 0,
+    "display": "🪙 50元×1 + 10元×2 + 1元×6",
+    "formula": "50 + 20 + 6 = ？ 元",
+    "prompt": "【康軒一下評量】錢包裡有 1 個 50 元、2 個 10 元和 6 個 1 元，合起來一共是多少元？",
+    "answer": "76元",
+    "options": [
+      "36元",
+      "67元",
+      "86元",
+      "76元"
+    ]
+  },
+  {
+    "id": 333,
+    "category": "money",
+    "exam_tag": "康軒一下評量・錢幣換算與付錢",
+    "type": "coin_exchange",
+    "item_name": "🪙 10元×4 + 5元×1 + 1元×3",
+    "emoji": "🪙",
+    "price": 0,
+    "pay": 0,
+    "display": "🪙 10元×4 + 5元×1 + 1元×3",
+    "formula": "40 + 5 + 3 = ？ 元",
+    "prompt": "【康軒一下評量】撲滿裡有 4 個 10 元、1 個 5 元和 3 個 1 元，合起來是多少元？",
+    "answer": "48元",
+    "options": [
+      "48元",
+      "58元",
+      "84元",
+      "43元"
+    ]
+  },
+  {
+    "id": 334,
+    "category": "money",
+    "exam_tag": "康軒一下評量・錢幣換算與付錢",
+    "type": "coin_exchange",
+    "item_name": "✏️ 自動鉛筆 36 元",
+    "emoji": "🪙",
+    "price": 0,
+    "pay": 0,
+    "display": "✏️ 自動鉛筆 36 元",
+    "formula": "只用 10 元硬幣付 36 元 ➔ 最少付 [ ? ] 個",
+    "prompt": "【新挑戰測驗卷必考陷阱題】買一枝 36 元的自動鉛筆，全部只用 10 元硬幣付錢，最少要拿出幾個 10 元硬幣才夠付？",
+    "answer": "4個",
+    "options": [
+      "4個",
+      "5個",
+      "6個",
+      "3個"
+    ]
+  },
+  {
+    "id": 335,
+    "category": "money",
+    "exam_tag": "康軒一下評量・錢幣換算與付錢",
+    "type": "coin_exchange",
+    "item_name": "🧸 小熊玩偶 52 元",
+    "emoji": "🪙",
+    "price": 0,
+    "pay": 0,
+    "display": "🧸 小熊玩偶 52 元",
+    "formula": "只用 10 元硬幣付 52 元 ➔ 最少付 [ ? ] 個",
+    "prompt": "【新挑戰測驗卷必考陷阱題】買一隻 52 元的小熊，只用 10 元硬幣付錢，最少要付幾個 10 元硬幣才夠？",
+    "answer": "6個",
+    "options": [
+      "5個",
+      "7個",
+      "2個",
+      "6個"
+    ]
+  },
+  {
+    "id": 336,
+    "category": "money",
+    "exam_tag": "康軒一下評量・錢幣換算與付錢",
+    "type": "coin_exchange",
+    "item_name": "📓 筆記本 28 元",
+    "emoji": "🪙",
+    "price": 0,
+    "pay": 0,
+    "display": "📓 筆記本 28 元",
+    "formula": "付 1 個 50 元硬幣夠不夠買 28 元的筆記本？",
+    "prompt": "【康軒一下評量】一本筆記本賣 28 元，小美拿 1 個 50 元硬幣去買，請問錢夠不夠？",
+    "answer": "夠，還能找錢",
+    "options": [
+      "夠，還能找錢",
+      "不夠",
+      "剛好不用找錢",
+      "還差28元"
+    ]
+  },
+  {
+    "id": 337,
+    "category": "money",
+    "exam_tag": "康軒一下評量・購物找錢應用",
+    "type": "buy_item",
+    "item_name": "草莓布丁",
+    "emoji": "🍮",
+    "price": 15,
+    "pay": 20,
+    "change": 5,
+    "display": "🍮 草莓布丁 15元",
+    "formula": "付了 20 元 - 買 15 元 = 找 ？ 元",
+    "prompt": "【康軒評量】🍮 買一個【草莓布丁】要 15 元，付了 20 元，請問老闆要找回多少元？",
+    "answer": "5元",
+    "options": [
+      "10元",
+      "5元",
+      "7元",
+      "4元"
+    ]
+  },
+  {
+    "id": 338,
+    "category": "money",
+    "exam_tag": "康軒一下評量・購物找錢應用",
+    "type": "buy_item",
+    "item_name": "彩色鉛筆",
+    "emoji": "✏️",
+    "price": 12,
+    "pay": 20,
+    "change": 8,
+    "display": "✏️ 彩色鉛筆 12元",
+    "formula": "付了 20 元 - 買 12 元 = 找 ？ 元",
+    "prompt": "【康軒評量】✏️ 買一個【彩色鉛筆】要 12 元，付了 20 元，請問老闆要找回多少元？",
+    "answer": "8元",
+    "options": [
+      "10元",
+      "8元",
+      "13元",
+      "7元"
+    ]
+  },
+  {
+    "id": 339,
+    "category": "money",
+    "exam_tag": "康軒一下評量・購物找錢應用",
+    "type": "buy_item",
+    "item_name": "牛奶餅乾",
+    "emoji": "🍪",
+    "price": 8,
+    "pay": 10,
+    "change": 2,
+    "display": "🍪 牛奶餅乾 8元",
+    "formula": "付了 10 元 - 買 8 元 = 找 ？ 元",
+    "prompt": "【康軒評量】🍪 買一個【牛奶餅乾】要 8 元，付了 10 元，請問老闆要找回多少元？",
+    "answer": "2元",
+    "options": [
+      "7元",
+      "2元",
+      "4元",
+      "1元"
+    ]
+  },
+  {
+    "id": 340,
+    "category": "money",
+    "exam_tag": "康軒一下評量・購物找錢應用",
+    "type": "buy_item",
+    "item_name": "鮮奶一瓶",
+    "emoji": "🥛",
+    "price": 25,
+    "pay": 30,
+    "change": 5,
+    "display": "🥛 鮮奶一瓶 25元",
+    "formula": "付了 30 元 - 買 25 元 = 找 ？ 元",
+    "prompt": "【康軒評量】🥛 買一個【鮮奶一瓶】要 25 元，付了 30 元，請問老闆要找回多少元？",
+    "answer": "5元",
+    "options": [
+      "4元",
+      "10元",
+      "7元",
+      "5元"
+    ]
+  },
+  {
+    "id": 341,
+    "category": "money",
+    "exam_tag": "康軒一下評量・購物找錢應用",
+    "type": "buy_item",
+    "item_name": "棒棒糖",
+    "emoji": "🍭",
+    "price": 6,
+    "pay": 10,
+    "change": 4,
+    "display": "🍭 棒棒糖 6元",
+    "formula": "付了 10 元 - 買 6 元 = 找 ？ 元",
+    "prompt": "【康軒評量】🍭 買一個【棒棒糖】要 6 元，付了 10 元，請問老闆要找回多少元？",
+    "answer": "4元",
+    "options": [
+      "6元",
+      "9元",
+      "3元",
+      "4元"
+    ]
+  },
+  {
+    "id": 342,
+    "category": "money",
+    "exam_tag": "康軒一下評量・購物找錢應用",
+    "type": "buy_item",
+    "item_name": "獎勵貼紙",
+    "emoji": "🏷️",
+    "price": 14,
+    "pay": 20,
+    "change": 6,
+    "display": "🏷️ 獎勵貼紙 14元",
+    "formula": "付了 20 元 - 買 14 元 = 找 ？ 元",
+    "prompt": "【康軒評量】🏷️ 買一個【獎勵貼紙】要 14 元，付了 20 元，請問老闆要找回多少元？",
+    "answer": "6元",
+    "options": [
+      "5元",
+      "6元",
+      "11元",
+      "8元"
+    ]
+  },
+  {
+    "id": 343,
+    "category": "money",
+    "exam_tag": "康軒一下評量・購物找錢應用",
+    "type": "buy_item",
+    "item_name": "可愛橡皮擦",
+    "emoji": "🧼",
+    "price": 9,
+    "pay": 15,
+    "change": 6,
+    "display": "🧼 可愛橡皮擦 9元",
+    "formula": "付了 15 元 - 買 9 元 = 找 ？ 元",
+    "prompt": "【康軒評量】🧼 買一個【可愛橡皮擦】要 9 元，付了 15 元，請問老闆要找回多少元？",
+    "answer": "6元",
+    "options": [
+      "6元",
+      "11元",
+      "8元",
+      "5元"
+    ]
+  },
+  {
+    "id": 344,
+    "category": "money",
+    "exam_tag": "康軒一下評量・購物找錢應用",
+    "type": "buy_item",
+    "item_name": "蘋果汁",
+    "emoji": "🧃",
+    "price": 18,
+    "pay": 20,
+    "change": 2,
+    "display": "🧃 蘋果汁 18元",
+    "formula": "付了 20 元 - 買 18 元 = 找 ？ 元",
+    "prompt": "【康軒評量】🧃 買一個【蘋果汁】要 18 元，付了 20 元，請問老闆要找回多少元？",
+    "answer": "2元",
+    "options": [
+      "1元",
+      "2元",
+      "7元",
+      "4元"
+    ]
+  },
+  {
+    "id": 345,
+    "category": "money",
+    "exam_tag": "康軒一下評量・購物找錢應用",
+    "type": "buy_item",
+    "item_name": "三角尺",
+    "emoji": "📐",
+    "price": 11,
+    "pay": 20,
+    "change": 9,
+    "display": "📐 三角尺 11元",
+    "formula": "付了 20 元 - 買 11 元 = 找 ？ 元",
+    "prompt": "【康軒評量】📐 買一個【三角尺】要 11 元，付了 20 元，請問老闆要找回多少元？",
+    "answer": "9元",
+    "options": [
+      "9元",
+      "14元",
+      "11元",
+      "8元"
+    ]
+  },
+  {
+    "id": 346,
+    "category": "money",
+    "exam_tag": "康軒一下評量・購物找錢應用",
+    "type": "buy_item",
+    "item_name": "生字簿",
+    "emoji": "📓",
+    "price": 13,
+    "pay": 20,
+    "change": 7,
+    "display": "📓 生字簿 13元",
+    "formula": "付了 20 元 - 買 13 元 = 找 ？ 元",
+    "prompt": "【康軒評量】📓 買一個【生字簿】要 13 元，付了 20 元，請問老闆要找回多少元？",
+    "answer": "7元",
+    "options": [
+      "12元",
+      "9元",
+      "6元",
+      "7元"
+    ]
+  }
+]

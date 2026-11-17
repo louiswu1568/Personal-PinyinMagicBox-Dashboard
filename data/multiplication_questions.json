@@ -1,0 +1,7775 @@
+[
+  {
+    "id": "mult-skip2-2x1-0",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 1,
+    "formula": "2 × 1 = ？",
+    "display": "🐰 ",
+    "prompt": "🐰 小兔子有 2 隻長耳朵，1 隻小兔子一共有幾隻耳朵？",
+    "chant": "一二得二",
+    "answer": 2,
+    "options": [
+      2,
+      5,
+      3,
+      4
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x1-1",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 1,
+    "formula": "2 × 1 = ？",
+    "display": "🥢 ",
+    "prompt": "🥢 每雙筷子有 2 根，媽媽擺了 1 雙筷子，一共有幾根？",
+    "chant": "一二得二",
+    "answer": 2,
+    "options": [
+      5,
+      4,
+      3,
+      2
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x1-2",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 1,
+    "formula": "2 × 1 = ？",
+    "display": "🚲 ",
+    "prompt": "🚲 一輛自行車有 2 個輪子，店裡有 1 輛自行車，一共有幾個輪子？",
+    "chant": "一二得二",
+    "answer": 2,
+    "options": [
+      6,
+      3,
+      2,
+      4
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x1-3",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 1,
+    "formula": "2 × 1 = ？",
+    "display": "👟 ",
+    "prompt": "👟 小朋友出門穿 1 雙鞋 (2隻)，門口有 1 雙鞋，一共是幾隻鞋？",
+    "chant": "一二得二",
+    "answer": 2,
+    "options": [
+      4,
+      2,
+      12,
+      7
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x1-4",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 1,
+    "formula": "2 × 1 = ？",
+    "display": "🐥 ",
+    "prompt": "🐥 小雞有 2 隻腳，草地上有 1 隻小雞，一共有幾隻腳？",
+    "chant": "一二得二",
+    "answer": 2,
+    "options": [
+      6,
+      5,
+      12,
+      2
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x1-5",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 1,
+    "formula": "2 × 1 = ？",
+    "display": "🍒 ",
+    "prompt": "🍒 一對櫻桃有 2 顆，盤子上有 1 對櫻桃，一共有幾顆？",
+    "chant": "一二得二",
+    "answer": 2,
+    "options": [
+      3,
+      12,
+      2,
+      6
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x2-6",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 2,
+    "formula": "2 × 2 = ？",
+    "display": "🐰 🐰 ",
+    "prompt": "🐰 小兔子有 2 隻長耳朵，2 隻小兔子一共有幾隻耳朵？",
+    "chant": "二二得四",
+    "answer": 4,
+    "options": [
+      2,
+      4,
+      9,
+      3
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x2-7",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 2,
+    "formula": "2 × 2 = ？",
+    "display": "🥢 🥢 ",
+    "prompt": "🥢 每雙筷子有 2 根，媽媽擺了 2 雙筷子，一共有幾根？",
+    "chant": "二二得四",
+    "answer": 4,
+    "options": [
+      4,
+      2,
+      3,
+      14
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x2-8",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 2,
+    "formula": "2 × 2 = ？",
+    "display": "🚲 🚲 ",
+    "prompt": "🚲 一輛自行車有 2 個輪子，店裡有 2 輛自行車，一共有幾個輪子？",
+    "chant": "二二得四",
+    "answer": 4,
+    "options": [
+      8,
+      5,
+      4,
+      14
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x2-9",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 2,
+    "formula": "2 × 2 = ？",
+    "display": "👟 👟 ",
+    "prompt": "👟 小朋友出門穿 1 雙鞋 (2隻)，門口有 2 雙鞋，一共是幾隻鞋？",
+    "chant": "二二得四",
+    "answer": 4,
+    "options": [
+      4,
+      5,
+      3,
+      14
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x2-10",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 2,
+    "formula": "2 × 2 = ？",
+    "display": "🐥 🐥 ",
+    "prompt": "🐥 小雞有 2 隻腳，草地上有 2 隻小雞，一共有幾隻腳？",
+    "chant": "二二得四",
+    "answer": 4,
+    "options": [
+      4,
+      7,
+      6,
+      14
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x2-11",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 2,
+    "formula": "2 × 2 = ？",
+    "display": "🍒 🍒 ",
+    "prompt": "🍒 一對櫻桃有 2 顆，盤子上有 2 對櫻桃，一共有幾顆？",
+    "chant": "二二得四",
+    "answer": 4,
+    "options": [
+      14,
+      8,
+      7,
+      4
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x3-12",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 3,
+    "formula": "2 × 3 = ？",
+    "display": "🐰 🐰 🐰 ",
+    "prompt": "🐰 小兔子有 2 隻長耳朵，3 隻小兔子一共有幾隻耳朵？",
+    "chant": "二三得六",
+    "answer": 6,
+    "options": [
+      3,
+      4,
+      7,
+      6
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x3-13",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 3,
+    "formula": "2 × 3 = ？",
+    "display": "🥢 🥢 🥢 ",
+    "prompt": "🥢 每雙筷子有 2 根，媽媽擺了 3 雙筷子，一共有幾根？",
+    "chant": "二三得六",
+    "answer": 6,
+    "options": [
+      3,
+      6,
+      16,
+      8
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x3-14",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 3,
+    "formula": "2 × 3 = ？",
+    "display": "🚲 🚲 🚲 ",
+    "prompt": "🚲 一輛自行車有 2 個輪子，店裡有 3 輛自行車，一共有幾個輪子？",
+    "chant": "二三得六",
+    "answer": 6,
+    "options": [
+      7,
+      16,
+      6,
+      11
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x3-15",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 3,
+    "formula": "2 × 3 = ？",
+    "display": "👟 👟 👟 ",
+    "prompt": "👟 小朋友出門穿 1 雙鞋 (2隻)，門口有 3 雙鞋，一共是幾隻鞋？",
+    "chant": "二三得六",
+    "answer": 6,
+    "options": [
+      2,
+      6,
+      9,
+      10
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x3-16",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 3,
+    "formula": "2 × 3 = ？",
+    "display": "🐥 🐥 🐥 ",
+    "prompt": "🐥 小雞有 2 隻腳，草地上有 3 隻小雞，一共有幾隻腳？",
+    "chant": "二三得六",
+    "answer": 6,
+    "options": [
+      5,
+      7,
+      8,
+      6
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x3-17",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 3,
+    "formula": "2 × 3 = ？",
+    "display": "🍒 🍒 🍒 ",
+    "prompt": "🍒 一對櫻桃有 2 顆，盤子上有 3 對櫻桃，一共有幾顆？",
+    "chant": "二三得六",
+    "answer": 6,
+    "options": [
+      2,
+      6,
+      4,
+      7
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x4-18",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 4,
+    "formula": "2 × 4 = ？",
+    "display": "🐰 🐰 🐰 🐰 ",
+    "prompt": "🐰 小兔子有 2 隻長耳朵，4 隻小兔子一共有幾隻耳朵？",
+    "chant": "二四得八",
+    "answer": 8,
+    "options": [
+      7,
+      13,
+      6,
+      8
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x4-19",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 4,
+    "formula": "2 × 4 = ？",
+    "display": "🥢 🥢 🥢 🥢 ",
+    "prompt": "🥢 每雙筷子有 2 根，媽媽擺了 4 雙筷子，一共有幾根？",
+    "chant": "二四得八",
+    "answer": 8,
+    "options": [
+      18,
+      8,
+      13,
+      3
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x4-20",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 4,
+    "formula": "2 × 4 = ？",
+    "display": "🚲 🚲 🚲 🚲 ",
+    "prompt": "🚲 一輛自行車有 2 個輪子，店裡有 4 輛自行車，一共有幾個輪子？",
+    "chant": "二四得八",
+    "answer": 8,
+    "options": [
+      5,
+      8,
+      7,
+      12
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x4-21",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 4,
+    "formula": "2 × 4 = ？",
+    "display": "👟 👟 👟 👟 ",
+    "prompt": "👟 小朋友出門穿 1 雙鞋 (2隻)，門口有 4 雙鞋，一共是幾隻鞋？",
+    "chant": "二四得八",
+    "answer": 8,
+    "options": [
+      3,
+      8,
+      5,
+      18
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x4-22",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 4,
+    "formula": "2 × 4 = ？",
+    "display": "🐥 🐥 🐥 🐥 ",
+    "prompt": "🐥 小雞有 2 隻腳，草地上有 4 隻小雞，一共有幾隻腳？",
+    "chant": "二四得八",
+    "answer": 8,
+    "options": [
+      12,
+      8,
+      13,
+      7
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x4-23",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 4,
+    "formula": "2 × 4 = ？",
+    "display": "🍒 🍒 🍒 🍒 ",
+    "prompt": "🍒 一對櫻桃有 2 顆，盤子上有 4 對櫻桃，一共有幾顆？",
+    "chant": "二四得八",
+    "answer": 8,
+    "options": [
+      8,
+      12,
+      18,
+      10
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x5-24",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 5,
+    "formula": "2 × 5 = ？",
+    "display": "🐰 🐰 🐰 🐰 🐰 ",
+    "prompt": "🐰 小兔子有 2 隻長耳朵，5 隻小兔子一共有幾隻耳朵？",
+    "chant": "二五一十",
+    "answer": 10,
+    "options": [
+      15,
+      10,
+      9,
+      12
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x5-25",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 5,
+    "formula": "2 × 5 = ？",
+    "display": "🥢 🥢 🥢 🥢 🥢 ",
+    "prompt": "🥢 每雙筷子有 2 根，媽媽擺了 5 雙筷子，一共有幾根？",
+    "chant": "二五一十",
+    "answer": 10,
+    "options": [
+      7,
+      10,
+      9,
+      5
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x5-26",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 5,
+    "formula": "2 × 5 = ？",
+    "display": "🚲 🚲 🚲 🚲 🚲 ",
+    "prompt": "🚲 一輛自行車有 2 個輪子，店裡有 5 輛自行車，一共有幾個輪子？",
+    "chant": "二五一十",
+    "answer": 10,
+    "options": [
+      10,
+      12,
+      7,
+      5
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x5-27",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 5,
+    "formula": "2 × 5 = ？",
+    "display": "👟 👟 👟 👟 👟 ",
+    "prompt": "👟 小朋友出門穿 1 雙鞋 (2隻)，門口有 5 雙鞋，一共是幾隻鞋？",
+    "chant": "二五一十",
+    "answer": 10,
+    "options": [
+      12,
+      9,
+      6,
+      10
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x5-28",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 5,
+    "formula": "2 × 5 = ？",
+    "display": "🐥 🐥 🐥 🐥 🐥 ",
+    "prompt": "🐥 小雞有 2 隻腳，草地上有 5 隻小雞，一共有幾隻腳？",
+    "chant": "二五一十",
+    "answer": 10,
+    "options": [
+      12,
+      6,
+      20,
+      10
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x5-29",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 5,
+    "formula": "2 × 5 = ？",
+    "display": "🍒 🍒 🍒 🍒 🍒 ",
+    "prompt": "🍒 一對櫻桃有 2 顆，盤子上有 5 對櫻桃，一共有幾顆？",
+    "chant": "二五一十",
+    "answer": 10,
+    "options": [
+      8,
+      10,
+      6,
+      7
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x6-30",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 6,
+    "formula": "2 × 6 = ？",
+    "display": "🐰 🐰 🐰 🐰 🐰 🐰 ",
+    "prompt": "🐰 小兔子有 2 隻長耳朵，6 隻小兔子一共有幾隻耳朵？",
+    "chant": "二六十二",
+    "answer": 12,
+    "options": [
+      15,
+      11,
+      16,
+      12
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x6-31",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 6,
+    "formula": "2 × 6 = ？",
+    "display": "🥢 🥢 🥢 🥢 🥢 🥢 ",
+    "prompt": "🥢 每雙筷子有 2 根，媽媽擺了 6 雙筷子，一共有幾根？",
+    "chant": "二六十二",
+    "answer": 12,
+    "options": [
+      12,
+      14,
+      7,
+      2
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x6-32",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 6,
+    "formula": "2 × 6 = ？",
+    "display": "🚲 🚲 🚲 🚲 🚲 🚲 ",
+    "prompt": "🚲 一輛自行車有 2 個輪子，店裡有 6 輛自行車，一共有幾個輪子？",
+    "chant": "二六十二",
+    "answer": 12,
+    "options": [
+      2,
+      9,
+      12,
+      11
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x6-33",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 6,
+    "formula": "2 × 6 = ？",
+    "display": "👟 👟 👟 👟 👟 👟 ",
+    "prompt": "👟 小朋友出門穿 1 雙鞋 (2隻)，門口有 6 雙鞋，一共是幾隻鞋？",
+    "chant": "二六十二",
+    "answer": 12,
+    "options": [
+      11,
+      2,
+      14,
+      12
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x6-34",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 6,
+    "formula": "2 × 6 = ？",
+    "display": "🐥 🐥 🐥 🐥 🐥 🐥 ",
+    "prompt": "🐥 小雞有 2 隻腳，草地上有 6 隻小雞，一共有幾隻腳？",
+    "chant": "二六十二",
+    "answer": 12,
+    "options": [
+      12,
+      2,
+      10,
+      14
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x6-35",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 6,
+    "formula": "2 × 6 = ？",
+    "display": "🍒 🍒 🍒 🍒 🍒 🍒 ",
+    "prompt": "🍒 一對櫻桃有 2 顆，盤子上有 6 對櫻桃，一共有幾顆？",
+    "chant": "二六十二",
+    "answer": 12,
+    "options": [
+      22,
+      7,
+      12,
+      15
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x7-36",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 7,
+    "formula": "2 × 7 = ？",
+    "display": "🐰 🐰 🐰 🐰 🐰 🐰 🐰 ",
+    "prompt": "🐰 小兔子有 2 隻長耳朵，7 隻小兔子一共有幾隻耳朵？",
+    "chant": "二七十四",
+    "answer": 14,
+    "options": [
+      15,
+      10,
+      16,
+      14
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x7-37",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 7,
+    "formula": "2 × 7 = ？",
+    "display": "🥢 🥢 🥢 🥢 🥢 🥢 🥢 ",
+    "prompt": "🥢 每雙筷子有 2 根，媽媽擺了 7 雙筷子，一共有幾根？",
+    "chant": "二七十四",
+    "answer": 14,
+    "options": [
+      18,
+      12,
+      14,
+      9
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x7-38",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 7,
+    "formula": "2 × 7 = ？",
+    "display": "🚲 🚲 🚲 🚲 🚲 🚲 🚲 ",
+    "prompt": "🚲 一輛自行車有 2 個輪子，店裡有 7 輛自行車，一共有幾個輪子？",
+    "chant": "二七十四",
+    "answer": 14,
+    "options": [
+      14,
+      18,
+      12,
+      24
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x7-39",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 7,
+    "formula": "2 × 7 = ？",
+    "display": "👟 👟 👟 👟 👟 👟 👟 ",
+    "prompt": "👟 小朋友出門穿 1 雙鞋 (2隻)，門口有 7 雙鞋，一共是幾隻鞋？",
+    "chant": "二七十四",
+    "answer": 14,
+    "options": [
+      13,
+      9,
+      12,
+      14
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x7-40",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 7,
+    "formula": "2 × 7 = ？",
+    "display": "🐥 🐥 🐥 🐥 🐥 🐥 🐥 ",
+    "prompt": "🐥 小雞有 2 隻腳，草地上有 7 隻小雞，一共有幾隻腳？",
+    "chant": "二七十四",
+    "answer": 14,
+    "options": [
+      19,
+      11,
+      16,
+      14
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x7-41",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 7,
+    "formula": "2 × 7 = ？",
+    "display": "🍒 🍒 🍒 🍒 🍒 🍒 🍒 ",
+    "prompt": "🍒 一對櫻桃有 2 顆，盤子上有 7 對櫻桃，一共有幾顆？",
+    "chant": "二七十四",
+    "answer": 14,
+    "options": [
+      11,
+      14,
+      17,
+      9
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x8-42",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 8,
+    "formula": "2 × 8 = ？",
+    "display": "🐰 🐰 🐰 🐰 🐰 🐰 🐰 🐰 ",
+    "prompt": "🐰 小兔子有 2 隻長耳朵，8 隻小兔子一共有幾隻耳朵？",
+    "chant": "二八十六",
+    "answer": 16,
+    "options": [
+      13,
+      16,
+      15,
+      12
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x8-43",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 8,
+    "formula": "2 × 8 = ？",
+    "display": "🥢 🥢 🥢 🥢 🥢 🥢 🥢 🥢 ",
+    "prompt": "🥢 每雙筷子有 2 根，媽媽擺了 8 雙筷子，一共有幾根？",
+    "chant": "二八十六",
+    "answer": 16,
+    "options": [
+      20,
+      19,
+      16,
+      12
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x8-44",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 8,
+    "formula": "2 × 8 = ？",
+    "display": "🚲 🚲 🚲 🚲 🚲 🚲 🚲 🚲 ",
+    "prompt": "🚲 一輛自行車有 2 個輪子，店裡有 8 輛自行車，一共有幾個輪子？",
+    "chant": "二八十六",
+    "answer": 16,
+    "options": [
+      6,
+      17,
+      14,
+      16
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x8-45",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 8,
+    "formula": "2 × 8 = ？",
+    "display": "👟 👟 👟 👟 👟 👟 👟 👟 ",
+    "prompt": "👟 小朋友出門穿 1 雙鞋 (2隻)，門口有 8 雙鞋，一共是幾隻鞋？",
+    "chant": "二八十六",
+    "answer": 16,
+    "options": [
+      17,
+      16,
+      20,
+      14
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x8-46",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 8,
+    "formula": "2 × 8 = ？",
+    "display": "🐥 🐥 🐥 🐥 🐥 🐥 🐥 🐥 ",
+    "prompt": "🐥 小雞有 2 隻腳，草地上有 8 隻小雞，一共有幾隻腳？",
+    "chant": "二八十六",
+    "answer": 16,
+    "options": [
+      11,
+      18,
+      6,
+      16
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x8-47",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 8,
+    "formula": "2 × 8 = ？",
+    "display": "🍒 🍒 🍒 🍒 🍒 🍒 🍒 🍒 ",
+    "prompt": "🍒 一對櫻桃有 2 顆，盤子上有 8 對櫻桃，一共有幾顆？",
+    "chant": "二八十六",
+    "answer": 16,
+    "options": [
+      18,
+      6,
+      16,
+      11
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x9-48",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 9,
+    "formula": "2 × 9 = ？",
+    "display": "🐰 🐰 🐰 🐰 🐰 🐰 🐰 🐰 🐰 ",
+    "prompt": "🐰 小兔子有 2 隻長耳朵，9 隻小兔子一共有幾隻耳朵？",
+    "chant": "二九十八",
+    "answer": 18,
+    "options": [
+      18,
+      22,
+      21,
+      20
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x9-49",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 9,
+    "formula": "2 × 9 = ？",
+    "display": "🥢 🥢 🥢 🥢 🥢 🥢 🥢 🥢 🥢 ",
+    "prompt": "🥢 每雙筷子有 2 根，媽媽擺了 9 雙筷子，一共有幾根？",
+    "chant": "二九十八",
+    "answer": 18,
+    "options": [
+      21,
+      18,
+      14,
+      16
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x9-50",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 9,
+    "formula": "2 × 9 = ？",
+    "display": "🚲 🚲 🚲 🚲 🚲 🚲 🚲 🚲 🚲 ",
+    "prompt": "🚲 一輛自行車有 2 個輪子，店裡有 9 輛自行車，一共有幾個輪子？",
+    "chant": "二九十八",
+    "answer": 18,
+    "options": [
+      17,
+      18,
+      19,
+      16
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x9-51",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 9,
+    "formula": "2 × 9 = ？",
+    "display": "👟 👟 👟 👟 👟 👟 👟 👟 👟 ",
+    "prompt": "👟 小朋友出門穿 1 雙鞋 (2隻)，門口有 9 雙鞋，一共是幾隻鞋？",
+    "chant": "二九十八",
+    "answer": 18,
+    "options": [
+      8,
+      20,
+      19,
+      18
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x9-52",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 9,
+    "formula": "2 × 9 = ？",
+    "display": "🐥 🐥 🐥 🐥 🐥 🐥 🐥 🐥 🐥 ",
+    "prompt": "🐥 小雞有 2 隻腳，草地上有 9 隻小雞，一共有幾隻腳？",
+    "chant": "二九十八",
+    "answer": 18,
+    "options": [
+      18,
+      13,
+      17,
+      8
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip2-2x9-53",
+    "category": "skip2_5_10",
+    "sub_unit": "2的倍數跳數",
+    "base": 2,
+    "multiplier": 9,
+    "formula": "2 × 9 = ？",
+    "display": "🍒 🍒 🍒 🍒 🍒 🍒 🍒 🍒 🍒 ",
+    "prompt": "🍒 一對櫻桃有 2 顆，盤子上有 9 對櫻桃，一共有幾顆？",
+    "chant": "二九十八",
+    "answer": 18,
+    "options": [
+      18,
+      14,
+      17,
+      19
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-skip5-5x1-54",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 1,
+    "formula": "5 × 1 = ？",
+    "display": "🖐️ ",
+    "prompt": "🖐️ 一隻手有 5 根手指頭，1 隻手一共有幾根手指頭？",
+    "chant": "一五得五",
+    "answer": 5,
+    "options": [
+      9,
+      5,
+      6,
+      10
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x1-55",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 1,
+    "formula": "5 × 1 = ？",
+    "display": "⭐ ",
+    "prompt": "⭐ 一顆星星有 5 個角，夜空畫了 1 顆星星，一共有幾個角？",
+    "chant": "一五得五",
+    "answer": 5,
+    "options": [
+      10,
+      8,
+      5,
+      9
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x1-56",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 1,
+    "formula": "5 × 1 = ？",
+    "display": "🪙 ",
+    "prompt": "🪙 撲滿裡存了 1 個 5 元硬幣，一共有多少元？",
+    "chant": "一五得五",
+    "answer": 5,
+    "options": [
+      10,
+      5,
+      6,
+      9
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x1-57",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 1,
+    "formula": "5 × 1 = ？",
+    "display": "🌸 ",
+    "prompt": "🌸 每朵櫻花有 5 片花瓣，花瓶裡插了 1 朵櫻花，一共有幾片花瓣？",
+    "chant": "一五得五",
+    "answer": 5,
+    "options": [
+      5,
+      7,
+      10,
+      6
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x1-58",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 1,
+    "formula": "5 × 1 = ？",
+    "display": "✏️ ",
+    "prompt": "✏️ 一盒彩色筆有 5 枝，小美買了 1 盒，一共有幾枝彩色筆？",
+    "chant": "一五得五",
+    "answer": 5,
+    "options": [
+      15,
+      9,
+      5,
+      6
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x2-59",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 2,
+    "formula": "5 × 2 = ？",
+    "display": "🖐️ 🖐️ ",
+    "prompt": "🖐️ 一隻手有 5 根手指頭，2 隻手一共有幾根手指頭？",
+    "chant": "二五一十",
+    "answer": 10,
+    "options": [
+      15,
+      20,
+      10,
+      7
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x2-60",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 2,
+    "formula": "5 × 2 = ？",
+    "display": "⭐ ⭐ ",
+    "prompt": "⭐ 一顆星星有 5 個角，夜空畫了 2 顆星星，一共有幾個角？",
+    "chant": "二五一十",
+    "answer": 10,
+    "options": [
+      11,
+      13,
+      6,
+      10
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x2-61",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 2,
+    "formula": "5 × 2 = ？",
+    "display": "🪙 🪙 ",
+    "prompt": "🪙 撲滿裡存了 2 個 5 元硬幣，一共有多少元？",
+    "chant": "二五一十",
+    "answer": 10,
+    "options": [
+      10,
+      6,
+      11,
+      7
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x2-62",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 2,
+    "formula": "5 × 2 = ？",
+    "display": "🌸 🌸 ",
+    "prompt": "🌸 每朵櫻花有 5 片花瓣，花瓶裡插了 2 朵櫻花，一共有幾片花瓣？",
+    "chant": "二五一十",
+    "answer": 10,
+    "options": [
+      10,
+      8,
+      13,
+      5
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x2-63",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 2,
+    "formula": "5 × 2 = ？",
+    "display": "✏️ ✏️ ",
+    "prompt": "✏️ 一盒彩色筆有 5 枝，小美買了 2 盒，一共有幾枝彩色筆？",
+    "chant": "二五一十",
+    "answer": 10,
+    "options": [
+      10,
+      8,
+      9,
+      14
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x3-64",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 3,
+    "formula": "5 × 3 = ？",
+    "display": "🖐️ 🖐️ 🖐️ ",
+    "prompt": "🖐️ 一隻手有 5 根手指頭，3 隻手一共有幾根手指頭？",
+    "chant": "三五十五",
+    "answer": 15,
+    "options": [
+      11,
+      13,
+      16,
+      15
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x3-65",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 3,
+    "formula": "5 × 3 = ？",
+    "display": "⭐ ⭐ ⭐ ",
+    "prompt": "⭐ 一顆星星有 5 個角，夜空畫了 3 顆星星，一共有幾個角？",
+    "chant": "三五十五",
+    "answer": 15,
+    "options": [
+      14,
+      15,
+      25,
+      13
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x3-66",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 3,
+    "formula": "5 × 3 = ？",
+    "display": "🪙 🪙 🪙 ",
+    "prompt": "🪙 撲滿裡存了 3 個 5 元硬幣，一共有多少元？",
+    "chant": "三五十五",
+    "answer": 15,
+    "options": [
+      16,
+      14,
+      20,
+      15
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x3-67",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 3,
+    "formula": "5 × 3 = ？",
+    "display": "🌸 🌸 🌸 ",
+    "prompt": "🌸 每朵櫻花有 5 片花瓣，花瓶裡插了 3 朵櫻花，一共有幾片花瓣？",
+    "chant": "三五十五",
+    "answer": 15,
+    "options": [
+      15,
+      5,
+      10,
+      20
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x3-68",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 3,
+    "formula": "5 × 3 = ？",
+    "display": "✏️ ✏️ ✏️ ",
+    "prompt": "✏️ 一盒彩色筆有 5 枝，小美買了 3 盒，一共有幾枝彩色筆？",
+    "chant": "三五十五",
+    "answer": 15,
+    "options": [
+      15,
+      5,
+      13,
+      18
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x4-69",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 4,
+    "formula": "5 × 4 = ？",
+    "display": "🖐️ 🖐️ 🖐️ 🖐️ ",
+    "prompt": "🖐️ 一隻手有 5 根手指頭，4 隻手一共有幾根手指頭？",
+    "chant": "四五二十",
+    "answer": 20,
+    "options": [
+      19,
+      20,
+      18,
+      22
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x4-70",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 4,
+    "formula": "5 × 4 = ？",
+    "display": "⭐ ⭐ ⭐ ⭐ ",
+    "prompt": "⭐ 一顆星星有 5 個角，夜空畫了 4 顆星星，一共有幾個角？",
+    "chant": "四五二十",
+    "answer": 20,
+    "options": [
+      18,
+      20,
+      30,
+      15
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x4-71",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 4,
+    "formula": "5 × 4 = ？",
+    "display": "🪙 🪙 🪙 🪙 ",
+    "prompt": "🪙 撲滿裡存了 4 個 5 元硬幣，一共有多少元？",
+    "chant": "四五二十",
+    "answer": 20,
+    "options": [
+      19,
+      17,
+      20,
+      24
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x4-72",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 4,
+    "formula": "5 × 4 = ？",
+    "display": "🌸 🌸 🌸 🌸 ",
+    "prompt": "🌸 每朵櫻花有 5 片花瓣，花瓶裡插了 4 朵櫻花，一共有幾片花瓣？",
+    "chant": "四五二十",
+    "answer": 20,
+    "options": [
+      17,
+      30,
+      20,
+      16
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x4-73",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 4,
+    "formula": "5 × 4 = ？",
+    "display": "✏️ ✏️ ✏️ ✏️ ",
+    "prompt": "✏️ 一盒彩色筆有 5 枝，小美買了 4 盒，一共有幾枝彩色筆？",
+    "chant": "四五二十",
+    "answer": 20,
+    "options": [
+      16,
+      18,
+      20,
+      15
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x5-74",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 5,
+    "formula": "5 × 5 = ？",
+    "display": "🖐️ 🖐️ 🖐️ 🖐️ 🖐️ ",
+    "prompt": "🖐️ 一隻手有 5 根手指頭，5 隻手一共有幾根手指頭？",
+    "chant": "五五二十五",
+    "answer": 25,
+    "options": [
+      23,
+      25,
+      28,
+      20
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x5-75",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 5,
+    "formula": "5 × 5 = ？",
+    "display": "⭐ ⭐ ⭐ ⭐ ⭐ ",
+    "prompt": "⭐ 一顆星星有 5 個角，夜空畫了 5 顆星星，一共有幾個角？",
+    "chant": "五五二十五",
+    "answer": 25,
+    "options": [
+      20,
+      23,
+      28,
+      25
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x5-76",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 5,
+    "formula": "5 × 5 = ？",
+    "display": "🪙 🪙 🪙 🪙 🪙 ",
+    "prompt": "🪙 撲滿裡存了 5 個 5 元硬幣，一共有多少元？",
+    "chant": "五五二十五",
+    "answer": 25,
+    "options": [
+      23,
+      25,
+      35,
+      28
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x5-77",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 5,
+    "formula": "5 × 5 = ？",
+    "display": "🌸 🌸 🌸 🌸 🌸 ",
+    "prompt": "🌸 每朵櫻花有 5 片花瓣，花瓶裡插了 5 朵櫻花，一共有幾片花瓣？",
+    "chant": "五五二十五",
+    "answer": 25,
+    "options": [
+      25,
+      29,
+      15,
+      23
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x5-78",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 5,
+    "formula": "5 × 5 = ？",
+    "display": "✏️ ✏️ ✏️ ✏️ ✏️ ",
+    "prompt": "✏️ 一盒彩色筆有 5 枝，小美買了 5 盒，一共有幾枝彩色筆？",
+    "chant": "五五二十五",
+    "answer": 25,
+    "options": [
+      24,
+      25,
+      20,
+      29
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x6-79",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 6,
+    "formula": "5 × 6 = ？",
+    "display": "🖐️ 🖐️ 🖐️ 🖐️ 🖐️ 🖐️ ",
+    "prompt": "🖐️ 一隻手有 5 根手指頭，6 隻手一共有幾根手指頭？",
+    "chant": "五六三十",
+    "answer": 30,
+    "options": [
+      33,
+      25,
+      28,
+      30
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x6-80",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 6,
+    "formula": "5 × 6 = ？",
+    "display": "⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ",
+    "prompt": "⭐ 一顆星星有 5 個角，夜空畫了 6 顆星星，一共有幾個角？",
+    "chant": "五六三十",
+    "answer": 30,
+    "options": [
+      35,
+      34,
+      30,
+      20
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x6-81",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 6,
+    "formula": "5 × 6 = ？",
+    "display": "🪙 🪙 🪙 🪙 🪙 🪙 ",
+    "prompt": "🪙 撲滿裡存了 6 個 5 元硬幣，一共有多少元？",
+    "chant": "五六三十",
+    "answer": 30,
+    "options": [
+      30,
+      33,
+      27,
+      31
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x6-82",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 6,
+    "formula": "5 × 6 = ？",
+    "display": "🌸 🌸 🌸 🌸 🌸 🌸 ",
+    "prompt": "🌸 每朵櫻花有 5 片花瓣，花瓶裡插了 6 朵櫻花，一共有幾片花瓣？",
+    "chant": "五六三十",
+    "answer": 30,
+    "options": [
+      29,
+      26,
+      32,
+      30
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x6-83",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 6,
+    "formula": "5 × 6 = ？",
+    "display": "✏️ ✏️ ✏️ ✏️ ✏️ ✏️ ",
+    "prompt": "✏️ 一盒彩色筆有 5 枝，小美買了 6 盒，一共有幾枝彩色筆？",
+    "chant": "五六三十",
+    "answer": 30,
+    "options": [
+      28,
+      29,
+      31,
+      30
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x7-84",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 7,
+    "formula": "5 × 7 = ？",
+    "display": "🖐️ 🖐️ 🖐️ 🖐️ 🖐️ 🖐️ 🖐️ ",
+    "prompt": "🖐️ 一隻手有 5 根手指頭，7 隻手一共有幾根手指頭？",
+    "chant": "五七三十五",
+    "answer": 35,
+    "options": [
+      35,
+      37,
+      30,
+      45
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x7-85",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 7,
+    "formula": "5 × 7 = ？",
+    "display": "⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ",
+    "prompt": "⭐ 一顆星星有 5 個角，夜空畫了 7 顆星星，一共有幾個角？",
+    "chant": "五七三十五",
+    "answer": 35,
+    "options": [
+      34,
+      38,
+      35,
+      25
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x7-86",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 7,
+    "formula": "5 × 7 = ？",
+    "display": "🪙 🪙 🪙 🪙 🪙 🪙 🪙 ",
+    "prompt": "🪙 撲滿裡存了 7 個 5 元硬幣，一共有多少元？",
+    "chant": "五七三十五",
+    "answer": 35,
+    "options": [
+      25,
+      35,
+      32,
+      33
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x7-87",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 7,
+    "formula": "5 × 7 = ？",
+    "display": "🌸 🌸 🌸 🌸 🌸 🌸 🌸 ",
+    "prompt": "🌸 每朵櫻花有 5 片花瓣，花瓶裡插了 7 朵櫻花，一共有幾片花瓣？",
+    "chant": "五七三十五",
+    "answer": 35,
+    "options": [
+      40,
+      37,
+      31,
+      35
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x7-88",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 7,
+    "formula": "5 × 7 = ？",
+    "display": "✏️ ✏️ ✏️ ✏️ ✏️ ✏️ ✏️ ",
+    "prompt": "✏️ 一盒彩色筆有 5 枝，小美買了 7 盒，一共有幾枝彩色筆？",
+    "chant": "五七三十五",
+    "answer": 35,
+    "options": [
+      35,
+      38,
+      37,
+      34
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x8-89",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 8,
+    "formula": "5 × 8 = ？",
+    "display": "🖐️ 🖐️ 🖐️ 🖐️ 🖐️ 🖐️ 🖐️ 🖐️ ",
+    "prompt": "🖐️ 一隻手有 5 根手指頭，8 隻手一共有幾根手指頭？",
+    "chant": "五八四十",
+    "answer": 40,
+    "options": [
+      42,
+      45,
+      40,
+      44
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x8-90",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 8,
+    "formula": "5 × 8 = ？",
+    "display": "⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ",
+    "prompt": "⭐ 一顆星星有 5 個角，夜空畫了 8 顆星星，一共有幾個角？",
+    "chant": "五八四十",
+    "answer": 40,
+    "options": [
+      40,
+      41,
+      36,
+      38
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x8-91",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 8,
+    "formula": "5 × 8 = ？",
+    "display": "🪙 🪙 🪙 🪙 🪙 🪙 🪙 🪙 ",
+    "prompt": "🪙 撲滿裡存了 8 個 5 元硬幣，一共有多少元？",
+    "chant": "五八四十",
+    "answer": 40,
+    "options": [
+      43,
+      40,
+      36,
+      41
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x8-92",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 8,
+    "formula": "5 × 8 = ？",
+    "display": "🌸 🌸 🌸 🌸 🌸 🌸 🌸 🌸 ",
+    "prompt": "🌸 每朵櫻花有 5 片花瓣，花瓶裡插了 8 朵櫻花，一共有幾片花瓣？",
+    "chant": "五八四十",
+    "answer": 40,
+    "options": [
+      40,
+      41,
+      36,
+      45
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x8-93",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 8,
+    "formula": "5 × 8 = ？",
+    "display": "✏️ ✏️ ✏️ ✏️ ✏️ ✏️ ✏️ ✏️ ",
+    "prompt": "✏️ 一盒彩色筆有 5 枝，小美買了 8 盒，一共有幾枝彩色筆？",
+    "chant": "五八四十",
+    "answer": 40,
+    "options": [
+      43,
+      41,
+      42,
+      40
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x9-94",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 9,
+    "formula": "5 × 9 = ？",
+    "display": "🖐️ 🖐️ 🖐️ 🖐️ 🖐️ 🖐️ 🖐️ 🖐️ 🖐️ ",
+    "prompt": "🖐️ 一隻手有 5 根手指頭，9 隻手一共有幾根手指頭？",
+    "chant": "五九四十五",
+    "answer": 45,
+    "options": [
+      35,
+      45,
+      44,
+      48
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x9-95",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 9,
+    "formula": "5 × 9 = ？",
+    "display": "⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ⭐ ",
+    "prompt": "⭐ 一顆星星有 5 個角，夜空畫了 9 顆星星，一共有幾個角？",
+    "chant": "五九四十五",
+    "answer": 45,
+    "options": [
+      45,
+      35,
+      42,
+      40
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x9-96",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 9,
+    "formula": "5 × 9 = ？",
+    "display": "🪙 🪙 🪙 🪙 🪙 🪙 🪙 🪙 🪙 ",
+    "prompt": "🪙 撲滿裡存了 9 個 5 元硬幣，一共有多少元？",
+    "chant": "五九四十五",
+    "answer": 45,
+    "options": [
+      40,
+      50,
+      44,
+      45
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x9-97",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 9,
+    "formula": "5 × 9 = ？",
+    "display": "🌸 🌸 🌸 🌸 🌸 🌸 🌸 🌸 🌸 ",
+    "prompt": "🌸 每朵櫻花有 5 片花瓣，花瓶裡插了 9 朵櫻花，一共有幾片花瓣？",
+    "chant": "五九四十五",
+    "answer": 45,
+    "options": [
+      47,
+      50,
+      45,
+      35
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip5-5x9-98",
+    "category": "skip2_5_10",
+    "sub_unit": "5的倍數跳數",
+    "base": 5,
+    "multiplier": 9,
+    "formula": "5 × 9 = ？",
+    "display": "✏️ ✏️ ✏️ ✏️ ✏️ ✏️ ✏️ ✏️ ✏️ ",
+    "prompt": "✏️ 一盒彩色筆有 5 枝，小美買了 9 盒，一共有幾枝彩色筆？",
+    "chant": "五九四十五",
+    "answer": 45,
+    "options": [
+      47,
+      49,
+      46,
+      45
+    ],
+    "unit": "根/個/元"
+  },
+  {
+    "id": "mult-skip10-10x1-99",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 1,
+    "formula": "10 × 1 = ？",
+    "display": "💰 ",
+    "prompt": "💰 一個 10 元硬幣可以買一枝棒棒糖，買了 1 枝，一共付了多少元？",
+    "chant": "10 乘 1 等於 10",
+    "answer": 10,
+    "options": [
+      10,
+      12,
+      11,
+      20
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x1-100",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 1,
+    "formula": "10 × 1 = ？",
+    "display": "🍬 ",
+    "prompt": "🍬 每袋糖果有 10 顆，桌上有 1 袋糖果，一共有幾顆？",
+    "chant": "10 乘 1 等於 10",
+    "answer": 10,
+    "options": [
+      10,
+      13,
+      15,
+      14
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x1-101",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 1,
+    "formula": "10 × 1 = ？",
+    "display": "🥚 ",
+    "prompt": "🥚 一盒雞蛋有 10 顆，冰箱裡有 1 盒雞蛋，一共有幾顆？",
+    "chant": "10 乘 1 等於 10",
+    "answer": 10,
+    "options": [
+      10,
+      15,
+      12,
+      13
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x1-102",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 1,
+    "formula": "10 × 1 = ？",
+    "display": "🖍️ ",
+    "prompt": "🖍️ 一盒蠟筆有 10 種顏色，書包裡裝了 1 盒，一共有幾種顏色？",
+    "chant": "10 乘 1 等於 10",
+    "answer": 10,
+    "options": [
+      12,
+      15,
+      10,
+      20
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x2-103",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 2,
+    "formula": "10 × 2 = ？",
+    "display": "💰 💰 ",
+    "prompt": "💰 一個 10 元硬幣可以買一枝棒棒糖，買了 2 枝，一共付了多少元？",
+    "chant": "10 乘 2 等於 20",
+    "answer": 20,
+    "options": [
+      30,
+      20,
+      15,
+      18
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x2-104",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 2,
+    "formula": "10 × 2 = ？",
+    "display": "🍬 🍬 ",
+    "prompt": "🍬 每袋糖果有 10 顆，桌上有 2 袋糖果，一共有幾顆？",
+    "chant": "10 乘 2 等於 20",
+    "answer": 20,
+    "options": [
+      20,
+      19,
+      21,
+      16
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x2-105",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 2,
+    "formula": "10 × 2 = ？",
+    "display": "🥚 🥚 ",
+    "prompt": "🥚 一盒雞蛋有 10 顆，冰箱裡有 2 盒雞蛋，一共有幾顆？",
+    "chant": "10 乘 2 等於 20",
+    "answer": 20,
+    "options": [
+      20,
+      24,
+      30,
+      18
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x2-106",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 2,
+    "formula": "10 × 2 = ？",
+    "display": "🖍️ 🖍️ ",
+    "prompt": "🖍️ 一盒蠟筆有 10 種顏色，書包裡裝了 2 盒，一共有幾種顏色？",
+    "chant": "10 乘 2 等於 20",
+    "answer": 20,
+    "options": [
+      20,
+      18,
+      22,
+      23
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x3-107",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 3,
+    "formula": "10 × 3 = ？",
+    "display": "💰 💰 💰 ",
+    "prompt": "💰 一個 10 元硬幣可以買一枝棒棒糖，買了 3 枝，一共付了多少元？",
+    "chant": "10 乘 3 等於 30",
+    "answer": 30,
+    "options": [
+      27,
+      26,
+      30,
+      33
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x3-108",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 3,
+    "formula": "10 × 3 = ？",
+    "display": "🍬 🍬 🍬 ",
+    "prompt": "🍬 每袋糖果有 10 顆，桌上有 3 袋糖果，一共有幾顆？",
+    "chant": "10 乘 3 等於 30",
+    "answer": 30,
+    "options": [
+      30,
+      25,
+      31,
+      27
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x3-109",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 3,
+    "formula": "10 × 3 = ？",
+    "display": "🥚 🥚 🥚 ",
+    "prompt": "🥚 一盒雞蛋有 10 顆，冰箱裡有 3 盒雞蛋，一共有幾顆？",
+    "chant": "10 乘 3 等於 30",
+    "answer": 30,
+    "options": [
+      33,
+      25,
+      29,
+      30
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x3-110",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 3,
+    "formula": "10 × 3 = ？",
+    "display": "🖍️ 🖍️ 🖍️ ",
+    "prompt": "🖍️ 一盒蠟筆有 10 種顏色，書包裡裝了 3 盒，一共有幾種顏色？",
+    "chant": "10 乘 3 等於 30",
+    "answer": 30,
+    "options": [
+      30,
+      31,
+      32,
+      28
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x4-111",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 4,
+    "formula": "10 × 4 = ？",
+    "display": "💰 💰 💰 💰 ",
+    "prompt": "💰 一個 10 元硬幣可以買一枝棒棒糖，買了 4 枝，一共付了多少元？",
+    "chant": "10 乘 4 等於 40",
+    "answer": 40,
+    "options": [
+      43,
+      41,
+      40,
+      30
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x4-112",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 4,
+    "formula": "10 × 4 = ？",
+    "display": "🍬 🍬 🍬 🍬 ",
+    "prompt": "🍬 每袋糖果有 10 顆，桌上有 4 袋糖果，一共有幾顆？",
+    "chant": "10 乘 4 等於 40",
+    "answer": 40,
+    "options": [
+      38,
+      39,
+      40,
+      41
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x4-113",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 4,
+    "formula": "10 × 4 = ？",
+    "display": "🥚 🥚 🥚 🥚 ",
+    "prompt": "🥚 一盒雞蛋有 10 顆，冰箱裡有 4 盒雞蛋，一共有幾顆？",
+    "chant": "10 乘 4 等於 40",
+    "answer": 40,
+    "options": [
+      41,
+      43,
+      39,
+      40
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x4-114",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 4,
+    "formula": "10 × 4 = ？",
+    "display": "🖍️ 🖍️ 🖍️ 🖍️ ",
+    "prompt": "🖍️ 一盒蠟筆有 10 種顏色，書包裡裝了 4 盒，一共有幾種顏色？",
+    "chant": "10 乘 4 等於 40",
+    "answer": 40,
+    "options": [
+      39,
+      43,
+      40,
+      35
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x5-115",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 5,
+    "formula": "10 × 5 = ？",
+    "display": "💰 💰 💰 💰 💰 ",
+    "prompt": "💰 一個 10 元硬幣可以買一枝棒棒糖，買了 5 枝，一共付了多少元？",
+    "chant": "10 乘 5 等於 50",
+    "answer": 50,
+    "options": [
+      50,
+      54,
+      45,
+      48
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x5-116",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 5,
+    "formula": "10 × 5 = ？",
+    "display": "🍬 🍬 🍬 🍬 🍬 ",
+    "prompt": "🍬 每袋糖果有 10 顆，桌上有 5 袋糖果，一共有幾顆？",
+    "chant": "10 乘 5 等於 50",
+    "answer": 50,
+    "options": [
+      49,
+      51,
+      52,
+      50
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x5-117",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 5,
+    "formula": "10 × 5 = ？",
+    "display": "🥚 🥚 🥚 🥚 🥚 ",
+    "prompt": "🥚 一盒雞蛋有 10 顆，冰箱裡有 5 盒雞蛋，一共有幾顆？",
+    "chant": "10 乘 5 等於 50",
+    "answer": 50,
+    "options": [
+      60,
+      50,
+      49,
+      52
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x5-118",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 5,
+    "formula": "10 × 5 = ？",
+    "display": "🖍️ 🖍️ 🖍️ 🖍️ 🖍️ ",
+    "prompt": "🖍️ 一盒蠟筆有 10 種顏色，書包裡裝了 5 盒，一共有幾種顏色？",
+    "chant": "10 乘 5 等於 50",
+    "answer": 50,
+    "options": [
+      45,
+      55,
+      53,
+      50
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x6-119",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 6,
+    "formula": "10 × 6 = ？",
+    "display": "💰 💰 💰 💰 💰 💰 ",
+    "prompt": "💰 一個 10 元硬幣可以買一枝棒棒糖，買了 6 枝，一共付了多少元？",
+    "chant": "10 乘 6 等於 60",
+    "answer": 60,
+    "options": [
+      60,
+      63,
+      65,
+      50
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x6-120",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 6,
+    "formula": "10 × 6 = ？",
+    "display": "🍬 🍬 🍬 🍬 🍬 🍬 ",
+    "prompt": "🍬 每袋糖果有 10 顆，桌上有 6 袋糖果，一共有幾顆？",
+    "chant": "10 乘 6 等於 60",
+    "answer": 60,
+    "options": [
+      60,
+      56,
+      59,
+      57
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x6-121",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 6,
+    "formula": "10 × 6 = ？",
+    "display": "🥚 🥚 🥚 🥚 🥚 🥚 ",
+    "prompt": "🥚 一盒雞蛋有 10 顆，冰箱裡有 6 盒雞蛋，一共有幾顆？",
+    "chant": "10 乘 6 等於 60",
+    "answer": 60,
+    "options": [
+      60,
+      62,
+      58,
+      64
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x6-122",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 6,
+    "formula": "10 × 6 = ？",
+    "display": "🖍️ 🖍️ 🖍️ 🖍️ 🖍️ 🖍️ ",
+    "prompt": "🖍️ 一盒蠟筆有 10 種顏色，書包裡裝了 6 盒，一共有幾種顏色？",
+    "chant": "10 乘 6 等於 60",
+    "answer": 60,
+    "options": [
+      59,
+      63,
+      64,
+      60
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x7-123",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 7,
+    "formula": "10 × 7 = ？",
+    "display": "💰 💰 💰 💰 💰 💰 💰 ",
+    "prompt": "💰 一個 10 元硬幣可以買一枝棒棒糖，買了 7 枝，一共付了多少元？",
+    "chant": "10 乘 7 等於 70",
+    "answer": 70,
+    "options": [
+      68,
+      65,
+      60,
+      70
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x7-124",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 7,
+    "formula": "10 × 7 = ？",
+    "display": "🍬 🍬 🍬 🍬 🍬 🍬 🍬 ",
+    "prompt": "🍬 每袋糖果有 10 顆，桌上有 7 袋糖果，一共有幾顆？",
+    "chant": "10 乘 7 等於 70",
+    "answer": 70,
+    "options": [
+      73,
+      68,
+      70,
+      65
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x7-125",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 7,
+    "formula": "10 × 7 = ？",
+    "display": "🥚 🥚 🥚 🥚 🥚 🥚 🥚 ",
+    "prompt": "🥚 一盒雞蛋有 10 顆，冰箱裡有 7 盒雞蛋，一共有幾顆？",
+    "chant": "10 乘 7 等於 70",
+    "answer": 70,
+    "options": [
+      66,
+      74,
+      72,
+      70
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x7-126",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 7,
+    "formula": "10 × 7 = ？",
+    "display": "🖍️ 🖍️ 🖍️ 🖍️ 🖍️ 🖍️ 🖍️ ",
+    "prompt": "🖍️ 一盒蠟筆有 10 種顏色，書包裡裝了 7 盒，一共有幾種顏色？",
+    "chant": "10 乘 7 等於 70",
+    "answer": 70,
+    "options": [
+      75,
+      70,
+      68,
+      73
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x8-127",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 8,
+    "formula": "10 × 8 = ？",
+    "display": "💰 💰 💰 💰 💰 💰 💰 💰 ",
+    "prompt": "💰 一個 10 元硬幣可以買一枝棒棒糖，買了 8 枝，一共付了多少元？",
+    "chant": "10 乘 8 等於 80",
+    "answer": 80,
+    "options": [
+      82,
+      75,
+      80,
+      78
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x8-128",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 8,
+    "formula": "10 × 8 = ？",
+    "display": "🍬 🍬 🍬 🍬 🍬 🍬 🍬 🍬 ",
+    "prompt": "🍬 每袋糖果有 10 顆，桌上有 8 袋糖果，一共有幾顆？",
+    "chant": "10 乘 8 等於 80",
+    "answer": 80,
+    "options": [
+      80,
+      77,
+      85,
+      90
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x8-129",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 8,
+    "formula": "10 × 8 = ？",
+    "display": "🥚 🥚 🥚 🥚 🥚 🥚 🥚 🥚 ",
+    "prompt": "🥚 一盒雞蛋有 10 顆，冰箱裡有 8 盒雞蛋，一共有幾顆？",
+    "chant": "10 乘 8 等於 80",
+    "answer": 80,
+    "options": [
+      80,
+      82,
+      70,
+      83
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x8-130",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 8,
+    "formula": "10 × 8 = ？",
+    "display": "🖍️ 🖍️ 🖍️ 🖍️ 🖍️ 🖍️ 🖍️ 🖍️ ",
+    "prompt": "🖍️ 一盒蠟筆有 10 種顏色，書包裡裝了 8 盒，一共有幾種顏色？",
+    "chant": "10 乘 8 等於 80",
+    "answer": 80,
+    "options": [
+      83,
+      77,
+      80,
+      85
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x9-131",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 9,
+    "formula": "10 × 9 = ？",
+    "display": "💰 💰 💰 💰 💰 💰 💰 💰 💰 ",
+    "prompt": "💰 一個 10 元硬幣可以買一枝棒棒糖，買了 9 枝，一共付了多少元？",
+    "chant": "10 乘 9 等於 90",
+    "answer": 90,
+    "options": [
+      90,
+      94,
+      87,
+      89
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x9-132",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 9,
+    "formula": "10 × 9 = ？",
+    "display": "🍬 🍬 🍬 🍬 🍬 🍬 🍬 🍬 🍬 ",
+    "prompt": "🍬 每袋糖果有 10 顆，桌上有 9 袋糖果，一共有幾顆？",
+    "chant": "10 乘 9 等於 90",
+    "answer": 90,
+    "options": [
+      94,
+      100,
+      86,
+      90
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x9-133",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 9,
+    "formula": "10 × 9 = ？",
+    "display": "🥚 🥚 🥚 🥚 🥚 🥚 🥚 🥚 🥚 ",
+    "prompt": "🥚 一盒雞蛋有 10 顆，冰箱裡有 9 盒雞蛋，一共有幾顆？",
+    "chant": "10 乘 9 等於 90",
+    "answer": 90,
+    "options": [
+      90,
+      89,
+      88,
+      85
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-skip10-10x9-134",
+    "category": "skip2_5_10",
+    "sub_unit": "10的倍數跳數",
+    "base": 10,
+    "multiplier": 9,
+    "formula": "10 × 9 = ？",
+    "display": "🖍️ 🖍️ 🖍️ 🖍️ 🖍️ 🖍️ 🖍️ 🖍️ 🖍️ ",
+    "prompt": "🖍️ 一盒蠟筆有 10 種顏色，書包裡裝了 9 盒，一共有幾種顏色？",
+    "chant": "10 乘 9 等於 90",
+    "answer": 90,
+    "options": [
+      85,
+      90,
+      80,
+      95
+    ],
+    "unit": "元/顆"
+  },
+  {
+    "id": "mult-3x1-0",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 1,
+    "formula": "3 × 1 = ？",
+    "display": "🛺 ",
+    "prompt": "🛺 一輛三輪車有 3 個輪子，公園裡有 1 輛三輪車，一共有幾個輪子？",
+    "chant": "一三得三",
+    "answer": 3,
+    "options": [
+      6,
+      8,
+      7,
+      3
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x1-1",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 1,
+    "formula": "3 × 1 = ？",
+    "display": "📐 ",
+    "prompt": "📐 一個三角形有 3 條邊，積木盒有 1 個三角形，一共有幾條邊？",
+    "chant": "一三得三",
+    "answer": 3,
+    "options": [
+      3,
+      8,
+      7,
+      5
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x1-2",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 1,
+    "formula": "3 × 1 = ？",
+    "display": "☘️ ",
+    "prompt": "☘️ 一朵三葉草有 3 片葉子，草地上找到了 1 朵，一共有幾片葉子？",
+    "chant": "一三得三",
+    "answer": 3,
+    "options": [
+      4,
+      3,
+      8,
+      7
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x1-3",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 1,
+    "formula": "3 × 1 = ？",
+    "display": "🥪 ",
+    "prompt": "🥪 每個三明治切成 3 份，盤子裡有 1 份，一共有幾塊？",
+    "chant": "一三得三",
+    "answer": 3,
+    "options": [
+      3,
+      13,
+      7,
+      8
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x1-4",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 1,
+    "formula": "3 × 1 = ？",
+    "display": "🚦 ",
+    "prompt": "🚦 紅綠燈有 3 種顏色的燈，路口有 1 座紅綠燈，一共有幾盞燈？",
+    "chant": "一三得三",
+    "answer": 3,
+    "options": [
+      3,
+      8,
+      6,
+      7
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x2-5",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 2,
+    "formula": "3 × 2 = ？",
+    "display": "🛺 🛺 ",
+    "prompt": "🛺 一輛三輪車有 3 個輪子，公園裡有 2 輛三輪車，一共有幾個輪子？",
+    "chant": "二三得六",
+    "answer": 6,
+    "options": [
+      11,
+      9,
+      6,
+      5
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x2-6",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 2,
+    "formula": "3 × 2 = ？",
+    "display": "📐 📐 ",
+    "prompt": "📐 一個三角形有 3 條邊，積木盒有 2 個三角形，一共有幾條邊？",
+    "chant": "二三得六",
+    "answer": 6,
+    "options": [
+      7,
+      5,
+      6,
+      16
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x2-7",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 2,
+    "formula": "3 × 2 = ？",
+    "display": "☘️ ☘️ ",
+    "prompt": "☘️ 一朵三葉草有 3 片葉子，草地上找到了 2 朵，一共有幾片葉子？",
+    "chant": "二三得六",
+    "answer": 6,
+    "options": [
+      9,
+      4,
+      5,
+      6
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x2-8",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 2,
+    "formula": "3 × 2 = ？",
+    "display": "🥪 🥪 ",
+    "prompt": "🥪 每個三明治切成 3 份，盤子裡有 2 份，一共有幾塊？",
+    "chant": "二三得六",
+    "answer": 6,
+    "options": [
+      6,
+      9,
+      5,
+      16
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x2-9",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 2,
+    "formula": "3 × 2 = ？",
+    "display": "🚦 🚦 ",
+    "prompt": "🚦 紅綠燈有 3 種顏色的燈，路口有 2 座紅綠燈，一共有幾盞燈？",
+    "chant": "二三得六",
+    "answer": 6,
+    "options": [
+      8,
+      9,
+      6,
+      11
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x3-10",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 3,
+    "formula": "3 × 3 = ？",
+    "display": "🛺 🛺 🛺 ",
+    "prompt": "🛺 一輛三輪車有 3 個輪子，公園裡有 3 輛三輪車，一共有幾個輪子？",
+    "chant": "三三得九",
+    "answer": 9,
+    "options": [
+      13,
+      11,
+      19,
+      9
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x3-11",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 3,
+    "formula": "3 × 3 = ？",
+    "display": "📐 📐 📐 ",
+    "prompt": "📐 一個三角形有 3 條邊，積木盒有 3 個三角形，一共有幾條邊？",
+    "chant": "三三得九",
+    "answer": 9,
+    "options": [
+      9,
+      14,
+      6,
+      8
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x3-12",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 3,
+    "formula": "3 × 3 = ？",
+    "display": "☘️ ☘️ ☘️ ",
+    "prompt": "☘️ 一朵三葉草有 3 片葉子，草地上找到了 3 朵，一共有幾片葉子？",
+    "chant": "三三得九",
+    "answer": 9,
+    "options": [
+      7,
+      6,
+      9,
+      10
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x3-13",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 3,
+    "formula": "3 × 3 = ？",
+    "display": "🥪 🥪 🥪 ",
+    "prompt": "🥪 每個三明治切成 3 份，盤子裡有 3 份，一共有幾塊？",
+    "chant": "三三得九",
+    "answer": 9,
+    "options": [
+      4,
+      5,
+      11,
+      9
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x3-14",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 3,
+    "formula": "3 × 3 = ？",
+    "display": "🚦 🚦 🚦 ",
+    "prompt": "🚦 紅綠燈有 3 種顏色的燈，路口有 3 座紅綠燈，一共有幾盞燈？",
+    "chant": "三三得九",
+    "answer": 9,
+    "options": [
+      4,
+      11,
+      9,
+      12
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x4-15",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 4,
+    "formula": "3 × 4 = ？",
+    "display": "🛺 🛺 🛺 🛺 ",
+    "prompt": "🛺 一輛三輪車有 3 個輪子，公園裡有 4 輛三輪車，一共有幾個輪子？",
+    "chant": "三四十二",
+    "answer": 12,
+    "options": [
+      11,
+      12,
+      22,
+      9
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x4-16",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 4,
+    "formula": "3 × 4 = ？",
+    "display": "📐 📐 📐 📐 ",
+    "prompt": "📐 一個三角形有 3 條邊，積木盒有 4 個三角形，一共有幾條邊？",
+    "chant": "三四十二",
+    "answer": 12,
+    "options": [
+      11,
+      13,
+      10,
+      12
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x4-17",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 4,
+    "formula": "3 × 4 = ？",
+    "display": "☘️ ☘️ ☘️ ☘️ ",
+    "prompt": "☘️ 一朵三葉草有 3 片葉子，草地上找到了 4 朵，一共有幾片葉子？",
+    "chant": "三四十二",
+    "answer": 12,
+    "options": [
+      10,
+      12,
+      17,
+      13
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x4-18",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 4,
+    "formula": "3 × 4 = ？",
+    "display": "🥪 🥪 🥪 🥪 ",
+    "prompt": "🥪 每個三明治切成 3 份，盤子裡有 4 份，一共有幾塊？",
+    "chant": "三四十二",
+    "answer": 12,
+    "options": [
+      12,
+      11,
+      15,
+      22
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x4-19",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 4,
+    "formula": "3 × 4 = ？",
+    "display": "🚦 🚦 🚦 🚦 ",
+    "prompt": "🚦 紅綠燈有 3 種顏色的燈，路口有 4 座紅綠燈，一共有幾盞燈？",
+    "chant": "三四十二",
+    "answer": 12,
+    "options": [
+      11,
+      12,
+      22,
+      8
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x5-20",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 5,
+    "formula": "3 × 5 = ？",
+    "display": "🛺 🛺 🛺 🛺 🛺 ",
+    "prompt": "🛺 一輛三輪車有 3 個輪子，公園裡有 5 輛三輪車，一共有幾個輪子？",
+    "chant": "三五十五",
+    "answer": 15,
+    "options": [
+      20,
+      12,
+      16,
+      15
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x5-21",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 5,
+    "formula": "3 × 5 = ？",
+    "display": "📐 📐 📐 📐 📐 ",
+    "prompt": "📐 一個三角形有 3 條邊，積木盒有 5 個三角形，一共有幾條邊？",
+    "chant": "三五十五",
+    "answer": 15,
+    "options": [
+      15,
+      17,
+      16,
+      11
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x5-22",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 5,
+    "formula": "3 × 5 = ？",
+    "display": "☘️ ☘️ ☘️ ☘️ ☘️ ",
+    "prompt": "☘️ 一朵三葉草有 3 片葉子，草地上找到了 5 朵，一共有幾片葉子？",
+    "chant": "三五十五",
+    "answer": 15,
+    "options": [
+      5,
+      10,
+      13,
+      15
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x5-23",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 5,
+    "formula": "3 × 5 = ？",
+    "display": "🥪 🥪 🥪 🥪 🥪 ",
+    "prompt": "🥪 每個三明治切成 3 份，盤子裡有 5 份，一共有幾塊？",
+    "chant": "三五十五",
+    "answer": 15,
+    "options": [
+      25,
+      13,
+      12,
+      15
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x5-24",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 5,
+    "formula": "3 × 5 = ？",
+    "display": "🚦 🚦 🚦 🚦 🚦 ",
+    "prompt": "🚦 紅綠燈有 3 種顏色的燈，路口有 5 座紅綠燈，一共有幾盞燈？",
+    "chant": "三五十五",
+    "answer": 15,
+    "options": [
+      19,
+      15,
+      12,
+      10
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x6-25",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 6,
+    "formula": "3 × 6 = ？",
+    "display": "🛺 🛺 🛺 🛺 🛺 🛺 ",
+    "prompt": "🛺 一輛三輪車有 3 個輪子，公園裡有 6 輛三輪車，一共有幾個輪子？",
+    "chant": "三六十八",
+    "answer": 18,
+    "options": [
+      19,
+      28,
+      18,
+      21
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x6-26",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 6,
+    "formula": "3 × 6 = ？",
+    "display": "📐 📐 📐 📐 📐 📐 ",
+    "prompt": "📐 一個三角形有 3 條邊，積木盒有 6 個三角形，一共有幾條邊？",
+    "chant": "三六十八",
+    "answer": 18,
+    "options": [
+      19,
+      22,
+      8,
+      18
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x6-27",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 6,
+    "formula": "3 × 6 = ？",
+    "display": "☘️ ☘️ ☘️ ☘️ ☘️ ☘️ ",
+    "prompt": "☘️ 一朵三葉草有 3 片葉子，草地上找到了 6 朵，一共有幾片葉子？",
+    "chant": "三六十八",
+    "answer": 18,
+    "options": [
+      15,
+      20,
+      13,
+      18
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x6-28",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 6,
+    "formula": "3 × 6 = ？",
+    "display": "🥪 🥪 🥪 🥪 🥪 🥪 ",
+    "prompt": "🥪 每個三明治切成 3 份，盤子裡有 6 份，一共有幾塊？",
+    "chant": "三六十八",
+    "answer": 18,
+    "options": [
+      20,
+      15,
+      18,
+      14
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x6-29",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 6,
+    "formula": "3 × 6 = ？",
+    "display": "🚦 🚦 🚦 🚦 🚦 🚦 ",
+    "prompt": "🚦 紅綠燈有 3 種顏色的燈，路口有 6 座紅綠燈，一共有幾盞燈？",
+    "chant": "三六十八",
+    "answer": 18,
+    "options": [
+      18,
+      16,
+      14,
+      22
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x7-30",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 7,
+    "formula": "3 × 7 = ？",
+    "display": "🛺 🛺 🛺 🛺 🛺 🛺 🛺 ",
+    "prompt": "🛺 一輛三輪車有 3 個輪子，公園裡有 7 輛三輪車，一共有幾個輪子？",
+    "chant": "三七二十一",
+    "answer": 21,
+    "options": [
+      16,
+      21,
+      19,
+      24
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x7-31",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 7,
+    "formula": "3 × 7 = ？",
+    "display": "📐 📐 📐 📐 📐 📐 📐 ",
+    "prompt": "📐 一個三角形有 3 條邊，積木盒有 7 個三角形，一共有幾條邊？",
+    "chant": "三七二十一",
+    "answer": 21,
+    "options": [
+      19,
+      21,
+      23,
+      25
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x7-32",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 7,
+    "formula": "3 × 7 = ？",
+    "display": "☘️ ☘️ ☘️ ☘️ ☘️ ☘️ ☘️ ",
+    "prompt": "☘️ 一朵三葉草有 3 片葉子，草地上找到了 7 朵，一共有幾片葉子？",
+    "chant": "三七二十一",
+    "answer": 21,
+    "options": [
+      31,
+      16,
+      22,
+      21
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x7-33",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 7,
+    "formula": "3 × 7 = ？",
+    "display": "🥪 🥪 🥪 🥪 🥪 🥪 🥪 ",
+    "prompt": "🥪 每個三明治切成 3 份，盤子裡有 7 份，一共有幾塊？",
+    "chant": "三七二十一",
+    "answer": 21,
+    "options": [
+      21,
+      17,
+      22,
+      23
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x7-34",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 7,
+    "formula": "3 × 7 = ？",
+    "display": "🚦 🚦 🚦 🚦 🚦 🚦 🚦 ",
+    "prompt": "🚦 紅綠燈有 3 種顏色的燈，路口有 7 座紅綠燈，一共有幾盞燈？",
+    "chant": "三七二十一",
+    "answer": 21,
+    "options": [
+      11,
+      21,
+      22,
+      23
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x8-35",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 8,
+    "formula": "3 × 8 = ？",
+    "display": "🛺 🛺 🛺 🛺 🛺 🛺 🛺 🛺 ",
+    "prompt": "🛺 一輛三輪車有 3 個輪子，公園裡有 8 輛三輪車，一共有幾個輪子？",
+    "chant": "三八二十四",
+    "answer": 24,
+    "options": [
+      26,
+      25,
+      27,
+      24
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x8-36",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 8,
+    "formula": "3 × 8 = ？",
+    "display": "📐 📐 📐 📐 📐 📐 📐 📐 ",
+    "prompt": "📐 一個三角形有 3 條邊，積木盒有 8 個三角形，一共有幾條邊？",
+    "chant": "三八二十四",
+    "answer": 24,
+    "options": [
+      24,
+      28,
+      26,
+      25
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x8-37",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 8,
+    "formula": "3 × 8 = ？",
+    "display": "☘️ ☘️ ☘️ ☘️ ☘️ ☘️ ☘️ ☘️ ",
+    "prompt": "☘️ 一朵三葉草有 3 片葉子，草地上找到了 8 朵，一共有幾片葉子？",
+    "chant": "三八二十四",
+    "answer": 24,
+    "options": [
+      24,
+      27,
+      26,
+      34
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x8-38",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 8,
+    "formula": "3 × 8 = ？",
+    "display": "🥪 🥪 🥪 🥪 🥪 🥪 🥪 🥪 ",
+    "prompt": "🥪 每個三明治切成 3 份，盤子裡有 8 份，一共有幾塊？",
+    "chant": "三八二十四",
+    "answer": 24,
+    "options": [
+      27,
+      34,
+      26,
+      24
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x8-39",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 8,
+    "formula": "3 × 8 = ？",
+    "display": "🚦 🚦 🚦 🚦 🚦 🚦 🚦 🚦 ",
+    "prompt": "🚦 紅綠燈有 3 種顏色的燈，路口有 8 座紅綠燈，一共有幾盞燈？",
+    "chant": "三八二十四",
+    "answer": 24,
+    "options": [
+      24,
+      23,
+      14,
+      20
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x9-40",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 9,
+    "formula": "3 × 9 = ？",
+    "display": "🛺 🛺 🛺 🛺 🛺 🛺 🛺 🛺 🛺 ",
+    "prompt": "🛺 一輛三輪車有 3 個輪子，公園裡有 9 輛三輪車，一共有幾個輪子？",
+    "chant": "三九二十七",
+    "answer": 27,
+    "options": [
+      32,
+      27,
+      17,
+      29
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x9-41",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 9,
+    "formula": "3 × 9 = ？",
+    "display": "📐 📐 📐 📐 📐 📐 📐 📐 📐 ",
+    "prompt": "📐 一個三角形有 3 條邊，積木盒有 9 個三角形，一共有幾條邊？",
+    "chant": "三九二十七",
+    "answer": 27,
+    "options": [
+      30,
+      25,
+      26,
+      27
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x9-42",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 9,
+    "formula": "3 × 9 = ？",
+    "display": "☘️ ☘️ ☘️ ☘️ ☘️ ☘️ ☘️ ☘️ ☘️ ",
+    "prompt": "☘️ 一朵三葉草有 3 片葉子，草地上找到了 9 朵，一共有幾片葉子？",
+    "chant": "三九二十七",
+    "answer": 27,
+    "options": [
+      26,
+      27,
+      31,
+      29
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x9-43",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 9,
+    "formula": "3 × 9 = ？",
+    "display": "🥪 🥪 🥪 🥪 🥪 🥪 🥪 🥪 🥪 ",
+    "prompt": "🥪 每個三明治切成 3 份，盤子裡有 9 份，一共有幾塊？",
+    "chant": "三九二十七",
+    "answer": 27,
+    "options": [
+      25,
+      28,
+      22,
+      27
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-3x9-44",
+    "category": "tables_3_4",
+    "sub_unit": "3的乘法生活題",
+    "base": 3,
+    "multiplier": 9,
+    "formula": "3 × 9 = ？",
+    "display": "🚦 🚦 🚦 🚦 🚦 🚦 🚦 🚦 🚦 ",
+    "prompt": "🚦 紅綠燈有 3 種顏色的燈，路口有 9 座紅綠燈，一共有幾盞燈？",
+    "chant": "三九二十七",
+    "answer": 27,
+    "options": [
+      27,
+      26,
+      23,
+      25
+    ],
+    "unit": "個/條"
+  },
+  {
+    "id": "mult-4x1-45",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 1,
+    "formula": "4 × 1 = ？",
+    "display": "🐶 ",
+    "prompt": "🐶 一隻可愛小狗有 4 隻腳，院子裡有 1 隻小狗，一共有幾隻腳？",
+    "chant": "一四得四",
+    "answer": 4,
+    "options": [
+      4,
+      7,
+      5,
+      8
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x1-46",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 1,
+    "formula": "4 × 1 = ？",
+    "display": "🚗 ",
+    "prompt": "🚗 一輛小汽車有 4 個輪子，停車場停了 1 輛車，一共有幾個輪子？",
+    "chant": "一四得四",
+    "answer": 4,
+    "options": [
+      8,
+      4,
+      9,
+      7
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x1-47",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 1,
+    "formula": "4 × 1 = ？",
+    "display": "🪑 ",
+    "prompt": "🪑 每張椅子有 4 隻椅腳，教室裡有 1 張椅子，一共有幾隻椅腳？",
+    "chant": "一四得四",
+    "answer": 4,
+    "options": [
+      5,
+      9,
+      14,
+      4
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x1-48",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 1,
+    "formula": "4 × 1 = ？",
+    "display": "🍀 ",
+    "prompt": "🍀 每朵幸運草有 4 片葉子，小女孩摘了 1 朵，一共有幾片葉子？",
+    "chant": "一四得四",
+    "answer": 4,
+    "options": [
+      7,
+      14,
+      4,
+      5
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x1-49",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 1,
+    "formula": "4 × 1 = ？",
+    "display": "🐱 ",
+    "prompt": "🐱 一隻小貓有 4 隻肉墊腳掌，客廳有 1 隻小貓，一共有幾隻腳掌？",
+    "chant": "一四得四",
+    "answer": 4,
+    "options": [
+      14,
+      4,
+      6,
+      9
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x2-50",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 2,
+    "formula": "4 × 2 = ？",
+    "display": "🐶 🐶 ",
+    "prompt": "🐶 一隻可愛小狗有 4 隻腳，院子裡有 2 隻小狗，一共有幾隻腳？",
+    "chant": "二四得八",
+    "answer": 8,
+    "options": [
+      9,
+      18,
+      5,
+      8
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x2-51",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 2,
+    "formula": "4 × 2 = ？",
+    "display": "🚗 🚗 ",
+    "prompt": "🚗 一輛小汽車有 4 個輪子，停車場停了 2 輛車，一共有幾個輪子？",
+    "chant": "二四得八",
+    "answer": 8,
+    "options": [
+      8,
+      18,
+      6,
+      4
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x2-52",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 2,
+    "formula": "4 × 2 = ？",
+    "display": "🪑 🪑 ",
+    "prompt": "🪑 每張椅子有 4 隻椅腳，教室裡有 2 張椅子，一共有幾隻椅腳？",
+    "chant": "二四得八",
+    "answer": 8,
+    "options": [
+      9,
+      8,
+      4,
+      10
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x2-53",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 2,
+    "formula": "4 × 2 = ？",
+    "display": "🍀 🍀 ",
+    "prompt": "🍀 每朵幸運草有 4 片葉子，小女孩摘了 2 朵，一共有幾片葉子？",
+    "chant": "二四得八",
+    "answer": 8,
+    "options": [
+      6,
+      11,
+      4,
+      8
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x2-54",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 2,
+    "formula": "4 × 2 = ？",
+    "display": "🐱 🐱 ",
+    "prompt": "🐱 一隻小貓有 4 隻肉墊腳掌，客廳有 2 隻小貓，一共有幾隻腳掌？",
+    "chant": "二四得八",
+    "answer": 8,
+    "options": [
+      8,
+      6,
+      12,
+      4
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x3-55",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 3,
+    "formula": "4 × 3 = ？",
+    "display": "🐶 🐶 🐶 ",
+    "prompt": "🐶 一隻可愛小狗有 4 隻腳，院子裡有 3 隻小狗，一共有幾隻腳？",
+    "chant": "三四十二",
+    "answer": 12,
+    "options": [
+      8,
+      10,
+      15,
+      12
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x3-56",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 3,
+    "formula": "4 × 3 = ？",
+    "display": "🚗 🚗 🚗 ",
+    "prompt": "🚗 一輛小汽車有 4 個輪子，停車場停了 3 輛車，一共有幾個輪子？",
+    "chant": "三四十二",
+    "answer": 12,
+    "options": [
+      17,
+      9,
+      12,
+      22
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x3-57",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 3,
+    "formula": "4 × 3 = ？",
+    "display": "🪑 🪑 🪑 ",
+    "prompt": "🪑 每張椅子有 4 隻椅腳，教室裡有 3 張椅子，一共有幾隻椅腳？",
+    "chant": "三四十二",
+    "answer": 12,
+    "options": [
+      11,
+      12,
+      14,
+      7
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x3-58",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 3,
+    "formula": "4 × 3 = ？",
+    "display": "🍀 🍀 🍀 ",
+    "prompt": "🍀 每朵幸運草有 4 片葉子，小女孩摘了 3 朵，一共有幾片葉子？",
+    "chant": "三四十二",
+    "answer": 12,
+    "options": [
+      14,
+      22,
+      17,
+      12
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x3-59",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 3,
+    "formula": "4 × 3 = ？",
+    "display": "🐱 🐱 🐱 ",
+    "prompt": "🐱 一隻小貓有 4 隻肉墊腳掌，客廳有 3 隻小貓，一共有幾隻腳掌？",
+    "chant": "三四十二",
+    "answer": 12,
+    "options": [
+      17,
+      12,
+      8,
+      13
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x4-60",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 4,
+    "formula": "4 × 4 = ？",
+    "display": "🐶 🐶 🐶 🐶 ",
+    "prompt": "🐶 一隻可愛小狗有 4 隻腳，院子裡有 4 隻小狗，一共有幾隻腳？",
+    "chant": "四四十六",
+    "answer": 16,
+    "options": [
+      19,
+      17,
+      16,
+      20
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x4-61",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 4,
+    "formula": "4 × 4 = ？",
+    "display": "🚗 🚗 🚗 🚗 ",
+    "prompt": "🚗 一輛小汽車有 4 個輪子，停車場停了 4 輛車，一共有幾個輪子？",
+    "chant": "四四十六",
+    "answer": 16,
+    "options": [
+      16,
+      26,
+      17,
+      6
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x4-62",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 4,
+    "formula": "4 × 4 = ？",
+    "display": "🪑 🪑 🪑 🪑 ",
+    "prompt": "🪑 每張椅子有 4 隻椅腳，教室裡有 4 張椅子，一共有幾隻椅腳？",
+    "chant": "四四十六",
+    "answer": 16,
+    "options": [
+      16,
+      26,
+      15,
+      13
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x4-63",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 4,
+    "formula": "4 × 4 = ？",
+    "display": "🍀 🍀 🍀 🍀 ",
+    "prompt": "🍀 每朵幸運草有 4 片葉子，小女孩摘了 4 朵，一共有幾片葉子？",
+    "chant": "四四十六",
+    "answer": 16,
+    "options": [
+      16,
+      13,
+      6,
+      19
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x4-64",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 4,
+    "formula": "4 × 4 = ？",
+    "display": "🐱 🐱 🐱 🐱 ",
+    "prompt": "🐱 一隻小貓有 4 隻肉墊腳掌，客廳有 4 隻小貓，一共有幾隻腳掌？",
+    "chant": "四四十六",
+    "answer": 16,
+    "options": [
+      12,
+      14,
+      20,
+      16
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x5-65",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 5,
+    "formula": "4 × 5 = ？",
+    "display": "🐶 🐶 🐶 🐶 🐶 ",
+    "prompt": "🐶 一隻可愛小狗有 4 隻腳，院子裡有 5 隻小狗，一共有幾隻腳？",
+    "chant": "四五二十",
+    "answer": 20,
+    "options": [
+      20,
+      17,
+      23,
+      16
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x5-66",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 5,
+    "formula": "4 × 5 = ？",
+    "display": "🚗 🚗 🚗 🚗 🚗 ",
+    "prompt": "🚗 一輛小汽車有 4 個輪子，停車場停了 5 輛車，一共有幾個輪子？",
+    "chant": "四五二十",
+    "answer": 20,
+    "options": [
+      20,
+      24,
+      25,
+      30
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x5-67",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 5,
+    "formula": "4 × 5 = ？",
+    "display": "🪑 🪑 🪑 🪑 🪑 ",
+    "prompt": "🪑 每張椅子有 4 隻椅腳，教室裡有 5 張椅子，一共有幾隻椅腳？",
+    "chant": "四五二十",
+    "answer": 20,
+    "options": [
+      21,
+      23,
+      10,
+      20
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x5-68",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 5,
+    "formula": "4 × 5 = ？",
+    "display": "🍀 🍀 🍀 🍀 🍀 ",
+    "prompt": "🍀 每朵幸運草有 4 片葉子，小女孩摘了 5 朵，一共有幾片葉子？",
+    "chant": "四五二十",
+    "answer": 20,
+    "options": [
+      23,
+      20,
+      16,
+      15
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x5-69",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 5,
+    "formula": "4 × 5 = ？",
+    "display": "🐱 🐱 🐱 🐱 🐱 ",
+    "prompt": "🐱 一隻小貓有 4 隻肉墊腳掌，客廳有 5 隻小貓，一共有幾隻腳掌？",
+    "chant": "四五二十",
+    "answer": 20,
+    "options": [
+      20,
+      25,
+      21,
+      23
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x6-70",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 6,
+    "formula": "4 × 6 = ？",
+    "display": "🐶 🐶 🐶 🐶 🐶 🐶 ",
+    "prompt": "🐶 一隻可愛小狗有 4 隻腳，院子裡有 6 隻小狗，一共有幾隻腳？",
+    "chant": "四六二十四",
+    "answer": 24,
+    "options": [
+      25,
+      28,
+      19,
+      24
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x6-71",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 6,
+    "formula": "4 × 6 = ？",
+    "display": "🚗 🚗 🚗 🚗 🚗 🚗 ",
+    "prompt": "🚗 一輛小汽車有 4 個輪子，停車場停了 6 輛車，一共有幾個輪子？",
+    "chant": "四六二十四",
+    "answer": 24,
+    "options": [
+      29,
+      24,
+      14,
+      23
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x6-72",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 6,
+    "formula": "4 × 6 = ？",
+    "display": "🪑 🪑 🪑 🪑 🪑 🪑 ",
+    "prompt": "🪑 每張椅子有 4 隻椅腳，教室裡有 6 張椅子，一共有幾隻椅腳？",
+    "chant": "四六二十四",
+    "answer": 24,
+    "options": [
+      24,
+      14,
+      28,
+      29
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x6-73",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 6,
+    "formula": "4 × 6 = ？",
+    "display": "🍀 🍀 🍀 🍀 🍀 🍀 ",
+    "prompt": "🍀 每朵幸運草有 4 片葉子，小女孩摘了 6 朵，一共有幾片葉子？",
+    "chant": "四六二十四",
+    "answer": 24,
+    "options": [
+      21,
+      28,
+      22,
+      24
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x6-74",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 6,
+    "formula": "4 × 6 = ？",
+    "display": "🐱 🐱 🐱 🐱 🐱 🐱 ",
+    "prompt": "🐱 一隻小貓有 4 隻肉墊腳掌，客廳有 6 隻小貓，一共有幾隻腳掌？",
+    "chant": "四六二十四",
+    "answer": 24,
+    "options": [
+      19,
+      24,
+      20,
+      25
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x7-75",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 7,
+    "formula": "4 × 7 = ？",
+    "display": "🐶 🐶 🐶 🐶 🐶 🐶 🐶 ",
+    "prompt": "🐶 一隻可愛小狗有 4 隻腳，院子裡有 7 隻小狗，一共有幾隻腳？",
+    "chant": "四七二十八",
+    "answer": 28,
+    "options": [
+      27,
+      26,
+      28,
+      30
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x7-76",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 7,
+    "formula": "4 × 7 = ？",
+    "display": "🚗 🚗 🚗 🚗 🚗 🚗 🚗 ",
+    "prompt": "🚗 一輛小汽車有 4 個輪子，停車場停了 7 輛車，一共有幾個輪子？",
+    "chant": "四七二十八",
+    "answer": 28,
+    "options": [
+      28,
+      24,
+      38,
+      18
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x7-77",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 7,
+    "formula": "4 × 7 = ？",
+    "display": "🪑 🪑 🪑 🪑 🪑 🪑 🪑 ",
+    "prompt": "🪑 每張椅子有 4 隻椅腳，教室裡有 7 張椅子，一共有幾隻椅腳？",
+    "chant": "四七二十八",
+    "answer": 28,
+    "options": [
+      26,
+      30,
+      27,
+      28
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x7-78",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 7,
+    "formula": "4 × 7 = ？",
+    "display": "🍀 🍀 🍀 🍀 🍀 🍀 🍀 ",
+    "prompt": "🍀 每朵幸運草有 4 片葉子，小女孩摘了 7 朵，一共有幾片葉子？",
+    "chant": "四七二十八",
+    "answer": 28,
+    "options": [
+      28,
+      27,
+      32,
+      33
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x7-79",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 7,
+    "formula": "4 × 7 = ？",
+    "display": "🐱 🐱 🐱 🐱 🐱 🐱 🐱 ",
+    "prompt": "🐱 一隻小貓有 4 隻肉墊腳掌，客廳有 7 隻小貓，一共有幾隻腳掌？",
+    "chant": "四七二十八",
+    "answer": 28,
+    "options": [
+      31,
+      23,
+      28,
+      38
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x8-80",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 8,
+    "formula": "4 × 8 = ？",
+    "display": "🐶 🐶 🐶 🐶 🐶 🐶 🐶 🐶 ",
+    "prompt": "🐶 一隻可愛小狗有 4 隻腳，院子裡有 8 隻小狗，一共有幾隻腳？",
+    "chant": "四八三十二",
+    "answer": 32,
+    "options": [
+      22,
+      32,
+      31,
+      42
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x8-81",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 8,
+    "formula": "4 × 8 = ？",
+    "display": "🚗 🚗 🚗 🚗 🚗 🚗 🚗 🚗 ",
+    "prompt": "🚗 一輛小汽車有 4 個輪子，停車場停了 8 輛車，一共有幾個輪子？",
+    "chant": "四八三十二",
+    "answer": 32,
+    "options": [
+      22,
+      36,
+      37,
+      32
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x8-82",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 8,
+    "formula": "4 × 8 = ？",
+    "display": "🪑 🪑 🪑 🪑 🪑 🪑 🪑 🪑 ",
+    "prompt": "🪑 每張椅子有 4 隻椅腳，教室裡有 8 張椅子，一共有幾隻椅腳？",
+    "chant": "四八三十二",
+    "answer": 32,
+    "options": [
+      32,
+      30,
+      37,
+      29
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x8-83",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 8,
+    "formula": "4 × 8 = ？",
+    "display": "🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 ",
+    "prompt": "🍀 每朵幸運草有 4 片葉子，小女孩摘了 8 朵，一共有幾片葉子？",
+    "chant": "四八三十二",
+    "answer": 32,
+    "options": [
+      27,
+      32,
+      28,
+      36
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x8-84",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 8,
+    "formula": "4 × 8 = ？",
+    "display": "🐱 🐱 🐱 🐱 🐱 🐱 🐱 🐱 ",
+    "prompt": "🐱 一隻小貓有 4 隻肉墊腳掌，客廳有 8 隻小貓，一共有幾隻腳掌？",
+    "chant": "四八三十二",
+    "answer": 32,
+    "options": [
+      34,
+      32,
+      28,
+      36
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x9-85",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 9,
+    "formula": "4 × 9 = ？",
+    "display": "🐶 🐶 🐶 🐶 🐶 🐶 🐶 🐶 🐶 ",
+    "prompt": "🐶 一隻可愛小狗有 4 隻腳，院子裡有 9 隻小狗，一共有幾隻腳？",
+    "chant": "四九三十六",
+    "answer": 36,
+    "options": [
+      34,
+      38,
+      36,
+      35
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x9-86",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 9,
+    "formula": "4 × 9 = ？",
+    "display": "🚗 🚗 🚗 🚗 🚗 🚗 🚗 🚗 🚗 ",
+    "prompt": "🚗 一輛小汽車有 4 個輪子，停車場停了 9 輛車，一共有幾個輪子？",
+    "chant": "四九三十六",
+    "answer": 36,
+    "options": [
+      38,
+      35,
+      36,
+      39
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x9-87",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 9,
+    "formula": "4 × 9 = ？",
+    "display": "🪑 🪑 🪑 🪑 🪑 🪑 🪑 🪑 🪑 ",
+    "prompt": "🪑 每張椅子有 4 隻椅腳，教室裡有 9 張椅子，一共有幾隻椅腳？",
+    "chant": "四九三十六",
+    "answer": 36,
+    "options": [
+      31,
+      41,
+      33,
+      36
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x9-88",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 9,
+    "formula": "4 × 9 = ？",
+    "display": "🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 🍀 ",
+    "prompt": "🍀 每朵幸運草有 4 片葉子，小女孩摘了 9 朵，一共有幾片葉子？",
+    "chant": "四九三十六",
+    "answer": 36,
+    "options": [
+      36,
+      41,
+      34,
+      37
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-4x9-89",
+    "category": "tables_3_4",
+    "sub_unit": "4的乘法生活題",
+    "base": 4,
+    "multiplier": 9,
+    "formula": "4 × 9 = ？",
+    "display": "🐱 🐱 🐱 🐱 🐱 🐱 🐱 🐱 🐱 ",
+    "prompt": "🐱 一隻小貓有 4 隻肉墊腳掌，客廳有 9 隻小貓，一共有幾隻腳掌？",
+    "chant": "四九三十六",
+    "answer": 36,
+    "options": [
+      41,
+      37,
+      39,
+      36
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x1-0",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 1,
+    "formula": "6 × 1 = ？",
+    "display": "🐞 ",
+    "prompt": "🐞 一隻瓢蟲有 6 隻腳，樹葉上有 1 隻瓢蟲，一共有幾隻腳？",
+    "chant": "一六得六",
+    "answer": 6,
+    "options": [
+      16,
+      6,
+      11,
+      10
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x1-1",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 1,
+    "formula": "6 × 1 = ？",
+    "display": "❄️ ",
+    "prompt": "❄️ 一朵雪花有 6 個小冰角，窗戶上有 1 朵雪花，一共有幾個角？",
+    "chant": "一六得六",
+    "answer": 6,
+    "options": [
+      8,
+      16,
+      6,
+      7
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x1-2",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 1,
+    "formula": "6 × 1 = ？",
+    "display": "🎲 ",
+    "prompt": "🎲 一顆骰子有 6 個面，桌上有 1 顆骰子，一共有幾個面？",
+    "chant": "一六得六",
+    "answer": 6,
+    "options": [
+      9,
+      10,
+      11,
+      6
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x2-3",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 2,
+    "formula": "6 × 2 = ？",
+    "display": "🐞 🐞 ",
+    "prompt": "🐞 一隻瓢蟲有 6 隻腳，樹葉上有 2 隻瓢蟲，一共有幾隻腳？",
+    "chant": "二六十二",
+    "answer": 12,
+    "options": [
+      13,
+      15,
+      9,
+      12
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x2-4",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 2,
+    "formula": "6 × 2 = ？",
+    "display": "❄️ ❄️ ",
+    "prompt": "❄️ 一朵雪花有 6 個小冰角，窗戶上有 2 朵雪花，一共有幾個角？",
+    "chant": "二六十二",
+    "answer": 12,
+    "options": [
+      11,
+      12,
+      16,
+      8
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x2-5",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 2,
+    "formula": "6 × 2 = ？",
+    "display": "🎲 🎲 ",
+    "prompt": "🎲 一顆骰子有 6 個面，桌上有 2 顆骰子，一共有幾個面？",
+    "chant": "二六十二",
+    "answer": 12,
+    "options": [
+      12,
+      13,
+      22,
+      7
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x3-6",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 3,
+    "formula": "6 × 3 = ？",
+    "display": "🐞 🐞 🐞 ",
+    "prompt": "🐞 一隻瓢蟲有 6 隻腳，樹葉上有 3 隻瓢蟲，一共有幾隻腳？",
+    "chant": "三六十八",
+    "answer": 18,
+    "options": [
+      14,
+      18,
+      23,
+      17
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x3-7",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 3,
+    "formula": "6 × 3 = ？",
+    "display": "❄️ ❄️ ❄️ ",
+    "prompt": "❄️ 一朵雪花有 6 個小冰角，窗戶上有 3 朵雪花，一共有幾個角？",
+    "chant": "三六十八",
+    "answer": 18,
+    "options": [
+      8,
+      16,
+      18,
+      14
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x3-8",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 3,
+    "formula": "6 × 3 = ？",
+    "display": "🎲 🎲 🎲 ",
+    "prompt": "🎲 一顆骰子有 6 個面，桌上有 3 顆骰子，一共有幾個面？",
+    "chant": "三六十八",
+    "answer": 18,
+    "options": [
+      21,
+      18,
+      16,
+      23
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x4-9",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 4,
+    "formula": "6 × 4 = ？",
+    "display": "🐞 🐞 🐞 🐞 ",
+    "prompt": "🐞 一隻瓢蟲有 6 隻腳，樹葉上有 4 隻瓢蟲，一共有幾隻腳？",
+    "chant": "四六二十四",
+    "answer": 24,
+    "options": [
+      22,
+      34,
+      21,
+      24
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x4-10",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 4,
+    "formula": "6 × 4 = ？",
+    "display": "❄️ ❄️ ❄️ ❄️ ",
+    "prompt": "❄️ 一朵雪花有 6 個小冰角，窗戶上有 4 朵雪花，一共有幾個角？",
+    "chant": "四六二十四",
+    "answer": 24,
+    "options": [
+      29,
+      24,
+      23,
+      20
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x4-11",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 4,
+    "formula": "6 × 4 = ？",
+    "display": "🎲 🎲 🎲 🎲 ",
+    "prompt": "🎲 一顆骰子有 6 個面，桌上有 4 顆骰子，一共有幾個面？",
+    "chant": "四六二十四",
+    "answer": 24,
+    "options": [
+      28,
+      22,
+      29,
+      24
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x5-12",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 5,
+    "formula": "6 × 5 = ？",
+    "display": "🐞 🐞 🐞 🐞 🐞 ",
+    "prompt": "🐞 一隻瓢蟲有 6 隻腳，樹葉上有 5 隻瓢蟲，一共有幾隻腳？",
+    "chant": "五六三十",
+    "answer": 30,
+    "options": [
+      31,
+      30,
+      29,
+      40
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x5-13",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 5,
+    "formula": "6 × 5 = ？",
+    "display": "❄️ ❄️ ❄️ ❄️ ❄️ ",
+    "prompt": "❄️ 一朵雪花有 6 個小冰角，窗戶上有 5 朵雪花，一共有幾個角？",
+    "chant": "五六三十",
+    "answer": 30,
+    "options": [
+      30,
+      40,
+      33,
+      28
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x5-14",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 5,
+    "formula": "6 × 5 = ？",
+    "display": "🎲 🎲 🎲 🎲 🎲 ",
+    "prompt": "🎲 一顆骰子有 6 個面，桌上有 5 顆骰子，一共有幾個面？",
+    "chant": "五六三十",
+    "answer": 30,
+    "options": [
+      28,
+      33,
+      30,
+      32
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x6-15",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 6,
+    "formula": "6 × 6 = ？",
+    "display": "🐞 🐞 🐞 🐞 🐞 🐞 ",
+    "prompt": "🐞 一隻瓢蟲有 6 隻腳，樹葉上有 6 隻瓢蟲，一共有幾隻腳？",
+    "chant": "六六三十六",
+    "answer": 36,
+    "options": [
+      46,
+      32,
+      36,
+      39
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x6-16",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 6,
+    "formula": "6 × 6 = ？",
+    "display": "❄️ ❄️ ❄️ ❄️ ❄️ ❄️ ",
+    "prompt": "❄️ 一朵雪花有 6 個小冰角，窗戶上有 6 朵雪花，一共有幾個角？",
+    "chant": "六六三十六",
+    "answer": 36,
+    "options": [
+      39,
+      36,
+      41,
+      46
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x6-17",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 6,
+    "formula": "6 × 6 = ？",
+    "display": "🎲 🎲 🎲 🎲 🎲 🎲 ",
+    "prompt": "🎲 一顆骰子有 6 個面，桌上有 6 顆骰子，一共有幾個面？",
+    "chant": "六六三十六",
+    "answer": 36,
+    "options": [
+      36,
+      34,
+      33,
+      38
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x7-18",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 7,
+    "formula": "6 × 7 = ？",
+    "display": "🐞 🐞 🐞 🐞 🐞 🐞 🐞 ",
+    "prompt": "🐞 一隻瓢蟲有 6 隻腳，樹葉上有 7 隻瓢蟲，一共有幾隻腳？",
+    "chant": "六七四十二",
+    "answer": 42,
+    "options": [
+      45,
+      42,
+      32,
+      52
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x7-19",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 7,
+    "formula": "6 × 7 = ？",
+    "display": "❄️ ❄️ ❄️ ❄️ ❄️ ❄️ ❄️ ",
+    "prompt": "❄️ 一朵雪花有 6 個小冰角，窗戶上有 7 朵雪花，一共有幾個角？",
+    "chant": "六七四十二",
+    "answer": 42,
+    "options": [
+      42,
+      37,
+      39,
+      47
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x7-20",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 7,
+    "formula": "6 × 7 = ？",
+    "display": "🎲 🎲 🎲 🎲 🎲 🎲 🎲 ",
+    "prompt": "🎲 一顆骰子有 6 個面，桌上有 7 顆骰子，一共有幾個面？",
+    "chant": "六七四十二",
+    "answer": 42,
+    "options": [
+      38,
+      42,
+      32,
+      41
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x8-21",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 8,
+    "formula": "6 × 8 = ？",
+    "display": "🐞 🐞 🐞 🐞 🐞 🐞 🐞 🐞 ",
+    "prompt": "🐞 一隻瓢蟲有 6 隻腳，樹葉上有 8 隻瓢蟲，一共有幾隻腳？",
+    "chant": "六八四十八",
+    "answer": 48,
+    "options": [
+      46,
+      38,
+      58,
+      48
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x8-22",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 8,
+    "formula": "6 × 8 = ？",
+    "display": "❄️ ❄️ ❄️ ❄️ ❄️ ❄️ ❄️ ❄️ ",
+    "prompt": "❄️ 一朵雪花有 6 個小冰角，窗戶上有 8 朵雪花，一共有幾個角？",
+    "chant": "六八四十八",
+    "answer": 48,
+    "options": [
+      51,
+      49,
+      52,
+      48
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x8-23",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 8,
+    "formula": "6 × 8 = ？",
+    "display": "🎲 🎲 🎲 🎲 🎲 🎲 🎲 🎲 ",
+    "prompt": "🎲 一顆骰子有 6 個面，桌上有 8 顆骰子，一共有幾個面？",
+    "chant": "六八四十八",
+    "answer": 48,
+    "options": [
+      43,
+      58,
+      45,
+      48
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x9-24",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 9,
+    "formula": "6 × 9 = ？",
+    "display": "🐞 🐞 🐞 🐞 🐞 🐞 🐞 🐞 🐞 ",
+    "prompt": "🐞 一隻瓢蟲有 6 隻腳，樹葉上有 9 隻瓢蟲，一共有幾隻腳？",
+    "chant": "六九五十四",
+    "answer": 54,
+    "options": [
+      55,
+      54,
+      57,
+      52
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x9-25",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 9,
+    "formula": "6 × 9 = ？",
+    "display": "❄️ ❄️ ❄️ ❄️ ❄️ ❄️ ❄️ ❄️ ❄️ ",
+    "prompt": "❄️ 一朵雪花有 6 個小冰角，窗戶上有 9 朵雪花，一共有幾個角？",
+    "chant": "六九五十四",
+    "answer": 54,
+    "options": [
+      56,
+      53,
+      52,
+      54
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-6x9-26",
+    "category": "tables_6_9",
+    "sub_unit": "6的乘法進階",
+    "base": 6,
+    "multiplier": 9,
+    "formula": "6 × 9 = ？",
+    "display": "🎲 🎲 🎲 🎲 🎲 🎲 🎲 🎲 🎲 ",
+    "prompt": "🎲 一顆骰子有 6 個面，桌上有 9 顆骰子，一共有幾個面？",
+    "chant": "六九五十四",
+    "answer": 54,
+    "options": [
+      58,
+      59,
+      54,
+      49
+    ],
+    "unit": "隻/個"
+  },
+  {
+    "id": "mult-7x1-27",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 1,
+    "formula": "7 × 1 = ？",
+    "display": "📅 ",
+    "prompt": "📅 一個星期有 7 天，放暑假過了 1 個星期，一共過了幾天？",
+    "chant": "一七得七",
+    "answer": 7,
+    "options": [
+      11,
+      9,
+      7,
+      10
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x1-28",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 1,
+    "formula": "7 × 1 = ？",
+    "display": "🌈 ",
+    "prompt": "🌈 一道彩虹有 7 種顏色，天空出現 1 道彩虹，一共有幾種顏色線條？",
+    "chant": "一七得七",
+    "answer": 7,
+    "options": [
+      17,
+      7,
+      11,
+      12
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x2-29",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 2,
+    "formula": "7 × 2 = ？",
+    "display": "📅 📅 ",
+    "prompt": "📅 一個星期有 7 天，放暑假過了 2 個星期，一共過了幾天？",
+    "chant": "二七十四",
+    "answer": 14,
+    "options": [
+      14,
+      12,
+      24,
+      18
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x2-30",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 2,
+    "formula": "7 × 2 = ？",
+    "display": "🌈 🌈 ",
+    "prompt": "🌈 一道彩虹有 7 種顏色，天空出現 2 道彩虹，一共有幾種顏色線條？",
+    "chant": "二七十四",
+    "answer": 14,
+    "options": [
+      14,
+      10,
+      9,
+      12
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x3-31",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 3,
+    "formula": "7 × 3 = ？",
+    "display": "📅 📅 📅 ",
+    "prompt": "📅 一個星期有 7 天，放暑假過了 3 個星期，一共過了幾天？",
+    "chant": "三七二十一",
+    "answer": 21,
+    "options": [
+      21,
+      20,
+      25,
+      23
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x3-32",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 3,
+    "formula": "7 × 3 = ？",
+    "display": "🌈 🌈 🌈 ",
+    "prompt": "🌈 一道彩虹有 7 種顏色，天空出現 3 道彩虹，一共有幾種顏色線條？",
+    "chant": "三七二十一",
+    "answer": 21,
+    "options": [
+      16,
+      26,
+      22,
+      21
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x4-33",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 4,
+    "formula": "7 × 4 = ？",
+    "display": "📅 📅 📅 📅 ",
+    "prompt": "📅 一個星期有 7 天，放暑假過了 4 個星期，一共過了幾天？",
+    "chant": "四七二十八",
+    "answer": 28,
+    "options": [
+      28,
+      27,
+      31,
+      32
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x4-34",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 4,
+    "formula": "7 × 4 = ？",
+    "display": "🌈 🌈 🌈 🌈 ",
+    "prompt": "🌈 一道彩虹有 7 種顏色，天空出現 4 道彩虹，一共有幾種顏色線條？",
+    "chant": "四七二十八",
+    "answer": 28,
+    "options": [
+      27,
+      24,
+      28,
+      23
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x5-35",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 5,
+    "formula": "7 × 5 = ？",
+    "display": "📅 📅 📅 📅 📅 ",
+    "prompt": "📅 一個星期有 7 天，放暑假過了 5 個星期，一共過了幾天？",
+    "chant": "五七三十五",
+    "answer": 35,
+    "options": [
+      39,
+      35,
+      45,
+      37
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x5-36",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 5,
+    "formula": "7 × 5 = ？",
+    "display": "🌈 🌈 🌈 🌈 🌈 ",
+    "prompt": "🌈 一道彩虹有 7 種顏色，天空出現 5 道彩虹，一共有幾種顏色線條？",
+    "chant": "五七三十五",
+    "answer": 35,
+    "options": [
+      35,
+      34,
+      30,
+      40
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x6-37",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 6,
+    "formula": "7 × 6 = ？",
+    "display": "📅 📅 📅 📅 📅 📅 ",
+    "prompt": "📅 一個星期有 7 天，放暑假過了 6 個星期，一共過了幾天？",
+    "chant": "六七四十二",
+    "answer": 42,
+    "options": [
+      46,
+      42,
+      47,
+      40
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x6-38",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 6,
+    "formula": "7 × 6 = ？",
+    "display": "🌈 🌈 🌈 🌈 🌈 🌈 ",
+    "prompt": "🌈 一道彩虹有 7 種顏色，天空出現 6 道彩虹，一共有幾種顏色線條？",
+    "chant": "六七四十二",
+    "answer": 42,
+    "options": [
+      38,
+      43,
+      42,
+      45
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x7-39",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 7,
+    "formula": "7 × 7 = ？",
+    "display": "📅 📅 📅 📅 📅 📅 📅 ",
+    "prompt": "📅 一個星期有 7 天，放暑假過了 7 個星期，一共過了幾天？",
+    "chant": "七七四十九",
+    "answer": 49,
+    "options": [
+      51,
+      59,
+      49,
+      50
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x7-40",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 7,
+    "formula": "7 × 7 = ？",
+    "display": "🌈 🌈 🌈 🌈 🌈 🌈 🌈 ",
+    "prompt": "🌈 一道彩虹有 7 種顏色，天空出現 7 道彩虹，一共有幾種顏色線條？",
+    "chant": "七七四十九",
+    "answer": 49,
+    "options": [
+      53,
+      45,
+      48,
+      49
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x8-41",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 8,
+    "formula": "7 × 8 = ？",
+    "display": "📅 📅 📅 📅 📅 📅 📅 📅 ",
+    "prompt": "📅 一個星期有 7 天，放暑假過了 8 個星期，一共過了幾天？",
+    "chant": "七八五十六",
+    "answer": 56,
+    "options": [
+      60,
+      53,
+      56,
+      61
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x8-42",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 8,
+    "formula": "7 × 8 = ？",
+    "display": "🌈 🌈 🌈 🌈 🌈 🌈 🌈 🌈 ",
+    "prompt": "🌈 一道彩虹有 7 種顏色，天空出現 8 道彩虹，一共有幾種顏色線條？",
+    "chant": "七八五十六",
+    "answer": 56,
+    "options": [
+      52,
+      66,
+      59,
+      56
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x9-43",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 9,
+    "formula": "7 × 9 = ？",
+    "display": "📅 📅 📅 📅 📅 📅 📅 📅 📅 ",
+    "prompt": "📅 一個星期有 7 天，放暑假過了 9 個星期，一共過了幾天？",
+    "chant": "七九六十三",
+    "answer": 63,
+    "options": [
+      61,
+      73,
+      58,
+      63
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-7x9-44",
+    "category": "tables_6_9",
+    "sub_unit": "7的乘法進階",
+    "base": 7,
+    "multiplier": 9,
+    "formula": "7 × 9 = ？",
+    "display": "🌈 🌈 🌈 🌈 🌈 🌈 🌈 🌈 🌈 ",
+    "prompt": "🌈 一道彩虹有 7 種顏色，天空出現 9 道彩虹，一共有幾種顏色線條？",
+    "chant": "七九六十三",
+    "answer": 63,
+    "options": [
+      67,
+      68,
+      63,
+      60
+    ],
+    "unit": "天/條"
+  },
+  {
+    "id": "mult-8x1-45",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 1,
+    "formula": "8 × 1 = ？",
+    "display": "🐙 ",
+    "prompt": "🐙 一隻章魚有 8 隻長觸手，海底游來 1 隻章魚，一共有幾隻觸手？",
+    "chant": "一八得八",
+    "answer": 8,
+    "options": [
+      8,
+      10,
+      9,
+      18
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x1-46",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 1,
+    "formula": "8 × 1 = ？",
+    "display": "🕷️ ",
+    "prompt": "🕷️ 一隻小蜘蛛有 8 隻腳，蜘蛛網上有 1 隻小蜘蛛，一共有幾隻腳？",
+    "chant": "一八得八",
+    "answer": 8,
+    "options": [
+      8,
+      9,
+      12,
+      11
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x2-47",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 2,
+    "formula": "8 × 2 = ？",
+    "display": "🐙 🐙 ",
+    "prompt": "🐙 一隻章魚有 8 隻長觸手，海底游來 2 隻章魚，一共有幾隻觸手？",
+    "chant": "二八十六",
+    "answer": 16,
+    "options": [
+      26,
+      19,
+      20,
+      16
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x2-48",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 2,
+    "formula": "8 × 2 = ？",
+    "display": "🕷️ 🕷️ ",
+    "prompt": "🕷️ 一隻小蜘蛛有 8 隻腳，蜘蛛網上有 2 隻小蜘蛛，一共有幾隻腳？",
+    "chant": "二八十六",
+    "answer": 16,
+    "options": [
+      16,
+      26,
+      15,
+      13
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x3-49",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 3,
+    "formula": "8 × 3 = ？",
+    "display": "🐙 🐙 🐙 ",
+    "prompt": "🐙 一隻章魚有 8 隻長觸手，海底游來 3 隻章魚，一共有幾隻觸手？",
+    "chant": "三八二十四",
+    "answer": 24,
+    "options": [
+      23,
+      14,
+      24,
+      26
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x3-50",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 3,
+    "formula": "8 × 3 = ？",
+    "display": "🕷️ 🕷️ 🕷️ ",
+    "prompt": "🕷️ 一隻小蜘蛛有 8 隻腳，蜘蛛網上有 3 隻小蜘蛛，一共有幾隻腳？",
+    "chant": "三八二十四",
+    "answer": 24,
+    "options": [
+      20,
+      26,
+      23,
+      24
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x4-51",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 4,
+    "formula": "8 × 4 = ？",
+    "display": "🐙 🐙 🐙 🐙 ",
+    "prompt": "🐙 一隻章魚有 8 隻長觸手，海底游來 4 隻章魚，一共有幾隻觸手？",
+    "chant": "四八三十二",
+    "answer": 32,
+    "options": [
+      37,
+      32,
+      30,
+      34
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x4-52",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 4,
+    "formula": "8 × 4 = ？",
+    "display": "🕷️ 🕷️ 🕷️ 🕷️ ",
+    "prompt": "🕷️ 一隻小蜘蛛有 8 隻腳，蜘蛛網上有 4 隻小蜘蛛，一共有幾隻腳？",
+    "chant": "四八三十二",
+    "answer": 32,
+    "options": [
+      32,
+      37,
+      35,
+      22
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x5-53",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 5,
+    "formula": "8 × 5 = ？",
+    "display": "🐙 🐙 🐙 🐙 🐙 ",
+    "prompt": "🐙 一隻章魚有 8 隻長觸手，海底游來 5 隻章魚，一共有幾隻觸手？",
+    "chant": "五八四十",
+    "answer": 40,
+    "options": [
+      40,
+      30,
+      37,
+      36
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x5-54",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 5,
+    "formula": "8 × 5 = ？",
+    "display": "🕷️ 🕷️ 🕷️ 🕷️ 🕷️ ",
+    "prompt": "🕷️ 一隻小蜘蛛有 8 隻腳，蜘蛛網上有 5 隻小蜘蛛，一共有幾隻腳？",
+    "chant": "五八四十",
+    "answer": 40,
+    "options": [
+      40,
+      50,
+      38,
+      37
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x6-55",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 6,
+    "formula": "8 × 6 = ？",
+    "display": "🐙 🐙 🐙 🐙 🐙 🐙 ",
+    "prompt": "🐙 一隻章魚有 8 隻長觸手，海底游來 6 隻章魚，一共有幾隻觸手？",
+    "chant": "六八四十八",
+    "answer": 48,
+    "options": [
+      50,
+      45,
+      48,
+      47
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x6-56",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 6,
+    "formula": "8 × 6 = ？",
+    "display": "🕷️ 🕷️ 🕷️ 🕷️ 🕷️ 🕷️ ",
+    "prompt": "🕷️ 一隻小蜘蛛有 8 隻腳，蜘蛛網上有 6 隻小蜘蛛，一共有幾隻腳？",
+    "chant": "六八四十八",
+    "answer": 48,
+    "options": [
+      48,
+      38,
+      44,
+      47
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x7-57",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 7,
+    "formula": "8 × 7 = ？",
+    "display": "🐙 🐙 🐙 🐙 🐙 🐙 🐙 ",
+    "prompt": "🐙 一隻章魚有 8 隻長觸手，海底游來 7 隻章魚，一共有幾隻觸手？",
+    "chant": "七八五十六",
+    "answer": 56,
+    "options": [
+      59,
+      54,
+      56,
+      55
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x7-58",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 7,
+    "formula": "8 × 7 = ？",
+    "display": "🕷️ 🕷️ 🕷️ 🕷️ 🕷️ 🕷️ 🕷️ ",
+    "prompt": "🕷️ 一隻小蜘蛛有 8 隻腳，蜘蛛網上有 7 隻小蜘蛛，一共有幾隻腳？",
+    "chant": "七八五十六",
+    "answer": 56,
+    "options": [
+      56,
+      53,
+      51,
+      59
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x8-59",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 8,
+    "formula": "8 × 8 = ？",
+    "display": "🐙 🐙 🐙 🐙 🐙 🐙 🐙 🐙 ",
+    "prompt": "🐙 一隻章魚有 8 隻長觸手，海底游來 8 隻章魚，一共有幾隻觸手？",
+    "chant": "八八六十四",
+    "answer": 64,
+    "options": [
+      64,
+      68,
+      74,
+      66
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x8-60",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 8,
+    "formula": "8 × 8 = ？",
+    "display": "🕷️ 🕷️ 🕷️ 🕷️ 🕷️ 🕷️ 🕷️ 🕷️ ",
+    "prompt": "🕷️ 一隻小蜘蛛有 8 隻腳，蜘蛛網上有 8 隻小蜘蛛，一共有幾隻腳？",
+    "chant": "八八六十四",
+    "answer": 64,
+    "options": [
+      59,
+      64,
+      60,
+      61
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x9-61",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 9,
+    "formula": "8 × 9 = ？",
+    "display": "🐙 🐙 🐙 🐙 🐙 🐙 🐙 🐙 🐙 ",
+    "prompt": "🐙 一隻章魚有 8 隻長觸手，海底游來 9 隻章魚，一共有幾隻觸手？",
+    "chant": "八九七十二",
+    "answer": 72,
+    "options": [
+      77,
+      73,
+      75,
+      72
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-8x9-62",
+    "category": "tables_6_9",
+    "sub_unit": "8的乘法進階",
+    "base": 8,
+    "multiplier": 9,
+    "formula": "8 × 9 = ？",
+    "display": "🕷️ 🕷️ 🕷️ 🕷️ 🕷️ 🕷️ 🕷️ 🕷️ 🕷️ ",
+    "prompt": "🕷️ 一隻小蜘蛛有 8 隻腳，蜘蛛網上有 9 隻小蜘蛛，一共有幾隻腳？",
+    "chant": "八九七十二",
+    "answer": 72,
+    "options": [
+      72,
+      75,
+      77,
+      76
+    ],
+    "unit": "隻"
+  },
+  {
+    "id": "mult-9x1-63",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 1,
+    "formula": "9 × 1 = ？",
+    "display": "⚾ ",
+    "prompt": "⚾ 一支少棒隊有 9 位球員，球場上有 1 支隊伍，一共有幾位球員？",
+    "chant": "一九得九",
+    "answer": 9,
+    "options": [
+      19,
+      13,
+      11,
+      9
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x1-64",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 1,
+    "formula": "9 × 1 = ？",
+    "display": "🥞 ",
+    "prompt": "🥞 一盒九宮格鬆餅有 9 塊，買了 1 盒，一共有幾塊鬆餅？",
+    "chant": "一九得九",
+    "answer": 9,
+    "options": [
+      10,
+      9,
+      13,
+      14
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x2-65",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 2,
+    "formula": "9 × 2 = ？",
+    "display": "⚾ ⚾ ",
+    "prompt": "⚾ 一支少棒隊有 9 位球員，球場上有 2 支隊伍，一共有幾位球員？",
+    "chant": "二九十八",
+    "answer": 18,
+    "options": [
+      20,
+      18,
+      23,
+      17
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x2-66",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 2,
+    "formula": "9 × 2 = ？",
+    "display": "🥞 🥞 ",
+    "prompt": "🥞 一盒九宮格鬆餅有 9 塊，買了 2 盒，一共有幾塊鬆餅？",
+    "chant": "二九十八",
+    "answer": 18,
+    "options": [
+      18,
+      22,
+      14,
+      28
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x3-67",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 3,
+    "formula": "9 × 3 = ？",
+    "display": "⚾ ⚾ ⚾ ",
+    "prompt": "⚾ 一支少棒隊有 9 位球員，球場上有 3 支隊伍，一共有幾位球員？",
+    "chant": "三九二十七",
+    "answer": 27,
+    "options": [
+      27,
+      23,
+      22,
+      31
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x3-68",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 3,
+    "formula": "9 × 3 = ？",
+    "display": "🥞 🥞 🥞 ",
+    "prompt": "🥞 一盒九宮格鬆餅有 9 塊，買了 3 盒，一共有幾塊鬆餅？",
+    "chant": "三九二十七",
+    "answer": 27,
+    "options": [
+      27,
+      24,
+      23,
+      25
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x4-69",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 4,
+    "formula": "9 × 4 = ？",
+    "display": "⚾ ⚾ ⚾ ⚾ ",
+    "prompt": "⚾ 一支少棒隊有 9 位球員，球場上有 4 支隊伍，一共有幾位球員？",
+    "chant": "四九三十六",
+    "answer": 36,
+    "options": [
+      46,
+      36,
+      41,
+      39
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x4-70",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 4,
+    "formula": "9 × 4 = ？",
+    "display": "🥞 🥞 🥞 🥞 ",
+    "prompt": "🥞 一盒九宮格鬆餅有 9 塊，買了 4 盒，一共有幾塊鬆餅？",
+    "chant": "四九三十六",
+    "answer": 36,
+    "options": [
+      26,
+      35,
+      34,
+      36
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x5-71",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 5,
+    "formula": "9 × 5 = ？",
+    "display": "⚾ ⚾ ⚾ ⚾ ⚾ ",
+    "prompt": "⚾ 一支少棒隊有 9 位球員，球場上有 5 支隊伍，一共有幾位球員？",
+    "chant": "五九四十五",
+    "answer": 45,
+    "options": [
+      55,
+      47,
+      45,
+      46
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x5-72",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 5,
+    "formula": "9 × 5 = ？",
+    "display": "🥞 🥞 🥞 🥞 🥞 ",
+    "prompt": "🥞 一盒九宮格鬆餅有 9 塊，買了 5 盒，一共有幾塊鬆餅？",
+    "chant": "五九四十五",
+    "answer": 45,
+    "options": [
+      55,
+      50,
+      40,
+      45
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x6-73",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 6,
+    "formula": "9 × 6 = ？",
+    "display": "⚾ ⚾ ⚾ ⚾ ⚾ ⚾ ",
+    "prompt": "⚾ 一支少棒隊有 9 位球員，球場上有 6 支隊伍，一共有幾位球員？",
+    "chant": "六九五十四",
+    "answer": 54,
+    "options": [
+      54,
+      57,
+      58,
+      56
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x6-74",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 6,
+    "formula": "9 × 6 = ？",
+    "display": "🥞 🥞 🥞 🥞 🥞 🥞 ",
+    "prompt": "🥞 一盒九宮格鬆餅有 9 塊，買了 6 盒，一共有幾塊鬆餅？",
+    "chant": "六九五十四",
+    "answer": 54,
+    "options": [
+      54,
+      64,
+      56,
+      50
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x7-75",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 7,
+    "formula": "9 × 7 = ？",
+    "display": "⚾ ⚾ ⚾ ⚾ ⚾ ⚾ ⚾ ",
+    "prompt": "⚾ 一支少棒隊有 9 位球員，球場上有 7 支隊伍，一共有幾位球員？",
+    "chant": "七九六十三",
+    "answer": 63,
+    "options": [
+      64,
+      66,
+      63,
+      73
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x7-76",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 7,
+    "formula": "9 × 7 = ？",
+    "display": "🥞 🥞 🥞 🥞 🥞 🥞 🥞 ",
+    "prompt": "🥞 一盒九宮格鬆餅有 9 塊，買了 7 盒，一共有幾塊鬆餅？",
+    "chant": "七九六十三",
+    "answer": 63,
+    "options": [
+      67,
+      63,
+      58,
+      73
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x8-77",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 8,
+    "formula": "9 × 8 = ？",
+    "display": "⚾ ⚾ ⚾ ⚾ ⚾ ⚾ ⚾ ⚾ ",
+    "prompt": "⚾ 一支少棒隊有 9 位球員，球場上有 8 支隊伍，一共有幾位球員？",
+    "chant": "八九七十二",
+    "answer": 72,
+    "options": [
+      69,
+      72,
+      75,
+      74
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x8-78",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 8,
+    "formula": "9 × 8 = ？",
+    "display": "🥞 🥞 🥞 🥞 🥞 🥞 🥞 🥞 ",
+    "prompt": "🥞 一盒九宮格鬆餅有 9 塊，買了 8 盒，一共有幾塊鬆餅？",
+    "chant": "八九七十二",
+    "answer": 72,
+    "options": [
+      82,
+      75,
+      62,
+      72
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x9-79",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 9,
+    "formula": "9 × 9 = ？",
+    "display": "⚾ ⚾ ⚾ ⚾ ⚾ ⚾ ⚾ ⚾ ⚾ ",
+    "prompt": "⚾ 一支少棒隊有 9 位球員，球場上有 9 支隊伍，一共有幾位球員？",
+    "chant": "九九八十一",
+    "answer": 81,
+    "options": [
+      81,
+      80,
+      84,
+      78
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-9x9-80",
+    "category": "tables_6_9",
+    "sub_unit": "9的乘法進階",
+    "base": 9,
+    "multiplier": 9,
+    "formula": "9 × 9 = ？",
+    "display": "🥞 🥞 🥞 🥞 🥞 🥞 🥞 🥞 🥞 ",
+    "prompt": "🥞 一盒九宮格鬆餅有 9 塊，買了 9 盒，一共有幾塊鬆餅？",
+    "chant": "九九八十一",
+    "answer": 81,
+    "options": [
+      71,
+      81,
+      80,
+      76
+    ],
+    "unit": "位/塊"
+  },
+  {
+    "id": "mult-array-2x2-0",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 2,
+    "cols": 2,
+    "base": 2,
+    "multiplier": 2,
+    "formula": "2 排 × 2 個 = ？",
+    "display": "⭐ ⭐ \n⭐ ⭐ ",
+    "prompt": "一排有 2 個 ⭐，一共有 2 排。畫面上總共有幾個 ⭐？",
+    "chant": "二二得四",
+    "answer": 4,
+    "options": [
+      8,
+      4,
+      5,
+      14
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-2x3-1",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 2,
+    "cols": 3,
+    "base": 3,
+    "multiplier": 2,
+    "formula": "2 排 × 3 個 = ？",
+    "display": "⭐ ⭐ ⭐ \n⭐ ⭐ ⭐ ",
+    "prompt": "一排有 3 個 ⭐，一共有 2 排。畫面上總共有幾個 ⭐？",
+    "chant": "二三得六",
+    "answer": 6,
+    "options": [
+      4,
+      8,
+      5,
+      6
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-2x4-2",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 2,
+    "cols": 4,
+    "base": 4,
+    "multiplier": 2,
+    "formula": "2 排 × 4 個 = ？",
+    "display": "🍩 🍩 🍩 🍩 \n🍩 🍩 🍩 🍩 ",
+    "prompt": "一排有 4 個 🍩，一共有 2 排。畫面上總共有幾個 🍩？",
+    "chant": "二四得八",
+    "answer": 8,
+    "options": [
+      7,
+      10,
+      11,
+      8
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-2x5-3",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 2,
+    "cols": 5,
+    "base": 5,
+    "multiplier": 2,
+    "formula": "2 排 × 5 個 = ？",
+    "display": "🍓 🍓 🍓 🍓 🍓 \n🍓 🍓 🍓 🍓 🍓 ",
+    "prompt": "一排有 5 個 🍓，一共有 2 排。畫面上總共有幾個 🍓？",
+    "chant": "二五一十",
+    "answer": 10,
+    "options": [
+      9,
+      12,
+      10,
+      14
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-2x6-4",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 2,
+    "cols": 6,
+    "base": 6,
+    "multiplier": 2,
+    "formula": "2 排 × 6 個 = ？",
+    "display": "🍎 🍎 🍎 🍎 🍎 🍎 \n🍎 🍎 🍎 🍎 🍎 🍎 ",
+    "prompt": "一排有 6 個 🍎，一共有 2 排。畫面上總共有幾個 🍎？",
+    "chant": "二六十二",
+    "answer": 12,
+    "options": [
+      12,
+      22,
+      14,
+      13
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-3x2-5",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 3,
+    "cols": 2,
+    "base": 2,
+    "multiplier": 3,
+    "formula": "3 排 × 2 個 = ？",
+    "display": "🍉 🍉 \n🍉 🍉 \n🍉 🍉 ",
+    "prompt": "一排有 2 個 🍉，一共有 3 排。畫面上總共有幾個 🍉？",
+    "chant": "二三得六",
+    "answer": 6,
+    "options": [
+      11,
+      5,
+      6,
+      7
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-3x3-6",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 3,
+    "cols": 3,
+    "base": 3,
+    "multiplier": 3,
+    "formula": "3 排 × 3 個 = ？",
+    "display": "🍉 🍉 🍉 \n🍉 🍉 🍉 \n🍉 🍉 🍉 ",
+    "prompt": "一排有 3 個 🍉，一共有 3 排。畫面上總共有幾個 🍉？",
+    "chant": "三三得九",
+    "answer": 9,
+    "options": [
+      13,
+      9,
+      8,
+      7
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-3x4-7",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 3,
+    "cols": 4,
+    "base": 4,
+    "multiplier": 3,
+    "formula": "3 排 × 4 個 = ？",
+    "display": "🐤 🐤 🐤 🐤 \n🐤 🐤 🐤 🐤 \n🐤 🐤 🐤 🐤 ",
+    "prompt": "一排有 4 個 🐤，一共有 3 排。畫面上總共有幾個 🐤？",
+    "chant": "三四十二",
+    "answer": 12,
+    "options": [
+      12,
+      17,
+      13,
+      10
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-3x5-8",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 3,
+    "cols": 5,
+    "base": 5,
+    "multiplier": 3,
+    "formula": "3 排 × 5 個 = ？",
+    "display": "🌸 🌸 🌸 🌸 🌸 \n🌸 🌸 🌸 🌸 🌸 \n🌸 🌸 🌸 🌸 🌸 ",
+    "prompt": "一排有 5 個 🌸，一共有 3 排。畫面上總共有幾個 🌸？",
+    "chant": "三五十五",
+    "answer": 15,
+    "options": [
+      18,
+      15,
+      14,
+      11
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-3x6-9",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 3,
+    "cols": 6,
+    "base": 6,
+    "multiplier": 3,
+    "formula": "3 排 × 6 個 = ？",
+    "display": "🍪 🍪 🍪 🍪 🍪 🍪 \n🍪 🍪 🍪 🍪 🍪 🍪 \n🍪 🍪 🍪 🍪 🍪 🍪 ",
+    "prompt": "一排有 6 個 🍪，一共有 3 排。畫面上總共有幾個 🍪？",
+    "chant": "三六十八",
+    "answer": 18,
+    "options": [
+      23,
+      17,
+      18,
+      19
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-4x2-10",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 4,
+    "cols": 2,
+    "base": 2,
+    "multiplier": 4,
+    "formula": "4 排 × 2 個 = ？",
+    "display": "🍩 🍩 \n🍩 🍩 \n🍩 🍩 \n🍩 🍩 ",
+    "prompt": "一排有 2 個 🍩，一共有 4 排。畫面上總共有幾個 🍩？",
+    "chant": "二四得八",
+    "answer": 8,
+    "options": [
+      12,
+      8,
+      11,
+      4
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-4x3-11",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 4,
+    "cols": 3,
+    "base": 3,
+    "multiplier": 4,
+    "formula": "4 排 × 3 個 = ？",
+    "display": "🧁 🧁 🧁 \n🧁 🧁 🧁 \n🧁 🧁 🧁 \n🧁 🧁 🧁 ",
+    "prompt": "一排有 3 個 🧁，一共有 4 排。畫面上總共有幾個 🧁？",
+    "chant": "三四十二",
+    "answer": 12,
+    "options": [
+      15,
+      12,
+      17,
+      11
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-4x4-12",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 4,
+    "cols": 4,
+    "base": 4,
+    "multiplier": 4,
+    "formula": "4 排 × 4 個 = ？",
+    "display": "🍪 🍪 🍪 🍪 \n🍪 🍪 🍪 🍪 \n🍪 🍪 🍪 🍪 \n🍪 🍪 🍪 🍪 ",
+    "prompt": "一排有 4 個 🍪，一共有 4 排。畫面上總共有幾個 🍪？",
+    "chant": "四四十六",
+    "answer": 16,
+    "options": [
+      13,
+      14,
+      21,
+      16
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-4x5-13",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 4,
+    "cols": 5,
+    "base": 5,
+    "multiplier": 4,
+    "formula": "4 排 × 5 個 = ？",
+    "display": "🍪 🍪 🍪 🍪 🍪 \n🍪 🍪 🍪 🍪 🍪 \n🍪 🍪 🍪 🍪 🍪 \n🍪 🍪 🍪 🍪 🍪 ",
+    "prompt": "一排有 5 個 🍪，一共有 4 排。畫面上總共有幾個 🍪？",
+    "chant": "四五二十",
+    "answer": 20,
+    "options": [
+      22,
+      20,
+      10,
+      30
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-4x6-14",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 4,
+    "cols": 6,
+    "base": 6,
+    "multiplier": 4,
+    "formula": "4 排 × 6 個 = ？",
+    "display": "🍪 🍪 🍪 🍪 🍪 🍪 \n🍪 🍪 🍪 🍪 🍪 🍪 \n🍪 🍪 🍪 🍪 🍪 🍪 \n🍪 🍪 🍪 🍪 🍪 🍪 ",
+    "prompt": "一排有 6 個 🍪，一共有 4 排。畫面上總共有幾個 🍪？",
+    "chant": "四六二十四",
+    "answer": 24,
+    "options": [
+      22,
+      19,
+      27,
+      24
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-5x2-15",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 5,
+    "cols": 2,
+    "base": 2,
+    "multiplier": 5,
+    "formula": "5 排 × 2 個 = ？",
+    "display": "🍎 🍎 \n🍎 🍎 \n🍎 🍎 \n🍎 🍎 \n🍎 🍎 ",
+    "prompt": "一排有 2 個 🍎，一共有 5 排。畫面上總共有幾個 🍎？",
+    "chant": "二五一十",
+    "answer": 10,
+    "options": [
+      8,
+      10,
+      20,
+      7
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-5x3-16",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 5,
+    "cols": 3,
+    "base": 3,
+    "multiplier": 5,
+    "formula": "5 排 × 3 個 = ？",
+    "display": "🌸 🌸 🌸 \n🌸 🌸 🌸 \n🌸 🌸 🌸 \n🌸 🌸 🌸 \n🌸 🌸 🌸 ",
+    "prompt": "一排有 3 個 🌸，一共有 5 排。畫面上總共有幾個 🌸？",
+    "chant": "三五十五",
+    "answer": 15,
+    "options": [
+      18,
+      10,
+      15,
+      16
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-5x4-17",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 5,
+    "cols": 4,
+    "base": 4,
+    "multiplier": 5,
+    "formula": "5 排 × 4 個 = ？",
+    "display": "🍓 🍓 🍓 🍓 \n🍓 🍓 🍓 🍓 \n🍓 🍓 🍓 🍓 \n🍓 🍓 🍓 🍓 \n🍓 🍓 🍓 🍓 ",
+    "prompt": "一排有 4 個 🍓，一共有 5 排。畫面上總共有幾個 🍓？",
+    "chant": "四五二十",
+    "answer": 20,
+    "options": [
+      21,
+      20,
+      19,
+      15
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-5x5-18",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 5,
+    "cols": 5,
+    "base": 5,
+    "multiplier": 5,
+    "formula": "5 排 × 5 個 = ？",
+    "display": "🍎 🍎 🍎 🍎 🍎 \n🍎 🍎 🍎 🍎 🍎 \n🍎 🍎 🍎 🍎 🍎 \n🍎 🍎 🍎 🍎 🍎 \n🍎 🍎 🍎 🍎 🍎 ",
+    "prompt": "一排有 5 個 🍎，一共有 5 排。畫面上總共有幾個 🍎？",
+    "chant": "五五二十五",
+    "answer": 25,
+    "options": [
+      15,
+      30,
+      21,
+      25
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-array-5x6-19",
+    "category": "visual_array",
+    "sub_unit": "圖形排列乘法",
+    "rows": 5,
+    "cols": 6,
+    "base": 6,
+    "multiplier": 5,
+    "formula": "5 排 × 6 個 = ？",
+    "display": "🍎 🍎 🍎 🍎 🍎 🍎 \n🍎 🍎 🍎 🍎 🍎 🍎 \n🍎 🍎 🍎 🍎 🍎 🍎 \n🍎 🍎 🍎 🍎 🍎 🍎 \n🍎 🍎 🍎 🍎 🍎 🍎 ",
+    "prompt": "一排有 6 個 🍎，一共有 5 排。畫面上總共有幾個 🍎？",
+    "chant": "五六三十",
+    "answer": 30,
+    "options": [
+      26,
+      25,
+      30,
+      40
+    ],
+    "unit": "個"
+  },
+  {
+    "id": "mult-quiz-1x1",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 1,
+    "multiplier": 1,
+    "formula": "1 × 1 = ？",
+    "display": "✨ 1 × 1 ✨",
+    "prompt": "考考你：1 乘以 1 等於多少呢？口訣是『一一得一』喔！",
+    "chant": "一一得一",
+    "answer": 1,
+    "options": [
+      5,
+      11,
+      1,
+      6
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-1x2",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 1,
+    "multiplier": 2,
+    "formula": "1 × 2 = ？",
+    "display": "✨ 1 × 2 ✨",
+    "prompt": "考考你：1 乘以 2 等於多少呢？口訣是『一二得二』喔！",
+    "chant": "一二得二",
+    "answer": 2,
+    "options": [
+      5,
+      3,
+      7,
+      2
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-1x3",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 1,
+    "multiplier": 3,
+    "formula": "1 × 3 = ？",
+    "display": "✨ 1 × 3 ✨",
+    "prompt": "考考你：1 乘以 3 等於多少呢？口訣是『一三得三』喔！",
+    "chant": "一三得三",
+    "answer": 3,
+    "options": [
+      3,
+      7,
+      6,
+      8
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-1x4",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 1,
+    "multiplier": 4,
+    "formula": "1 × 4 = ？",
+    "display": "✨ 1 × 4 ✨",
+    "prompt": "考考你：1 乘以 4 等於多少呢？口訣是『一四得四』喔！",
+    "chant": "一四得四",
+    "answer": 4,
+    "options": [
+      2,
+      4,
+      14,
+      1
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-1x5",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 1,
+    "multiplier": 5,
+    "formula": "1 × 5 = ？",
+    "display": "✨ 1 × 5 ✨",
+    "prompt": "考考你：1 乘以 5 等於多少呢？口訣是『一五得五』喔！",
+    "chant": "一五得五",
+    "answer": 5,
+    "options": [
+      1,
+      9,
+      3,
+      5
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-1x6",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 1,
+    "multiplier": 6,
+    "formula": "1 × 6 = ？",
+    "display": "✨ 1 × 6 ✨",
+    "prompt": "考考你：1 乘以 6 等於多少呢？口訣是『一六得六』喔！",
+    "chant": "一六得六",
+    "answer": 6,
+    "options": [
+      6,
+      10,
+      2,
+      7
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-1x7",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 1,
+    "multiplier": 7,
+    "formula": "1 × 7 = ？",
+    "display": "✨ 1 × 7 ✨",
+    "prompt": "考考你：1 乘以 7 等於多少呢？口訣是『一七得七』喔！",
+    "chant": "一七得七",
+    "answer": 7,
+    "options": [
+      11,
+      8,
+      7,
+      4
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-1x8",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 1,
+    "multiplier": 8,
+    "formula": "1 × 8 = ？",
+    "display": "✨ 1 × 8 ✨",
+    "prompt": "考考你：1 乘以 8 等於多少呢？口訣是『一八得八』喔！",
+    "chant": "一八得八",
+    "answer": 8,
+    "options": [
+      11,
+      8,
+      3,
+      5
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-1x9",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 1,
+    "multiplier": 9,
+    "formula": "1 × 9 = ？",
+    "display": "✨ 1 × 9 ✨",
+    "prompt": "考考你：1 乘以 9 等於多少呢？口訣是『一九得九』喔！",
+    "chant": "一九得九",
+    "answer": 9,
+    "options": [
+      11,
+      7,
+      13,
+      9
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-2x1",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 2,
+    "multiplier": 1,
+    "formula": "2 × 1 = ？",
+    "display": "✨ 2 × 1 ✨",
+    "prompt": "考考你：2 乘以 1 等於多少呢？口訣是『一二得二』喔！",
+    "chant": "一二得二",
+    "answer": 2,
+    "options": [
+      4,
+      2,
+      5,
+      6
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-2x2",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 2,
+    "multiplier": 2,
+    "formula": "2 × 2 = ？",
+    "display": "✨ 2 × 2 ✨",
+    "prompt": "考考你：2 乘以 2 等於多少呢？口訣是『二二得四』喔！",
+    "chant": "二二得四",
+    "answer": 4,
+    "options": [
+      8,
+      9,
+      3,
+      4
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-2x3",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 2,
+    "multiplier": 3,
+    "formula": "2 × 3 = ？",
+    "display": "✨ 2 × 3 ✨",
+    "prompt": "考考你：2 乘以 3 等於多少呢？口訣是『二三得六』喔！",
+    "chant": "二三得六",
+    "answer": 6,
+    "options": [
+      1,
+      3,
+      11,
+      6
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-2x4",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 2,
+    "multiplier": 4,
+    "formula": "2 × 4 = ？",
+    "display": "✨ 2 × 4 ✨",
+    "prompt": "考考你：2 乘以 4 等於多少呢？口訣是『二四得八』喔！",
+    "chant": "二四得八",
+    "answer": 8,
+    "options": [
+      5,
+      8,
+      3,
+      10
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-2x5",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 2,
+    "multiplier": 5,
+    "formula": "2 × 5 = ？",
+    "display": "✨ 2 × 5 ✨",
+    "prompt": "考考你：2 乘以 5 等於多少呢？口訣是『二五一十』喔！",
+    "chant": "二五一十",
+    "answer": 10,
+    "options": [
+      15,
+      13,
+      10,
+      8
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-2x6",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 2,
+    "multiplier": 6,
+    "formula": "2 × 6 = ？",
+    "display": "✨ 2 × 6 ✨",
+    "prompt": "考考你：2 乘以 6 等於多少呢？口訣是『二六十二』喔！",
+    "chant": "二六十二",
+    "answer": 12,
+    "options": [
+      12,
+      15,
+      11,
+      2
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-2x7",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 2,
+    "multiplier": 7,
+    "formula": "2 × 7 = ？",
+    "display": "✨ 2 × 7 ✨",
+    "prompt": "考考你：2 乘以 7 等於多少呢？口訣是『二七十四』喔！",
+    "chant": "二七十四",
+    "answer": 14,
+    "options": [
+      11,
+      4,
+      14,
+      12
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-2x8",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 2,
+    "multiplier": 8,
+    "formula": "2 × 8 = ？",
+    "display": "✨ 2 × 8 ✨",
+    "prompt": "考考你：2 乘以 8 等於多少呢？口訣是『二八十六』喔！",
+    "chant": "二八十六",
+    "answer": 16,
+    "options": [
+      15,
+      6,
+      16,
+      20
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-2x9",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 2,
+    "multiplier": 9,
+    "formula": "2 × 9 = ？",
+    "display": "✨ 2 × 9 ✨",
+    "prompt": "考考你：2 乘以 9 等於多少呢？口訣是『二九十八』喔！",
+    "chant": "二九十八",
+    "answer": 18,
+    "options": [
+      15,
+      21,
+      18,
+      13
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-3x1",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 3,
+    "multiplier": 1,
+    "formula": "3 × 1 = ？",
+    "display": "✨ 3 × 1 ✨",
+    "prompt": "考考你：3 乘以 1 等於多少呢？口訣是『一三得三』喔！",
+    "chant": "一三得三",
+    "answer": 3,
+    "options": [
+      5,
+      7,
+      13,
+      3
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-3x2",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 3,
+    "multiplier": 2,
+    "formula": "3 × 2 = ？",
+    "display": "✨ 3 × 2 ✨",
+    "prompt": "考考你：3 乘以 2 等於多少呢？口訣是『二三得六』喔！",
+    "chant": "二三得六",
+    "answer": 6,
+    "options": [
+      8,
+      2,
+      6,
+      9
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-3x3",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 3,
+    "multiplier": 3,
+    "formula": "3 × 3 = ？",
+    "display": "✨ 3 × 3 ✨",
+    "prompt": "考考你：3 乘以 3 等於多少呢？口訣是『三三得九』喔！",
+    "chant": "三三得九",
+    "answer": 9,
+    "options": [
+      4,
+      10,
+      6,
+      9
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-3x4",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 3,
+    "multiplier": 4,
+    "formula": "3 × 4 = ？",
+    "display": "✨ 3 × 4 ✨",
+    "prompt": "考考你：3 乘以 4 等於多少呢？口訣是『三四十二』喔！",
+    "chant": "三四十二",
+    "answer": 12,
+    "options": [
+      11,
+      2,
+      12,
+      8
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-3x5",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 3,
+    "multiplier": 5,
+    "formula": "3 × 5 = ？",
+    "display": "✨ 3 × 5 ✨",
+    "prompt": "考考你：3 乘以 5 等於多少呢？口訣是『三五十五』喔！",
+    "chant": "三五十五",
+    "answer": 15,
+    "options": [
+      10,
+      5,
+      15,
+      14
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-3x6",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 3,
+    "multiplier": 6,
+    "formula": "3 × 6 = ？",
+    "display": "✨ 3 × 6 ✨",
+    "prompt": "考考你：3 乘以 6 等於多少呢？口訣是『三六十八』喔！",
+    "chant": "三六十八",
+    "answer": 18,
+    "options": [
+      20,
+      18,
+      13,
+      23
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-3x7",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 3,
+    "multiplier": 7,
+    "formula": "3 × 7 = ？",
+    "display": "✨ 3 × 7 ✨",
+    "prompt": "考考你：3 乘以 7 等於多少呢？口訣是『三七二十一』喔！",
+    "chant": "三七二十一",
+    "answer": 21,
+    "options": [
+      21,
+      24,
+      19,
+      18
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-3x8",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 3,
+    "multiplier": 8,
+    "formula": "3 × 8 = ？",
+    "display": "✨ 3 × 8 ✨",
+    "prompt": "考考你：3 乘以 8 等於多少呢？口訣是『三八二十四』喔！",
+    "chant": "三八二十四",
+    "answer": 24,
+    "options": [
+      24,
+      25,
+      29,
+      19
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-3x9",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 3,
+    "multiplier": 9,
+    "formula": "3 × 9 = ？",
+    "display": "✨ 3 × 9 ✨",
+    "prompt": "考考你：3 乘以 9 等於多少呢？口訣是『三九二十七』喔！",
+    "chant": "三九二十七",
+    "answer": 27,
+    "options": [
+      25,
+      31,
+      27,
+      17
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-4x1",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 4,
+    "multiplier": 1,
+    "formula": "4 × 1 = ？",
+    "display": "✨ 4 × 1 ✨",
+    "prompt": "考考你：4 乘以 1 等於多少呢？口訣是『一四得四』喔！",
+    "chant": "一四得四",
+    "answer": 4,
+    "options": [
+      5,
+      4,
+      3,
+      8
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-4x2",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 4,
+    "multiplier": 2,
+    "formula": "4 × 2 = ？",
+    "display": "✨ 4 × 2 ✨",
+    "prompt": "考考你：4 乘以 2 等於多少呢？口訣是『二四得八』喔！",
+    "chant": "二四得八",
+    "answer": 8,
+    "options": [
+      11,
+      8,
+      7,
+      10
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-4x3",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 4,
+    "multiplier": 3,
+    "formula": "4 × 3 = ？",
+    "display": "✨ 4 × 3 ✨",
+    "prompt": "考考你：4 乘以 3 等於多少呢？口訣是『三四十二』喔！",
+    "chant": "三四十二",
+    "answer": 12,
+    "options": [
+      22,
+      12,
+      16,
+      17
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-4x4",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 4,
+    "multiplier": 4,
+    "formula": "4 × 4 = ？",
+    "display": "✨ 4 × 4 ✨",
+    "prompt": "考考你：4 乘以 4 等於多少呢？口訣是『四四十六』喔！",
+    "chant": "四四十六",
+    "answer": 16,
+    "options": [
+      16,
+      20,
+      6,
+      17
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-4x5",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 4,
+    "multiplier": 5,
+    "formula": "4 × 5 = ？",
+    "display": "✨ 4 × 5 ✨",
+    "prompt": "考考你：4 乘以 5 等於多少呢？口訣是『四五二十』喔！",
+    "chant": "四五二十",
+    "answer": 20,
+    "options": [
+      30,
+      22,
+      23,
+      20
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-4x6",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 4,
+    "multiplier": 6,
+    "formula": "4 × 6 = ？",
+    "display": "✨ 4 × 6 ✨",
+    "prompt": "考考你：4 乘以 6 等於多少呢？口訣是『四六二十四』喔！",
+    "chant": "四六二十四",
+    "answer": 24,
+    "options": [
+      24,
+      34,
+      25,
+      20
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-4x7",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 4,
+    "multiplier": 7,
+    "formula": "4 × 7 = ？",
+    "display": "✨ 4 × 7 ✨",
+    "prompt": "考考你：4 乘以 7 等於多少呢？口訣是『四七二十八』喔！",
+    "chant": "四七二十八",
+    "answer": 28,
+    "options": [
+      23,
+      33,
+      28,
+      25
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-4x8",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 4,
+    "multiplier": 8,
+    "formula": "4 × 8 = ？",
+    "display": "✨ 4 × 8 ✨",
+    "prompt": "考考你：4 乘以 8 等於多少呢？口訣是『四八三十二』喔！",
+    "chant": "四八三十二",
+    "answer": 32,
+    "options": [
+      34,
+      32,
+      35,
+      22
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-4x9",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 4,
+    "multiplier": 9,
+    "formula": "4 × 9 = ？",
+    "display": "✨ 4 × 9 ✨",
+    "prompt": "考考你：4 乘以 9 等於多少呢？口訣是『四九三十六』喔！",
+    "chant": "四九三十六",
+    "answer": 36,
+    "options": [
+      36,
+      40,
+      32,
+      46
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-5x1",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 5,
+    "multiplier": 1,
+    "formula": "5 × 1 = ？",
+    "display": "✨ 5 × 1 ✨",
+    "prompt": "考考你：5 乘以 1 等於多少呢？口訣是『一五得五』喔！",
+    "chant": "一五得五",
+    "answer": 5,
+    "options": [
+      15,
+      5,
+      7,
+      3
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-5x2",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 5,
+    "multiplier": 2,
+    "formula": "5 × 2 = ？",
+    "display": "✨ 5 × 2 ✨",
+    "prompt": "考考你：5 乘以 2 等於多少呢？口訣是『二五一十』喔！",
+    "chant": "二五一十",
+    "answer": 10,
+    "options": [
+      11,
+      6,
+      7,
+      10
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-5x3",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 5,
+    "multiplier": 3,
+    "formula": "5 × 3 = ？",
+    "display": "✨ 5 × 3 ✨",
+    "prompt": "考考你：5 乘以 3 等於多少呢？口訣是『三五十五』喔！",
+    "chant": "三五十五",
+    "answer": 15,
+    "options": [
+      25,
+      12,
+      18,
+      15
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-5x4",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 5,
+    "multiplier": 4,
+    "formula": "5 × 4 = ？",
+    "display": "✨ 5 × 4 ✨",
+    "prompt": "考考你：5 乘以 4 等於多少呢？口訣是『四五二十』喔！",
+    "chant": "四五二十",
+    "answer": 20,
+    "options": [
+      20,
+      18,
+      25,
+      23
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-5x5",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 5,
+    "multiplier": 5,
+    "formula": "5 × 5 = ？",
+    "display": "✨ 5 × 5 ✨",
+    "prompt": "考考你：5 乘以 5 等於多少呢？口訣是『五五二十五』喔！",
+    "chant": "五五二十五",
+    "answer": 25,
+    "options": [
+      24,
+      29,
+      25,
+      21
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-5x6",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 5,
+    "multiplier": 6,
+    "formula": "5 × 6 = ？",
+    "display": "✨ 5 × 6 ✨",
+    "prompt": "考考你：5 乘以 6 等於多少呢？口訣是『五六三十』喔！",
+    "chant": "五六三十",
+    "answer": 30,
+    "options": [
+      25,
+      40,
+      30,
+      26
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-5x7",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 5,
+    "multiplier": 7,
+    "formula": "5 × 7 = ？",
+    "display": "✨ 5 × 7 ✨",
+    "prompt": "考考你：5 乘以 7 等於多少呢？口訣是『五七三十五』喔！",
+    "chant": "五七三十五",
+    "answer": 35,
+    "options": [
+      32,
+      35,
+      33,
+      40
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-5x8",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 5,
+    "multiplier": 8,
+    "formula": "5 × 8 = ？",
+    "display": "✨ 5 × 8 ✨",
+    "prompt": "考考你：5 乘以 8 等於多少呢？口訣是『五八四十』喔！",
+    "chant": "五八四十",
+    "answer": 40,
+    "options": [
+      43,
+      44,
+      40,
+      30
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-5x9",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 5,
+    "multiplier": 9,
+    "formula": "5 × 9 = ？",
+    "display": "✨ 5 × 9 ✨",
+    "prompt": "考考你：5 乘以 9 等於多少呢？口訣是『五九四十五』喔！",
+    "chant": "五九四十五",
+    "answer": 45,
+    "options": [
+      44,
+      40,
+      48,
+      45
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-6x1",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 6,
+    "multiplier": 1,
+    "formula": "6 × 1 = ？",
+    "display": "✨ 6 × 1 ✨",
+    "prompt": "考考你：6 乘以 1 等於多少呢？口訣是『一六得六』喔！",
+    "chant": "一六得六",
+    "answer": 6,
+    "options": [
+      3,
+      6,
+      11,
+      5
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-6x2",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 6,
+    "multiplier": 2,
+    "formula": "6 × 2 = ？",
+    "display": "✨ 6 × 2 ✨",
+    "prompt": "考考你：6 乘以 2 等於多少呢？口訣是『二六十二』喔！",
+    "chant": "二六十二",
+    "answer": 12,
+    "options": [
+      14,
+      15,
+      12,
+      2
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-6x3",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 6,
+    "multiplier": 3,
+    "formula": "6 × 3 = ？",
+    "display": "✨ 6 × 3 ✨",
+    "prompt": "考考你：6 乘以 3 等於多少呢？口訣是『三六十八』喔！",
+    "chant": "三六十八",
+    "answer": 18,
+    "options": [
+      23,
+      21,
+      8,
+      18
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-6x4",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 6,
+    "multiplier": 4,
+    "formula": "6 × 4 = ？",
+    "display": "✨ 6 × 4 ✨",
+    "prompt": "考考你：6 乘以 4 等於多少呢？口訣是『四六二十四』喔！",
+    "chant": "四六二十四",
+    "answer": 24,
+    "options": [
+      24,
+      19,
+      21,
+      23
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-6x5",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 6,
+    "multiplier": 5,
+    "formula": "6 × 5 = ？",
+    "display": "✨ 6 × 5 ✨",
+    "prompt": "考考你：6 乘以 5 等於多少呢？口訣是『五六三十』喔！",
+    "chant": "五六三十",
+    "answer": 30,
+    "options": [
+      35,
+      29,
+      30,
+      27
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-6x6",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 6,
+    "multiplier": 6,
+    "formula": "6 × 6 = ？",
+    "display": "✨ 6 × 6 ✨",
+    "prompt": "考考你：6 乘以 6 等於多少呢？口訣是『六六三十六』喔！",
+    "chant": "六六三十六",
+    "answer": 36,
+    "options": [
+      36,
+      40,
+      26,
+      33
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-6x7",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 6,
+    "multiplier": 7,
+    "formula": "6 × 7 = ？",
+    "display": "✨ 6 × 7 ✨",
+    "prompt": "考考你：6 乘以 7 等於多少呢？口訣是『六七四十二』喔！",
+    "chant": "六七四十二",
+    "answer": 42,
+    "options": [
+      52,
+      42,
+      43,
+      39
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-6x8",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 6,
+    "multiplier": 8,
+    "formula": "6 × 8 = ？",
+    "display": "✨ 6 × 8 ✨",
+    "prompt": "考考你：6 乘以 8 等於多少呢？口訣是『六八四十八』喔！",
+    "chant": "六八四十八",
+    "answer": 48,
+    "options": [
+      49,
+      48,
+      43,
+      45
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-6x9",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 6,
+    "multiplier": 9,
+    "formula": "6 × 9 = ？",
+    "display": "✨ 6 × 9 ✨",
+    "prompt": "考考你：6 乘以 9 等於多少呢？口訣是『六九五十四』喔！",
+    "chant": "六九五十四",
+    "answer": 54,
+    "options": [
+      53,
+      49,
+      54,
+      50
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-7x1",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 7,
+    "multiplier": 1,
+    "formula": "7 × 1 = ？",
+    "display": "✨ 7 × 1 ✨",
+    "prompt": "考考你：7 乘以 1 等於多少呢？口訣是『一七得七』喔！",
+    "chant": "一七得七",
+    "answer": 7,
+    "options": [
+      2,
+      10,
+      9,
+      7
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-7x2",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 7,
+    "multiplier": 2,
+    "formula": "7 × 2 = ？",
+    "display": "✨ 7 × 2 ✨",
+    "prompt": "考考你：7 乘以 2 等於多少呢？口訣是『二七十四』喔！",
+    "chant": "二七十四",
+    "answer": 14,
+    "options": [
+      24,
+      13,
+      19,
+      14
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-7x3",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 7,
+    "multiplier": 3,
+    "formula": "7 × 3 = ？",
+    "display": "✨ 7 × 3 ✨",
+    "prompt": "考考你：7 乘以 3 等於多少呢？口訣是『三七二十一』喔！",
+    "chant": "三七二十一",
+    "answer": 21,
+    "options": [
+      24,
+      21,
+      16,
+      26
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-7x4",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 7,
+    "multiplier": 4,
+    "formula": "7 × 4 = ？",
+    "display": "✨ 7 × 4 ✨",
+    "prompt": "考考你：7 乘以 4 等於多少呢？口訣是『四七二十八』喔！",
+    "chant": "四七二十八",
+    "answer": 28,
+    "options": [
+      31,
+      29,
+      28,
+      26
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-7x5",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 7,
+    "multiplier": 5,
+    "formula": "7 × 5 = ？",
+    "display": "✨ 7 × 5 ✨",
+    "prompt": "考考你：7 乘以 5 等於多少呢？口訣是『五七三十五』喔！",
+    "chant": "五七三十五",
+    "answer": 35,
+    "options": [
+      39,
+      35,
+      37,
+      31
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-7x6",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 7,
+    "multiplier": 6,
+    "formula": "7 × 6 = ？",
+    "display": "✨ 7 × 6 ✨",
+    "prompt": "考考你：7 乘以 6 等於多少呢？口訣是『六七四十二』喔！",
+    "chant": "六七四十二",
+    "answer": 42,
+    "options": [
+      46,
+      44,
+      37,
+      42
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-7x7",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 7,
+    "multiplier": 7,
+    "formula": "7 × 7 = ？",
+    "display": "✨ 7 × 7 ✨",
+    "prompt": "考考你：7 乘以 7 等於多少呢？口訣是『七七四十九』喔！",
+    "chant": "七七四十九",
+    "answer": 49,
+    "options": [
+      45,
+      54,
+      48,
+      49
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-7x8",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 7,
+    "multiplier": 8,
+    "formula": "7 × 8 = ？",
+    "display": "✨ 7 × 8 ✨",
+    "prompt": "考考你：7 乘以 8 等於多少呢？口訣是『七八五十六』喔！",
+    "chant": "七八五十六",
+    "answer": 56,
+    "options": [
+      51,
+      52,
+      56,
+      59
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-7x9",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 7,
+    "multiplier": 9,
+    "formula": "7 × 9 = ？",
+    "display": "✨ 7 × 9 ✨",
+    "prompt": "考考你：7 乘以 9 等於多少呢？口訣是『七九六十三』喔！",
+    "chant": "七九六十三",
+    "answer": 63,
+    "options": [
+      73,
+      63,
+      67,
+      53
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-8x1",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 8,
+    "multiplier": 1,
+    "formula": "8 × 1 = ？",
+    "display": "✨ 8 × 1 ✨",
+    "prompt": "考考你：8 乘以 1 等於多少呢？口訣是『一八得八』喔！",
+    "chant": "一八得八",
+    "answer": 8,
+    "options": [
+      12,
+      8,
+      9,
+      11
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-8x2",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 8,
+    "multiplier": 2,
+    "formula": "8 × 2 = ？",
+    "display": "✨ 8 × 2 ✨",
+    "prompt": "考考你：8 乘以 2 等於多少呢？口訣是『二八十六』喔！",
+    "chant": "二八十六",
+    "answer": 16,
+    "options": [
+      26,
+      16,
+      13,
+      15
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-8x3",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 8,
+    "multiplier": 3,
+    "formula": "8 × 3 = ？",
+    "display": "✨ 8 × 3 ✨",
+    "prompt": "考考你：8 乘以 3 等於多少呢？口訣是『三八二十四』喔！",
+    "chant": "三八二十四",
+    "answer": 24,
+    "options": [
+      26,
+      24,
+      22,
+      27
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-8x4",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 8,
+    "multiplier": 4,
+    "formula": "8 × 4 = ？",
+    "display": "✨ 8 × 4 ✨",
+    "prompt": "考考你：8 乘以 4 等於多少呢？口訣是『四八三十二』喔！",
+    "chant": "四八三十二",
+    "answer": 32,
+    "options": [
+      37,
+      22,
+      34,
+      32
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-8x5",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 8,
+    "multiplier": 5,
+    "formula": "8 × 5 = ？",
+    "display": "✨ 8 × 5 ✨",
+    "prompt": "考考你：8 乘以 5 等於多少呢？口訣是『五八四十』喔！",
+    "chant": "五八四十",
+    "answer": 40,
+    "options": [
+      40,
+      39,
+      43,
+      41
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-8x6",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 8,
+    "multiplier": 6,
+    "formula": "8 × 6 = ？",
+    "display": "✨ 8 × 6 ✨",
+    "prompt": "考考你：8 乘以 6 等於多少呢？口訣是『六八四十八』喔！",
+    "chant": "六八四十八",
+    "answer": 48,
+    "options": [
+      38,
+      48,
+      44,
+      46
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-8x7",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 8,
+    "multiplier": 7,
+    "formula": "8 × 7 = ？",
+    "display": "✨ 8 × 7 ✨",
+    "prompt": "考考你：8 乘以 7 等於多少呢？口訣是『七八五十六』喔！",
+    "chant": "七八五十六",
+    "answer": 56,
+    "options": [
+      56,
+      54,
+      57,
+      46
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-8x8",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 8,
+    "multiplier": 8,
+    "formula": "8 × 8 = ？",
+    "display": "✨ 8 × 8 ✨",
+    "prompt": "考考你：8 乘以 8 等於多少呢？口訣是『八八六十四』喔！",
+    "chant": "八八六十四",
+    "answer": 64,
+    "options": [
+      74,
+      62,
+      66,
+      64
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-8x9",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 8,
+    "multiplier": 9,
+    "formula": "8 × 9 = ？",
+    "display": "✨ 8 × 9 ✨",
+    "prompt": "考考你：8 乘以 9 等於多少呢？口訣是『八九七十二』喔！",
+    "chant": "八九七十二",
+    "answer": 72,
+    "options": [
+      74,
+      72,
+      75,
+      76
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-9x1",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 9,
+    "multiplier": 1,
+    "formula": "9 × 1 = ？",
+    "display": "✨ 9 × 1 ✨",
+    "prompt": "考考你：9 乘以 1 等於多少呢？口訣是『一九得九』喔！",
+    "chant": "一九得九",
+    "answer": 9,
+    "options": [
+      9,
+      7,
+      14,
+      6
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-9x2",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 9,
+    "multiplier": 2,
+    "formula": "9 × 2 = ？",
+    "display": "✨ 9 × 2 ✨",
+    "prompt": "考考你：9 乘以 2 等於多少呢？口訣是『二九十八』喔！",
+    "chant": "二九十八",
+    "answer": 18,
+    "options": [
+      20,
+      18,
+      21,
+      14
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-9x3",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 9,
+    "multiplier": 3,
+    "formula": "9 × 3 = ？",
+    "display": "✨ 9 × 3 ✨",
+    "prompt": "考考你：9 乘以 3 等於多少呢？口訣是『三九二十七』喔！",
+    "chant": "三九二十七",
+    "answer": 27,
+    "options": [
+      28,
+      32,
+      27,
+      26
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-9x4",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 9,
+    "multiplier": 4,
+    "formula": "9 × 4 = ？",
+    "display": "✨ 9 × 4 ✨",
+    "prompt": "考考你：9 乘以 4 等於多少呢？口訣是『四九三十六』喔！",
+    "chant": "四九三十六",
+    "answer": 36,
+    "options": [
+      32,
+      36,
+      41,
+      33
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-9x5",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 9,
+    "multiplier": 5,
+    "formula": "9 × 5 = ？",
+    "display": "✨ 9 × 5 ✨",
+    "prompt": "考考你：9 乘以 5 等於多少呢？口訣是『五九四十五』喔！",
+    "chant": "五九四十五",
+    "answer": 45,
+    "options": [
+      45,
+      42,
+      47,
+      44
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-9x6",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 9,
+    "multiplier": 6,
+    "formula": "9 × 6 = ？",
+    "display": "✨ 9 × 6 ✨",
+    "prompt": "考考你：9 乘以 6 等於多少呢？口訣是『六九五十四』喔！",
+    "chant": "六九五十四",
+    "answer": 54,
+    "options": [
+      50,
+      56,
+      54,
+      55
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-9x7",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 9,
+    "multiplier": 7,
+    "formula": "9 × 7 = ？",
+    "display": "✨ 9 × 7 ✨",
+    "prompt": "考考你：9 乘以 7 等於多少呢？口訣是『七九六十三』喔！",
+    "chant": "七九六十三",
+    "answer": 63,
+    "options": [
+      63,
+      64,
+      73,
+      58
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-9x8",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 9,
+    "multiplier": 8,
+    "formula": "9 × 8 = ？",
+    "display": "✨ 9 × 8 ✨",
+    "prompt": "考考你：9 乘以 8 等於多少呢？口訣是『八九七十二』喔！",
+    "chant": "八九七十二",
+    "answer": 72,
+    "options": [
+      72,
+      69,
+      70,
+      71
+    ],
+    "unit": ""
+  },
+  {
+    "id": "mult-quiz-9x9",
+    "category": "speed_quiz",
+    "sub_unit": "九九乘法速算",
+    "base": 9,
+    "multiplier": 9,
+    "formula": "9 × 9 = ？",
+    "display": "✨ 9 × 9 ✨",
+    "prompt": "考考你：9 乘以 9 等於多少呢？口訣是『九九八十一』喔！",
+    "chant": "九九八十一",
+    "answer": 81,
+    "options": [
+      78,
+      81,
+      76,
+      79
+    ],
+    "unit": ""
+  }
+]
