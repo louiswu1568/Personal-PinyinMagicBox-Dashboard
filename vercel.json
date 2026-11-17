@@ -1,26 +1,14 @@
 {
   "version": 2,
-  "builds": [
+  "cleanUrls": true,
+  "rewrites": [
     {
-      "src": "app.py",
-      "use": "@vercel/python",
-      "config": {
-        "includeFiles": [
-          "data/questions.json",
-          "data/english_questions.json",
-          "data/math_questions.json",
-          "data/multiplication_questions.json",
-          "templates/**",
-          "static/**",
-          "scripts/generate_weekly_report.py"
-        ]
-      }
-    }
-  ],
-  "routes": [
+      "source": "/static/(.*)",
+      "destination": "/static/$1"
+    },
     {
-      "src": "/(.*)",
-      "dest": "app.py"
+      "source": "/(.*)",
+      "destination": "/app.py"
     }
   ]
 }

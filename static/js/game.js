@@ -639,9 +639,9 @@
       if (DOM.btnCopyLineId) {
         DOM.btnCopyLineId.addEventListener("click", () => {
           if (navigator.clipboard) {
-            navigator.clipboard.writeText("@208jinte");
+            navigator.clipboard.writeText("@781imbvv");
           }
-          window.alert("已複製 LINE 官方帳號 ID: @208jinte");
+          window.alert("已複製 LINE 官方帳號 ID: @781imbvv");
         });
       }
 
