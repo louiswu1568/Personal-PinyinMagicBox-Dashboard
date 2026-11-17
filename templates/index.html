@@ -7,7 +7,7 @@
   <meta name="description" content="專為河堤國小一年級學童量身打造的學習評量與新挑戰測驗卷練習樂園，包含康軒版國語注音、雙語英文、數學與 99 乘法表！">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v={{ v | default('20261106') }}">
 </head>
-<body>
+<body class="vault-locked">
 
   <!-- 可愛漂浮小背景飾品 -->
   <div class="floating-bg-decorations" aria-hidden="true">
@@ -62,6 +62,9 @@
         </button>
         <button type="button" class="v3-header-btn" id="btn-open-settings" title="設定、進度匯出與家長週報">
           <span>⚙️ 設定</span>
+        </button>
+        <button type="button" class="v3-header-btn vault-pill-btn" id="vault-pill" title="點擊可重新鎖定安全金庫">
+          <span class="vault-badge-locked" id="vault-status-badge">🔒 金庫未解鎖</span>
         </button>
       </div>
     </header>
@@ -775,6 +778,127 @@
           <p id="settings-status-msg" class="v3-status-msg"></p>
         </div>
       </div>
+    </div>
+  </div>
+
+  <!-- ★ 安全金庫解鎖彈窗 (與 FinanceFree-XQ-Pub 同源之密碼保護機制) ★ -->
+  <div id="vault-modal" class="vault-modal-backdrop" style="display:flex;" role="dialog" aria-modal="true">
+    <div class="vault-dialog">
+      <div class="vault-icon-wrap">
+        <div class="vault-glow-circle">🔐</div>
+      </div>
+      <div class="vault-brand-badge">PINYIN-MAGIC-BOX SECURITY VAULT</div>
+      <h2 class="vault-modal-title">小小魔法學習樂園 · 安全解鎖</h2>
+      <p class="vault-modal-desc">
+        本專屬學習平台受 <strong>SHA-256 安全金庫通行密鑰</strong> 保護。<br>
+        請輸入通行密鑰解鎖進入，或透過 LINE 官方帳號申請授權。
+      </p>
+
+      <div class="vault-input-group">
+        <span class="input-icon">🔑</span>
+        <input type="password" id="vault-passkey-input" class="vault-input" placeholder="請輸入金庫解鎖密鑰 (Passkey)..." autocomplete="current-password" />
+        <button type="button" id="vault-toggle-visibility" class="btn-toggle-eye" title="顯示/隱藏密碼">👁️</button>
+      </div>
+
+      <div id="vault-error-msg" class="vault-error" style="display:none;">
+        ⚠️ 通行密鑰錯誤，無法解鎖學習樂園，請重新輸入！
+      </div>
+
+      <div class="vault-btn-group">
+        <button type="button" id="btn-vault-unlock" class="btn-vault-unlock">
+          <span>🔓 立即驗證並進入學習樂園</span>
+        </button>
+      </div>
+
+      <!-- 訪客 LINE 申辦通道 (與 FinanceFree-XQ-Pub 一致) -->
+      <div class="vault-apply-divider">
+        <span>訪客權限申請</span>
+      </div>
+
+      <div class="vault-apply-card">
+        <div class="apply-card-left">
+          <span class="line-badge-icon">📲</span>
+          <div>
+            <div class="apply-card-title">尚未取得通行密鑰？</div>
+            <div class="apply-card-sub">透過 LINE 官方機器人申請訪客授權與一鍵解鎖 Token</div>
+          </div>
+        </div>
+        <button type="button" id="btn-open-line-apply" class="btn-line-apply">
+          <span>申請密鑰</span>
+        </button>
+      </div>
+
+      <div class="vault-hint-box" style="margin-top:14px;">
+        <div class="hint-title">💡 1-Click 快捷授權說明</div>
+        <div class="hint-body">
+          • 點擊 <strong>LINE 官方推播或授權核發連結</strong> 時，系統將自動附帶專屬 Token 瞬間解鎖。<br>
+          • 授權狀態會在當前工作階段（Session）妥善保存。
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ★ LINE Official Bot Application Modal (與 FinanceFree-XQ-Pub 一致) ★ -->
+  <div id="line-apply-modal" class="vault-modal-backdrop" style="display:none;" role="dialog" aria-modal="true">
+    <div class="line-apply-modal-card">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+        <div style="display:flex; align-items:center; gap:8px;">
+          <span style="background:#06c755; color:#fff; border:none; font-weight:700; padding:3px 10px; border-radius:999px; font-size:0.78rem;">LINE OFFICIAL BOT</span>
+          <span style="font-size:0.78rem; color:#94a3b8; font-family:monospace;">ID: @208jinte</span>
+        </div>
+        <button type="button" id="btn-close-line-modal" style="background:none; border:none; color:#94a3b8; font-size:1.3rem; cursor:pointer;">&times;</button>
+      </div>
+      <h2 style="font-size:1.3rem; font-weight:700; color:#f8fafc; margin-bottom:6px;">📲 LINE 官方帳號 · 訪客密鑰申請</h2>
+      <p style="font-size:0.84rem; color:#94a3b8; line-height:1.5;">
+        本平台為 Louis Wu 專屬互動學習系統。請透過 LINE 官方機器人提交訪客通行申請：
+      </p>
+
+      <div style="display:flex; align-items:center; gap:16px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:14px; padding:12px; margin:14px 0;">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https%3A%2F%2Fline.me%2FR%2Fti%2Fp%2F%40208jinte" alt="LINE Bot QR Code" style="width:78px; height:78px; border-radius:10px; background:#fff; padding:4px;" />
+        <div style="flex:1;">
+          <div style="font-size:0.85rem; font-weight:700; color:#f8fafc; margin-bottom:4px;">官方帳號 ID：<code style="color:#06c755; background:rgba(6,199,85,0.15); padding:2px 6px; border-radius:6px;">@208jinte</code></div>
+          <div style="font-size:0.76rem; color:#94a3b8; line-height:1.4;">手機掃描 QR Code 或搜尋 ID 加入好友</div>
+          <button type="button" id="btn-copy-line-id" style="margin-top:6px; background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15); color:#38bdf8; font-size:0.75rem; padding:3px 8px; border-radius:6px; cursor:pointer;">📋 複製 LINE ID</button>
+        </div>
+      </div>
+
+      <div class="line-steps-list" style="margin:10px 0 14px 0;">
+        <div class="line-step-item">
+          <div class="step-num-badge">1</div>
+          <div>
+            <div class="step-content-title">加入 LINE 官方機器人</div>
+            <div class="step-content-desc">點擊下方按鈕或掃描上方 QR Code 加入好友。</div>
+          </div>
+        </div>
+        <div class="line-step-item">
+          <div class="step-num-badge">2</div>
+          <div>
+            <div class="step-content-title">傳送申請文字</div>
+            <div class="step-content-desc">傳送：<code>【申請訪客密鑰】姓名 / 單位與用途</code>。</div>
+          </div>
+        </div>
+        <div class="line-step-item">
+          <div class="step-num-badge">3</div>
+          <div>
+            <div class="step-content-title">取得 1-Click 解密連結</div>
+            <div class="step-content-desc">作者審核後，系統將回傳專屬 Token 連結，點擊即可無縫解鎖！</div>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://line.me/R/ti/p/@208jinte" target="_blank" class="line-action-btn-primary" id="line-open-link">
+        <span>💬 點擊加入 LINE 官方帳號 (@208jinte)</span>
+      </a>
+
+      <div style="text-align:center; margin-top:10px;">
+        <span style="font-size:0.75rem; color:#64748b;">
+          備用聯絡信箱：<a href="mailto:louiswu1568@gmail.com?subject=[申請訪客密鑰]%20小小魔法學習樂園" style="color:#38bdf8; text-decoration:underline;">louiswu1568@gmail.com</a>
+        </span>
+      </div>
+
+      <button type="button" class="btn-close-apply" id="btn-cancel-line-modal">
+        返回密碼輸入
+      </button>
     </div>
   </div>
 

@@ -10,6 +10,7 @@ import sys
 import json
 import time
 import random
+import hashlib
 import threading
 import webbrowser
 from typing import Dict, Any, List, Optional
@@ -858,6 +859,34 @@ def generate_online_weekly_report_html():
         "week_id": summary.get("week_id", ""),
         "html": html_str,
     })
+
+
+# 與 FinanceFree-XQ-Pub 同源之安全金庫 SHA-256 雜湊值 (不以明文暴露密鑰)
+DEFAULT_VAULT_SHA256 = "bdbb3eb181b1c97639b88949cfc07a7bcbf9137a8a9ec81b7431c77fd0350363"
+
+
+@app.route("/api/auth/verify", methods=["POST"])
+def verify_vault_passkey():
+    """
+    安全金庫通行密鑰驗證端點 (與 FinanceFree-XQ-Pub 一致)
+    支援環境變數 REPORT_SECURITY_KEY 覆寫，預設採用 SHA-256 雜湊比對。
+    """
+    payload = request.get_json(silent=True) or {}
+    passkey = str(payload.get("passkey") or "").strip()
+    if not passkey:
+        return jsonify({"status": "error", "authenticated": False, "message": "請輸入金庫通行密鑰"}), 401
+
+    custom_key = os.environ.get("REPORT_SECURITY_KEY", "").strip()
+    expected_sha256 = (
+        hashlib.sha256(custom_key.encode("utf-8")).hexdigest()
+        if custom_key
+        else os.environ.get("REPORT_SECURITY_KEY_SHA256", DEFAULT_VAULT_SHA256).strip().lower()
+    )
+    actual_sha256 = hashlib.sha256(passkey.encode("utf-8")).hexdigest().lower()
+
+    if actual_sha256 == expected_sha256:
+        return jsonify({"status": "success", "authenticated": True})
+    return jsonify({"status": "error", "authenticated": False, "message": "通行密鑰錯誤"}), 403
 
 
 @app.route("/api/health", methods=["GET"])

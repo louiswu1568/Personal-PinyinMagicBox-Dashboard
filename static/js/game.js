@@ -146,6 +146,7 @@
     },
 
     speakEnglish(text) {
+      if (document.body.classList.contains("vault-locked")) return;
       if (window.MagicProgress && window.MagicProgress.state && window.MagicProgress.state.profile.soundEnabled === false) return;
       if (!("speechSynthesis" in window) || !text) return;
       window.speechSynthesis.cancel();
@@ -177,6 +178,7 @@
     },
 
     speak(text) {
+      if (document.body.classList.contains("vault-locked")) return;
       if (window.MagicProgress && window.MagicProgress.state && window.MagicProgress.state.profile.soundEnabled === false) return;
       if (!("speechSynthesis" in window) || !text) return;
       window.speechSynthesis.cancel();
@@ -466,7 +468,208 @@
     btnExportProgress: document.getElementById("btn-export-progress"),
     btnImportProgressTrigger: document.getElementById("btn-import-progress-trigger"),
     inputImportProgress: document.getElementById("input-import-progress"),
-    settingsStatusMsg: document.getElementById("settings-status-msg")
+    settingsStatusMsg: document.getElementById("settings-status-msg"),
+
+    // ★ 安全金庫與 LINE 訪客申辦 DOM (與 FinanceFree-XQ-Pub 同源) ★
+    vaultPill: document.getElementById("vault-pill"),
+    vaultStatusBadge: document.getElementById("vault-status-badge"),
+    vaultModal: document.getElementById("vault-modal"),
+    vaultPasskeyInput: document.getElementById("vault-passkey-input"),
+    vaultToggleVisibility: document.getElementById("vault-toggle-visibility"),
+    vaultErrorMsg: document.getElementById("vault-error-msg"),
+    btnVaultUnlock: document.getElementById("btn-vault-unlock"),
+    btnOpenLineApply: document.getElementById("btn-open-line-apply"),
+    lineApplyModal: document.getElementById("line-apply-modal"),
+    btnCloseLineModal: document.getElementById("btn-close-line-modal"),
+    btnCancelLineModal: document.getElementById("btn-cancel-line-modal"),
+    btnCopyLineId: document.getElementById("btn-copy-line-id")
+  };
+
+  // =========================================================================
+  // ★ 安全金庫驗證模組 (與 FinanceFree-XQ-Pub 完全一致之 SHA-256 密鑰驗證與 1-Click Token) ★
+  // =========================================================================
+  const VaultAuth = {
+    EXPECTED_SHA256: "bdbb3eb181b1c97639b88949cfc07a7bcbf9137a8a9ec81b7431c77fd0350363",
+    STORAGE_KEY: "ff_auth_key",
+
+    async sha256Hex(str) {
+      const enc = new TextEncoder();
+      const buf = await window.crypto.subtle.digest("SHA-256", enc.encode(String(str || "").trim()));
+      return Array.from(new Uint8Array(buf))
+        .map(b => b.toString(16).padStart(2, "0"))
+        .join("");
+    },
+
+    async verifyPasskey(passkey) {
+      const clean = String(passkey || "").trim();
+      if (!clean) return false;
+      try {
+        if (window.crypto && window.crypto.subtle) {
+          const digest = await this.sha256Hex(clean);
+          if (digest === this.EXPECTED_SHA256) return true;
+        }
+      } catch (e) {
+        console.warn("[VaultAuth] WebCrypto error, falling back to API:", e);
+      }
+      try {
+        const res = await fetch("/api/auth/verify", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ passkey: clean })
+        });
+        const data = await res.json();
+        return Boolean(data && data.authenticated);
+      } catch (e) {
+        return false;
+      }
+    },
+
+    setUnlockedState(isUnlocked, errorText = null) {
+      if (isUnlocked) {
+        document.body.classList.remove("vault-locked");
+        if (DOM.vaultModal) DOM.vaultModal.style.display = "none";
+        if (DOM.vaultStatusBadge) {
+          DOM.vaultStatusBadge.className = "vault-badge-unlocked";
+          DOM.vaultStatusBadge.textContent = "🔐 金庫已解鎖";
+        }
+      } else {
+        document.body.classList.add("vault-locked");
+        if (DOM.vaultModal) DOM.vaultModal.style.display = "flex";
+        if (DOM.vaultStatusBadge) {
+          DOM.vaultStatusBadge.className = "vault-badge-locked";
+          DOM.vaultStatusBadge.textContent = "🔒 金庫未解鎖";
+        }
+        if (DOM.vaultErrorMsg) {
+          if (errorText) {
+            DOM.vaultErrorMsg.textContent = errorText;
+            DOM.vaultErrorMsg.style.display = "block";
+          } else {
+            DOM.vaultErrorMsg.style.display = "none";
+          }
+        }
+        if (DOM.vaultPasskeyInput) {
+          setTimeout(() => DOM.vaultPasskeyInput.focus(), 100);
+        }
+      }
+    },
+
+    async handleUnlockSubmit(rawKey) {
+      const key = String(rawKey || "").trim();
+      if (!key) {
+        this.setUnlockedState(false, "⚠️ 請輸入金庫通行密鑰！");
+        return;
+      }
+      const ok = await this.verifyPasskey(key);
+      if (ok) {
+        sessionStorage.setItem(this.STORAGE_KEY, key);
+        this.setUnlockedState(true);
+        SoundSystem.play("correct");
+        if (state.currentSubject === "bopomofo" && state.currentQuestion) {
+          SoundSystem.speak(`${state.currentQuestion.character}，${state.currentQuestion.word || ""}`);
+        }
+      } else {
+        SoundSystem.play("wrong");
+        this.setUnlockedState(false, "⚠️ 通行密鑰錯誤，無法解鎖學習樂園，請重新確認！");
+        if (DOM.vaultPasskeyInput) {
+          DOM.vaultPasskeyInput.focus();
+          DOM.vaultPasskeyInput.select();
+        }
+      }
+    },
+
+    promptRelock() {
+      const currentKey = sessionStorage.getItem(this.STORAGE_KEY);
+      if (currentKey) {
+        if (window.confirm("是否要重新鎖定安全金庫？\n鎖定後將清除本機暫存金鑰並返回密碼驗證畫面。")) {
+          sessionStorage.removeItem(this.STORAGE_KEY);
+          if (DOM.vaultPasskeyInput) DOM.vaultPasskeyInput.value = "";
+          this.setUnlockedState(false);
+        }
+      } else {
+        this.setUnlockedState(false);
+      }
+    },
+
+    async init() {
+      // 綁定 UI 事件
+      if (DOM.vaultToggleVisibility && DOM.vaultPasskeyInput) {
+        DOM.vaultToggleVisibility.addEventListener("click", () => {
+          if (DOM.vaultPasskeyInput.type === "password") {
+            DOM.vaultPasskeyInput.type = "text";
+            DOM.vaultToggleVisibility.textContent = "🔒";
+          } else {
+            DOM.vaultPasskeyInput.type = "password";
+            DOM.vaultToggleVisibility.textContent = "👁️";
+          }
+        });
+      }
+
+      if (DOM.btnVaultUnlock && DOM.vaultPasskeyInput) {
+        DOM.btnVaultUnlock.addEventListener("click", () => {
+          this.handleUnlockSubmit(DOM.vaultPasskeyInput.value);
+        });
+        DOM.vaultPasskeyInput.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") {
+            e.preventDefault();
+            e.stopPropagation();
+            this.handleUnlockSubmit(DOM.vaultPasskeyInput.value);
+          }
+        });
+      }
+
+      if (DOM.vaultPill) {
+        DOM.vaultPill.addEventListener("click", () => this.promptRelock());
+      }
+
+      if (DOM.btnOpenLineApply && DOM.lineApplyModal) {
+        DOM.btnOpenLineApply.addEventListener("click", () => {
+          DOM.lineApplyModal.style.display = "flex";
+        });
+      }
+      if (DOM.btnCloseLineModal && DOM.lineApplyModal) {
+        DOM.btnCloseLineModal.addEventListener("click", () => {
+          DOM.lineApplyModal.style.display = "none";
+        });
+      }
+      if (DOM.btnCancelLineModal && DOM.lineApplyModal) {
+        DOM.btnCancelLineModal.addEventListener("click", () => {
+          DOM.lineApplyModal.style.display = "none";
+        });
+      }
+      if (DOM.btnCopyLineId) {
+        DOM.btnCopyLineId.addEventListener("click", () => {
+          if (navigator.clipboard) {
+            navigator.clipboard.writeText("@208jinte");
+          }
+          window.alert("已複製 LINE 官方帳號 ID: @208jinte");
+        });
+      }
+
+      // 支援 URL 1-Click 快捷授權 (?auth= / ?key= / ?token=)
+      const urlParams = new URLSearchParams(window.location.search);
+      const urlToken = urlParams.get("auth") || urlParams.get("key") || urlParams.get("token");
+      if (urlToken && urlToken.trim()) {
+        sessionStorage.setItem(this.STORAGE_KEY, urlToken.trim());
+        urlParams.delete("auth");
+        urlParams.delete("key");
+        urlParams.delete("token");
+        const newQuery = urlParams.toString() ? "?" + urlParams.toString() : "";
+        window.history.replaceState({}, document.title, window.location.pathname + newQuery + window.location.hash);
+      }
+
+      const savedKey = sessionStorage.getItem(this.STORAGE_KEY);
+      if (savedKey) {
+        const valid = await this.verifyPasskey(savedKey);
+        if (valid) {
+          this.setUnlockedState(true);
+          return;
+        }
+        sessionStorage.removeItem(this.STORAGE_KEY);
+        this.setUnlockedState(false, "⚠️ 上次儲存之密鑰已失效或有誤，請重新輸入！");
+      } else {
+        this.setUnlockedState(false);
+      }
+    }
   };
 
   // 全域累積星數增加輔助 (與 MagicProgress 同步)
@@ -2469,6 +2672,7 @@
 
     // Enter 快捷鍵
     window.addEventListener("keydown", (e) => {
+      if (document.body.classList.contains("vault-locked")) return;
       if (e.key === "Enter") {
         if (DOM.modal.classList.contains("show")) {
           hideCelebrationModal();
@@ -2484,6 +2688,7 @@
   // 13. 初始化
   // =========================================================================
   async function init() {
+    await VaultAuth.init();
     V3Controller.init();
     setupDragAndDrop();
     setupEventListeners();
