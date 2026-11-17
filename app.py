@@ -369,8 +369,9 @@ def normalize_tone(tone_val: Any) -> str:
 # ==============================
 @app.route("/")
 def index():
-    """渲染前端遊戲主頁面"""
-    return render_template("index.html", v=int(time.time()))
+    """渲染前端遊戲主頁面（僅 Vercel 雲端環境啟用安全金庫鎖定，本地 localhost 免鎖定）"""
+    is_cloud = bool(os.environ.get("VERCEL") or os.environ.get("VERCEL_ENV"))
+    return render_template("index.html", v=int(time.time()), vault_enabled=is_cloud)
 
 
 # ==============================

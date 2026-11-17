@@ -591,6 +591,14 @@
     },
 
     async init() {
+      // 本地端 localhost / 127.0.0.1 免密碼直接進入，僅雲端版本啟用安全金庫鎖定
+      const isLocalhost = ["localhost", "127.0.0.1", "0.0.0.0"].includes(window.location.hostname);
+      if (isLocalhost) {
+        this.setUnlockedState(true);
+        if (DOM.vaultPill) DOM.vaultPill.style.display = "none";
+        return;
+      }
+
       // 綁定 UI 事件
       if (DOM.vaultToggleVisibility && DOM.vaultPasskeyInput) {
         DOM.vaultToggleVisibility.addEventListener("click", () => {

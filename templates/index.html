@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}?v={{ v | default('20261106') }}">
 </head>
 
-<body class="vault-locked">
+<body class="{% if vault_enabled %}vault-locked{% endif %}">
 
   <!-- 可愛漂浮小背景飾品 -->
   <div class="floating-bg-decorations" aria-hidden="true">
@@ -783,8 +783,8 @@
     </div>
   </div>
 
-  <!-- ★ 安全金庫解鎖彈窗 (與 FinanceFree-XQ-Pub 同源之密碼保護機制) ★ -->
-  <div id="vault-modal" class="vault-modal-backdrop" style="display:flex;" role="dialog" aria-modal="true">
+  <!-- ★ 安全金庫解鎖彈窗 (與 FinanceFree-XQ-Pub 同源之密碼保護機制，僅雲端版本啟用) ★ -->
+  <div id="vault-modal" class="vault-modal-backdrop" style="display:{% if vault_enabled %}flex{% else %}none{% endif %};" role="dialog" aria-modal="true">
     <div class="vault-dialog">
       <div class="vault-icon-wrap">
         <div class="vault-glow-circle">🔐</div>
