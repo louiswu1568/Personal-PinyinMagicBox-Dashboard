@@ -926,6 +926,74 @@ def _reply_line_message(reply_token: str, text_message: str) -> bool:
         return False
 
 
+def _push_line_messages(to_user_id: str, messages: List[Dict[str, Any]]) -> bool:
+    """呼叫 LINE Messaging API Push Endpoint 主動推播訊息給指定用戶"""
+    access_token = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN", "").strip()
+    if not access_token or not to_user_id or not messages:
+        return False
+    url = "https://api.line.me/v2/bot/message/push"
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {access_token}",
+    }
+    body = json.dumps({"to": to_user_id, "messages": messages}).encode("utf-8")
+    req = urllib.request.Request(url, data=body, headers=headers, method="POST")
+    try:
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            return 200 <= resp.status < 300
+    except Exception:
+        return False
+
+
+def _get_line_user_display_name(user_id: str) -> str:
+    """取得 LINE 用戶顯示名稱（失敗時回傳遮罩後之 User ID）"""
+    access_token = os.environ.get("LINE_CHANNEL_ACCESS_TOKEN", "").strip()
+    if not access_token or not user_id:
+        return "訪客"
+    url = f"https://api.line.me/v2/bot/profile/{user_id}"
+    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {access_token}"}, method="GET")
+    try:
+        with urllib.request.urlopen(req, timeout=3) as resp:
+            info = json.loads(resp.read().decode("utf-8"))
+            return str(info.get("displayName") or user_id[:8] + "...")
+    except Exception:
+        return user_id[:8] + "..."
+
+
+def _sign_admin_postback(action: str, target_uid: str) -> str:
+    """為管理員審核按鈕產生防竄改 HMAC-SHA256 Postback 資料 (含 24 小時時效)"""
+    ts = int(time.time())
+    payload = f"{action}.{target_uid}.{ts}"
+    sig = hmac.new(_get_token_hmac_secret(), payload.encode("utf-8"), hashlib.sha256).hexdigest()[:12]
+    return f"act={action}&uid={target_uid}&ts={ts}&sig={sig}"
+
+
+def _verify_admin_postback(data_str: str, ttl_seconds: int = 24 * 3600) -> Optional[Dict[str, str]]:
+    """驗證管理員審核 Postback 簽章與時效性，防止偽造或重放攻擊"""
+    params: Dict[str, str] = {}
+    for item in str(data_str or "").split("&"):
+        if "=" in item:
+            k, v = item.split("=", 1)
+            params[k] = v
+    action = params.get("act", "")
+    target_uid = params.get("uid", "")
+    ts_str = params.get("ts", "")
+    sig = params.get("sig", "")
+    if action not in ("approve", "reject") or not target_uid or not ts_str or not sig:
+        return None
+    try:
+        ts = int(ts_str)
+    except ValueError:
+        return None
+    if int(time.time()) - ts > ttl_seconds:
+        return None
+    payload = f"{action}.{target_uid}.{ts}"
+    expected_sig = hmac.new(_get_token_hmac_secret(), payload.encode("utf-8"), hashlib.sha256).hexdigest()[:12]
+    if not hmac.compare_digest(expected_sig, sig):
+        return None
+    return {"action": action, "uid": target_uid}
+
+
 @app.route("/api/auth/verify", methods=["POST"])
 def verify_vault_passkey():
     """
@@ -971,41 +1039,95 @@ def line_webhook():
     data = request.get_json(silent=True) or {}
     events = data.get("events", [])
     base_url = os.environ.get("PUBLIC_DASHBOARD_URL", "https://personal-pinyin-magic-box-dashboard.vercel.app").rstrip("/")
+    admin_uid = os.environ.get("LINE_ADMIN_USER_ID", "").strip()
 
     for event in events:
         reply_token = event.get("replyToken", "")
         event_type = event.get("type", "")
+        sender_uid = str((event.get("source") or {}).get("userId") or "").strip()
         if not reply_token:
             continue
 
         if event_type == "follow":
             welcome_msg = (
                 "歡迎加入【小小魔法學習樂園 🪄 注音魔法盒】官方帳號！🎀\n\n"
-                "請直接輸入傳送：\n「申請訪客密鑰」\n系統將免費為您即時產生一組專屬隨機通行密鑰與 1-Click 解鎖連結！\n\n"
+                "請直接輸入傳送：\n「申請訪客密鑰」\n管理員審核確認後，系統將為您核發專屬隨機通行密鑰與 1-Click 解鎖連結！\n\n"
                 "⚖️【法律免責與非商業聲明】\n"
                 "本平台題庫源自公開教育課綱與個人學習研究，永久免費使用，嚴禁任何第三方商業重製或轉售牟利，違者依法追究。"
             )
             _reply_line_message(reply_token, welcome_msg)
+        elif event_type == "postback":
+            # 嚴格驗證：僅限管理員本人且 Postback HMAC 簽章有效才可執行審核
+            if not admin_uid or not sender_uid or not hmac.compare_digest(sender_uid, admin_uid):
+                _reply_line_message(reply_token, "⛔ 權限不足：僅管理員本人可執行審核操作。")
+                continue
+            pb_data = str((event.get("postback") or {}).get("data") or "")
+            parsed = _verify_admin_postback(pb_data)
+            if not parsed:
+                _reply_line_message(reply_token, "⚠️ 此審核連結已過期或簽章無效，請請訪客重新申請。")
+                continue
+
+            target_uid = parsed["uid"]
+            if parsed["action"] == "approve":
+                dyn_token = generate_dynamic_vault_token()
+                unlock_url = f"{base_url}/?auth={dyn_token}"
+                visitor_msg = (
+                    "🎉【申請已核准 · 小小魔法學習樂園專屬憑證】\n\n"
+                    f"🔑 專屬隨機密鑰：\n{dyn_token}\n\n"
+                    f"⚡ 1-Click 一鍵免打字解鎖連結：\n{unlock_url}\n\n"
+                    "⏰ 有效期限：7 天內有效\n"
+                    "⚖️ 聲明：本系統為個人免費教育資源，嚴禁轉售或商業利用。"
+                )
+                _push_line_messages(target_uid, [{"type": "text", "text": visitor_msg}])
+                _reply_line_message(reply_token, f"✅ 已核准並發送 7 天期專屬隨機密鑰給用戶 ({target_uid[:8]}...)！")
+            else:
+                _push_line_messages(target_uid, [{
+                    "type": "text",
+                    "text": "很抱歉，您本次的【小小魔法學習樂園】訪客密鑰申請未獲管理員核准，如有疑問請聯繫管理員。"
+                }])
+                _reply_line_message(reply_token, f"❌ 已婉拒用戶 ({target_uid[:8]}...) 的申請。")
         elif event_type == "message":
             msg = event.get("message", {})
             if msg.get("type") == "text":
                 text = str(msg.get("text") or "").strip()
-                if any(kw in text.lower() for kw in ("申請", "密鑰", "解鎖", "key", "token", "密碼")):
-                    dyn_token = generate_dynamic_vault_token()
-                    unlock_url = f"{base_url}/?auth={dyn_token}"
-                    reply_msg = (
-                        "🔐【小小魔法學習樂園 · 專屬隨機通行憑證】\n\n"
-                        f"🔑 專屬隨機密鑰：\n{dyn_token}\n\n"
-                        f"⚡ 1-Click 一鍵免打字解鎖連結：\n{unlock_url}\n\n"
-                        "⏰ 有效期限：7 天內有效\n"
-                        "⚖️ 聲明：本系統為個人免費教育資源，嚴禁轉售或商業利用。"
+                if text.lower() in ("我的id", "whoami", "myid", "id"):
+                    _reply_line_message(
+                        reply_token,
+                        f"🆔 您的 LINE User ID 為：\n{sender_uid}\n\n（若為管理員，請將此 ID 填入 Vercel 環境變數 LINE_ADMIN_USER_ID）"
                     )
-                    _reply_line_message(reply_token, reply_msg)
+                elif any(kw in text.lower() for kw in ("申請", "密鑰", "解鎖", "key", "token", "密碼")):
+                    if not admin_uid:
+                        _reply_line_message(
+                            reply_token,
+                            "⚠️ 系統安全鎖定中：管理員尚未設定 LINE_ADMIN_USER_ID，暫時無法受理申請。"
+                        )
+                        continue
+                    display_name = _get_line_user_display_name(sender_uid)
+                    approve_data = _sign_admin_postback("approve", sender_uid)
+                    reject_data = _sign_admin_postback("reject", sender_uid)
+                    admin_card = {
+                        "type": "template",
+                        "altText": f"📋 訪客密鑰申請：{display_name}",
+                        "template": {
+                            "type": "buttons",
+                            "title": "📋 訪客密鑰申請審核",
+                            "text": f"申請人：{display_name}\n訊息：{text[:40]}",
+                            "actions": [
+                                {"type": "postback", "label": "✅ 核准並發送密鑰", "data": approve_data},
+                                {"type": "postback", "label": "❌ 婉拒申請", "data": reject_data},
+                            ],
+                        },
+                    }
+                    _push_line_messages(admin_uid, [admin_card])
+                    _reply_line_message(
+                        reply_token,
+                        "⏳ 您的申請已送出！\n管理員審核確認後，系統將立即把專屬隨機密鑰傳送給您，請稍候。"
+                    )
                 else:
                     guide_msg = (
                         "您好！若要申請【小小魔法學習樂園】通行密鑰，請直接輸入傳送：\n"
                         "👉「申請訪客密鑰」\n"
-                        "系統將立即為您產生專屬隨機解鎖連結！"
+                        "送出後將由管理員審核並核發專屬隨機解鎖連結！"
                     )
                     _reply_line_message(reply_token, guide_msg)
 
