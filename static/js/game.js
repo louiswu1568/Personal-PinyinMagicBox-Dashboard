@@ -315,10 +315,14 @@
     engOptionsGrid: document.getElementById("eng-options-grid"),
     engFeedbackBanner: document.getElementById("eng-feedback-banner"),
     btnEngNext: document.getElementById("btn-eng-next"),
+    engLeftCards: document.getElementById("eng-left-cards"),
+    engRightCards: document.getElementById("eng-right-cards"),
     engModeBtns: document.querySelectorAll("#section-english [data-eng-mode]"),
 
     // 數學練習 DOM
     mathUnitBadge: document.getElementById("math-unit-badge"),
+    mathZhuyinBadge: document.getElementById("math-zhuyin-badge"),
+    btnMathSpeak: document.getElementById("btn-math-speak"),
     mathObjectsBoard: document.getElementById("math-objects-board"),
     mathFormulaLarge: document.getElementById("math-formula-large"),
     mathPromptText: document.getElementById("math-prompt-text"),
@@ -2053,6 +2057,164 @@
   const EnglishGame = {
     currentQ: null,
 
+    // 主題情境趣味圖文小圖卡目錄 (供兩側「以圖識字」動態搭配)
+    visualFlashcardsCatalog: {
+      alphabet: [
+        { emoji: "🍎", en: "A • Apple", zh: "蘋果", speak: "Apple" },
+        { emoji: "🧸", en: "B • Bear", zh: "小熊", speak: "Bear" },
+        { emoji: "🐱", en: "C • Cat", zh: "小貓", speak: "Cat" },
+        { emoji: "🐶", en: "D • Dog", zh: "小狗", speak: "Dog" },
+        { emoji: "🐘", en: "E • Elephant", zh: "大象", speak: "Elephant" },
+        { emoji: "🐟", en: "F • Fish", zh: "小魚", speak: "Fish" },
+        { emoji: "👧", en: "G • Girl", zh: "小女孩", speak: "Girl" },
+        { emoji: "👒", en: "H • Hat", zh: "帽子", speak: "Hat" },
+        { emoji: "🦁", en: "L • Lion", zh: "獅子", speak: "Lion" },
+        { emoji: "🐰", en: "R • Rabbit", zh: "小白兔", speak: "Rabbit" },
+        { emoji: "☀️", en: "S • Sun", zh: "太陽", speak: "Sun" },
+        { emoji: "🦓", en: "Z • Zebra", zh: "斑馬", speak: "Zebra" }
+      ],
+      phonics: [
+        { emoji: "🐱", en: "c-a-t ➔ cat", zh: "短母音 a・小貓", speak: "cat" },
+        { emoji: "🎒", en: "b-a-g ➔ bag", zh: "短母音 a・書包", speak: "bag" },
+        { emoji: "🛏️", en: "b-e-d ➔ bed", zh: "短母音 e・床鋪", speak: "bed" },
+        { emoji: "🖊️", en: "p-e-n ➔ pen", zh: "短母音 e・原子筆", speak: "pen" },
+        { emoji: "🐷", en: "p-i-g ➔ pig", zh: "短母音 i・粉紅豬", speak: "pig" },
+        { emoji: "🐶", en: "d-o-g ➔ dog", zh: "短母音 o・小狗", speak: "dog" },
+        { emoji: "🦊", en: "f-o-x ➔ fox", zh: "短母音 o・狐狸", speak: "fox" },
+        { emoji: "☀️", en: "s-u-n ➔ sun", zh: "短母音 u・太陽", speak: "sun" },
+        { emoji: "🚌", en: "b-u-s ➔ bus", zh: "短母音 u・公車", speak: "bus" }
+      ],
+      sight_words: [
+        { emoji: "🌅", en: "Good morning", zh: "早安問候", speak: "Good morning" },
+        { emoji: "🧍", en: "Stand up", zh: "請起立", speak: "Stand up" },
+        { emoji: "🪑", en: "Sit down", zh: "請坐下", speak: "Sit down" },
+        { emoji: "📖", en: "Open your book", zh: "打開課本", speak: "Open your book" },
+        { emoji: "🙋", en: "Raise your hand", zh: "請舉手", speak: "Raise your hand" },
+        { emoji: "👂", en: "Listen", zh: "仔細聽", speak: "Listen" },
+        { emoji: "🤫", en: "Be quiet", zh: "請保持安靜", speak: "Be quiet" },
+        { emoji: "🙏", en: "Thank you", zh: "謝謝你", speak: "Thank you" }
+      ],
+      thematic: [
+        { emoji: "🍓", en: "strawberry", zh: "草莓", speak: "strawberry" },
+        { emoji: "🍉", en: "watermelon", zh: "西瓜", speak: "watermelon" },
+        { emoji: "🍦", en: "ice cream", zh: "冰淇淋", speak: "ice cream" },
+        { emoji: "✏️", en: "pencil", zh: "鉛筆", speak: "pencil" },
+        { emoji: "🧼", en: "eraser", zh: "橡皮擦", speak: "eraser" },
+        { emoji: "📏", en: "ruler", zh: "尺", speak: "ruler" },
+        { emoji: "🦋", en: "butterfly", zh: "蝴蝶", speak: "butterfly" },
+        { emoji: "🐰", en: "rabbit", zh: "小白兔", speak: "rabbit" },
+        { emoji: "👩", en: "mother", zh: "媽媽", speak: "mother" },
+        { emoji: "👨", en: "father", zh: "爸爸", speak: "father" }
+      ]
+    },
+
+    buildSvgStickerDataUri(emoji, accentColor = "#ec4899", bgLight = "#fdf2f8") {
+      const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="72" height="72">
+        <defs>
+          <radialGradient id="g" cx="35%" cy="30%" r="70%">
+            <stop offset="0%" stop-color="#ffffff"/>
+            <stop offset="70%" stop-color="${bgLight}"/>
+            <stop offset="100%" stop-color="${accentColor}" stop-opacity="0.28"/>
+          </radialGradient>
+        </defs>
+        <rect x="6" y="6" width="108" height="108" rx="28" fill="url(#g)" stroke="${accentColor}" stroke-width="4" stroke-dasharray="8 5"/>
+        <circle cx="24" cy="24" r="5" fill="${accentColor}" opacity="0.45"/>
+        <circle cx="96" cy="96" r="4" fill="${accentColor}" opacity="0.45"/>
+        <text x="60" y="75" font-size="56" text-anchor="middle">${emoji}</text>
+      </svg>`;
+      return "data:image/svg+xml;utf8," + encodeURIComponent(svg);
+    },
+
+    extractEmojiAndCleanZh(rawZh, fallbackEmoji = "🌟") {
+      const str = String(rawZh || "").trim();
+      const match = str.match(/^(\S+)\s+(.+)$/);
+      if (match && /[^\w\u4e00-\u9fff]/.test(match[1])) {
+        return { emoji: match[1], text: match[2] };
+      }
+      return { emoji: fallbackEmoji, text: str };
+    },
+
+    renderSidebars(q) {
+      if (!DOM.engLeftCards || !DOM.engRightCards || !q) return;
+
+      // 左側：本題主角圖卡 + 選項中的圖文識字卡 (幫助小朋友以圖識字)
+      const leftItems = [];
+      const mainWord = q.sample_word || q.word || q.target || q.display || "English";
+      const mainZh = q.meaning || "快樂學英文";
+      leftItems.push({
+        emoji: q.emoji || "🌟",
+        en: mainWord,
+        zh: `⭐ 本題主角：${mainZh}`,
+        speak: q.sample_word || q.word || q.target || mainWord,
+        highlight: true
+      });
+
+      const opts = Array.isArray(q.options) ? q.options : [];
+      opts.forEach(opt => {
+        if (leftItems.length >= 3) return;
+        if (opt && typeof opt === "object") {
+          const parsed = this.extractEmojiAndCleanZh(opt.zh, q.emoji || "🔤");
+          const enLabel = opt.en || opt.val || "";
+          if (String(enLabel).toLowerCase() !== String(mainWord).toLowerCase()) {
+            leftItems.push({
+              emoji: parsed.emoji,
+              en: enLabel,
+              zh: parsed.text || opt.zh || "",
+              speak: enLabel,
+              highlight: false
+            });
+          }
+        }
+      });
+
+      // 右側：同單元主題圖畫書夥伴卡 (3 張)
+      const catKey = q.category || "alphabet";
+      const catalog = this.visualFlashcardsCatalog[catKey] || this.visualFlashcardsCatalog.alphabet;
+      const filteredCatalog = catalog.filter(item => !String(item.en).toLowerCase().includes(String(mainWord).toLowerCase()));
+      const rightItems = shuffleArray(filteredCatalog.length >= 3 ? filteredCatalog : catalog).slice(0, 3);
+
+      const renderCardList = (container, items, palette) => {
+        container.innerHTML = "";
+        items.forEach((item, idx) => {
+          const accent = palette[idx % palette.length].accent;
+          const bg = palette[idx % palette.length].bg;
+          const imgUri = this.buildSvgStickerDataUri(item.emoji || "🌈", accent, bg);
+
+          const card = document.createElement("button");
+          card.type = "button";
+          card.className = `eng-pic-card ${item.highlight ? "is-featured" : ""}`;
+          card.title = `點擊聽「${item.en} (${item.zh})」的發音`;
+          card.innerHTML = `
+            <div class="eng-pic-thumb-wrap">
+              <img class="eng-pic-svg" src="${imgUri}" alt="${item.en}" loading="lazy" />
+              <span class="eng-pic-sound-tag">🔊</span>
+            </div>
+            <div class="eng-pic-caption">
+              <strong class="eng-pic-word">${item.en}</strong>
+              <span class="eng-pic-meaning">${item.zh}</span>
+            </div>
+          `;
+          card.addEventListener("click", () => {
+            SoundSystem.play("pop");
+            SoundSystem.speakEnglish(item.speak || item.en);
+          });
+          container.appendChild(card);
+        });
+      };
+
+      renderCardList(DOM.engLeftCards, leftItems, [
+        { accent: "#ec4899", bg: "#fdf2f8" },
+        { accent: "#8b5cf6", bg: "#f5f3ff" },
+        { accent: "#0ea5e9", bg: "#f0f9ff" }
+      ]);
+
+      renderCardList(DOM.engRightCards, rightItems, [
+        { accent: "#f59e0b", bg: "#fffbeb" },
+        { accent: "#10b981", bg: "#ecfdf5" },
+        { accent: "#f43f5e", bg: "#fff1f2" }
+      ]);
+    },
+
     async fetchQuestions() {
       try {
         const res = await fetch(`/api/english/questions?category=all`);
@@ -2101,7 +2263,9 @@
 
       DOM.engDisplayEmoji.textContent = q.emoji || "🔤";
       DOM.engFeedbackBanner.className = "feedback-banner neutral";
-      DOM.engFeedbackBanner.innerHTML = "<span>💡 聽聽看發音，對照中文意思選出正確答案喔！</span>";
+      DOM.engFeedbackBanner.innerHTML = "<span>💡 聽聽看發音，也可以點選兩側圖卡以圖識字，選出正確答案喔！</span>";
+
+      this.renderSidebars(q);
 
       if (q.category === "alphabet") {
         DOM.engDisplayText.textContent = q.display || q.target;
@@ -2170,8 +2334,12 @@
           zh = "";
         }
 
+        const parsed = this.extractEmojiAndCleanZh(zh, "");
         btn.innerHTML = `
-          <span class="eng-opt-en">${en}</span>
+          <div class="eng-opt-top-row">
+            ${parsed.emoji ? `<span class="eng-opt-illust">${parsed.emoji}</span>` : ""}
+            <span class="eng-opt-en">${en}</span>
+          </div>
           ${zh ? `<span class="eng-opt-zh">${zh}</span>` : ""}
         `;
 
@@ -2213,8 +2381,167 @@
   };
 
   // =========================================================================
-  // 13. 🔢 數學城堡練習模組 (Math Practice Module)
+  // 13. 🔢 數學城堡練習模組 (Math Practice Module — 附教育部標準國字注音與標點助讀)
   // =========================================================================
+  const MathZhuyinHelper = {
+    // 涵蓋數學城堡所有題目與選項的教育部標準注音字典
+    charDict: {
+      "一": "ㄧ", "丁": "ㄉㄧㄥ", "三": "ㄙㄢ", "上": "ㄕㄤˋ", "下": "ㄒㄧㄚˋ",
+      "不": "ㄅㄨˋ", "中": "ㄓㄨㄥ", "也": "ㄧㄝˇ", "乾": "ㄍㄢ", "了": "˙ㄌㄜ",
+      "事": "ㄕˋ", "二": "ㄦˋ", "五": "ㄨˇ", "人": "ㄖㄣˊ", "什": "ㄕㄣˊ",
+      "今": "ㄐㄧㄣ", "仔": "ㄗˇ", "他": "ㄊㄚ", "付": "ㄈㄨˋ", "以": "ㄧˇ",
+      "位": "ㄨㄟˋ", "來": "ㄌㄞˊ", "個": "˙ㄍㄜ", "倒": "ㄉㄠˋ", "假": "ㄐㄧㄚˋ",
+      "做": "ㄗㄨㄛˋ", "偶": "ㄡˇ", "元": "ㄩㄢˊ", "先": "ㄒㄧㄢ", "光": "ㄍㄨㄤ",
+      "兔": "ㄊㄨˋ", "內": "ㄋㄟˋ", "全": "ㄑㄩㄢˊ", "兩": "ㄌㄧㄤˇ", "八": "ㄅㄚ",
+      "公": "ㄍㄨㄥ", "六": "ㄌㄧㄡˋ", "共": "ㄍㄨㄥˋ", "典": "ㄉㄧㄢˇ", "再": "ㄗㄞˋ",
+      "出": "ㄔㄨ", "分": "ㄈㄣ", "列": "ㄌㄧㄝˋ", "到": "ㄉㄠˋ", "前": "ㄑㄧㄢˊ",
+      "剛": "ㄍㄤ", "剩": "ㄕㄥˋ", "加": "ㄐㄧㄚ", "動": "ㄉㄨㄥˋ", "勵": "ㄌㄧˋ",
+      "包": "ㄅㄠ", "十": "ㄕˊ", "午": "ㄨˇ", "半": "ㄅㄢˋ", "卷": "ㄐㄩㄢˋ",
+      "卻": "ㄑㄩㄝˋ", "厚": "ㄏㄡˋ", "原": "ㄩㄢˊ", "去": "ㄑㄩˋ", "又": "ㄧㄡˋ",
+      "友": "ㄧㄡˇ", "只": "ㄓˇ", "叫": "ㄐㄧㄠˋ", "可": "ㄎㄜˇ", "吃": "ㄔ",
+      "合": "ㄏㄜˊ", "同": "ㄊㄨㄥˊ", "名": "ㄇㄧㄥˊ", "含": "ㄏㄢˊ", "呢": "˙ㄋㄜ",
+      "和": "ㄏㄢˋ", "哥": "ㄍㄜ", "哪": "ㄋㄚˇ", "問": "ㄨㄣˋ", "喔": "ㄛ",
+      "單": "ㄉㄢ", "四": "ㄙˋ", "回": "ㄏㄨㄟˊ", "國": "ㄍㄨㄛˊ", "園": "ㄩㄢˊ",
+      "圓": "ㄩㄢˊ", "圖": "ㄊㄨˊ", "在": "ㄗㄞˋ", "堤": "ㄊㄧˊ", "塊": "ㄎㄨㄞˋ",
+      "填": "ㄊㄧㄢˊ", "壓": "ㄧㄚ", "多": "ㄉㄨㄛ", "夠": "ㄍㄡˋ", "大": "ㄉㄚˋ",
+      "天": "ㄊㄧㄢ", "奶": "ㄋㄞˇ", "她": "ㄊㄚ", "好": "ㄏㄠˇ", "妍": "ㄧㄢˊ",
+      "妹": "ㄇㄟˋ", "姊": "ㄐㄧㄝˇ", "媽": "ㄇㄚ", "子": "˙ㄗ", "字": "ㄗˋ",
+      "學": "ㄒㄩㄝˊ", "它": "ㄊㄚ", "完": "ㄨㄢˊ", "室": "ㄕˋ", "家": "ㄐㄧㄚ",
+      "寬": "ㄎㄨㄢ", "小": "ㄒㄧㄠˇ", "少": "ㄕㄠˇ", "尖": "ㄐㄧㄢ", "尺": "ㄔˇ",
+      "左": "ㄗㄨㄛˇ", "差": "ㄔㄚ", "己": "ㄐㄧˇ", "已": "ㄧˇ", "布": "ㄅㄨˋ",
+      "師": "ㄕ", "帶": "ㄉㄞˋ", "幣": "ㄅㄧˋ", "平": "ㄆㄧㄥˊ", "年": "ㄋㄧㄢˊ",
+      "幾": "ㄐㄧˇ", "床": "ㄔㄨㄤˊ", "序": "ㄒㄩˋ", "底": "ㄉㄧˇ", "康": "ㄎㄤ",
+      "張": "ㄓㄤ", "彈": "ㄉㄢˋ", "形": "ㄒㄧㄥˊ", "彩": "ㄘㄞˇ", "往": "ㄨㄤˇ",
+      "後": "ㄏㄡˋ", "從": "ㄘㄨㄥˊ", "心": "ㄒㄧㄣ", "必": "ㄅㄧˋ", "意": "ㄧˋ",
+      "愛": "ㄞˋ", "應": "ㄧㄥˋ", "成": "ㄔㄥˊ", "戰": "ㄓㄢˋ", "手": "ㄕㄡˇ",
+      "才": "ㄘㄞˊ", "找": "ㄓㄠˇ", "把": "ㄅㄚˇ", "拆": "ㄔㄞ", "拿": "ㄋㄚˊ",
+      "指": "ㄓˇ", "按": "ㄢˋ", "挑": "ㄊㄧㄠˇ", "掉": "ㄉㄧㄠˋ", "掌": "ㄓㄤˇ",
+      "排": "ㄆㄞˊ", "接": "ㄐㄧㄝ", "描": "ㄇㄧㄠˊ", "換": "ㄏㄨㄢˋ", "撲": "ㄆㄨ",
+      "擦": "ㄘㄚ", "放": "ㄈㄤˋ", "故": "ㄍㄨˋ", "教": "ㄐㄧㄠˋ", "整": "ㄓㄥˇ",
+      "數": "ㄕㄨˋ", "料": "ㄌㄧㄠˋ", "新": "ㄒㄧㄣ", "方": "ㄈㄤ", "於": "ㄩˊ",
+      "日": "ㄖˋ", "明": "ㄇㄧㄥˊ", "星": "ㄒㄧㄥ", "昨": "ㄗㄨㄛˊ", "是": "ㄕˋ",
+      "時": "ㄕˊ", "曆": "ㄌㄧˋ", "書": "ㄕㄨ", "最": "ㄗㄨㄟˋ", "會": "ㄏㄨㄟˋ",
+      "月": "ㄩㄝˋ", "有": "ㄧㄡˇ", "朋": "ㄆㄥˊ", "期": "ㄑㄧˊ", "末": "ㄇㄛˋ",
+      "本": "ㄅㄣˇ", "朵": "ㄉㄨㄛˇ", "板": "ㄅㄢˇ", "果": "ㄍㄨㄛˇ", "枝": "ㄓ",
+      "柱": "ㄓㄨˋ", "格": "ㄍㄜˊ", "桌": "ㄓㄨㄛ", "條": "ㄊㄧㄠˊ", "棒": "ㄅㄤˋ",
+      "樣": "ㄧㄤˋ", "橡": "ㄒㄧㄤˋ", "橫": "ㄏㄥˊ", "正": "ㄓㄥˋ", "比": "ㄅㄧˇ",
+      "氣": "ㄑㄧˋ", "汁": "ㄓ", "沉": "ㄔㄣˊ", "沒": "ㄇㄟˊ", "河": "ㄏㄜˊ",
+      "法": "ㄈㄚˇ", "注": "ㄓㄨˋ", "減": "ㄐㄧㄢˇ", "測": "ㄘㄜˋ", "湊": "ㄘㄡˋ",
+      "滾": "ㄍㄨㄣˇ", "滿": "ㄇㄢˇ", "火": "ㄏㄨㄛˇ", "無": "ㄨˊ", "照": "ㄓㄠˋ",
+      "熊": "ㄒㄩㄥˊ", "爸": "ㄅㄚˋ", "牛": "ㄋㄧㄡˊ", "物": "ㄨˋ", "狀": "ㄓㄨㄤˋ",
+      "獎": "ㄐㄧㄤˇ", "玩": "ㄨㄢˊ", "玫": "ㄇㄟˊ", "珠": "ㄓㄨ", "現": "ㄒㄧㄢˋ",
+      "球": "ㄑㄧㄡˊ", "瑰": "ㄍㄨㄟ", "瓶": "ㄆㄧㄥˊ", "生": "ㄕㄥ", "用": "ㄩㄥˋ",
+      "畫": "ㄏㄨㄚˋ", "當": "ㄉㄤ", "疊": "ㄉㄧㄝˊ", "發": "ㄈㄚ", "白": "ㄅㄞˊ",
+      "的": "˙ㄉㄜ", "皮": "ㄆㄧˊ", "盤": "ㄆㄢˊ", "直": "ㄓˊ", "看": "ㄎㄢˋ",
+      "睡": "ㄕㄨㄟˋ", "短": "ㄉㄨㄢˇ", "矮": "ㄞˇ", "硬": "ㄧㄥˋ", "示": "ㄕˋ",
+      "票": "ㄆㄧㄠˋ", "種": "ㄓㄨㄥˇ", "立": "ㄌㄧˋ", "符": "ㄈㄨˊ", "第": "ㄉㄧˋ",
+      "筆": "ㄅㄧˇ", "等": "ㄉㄥˇ", "算": "ㄙㄨㄢˋ", "簿": "ㄅㄨˋ", "籃": "ㄌㄢˊ",
+      "糖": "ㄊㄤˊ", "紅": "ㄏㄨㄥˊ", "紋": "ㄨㄣˊ", "紙": "ㄓˇ", "級": "ㄐㄧˊ",
+      "細": "ㄒㄧˋ", "給": "ㄍㄟˇ", "綠": "ㄌㄩˋ", "緣": "ㄩㄢˊ", "總": "ㄗㄨㄥˇ",
+      "繪": "ㄏㄨㄟˋ", "罐": "ㄍㄨㄢˋ", "美": "ㄇㄟˇ", "翹": "ㄑㄧㄠˋ", "老": "ㄌㄠˇ",
+      "考": "ㄎㄠˇ", "能": "ㄋㄥˊ", "自": "ㄗˋ", "與": "ㄩˇ", "色": "ㄙㄜˋ",
+      "花": "ㄏㄨㄚ", "茶": "ㄔㄚˊ", "草": "ㄘㄠˇ", "莓": "ㄇㄟˊ", "華": "ㄏㄨㄚˊ",
+      "著": "˙ㄓㄜ", "薄": "ㄅㄠˊ", "藍": "ㄌㄢˊ", "蘋": "ㄆㄧㄥˊ", "處": "ㄔㄨˋ",
+      "號": "ㄏㄠˋ", "裡": "ㄌㄧˇ", "要": "ㄧㄠˋ", "覺": "ㄐㄧㄠˋ", "角": "ㄐㄧㄠˇ",
+      "記": "ㄐㄧˋ", "評": "ㄆㄧㄥˊ", "認": "ㄖㄣˋ", "語": "ㄩˇ", "誰": "ㄕㄟˊ",
+      "課": "ㄎㄜˋ", "請": "ㄑㄧㄥˇ", "識": "ㄕˋ", "讀": "ㄉㄨˊ", "讓": "ㄖㄤˋ",
+      "買": "ㄇㄞˇ", "貼": "ㄊㄧㄝ", "賣": "ㄇㄞˋ", "購": "ㄍㄡˋ", "賽": "ㄙㄞˋ",
+      "走": "ㄗㄡˇ", "起": "ㄑㄧˇ", "跑": "ㄆㄠˇ", "路": "ㄌㄨˋ", "跳": "ㄊㄧㄠˋ",
+      "車": "ㄔㄜ", "軒": "ㄒㄩㄢ", "軸": "ㄓㄡˊ", "較": "ㄐㄧㄠˋ", "輕": "ㄑㄧㄥ",
+      "輛": "ㄌㄧㄤˋ", "迴": "ㄏㄨㄟˊ", "退": "ㄊㄨㄟˋ", "送": "ㄙㄨㄥˋ", "這": "ㄓㄜˋ",
+      "進": "ㄐㄧㄣˋ", "遊": "ㄧㄡˊ", "過": "ㄍㄨㄛˋ", "還": "ㄏㄞˊ", "邊": "ㄅㄧㄢ",
+      "那": "ㄋㄚˋ", "部": "ㄅㄨˋ", "都": "ㄉㄡ", "重": "ㄓㄨㄥˋ", "量": "ㄌㄧㄤˋ",
+      "針": "ㄓㄣ", "鈔": "ㄔㄠ", "鉛": "ㄑㄧㄢ", "錢": "ㄑㄧㄢˊ", "鐘": "ㄓㄨㄥ",
+      "長": "ㄔㄤˊ", "間": "ㄐㄧㄢ", "闆": "ㄅㄢˇ", "阱": "ㄐㄧㄥˇ", "陷": "ㄒㄧㄢˋ",
+      "隊": "ㄉㄨㄟˋ", "隻": "ㄓ", "雞": "ㄐㄧ", "電": "ㄉㄧㄢˋ", "面": "ㄇㄧㄢˋ",
+      "頁": "ㄧㄝˋ", "順": "ㄕㄨㄣˋ", "頭": "ㄊㄡˊ", "顆": "ㄎㄜ", "題": "ㄊㄧˊ",
+      "顯": "ㄒㄧㄢˇ", "飲": "ㄧㄣˇ", "餅": "ㄅㄧㄥˇ", "驗": "ㄧㄢˋ", "骰": "ㄊㄡˊ",
+      "體": "ㄊㄧˇ", "高": "ㄍㄠ", "鮮": "ㄒㄧㄢ", "麼": "˙ㄇㄜ", "黃": "ㄏㄨㄤˊ",
+      "點": "ㄉㄧㄢˇ", "動": "ㄉㄨㄥˋ", "腦": "ㄋㄠˇ", "袋": "ㄉㄞˋ", "選": "ㄒㄩㄢˇ",
+      "對": "ㄉㄨㄟˋ", "答": "ㄉㄚˊ", "案": "ㄢˋ", "就": "ㄐㄧㄡˋ", "想": "ㄒㄧㄤˇ"
+    },
+
+    wordOverrides: [
+      ["數數看", ["ㄕㄨˇ", "ㄕㄨˇ", "ㄎㄢˋ"]],
+      ["數一數", ["ㄕㄨˇ", "ㄧ", "ㄕㄨˇ"]],
+      ["從左邊數來", ["ㄘㄨㄥˊ", "ㄗㄨㄛˇ", "ㄅㄧㄢ", "ㄕㄨˇ", "ㄌㄞˊ"]],
+      ["從左數來", ["ㄘㄨㄥˊ", "ㄗㄨㄛˇ", "ㄕㄨˇ", "ㄌㄞˊ"]],
+      ["一數", ["ㄧ", "ㄕㄨˇ"]],
+      ["往下數", ["ㄨㄤˇ", "ㄒㄧㄚˋ", "ㄕㄨˇ"]],
+      ["倒著數", ["ㄉㄠˋ", "˙ㄓㄜ", "ㄕㄨˇ"]],
+      ["用手掌量", ["ㄩㄥˋ", "ㄕㄡˇ", "ㄓㄤˇ", "ㄌㄧㄤˊ"]],
+      ["量起來", ["ㄌㄧㄤˊ", "ㄑㄧˇ", "ㄌㄞˊ"]],
+      ["厚薄", ["ㄏㄡˋ", "ㄅㄛˊ"]],
+      ["電子", ["ㄉㄧㄢˋ", "ㄗˇ"]]
+    ],
+
+    escapeHtml(str) {
+      return String(str || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+    },
+
+    /**
+     * 將含有國字與標點符號的題目句子轉為帶注音標示之 HTML (<ruby class="zhuyin-ruby">國<rt>ㄍㄨㄛˊ</rt></ruby>)
+     * 若輸入已含「國(ㄍㄨㄛˊ)」格式或純文字，皆能自動解析並保留清楚標點符號！
+     */
+    toRubyHtml(rawText) {
+      if (rawText === null || rawText === undefined) return "";
+      const str = String(rawText);
+      // 若為純數字或簡單比較符號，直接回傳不加 ruby
+      if (!/[\u4e00-\u9fff]/.test(str)) {
+        return this.escapeHtml(str);
+      }
+
+      // 若題庫已帶有「字(注音)」格式，優先解析
+      if (/[\u4e00-\u9fff]\([ㄅ-ㄩ˙ˊˇˋ]+\)/.test(str)) {
+        return this.escapeHtml(str).replace(
+          /([\u4e00-\u9fff])\(([ㄅ-ㄩ˙ˊˇˋ]+)\)/g,
+          '<ruby class="zhuyin-ruby">$1<rt>$2</rt></ruby>'
+        );
+      }
+
+      const chars = Array.from(str);
+      const n = chars.length;
+      const pyArr = new Array(n).fill(null);
+      let i = 0;
+      while (i < n) {
+        let matched = false;
+        const tail = chars.slice(i).join("");
+        for (const [w, pys] of this.wordOverrides) {
+          if (tail.startsWith(w)) {
+            for (let k = 0; k < w.length; k++) {
+              pyArr[i + k] = pys[k];
+            }
+            i += w.length;
+            matched = true;
+            break;
+          }
+        }
+        if (!matched) {
+          const ch = chars[i];
+          if (this.charDict[ch]) {
+            pyArr[i] = this.charDict[ch];
+          }
+          i++;
+        }
+      }
+
+      return chars.map((ch, idx) => {
+        const py = pyArr[idx];
+        const safeCh = this.escapeHtml(ch);
+        if (py) {
+          return `<ruby class="zhuyin-ruby">${safeCh}<rt>${py}</rt></ruby>`;
+        }
+        if (/[，。？！、：；「」【】（）]/.test(ch)) {
+          return `<span class="zhuyin-punct">${safeCh}</span>`;
+        }
+        return safeCh;
+      }).join("");
+    }
+  };
+
   const MathGame = {
     currentQ: null,
 
@@ -2258,7 +2585,7 @@
 
     renderQuestion(q) {
       DOM.mathFeedbackBanner.className = "feedback-banner neutral";
-      DOM.mathFeedbackBanner.innerHTML = "<span>💡 動動小腦袋，仔細算算看喔！</span>";
+      DOM.mathFeedbackBanner.innerHTML = `<span>💡 ${MathZhuyinHelper.toRubyHtml("動動小腦袋，看注音讀題目，仔細算算看喔！")}</span>`;
 
       const defaultBadge =
         q.category === "counting" ? "🍓 康軒評量・數與量" :
@@ -2267,40 +2594,36 @@
         (q.category === "addition" || q.category === "subtraction") ? "➕ 康軒評量・加減應用" :
         q.category === "clock"    ? "⏰ 康軒評量・時間與日曆" : "💰 康軒評量・錢幣與購物";
 
-      DOM.mathUnitBadge.textContent = q.exam_tag || defaultBadge;
+      DOM.mathUnitBadge.innerHTML = MathZhuyinHelper.toRubyHtml(q.exam_tag || defaultBadge);
+
+      let rawDisplay = "";
+      let rawFormula = "";
 
       if (q.category === "counting") {
-        DOM.mathObjectsBoard.textContent = q.display || (q.emoji ? q.emoji.repeat(q.count || 1) : "🔢");
-        DOM.mathFormulaLarge.textContent = q.formula || `數數看一共有幾個？`;
-        DOM.mathPromptText.textContent = q.prompt;
-        this.renderOptions(q.options, q.answer);
+        rawDisplay = q.display || (q.emoji ? q.emoji.repeat(q.count || 1) : "🔢");
+        rawFormula = q.formula_zhuyin || q.formula || "數數看一共有幾個？";
       } else if (q.category === "compare") {
-        DOM.mathObjectsBoard.textContent = q.display || "⚖️";
-        DOM.mathFormulaLarge.textContent = q.formula || `${q.num_a}   [ ? ]   ${q.num_b}`;
-        DOM.mathPromptText.textContent = q.prompt;
-        this.renderOptions(q.options, q.answer);
+        rawDisplay = q.display || "⚖️";
+        rawFormula = q.formula_zhuyin || q.formula || `${q.num_a}   [ ? ]   ${q.num_b}`;
       } else if (q.category === "bonds") {
-        DOM.mathObjectsBoard.textContent = q.display || "🍰 分一分・合一合";
-        DOM.mathFormulaLarge.textContent = q.formula || `${q.total} ➔ ${q.part1} 和 [ ? ]`;
-        DOM.mathPromptText.textContent = q.prompt;
-        this.renderOptions(q.options, q.answer);
+        rawDisplay = q.display || "🍰 分一分・合一合";
+        rawFormula = q.formula_zhuyin || q.formula || `${q.total} ➔ ${q.part1} 和 [ ? ]`;
       } else if (q.category === "addition" || q.category === "subtraction") {
-        DOM.mathObjectsBoard.textContent = q.display || (q.operator === "+" ? "⭐ 加法大挑戰" : "🎈 減法小偵探");
-        DOM.mathFormulaLarge.textContent = q.formula || `${q.num_a} ${q.operator} ${q.num_b} = ？`;
-        DOM.mathPromptText.textContent = q.prompt;
-        this.renderOptions(q.options, q.answer);
+        rawDisplay = q.display || (q.operator === "+" ? "⭐ 加法大挑戰" : "🎈 減法小偵探");
+        rawFormula = q.formula_zhuyin || q.formula || `${q.num_a} ${q.operator} ${q.num_b} = ？`;
       } else if (q.category === "clock") {
-        DOM.mathObjectsBoard.textContent = q.display || `🕰️ ${q.time_str || ""}`;
-        DOM.mathFormulaLarge.textContent = q.formula || `${q.time_str || ""}`;
-        DOM.mathPromptText.textContent = q.prompt;
-        this.renderOptions(q.options, q.answer);
+        rawDisplay = q.display || `🕰️ ${q.time_str || ""}`;
+        rawFormula = q.formula_zhuyin || q.formula || `${q.time_str || ""}`;
       } else if (q.category === "money") {
-        DOM.mathObjectsBoard.textContent = q.display || `${q.emoji || "🪙"} ${q.item_name || ""} ${q.price ? q.price + "元" : ""}`;
-        DOM.mathFormulaLarge.textContent = q.formula || `付了 ${q.pay} 元 ➔ 找多少？`;
-        DOM.mathPromptText.textContent = q.prompt;
-        this.renderOptions(q.options, q.answer);
+        rawDisplay = q.display || `${q.emoji || "🪙"} ${q.item_name || ""} ${q.price ? q.price + "元" : ""}`;
+        rawFormula = q.formula_zhuyin || q.formula || `付了 ${q.pay} 元 ➔ 找多少？`;
       }
 
+      DOM.mathObjectsBoard.innerHTML = MathZhuyinHelper.toRubyHtml(rawDisplay);
+      DOM.mathFormulaLarge.innerHTML = MathZhuyinHelper.toRubyHtml(rawFormula);
+      DOM.mathPromptText.innerHTML = MathZhuyinHelper.toRubyHtml(q.prompt_zhuyin || q.prompt || "");
+
+      this.renderOptions(q.options, q.answer);
       setTimeout(() => SoundSystem.speak(q.prompt), 350);
     },
 
@@ -2315,7 +2638,7 @@
         const btn = document.createElement("button");
         btn.type = "button";
         btn.className = "math-opt-btn";
-        btn.textContent = opt;
+        btn.innerHTML = MathZhuyinHelper.toRubyHtml(opt);
         btn.addEventListener("click", () => this.handleAnswer(btn, String(opt) === String(correctAns), opt, correctAns));
         DOM.mathOptionsGrid.appendChild(btn);
       });
@@ -2329,7 +2652,7 @@
         addStars(1);
         SoundSystem.play("correct");
         DOM.mathFeedbackBanner.className = "feedback-banner success";
-        DOM.mathFeedbackBanner.innerHTML = `<span>🎉 算對了！正確答案就是【${correctAns}】！</span>`;
+        DOM.mathFeedbackBanner.innerHTML = `<span>🎉 ${MathZhuyinHelper.toRubyHtml(`算對了！正確答案就是【${correctAns}】！`)}</span>`;
         setTimeout(() => SoundSystem.speak("答對了！太厲害了！"), 200);
         setTimeout(() => {
           V3Controller.advanceOrFinishRound("math", () => this.startRound(true));
@@ -2337,7 +2660,8 @@
       } else {
         SoundSystem.play("wrong");
         DOM.mathFeedbackBanner.className = "feedback-banner gentle-error";
-        DOM.mathFeedbackBanner.innerHTML = `<span>💪 再想想看喔！正確答案是【${correctAns}】！${v3Res.explain ? "<br>" + v3Res.explain : ""}</span>`;
+        const explainRuby = v3Res.explain ? "<br>" + MathZhuyinHelper.toRubyHtml(v3Res.explain) : "";
+        DOM.mathFeedbackBanner.innerHTML = `<span>💪 ${MathZhuyinHelper.toRubyHtml(`再想想看喔！正確答案是【${correctAns}】！`)}${explainRuby}</span>`;
       }
     }
   };
@@ -2594,6 +2918,14 @@
       SoundSystem.play("pop");
       V3Controller.advanceOrFinishRound("math", () => MathGame.startRound(true));
     });
+    if (DOM.btnMathSpeak) {
+      DOM.btnMathSpeak.addEventListener("click", () => {
+        if (MathGame.currentQ) {
+          SoundSystem.play("pop");
+          SoundSystem.speak(MathGame.currentQ.prompt || MathGame.currentQ.formula || "請選出正確答案");
+        }
+      });
+    }
 
     // 99乘法表模式切換
     DOM.multModeBtns.forEach(btn => {

@@ -456,25 +456,48 @@
         </div>
       </nav>
 
-      <!-- 英文主練習卡片 -->
+      <!-- 英文主練習卡片 (含兩側以圖識字圖文學習畫廊) -->
       <div class="stage-card english-stage-card">
-        <div class="english-question-box">
-          <div class="english-badge-tag" id="eng-unit-badge">字母配對</div>
-          <div class="english-center-display">
-            <span class="english-big-emoji" id="eng-display-emoji">🍎</span>
-            <span class="english-big-text" id="eng-display-text">A</span>
-            <span class="english-sub-phonics" id="eng-sub-phonics">/æ/ Apple</span>
-            <button type="button" class="audio-btn" id="btn-eng-speak" title="聽發音">
-              <span>🔊 Listen (聽發音)</span>
-            </button>
-          </div>
-          <div class="english-prompt-text" id="eng-prompt-text">
-            請找出對應的小寫字母：
-          </div>
-        </div>
+        <div class="english-workbench-layout">
+          <!-- 左側：以圖識字・圖文並茂小圖卡 -->
+          <aside class="eng-visual-sidebar eng-sidebar-left" id="eng-sidebar-left" aria-label="左側以圖識字畫廊">
+            <div class="eng-sidebar-header">
+              <span>🖼️ 圖文識字卡</span>
+              <small>點圖聽發音</small>
+            </div>
+            <div class="eng-pic-cards-list" id="eng-left-cards"></div>
+          </aside>
 
-        <!-- 4 個選項按鈕 -->
-        <div class="english-options-grid" id="eng-options-grid"></div>
+          <!-- 中央：英文核心題目與作答區 -->
+          <div class="english-main-column">
+            <div class="english-question-box">
+              <div class="english-badge-tag" id="eng-unit-badge">字母配對</div>
+              <div class="english-center-display">
+                <span class="english-big-emoji" id="eng-display-emoji">🍎</span>
+                <span class="english-big-text" id="eng-display-text">A</span>
+                <span class="english-sub-phonics" id="eng-sub-phonics">/æ/ Apple</span>
+                <button type="button" class="audio-btn" id="btn-eng-speak" title="聽發音">
+                  <span>🔊 Listen (聽發音)</span>
+                </button>
+              </div>
+              <div class="english-prompt-text" id="eng-prompt-text">
+                請找出對應的小寫字母：
+              </div>
+            </div>
+
+            <!-- 4 個選項按鈕 -->
+            <div class="english-options-grid" id="eng-options-grid"></div>
+          </div>
+
+          <!-- 右側：趣味情境與延伸圖文卡 -->
+          <aside class="eng-visual-sidebar eng-sidebar-right" id="eng-sidebar-right" aria-label="右側趣味單字夥伴">
+            <div class="eng-sidebar-header">
+              <span>🌈 魔法圖畫書</span>
+              <small>看圖記單字</small>
+            </div>
+            <div class="eng-pic-cards-list" id="eng-right-cards"></div>
+          </aside>
+        </div>
 
         <div class="feedback-banner neutral" id="eng-feedback-banner">
           <span>💡 聽聽看發音，選出正確的答案喔！</span>
@@ -524,15 +547,21 @@
         </div>
       </nav>
 
-      <!-- 數學主練習卡片 -->
+      <!-- 數學主練習卡片 (支援全題目國字注音與標點符號輔助閱讀) -->
       <div class="stage-card math-stage-card">
         <div class="math-question-box">
-          <div class="math-badge-tag" id="math-unit-badge">數數看</div>
+          <div class="math-top-meta-row">
+            <div class="math-badge-tag" id="math-unit-badge">數數看</div>
+            <div class="math-zhuyin-helper-bar">
+              <span class="zhuyin-helper-badge" id="math-zhuyin-badge" title="所有題目皆附帶教育部標準注音與標點符號，方便小一學童自己讀題！">📖 注音標點助讀已開啟</span>
+              <button type="button" class="audio-btn-sm" id="btn-math-speak" title="朗讀數學題目">🔊 讀題目</button>
+            </div>
+          </div>
           <div class="math-center-display" id="math-center-display">
             <div class="math-objects-board" id="math-objects-board">🍓🍓🍓</div>
             <div class="math-formula-large" id="math-formula-large">數數看一共有幾個？</div>
           </div>
-          <div class="math-prompt-text" id="math-prompt-text">
+          <div class="math-prompt-text math-zhuyin-text" id="math-prompt-text">
             請選出正確的數量：
           </div>
         </div>
