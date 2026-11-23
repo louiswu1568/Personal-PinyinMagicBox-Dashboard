@@ -119,6 +119,9 @@
   const SoundSystem = {
     audioCtx: null,
     preferredVoice: null,
+    _audioUnlocked: false,
+    _currentUtter: null,
+    _speakTimer: null,
     toneSpokenMap: {
       "—": "一聲", " ": "一聲", "ˊ": "二聲", "ˇ": "三聲", "ˋ": "四聲", "˙": "輕聲"
     },
@@ -129,8 +132,31 @@
         if (AudioClass) this.audioCtx = new AudioClass();
       }
       if (this.audioCtx && this.audioCtx.state === "suspended") {
-        this.audioCtx.resume();
+        this.audioCtx.resume().catch(() => {});
       }
+    },
+
+    // 解鎖 iOS Safari / Mobile Chrome / LINE WebView 音訊與語音自動播放限制
+    unlockMobileAudio() {
+      if (this._audioUnlocked) return;
+      this._audioUnlocked = true;
+      try {
+        this.initContext();
+        if (this.audioCtx) {
+          const buffer = this.audioCtx.createBuffer(1, 1, 22050);
+          const source = this.audioCtx.createBufferSource();
+          source.buffer = buffer;
+          source.connect(this.audioCtx.destination);
+          source.start(0);
+        }
+      } catch (e) {}
+      try {
+        if ("speechSynthesis" in window) {
+          const warmUtter = new SpeechSynthesisUtterance("");
+          warmUtter.volume = 0;
+          window.speechSynthesis.speak(warmUtter);
+        }
+      } catch (e) {}
     },
 
     getBestEnVoice() {
@@ -145,18 +171,37 @@
       return voices.find(v => /en[-_]US/i.test(v.lang)) || voices.find(v => /en/i.test(v.lang)) || null;
     },
 
+    _safeSpeak(utter) {
+      if (!("speechSynthesis" in window)) return;
+      if (this._speakTimer) {
+        clearTimeout(this._speakTimer);
+        this._speakTimer = null;
+      }
+      this._currentUtter = utter;
+      try {
+        if (window.speechSynthesis.speaking || window.speechSynthesis.pending) {
+          window.speechSynthesis.cancel();
+          // iOS Safari / LINE WebView 需延遲約 40ms 再呼叫 speak，避免 cancel() 把新語音一併取消
+          this._speakTimer = setTimeout(() => {
+            try { window.speechSynthesis.speak(utter); } catch (e) {}
+          }, 40);
+        } else {
+          window.speechSynthesis.speak(utter);
+        }
+      } catch (e) {}
+    },
+
     speakEnglish(text) {
       if (document.body.classList.contains("vault-locked")) return;
       if (window.MagicProgress && window.MagicProgress.state && window.MagicProgress.state.profile.soundEnabled === false) return;
       if (!("speechSynthesis" in window) || !text) return;
-      window.speechSynthesis.cancel();
       const utter = new SpeechSynthesisUtterance(text);
       const voice = this.getBestEnVoice();
       if (voice) utter.voice = voice;
       utter.lang = "en-US";
       utter.rate = 0.82;
       utter.pitch = 1.1;
-      window.speechSynthesis.speak(utter);
+      this._safeSpeak(utter);
     },
 
     getBestTwVoice() {
@@ -181,7 +226,6 @@
       if (document.body.classList.contains("vault-locked")) return;
       if (window.MagicProgress && window.MagicProgress.state && window.MagicProgress.state.profile.soundEnabled === false) return;
       if (!("speechSynthesis" in window) || !text) return;
-      window.speechSynthesis.cancel();
       const spokenText = this.toneSpokenMap[text] || text;
       const utter = new SpeechSynthesisUtterance(spokenText);
       const voice = this.getBestTwVoice();
@@ -189,7 +233,7 @@
       utter.lang = "zh-TW";
       utter.rate = 0.88;
       utter.pitch = 1.15;
-      window.speechSynthesis.speak(utter);
+      this._safeSpeak(utter);
     },
 
     play(type) {
@@ -285,6 +329,9 @@
   if ("speechSynthesis" in window && window.speechSynthesis.onvoiceschanged !== undefined) {
     window.speechSynthesis.onvoiceschanged = () => SoundSystem.getBestTwVoice();
   }
+  ["touchstart", "pointerdown", "click"].forEach(evt => {
+    window.addEventListener(evt, () => SoundSystem.unlockMobileAudio(), { once: true, passive: true });
+  });
 
   // =========================================================================
   // 3. DOM 元素快取
